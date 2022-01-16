@@ -1,6 +1,6 @@
-# locale-en-US
+# locale-hu-HU
 
-This repo contains the English language files for the State of JS/CSS/etc. surveys, which serve as a base to translate all the other languages. You can view a list of [all the locales repos here](https://github.com/StateOfJS/?q=locale-&type=&language=&sort=).
+This repo contains the Hungarian language files for the State of JS/CSS/etc. surveys, which serve as a base to translate all the other languages. You can view a list of [all the locales repos here](https://github.com/StateOfJS/?q=locale-&type=&language=&sort=).
 
 ## Getting Credit
 
@@ -10,11 +10,11 @@ Every translator will be credited on any site that makes use of the translations
 
 ## Translation API
 
-You can get extra data such as the completion percentage for a locale or the untranslated strings via our API, available at: 
+You can get extra data such as the completion percentage for a locale or the untranslated strings via our API, available at:
 
 - https://graphiql.stateofjs.com/
 
-Here is a sample query: 
+Here is a sample query:
 
 ```graphql
 query GetLocaleData {
@@ -32,12 +32,11 @@ query GetLocaleData {
 
 #### Surveys App
 
-These strings are related to the app that you use to fill out the actual survey. 
+These strings are related to the app that you use to fill out the actual survey.
 
 - `surveys.yml`
 - `accounts.yml`
 - `state_of_js_2020_survey.yml`
-
 
 #### Results App
 
@@ -65,7 +64,7 @@ It's recommended you join the [translation team](https://github.com/orgs/StateOf
 
 ## Local Development
 
-There is currently no easy way to see your strings in context while developing locally. We are working on it. 
+There is currently no easy way to see your strings in context while developing locally. We are working on it.
 
 ## Getting Help
 
