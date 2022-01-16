@@ -1,17 +1,17 @@
-locale: en-US
+locale: hu-HU
 namespace: css
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
+  ###########################################################################
+  # General
+  ###########################################################################
 
-    - key: general.survey_intro_css2021
-      t: >
-          Hey CSS, what have you been up to lately? Oh really, `@container`? Oh and 
-          intrinsic sizing? And `@property` too?! Wow, you've been busy!
+  - key: general.survey_intro_css2021
+    t: >
+      Szia CSS, mit csináltál mostanában ? Ó, valóban, `@container`. Illettve tartalom alapú méretezés. 
+      Valamint `@property`! Wow, úgy tűnik nem unatkoztál!
 
 
-          Even though the pandemic kept on making everybody's lives harder throughout 2021, somehow
-          dedicated contributors around the world managed to keep CSS moving forward. 
-          And so once more it's time to survey the CSS ecosystem and figure out
-          where this is all going. And maybe learn about a few new things while you're at it!
+      Annak ellenére, hogy a pandámia 2021-ben is mindenki életét megnehezítette, köszönhetően
+      a világban szétszórt, elkötelezett közreműködőknek a CSS fejlődése nem állt meg.
+      Ismét elérkeztünk oda, hogy számot vegyünk a CSS ökoszisztámáról és kifürkésszük
+      merre is tartunk, s ha szerencsések vagyunk, tanuljunk is néhány új dolgot is közben.
