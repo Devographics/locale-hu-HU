@@ -19,13 +19,13 @@ translations:
   - key: accounts.enter_username_or_email
     t: Add meg a felhasználóneved vagy email címed
   - key: accounts.error_internal_server_error
-    t: Belső kiszolgálóhibe
+    t: Belső kiszolgálóhiba
   - key: accounts.error_token_expired
     t: Helytelen jelszó visszaállító token
   - key: accounts.username_or_email
     t: Felhasználónév vagy email cím
   - key: accounts.enter_username
-    t: Ad dmeg a felhasználóneved
+    t: Add meg a felhasználóneved
   - key: accounts.username
     t: Felhasználónév
   - key: accounts.enter_email
@@ -55,9 +55,9 @@ translations:
   - key: accounts.sign_in
     t: Bejelentkezás
   - key: accounts.switch_to_sign_up
-    t: Don't have an account ? Sign up
+    t: Nincs fiókod? Regisztrálj
   - key: accounts.switch_to_sign_in
-    t: Already have an account? Log in
+    t: Már van fiókod? Jelentkezz be
   - key: accounts.sign_out
     t: Kilépés
   - key: accounts.cancel
@@ -67,7 +67,7 @@ translations:
   - key: accounts.info_password_changed
     t: Jelszó megváltoztatva.
   - key: accounts.please_pick_password
-    t: A foltatáshoz válassz egy új jelszót.
+    t: A folytatáshoz válassz egy új jelszót.
   - key: accounts.please_log_in
     t: A kezdéshez regisztrálj vagy jelentkezz be.
   - key: accounts.logged_in_as
