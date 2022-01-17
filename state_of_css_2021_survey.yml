@@ -7,11 +7,11 @@ translations:
 
   - key: general.survey_intro_css2021
     t: >
-      Szia CSS, mit csináltál mostanában ? Ó, valóban, `@container`. Illettve tartalom alapú méretezés. 
+      Szia CSS, mit csináltál mostanában? Ó, valóban, `@container`. Illettve tartalom alapú méretezés. 
       Valamint `@property`! Wow, úgy tűnik nem unatkoztál!
 
 
-      Annak ellenére, hogy a pandámia 2021-ben is mindenki életét megnehezítette, köszönhetően
+      Annak ellenére, hogy a pandémia 2021-ben is mindenki életét megnehezítette, köszönhetően
       a világban szétszórt, elkötelezett közreműködőknek a CSS fejlődése nem állt meg.
       Ismét elérkeztünk oda, hogy számot vegyünk a CSS ökoszisztámáról és kifürkésszük
       merre is tartunk, s ha szerencsések vagyunk, tanuljunk is néhány új dolgot is közben.
