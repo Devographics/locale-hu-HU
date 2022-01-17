@@ -67,7 +67,7 @@ translations:
   - key: accounts.info_password_changed
     t: Jelszó megváltoztatva.
   - key: accounts.please_pick_password
-    t: A foltatáshoz válassz egy új jelszót.
+    t: A folytatáshoz válassz egy új jelszót.
   - key: accounts.please_log_in
     t: A kezdéshez regisztrálj vagy jelentkezz be.
   - key: accounts.logged_in_as
