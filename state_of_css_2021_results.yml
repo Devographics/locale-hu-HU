@@ -7,15 +7,15 @@ translations:
   - key: sections.introduction.description
     t: |
 
-      <span class="first-letter">D</span>o woodworkers have to learn a new, better way to saw a board every couple years? Do painters feel like frauds for still using oil paint? Or is it just us front-end developers who get to experience this constant state of change?
+      <span class="first-letter">V</span>ajon az asztalosok pár évente újratanulják, hogy hogyan fűrészeljenek el egy asztallapot egy újabb, jobb módszerrel? Vajon a festők elavultnak hiszik magukat, amiért még mindig olajfestéket használnak? Vagy ez a folytonos változás csak ránk, front-end fejlesztőkre jellemző?
 
-      With container queries and more just around the corner, things are definitely moving fast. And since we need to keep up as well, we took the time to give these survey results a couple new power-ups of their own! 
+      A konténer lekérdezésekből és sok minden másból is, ami nemsokára érkezik, látszik, hogy a dolgok gyorsan fejlődnek. És miután nekünk is lépést kell tartanunk, ezért biztosítottuk, hogy a felmérés eredményei is kapjanak egy kis turbózást!
 
-      What this means in practice is that we can now cross-reference two datapoints, such as yearly salaries by experience level; or gender by country. You'll see some of these breakdowns included throughout the results, but we encourage you to explore the data further using [our API](https://api.stateofjs.com/) or by [downloading our data](https://www.kaggle.com/sachag/state-of-css). Let us know if you end up making your own data visualizations!
+      Ez a gyakorlatban azt jelenti, hogy ezentúl együtt tudunk vetni különböző adatpontokat, mint például az éves fizetést tapasztalat szerint, vagy a nemek eloszlását egy adott országon belül. Néhány ilyen összevetést láthatsz majd az eredmények között, de mi arra szeretnénk téged bíztatni, hogy magad is elemezd ezeket az adatokat az [API-nkon keresztül](https://api.stateofjs.com/) vagy az [adatok letöltésével](https://www.kaggle.com/sachag/state-of-css). Szólj nekünk is, ha végül saját vizualizációt készítettél!
 
-      And now, let's see what CSS has been up to this year!
+      És most nézzük, hogy mit történt a CSS-sel ebben az évben!
 
-      *Note: We've had to push back the 2021 [State of JavaScript](http://stateofjs.com/) survey to January 2022 for lack of time. See you after the holidays!*
+      *Megjegyzés: A 2021-es State of JavaScript](http://stateofjs.com/) időhiány miatt el lett tolva 2022 januárig. Visszavárunk az ünnepek utan!*
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -24,38 +24,39 @@ translations:
   ###########################################################################
 
   - key: sections.tshirt.title
-    t: T-shirt
+    t: Póló
 
   - key: sections.tshirt.description
     t: |
       ## Support the Survey With the State of CSS T-Shirt
+      ## Támogasd a felmérést egy State of CSS pólóval
 
-      Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
+      Ha visszaemlékszel a rossz képminőségre, a nagy kazettákra és a visszatekerésre - nem sok minden van, amire nosztalgiával tekintenénk a VHS korából. Az egyetlen dolog, amit *tényleg* hiányolunk, azok a fergeteges 90-es évekbeli motívumok, amik az üres VHS kazettákat díszítették.
 
-      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for CSS at the same time!
+      Azonban most Christopher Kirk-Nielsennek köszönhetően újra élvezheted ezt a retró élményt, miközben eltűnődhetsz azon is, hogy mennyire imádod a CSS-t!
 
   - key: tshirt.about
-    t: About the T-shirt
+    t: A pólóról
 
   - key: tshirt.description
     t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+      Egy kiváló minőségű, szuper puha tri-blend póló, slim fit, ami partnerünk, a Cotton Bureau-nál lett nyomva.
 
   - key: tshirt.getit
-    t: Get It
+    t: Szerezd meg
 
   - key: tshirt.price
-    t: USD $29 + shipping
+    t: USD $29 + szállítási költségek
 
   - key: tshirt.designer.heading
-    t: About the Designer
+    t: A dizájnerről
 
   - key: tshirt.designer.name
     t: Christopher Kirk-Nielsen
 
   - key: tshirt.designer.bio
     t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+      Eredetileg Franciaországból való, de most már Amerikában él, Chris egy fantasztikus front-end fejlesztő, de ugyanakkor egy tehetséges illusztrátor is, aki a retró megjelenítésben specializálódott. Igazából arra szeretnénk bíztatni, hogy nézd meg a többi [póló dizájnját](https://chriskirknielsen.com/designs) is!
 
   ###########################################################################
   # Sections Introductions
