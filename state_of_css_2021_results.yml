@@ -11,7 +11,7 @@ translations:
 
       A konténer lekérdezésekből és sok minden másból is, ami nemsokára érkezik, látszik, hogy a dolgok gyorsan fejlődnek. És miután nekünk is lépést kell tartanunk, ezért biztosítottuk, hogy a felmérés eredményei is kapjanak egy kis turbózást!
 
-      Ez a gyakorlatban azt jelenti, hogy ezentúl együtt tudunk vetni különböző adatpontokat, mint például az éves fizetést tapasztalat szerint, vagy a nemek eloszlását egy adott országon belül. Néhány ilyen összevetést láthatsz majd az eredmények között, de mi arra szeretnénk téged bíztatni, hogy magad is elemezd ezeket az adatokat az [API-nkon keresztül](https://api.stateofjs.com/) vagy az [adatok letöltésével](https://www.kaggle.com/sachag/state-of-css). Szólj nekünk is, ha végül saját vizualizációt készítettél!
+      Ez a gyakorlatban azt jelenti, hogy ezentúl össze tudunk vetni különböző adatpontokat, mint például az éves fizetést tapasztalat szerint, vagy a nemek eloszlását egy adott országon belül. Néhány ilyen összevetést láthatsz majd az eredmények között, de mi arra szeretnénk téged bíztatni, hogy magad is elemezd ezeket az adatokat az [API-unkon keresztül](https://api.stateofjs.com/) vagy az [adatok letöltésével](https://www.kaggle.com/sachag/state-of-css). Szólj nekünk is, ha végül saját vizualizációt készítettél!
 
       És most nézzük, hogy mit történt a CSS-sel ebben az évben!
 
@@ -70,7 +70,7 @@ translations:
   - key: sections.features.description
     t: |
       A CSS dinamizmusa jelét sem mutatja a lassulásnak, mivel a fejlesztők folyamatosan adoptálják
-      az éppen aktuális új fícsöröket, miköben előretekintenek a jövőbeli innovációkra is.
+      az éppen aktuális új funkciókat, miköben előretekintenek a jövőbeli innovációkra is.
 
   - key: sections.technologies.description
     t: |
@@ -95,7 +95,7 @@ translations:
 
   - key: sections.opinions.description
     t: |
-      Legyenek akár fájdalmas pontok, amik visszatartanak, vagy hiányzó fícsörök, amiket remélsz, hogy
+      Legyenek akár fájdalmas pontok, amik visszatartanak, vagy hiányzó funkciók, amiket remélsz, hogy
       egyszer majd használhatsz, ez volt itt a lehetőséged, hogy megoszd a kritikáidat és gondolataidat a CSS-ről!
 
   ###########################################################################
@@ -135,7 +135,7 @@ translations:
     t: A PostCSS megint az első helyet szerezte **{value}** megelégedettségi aránnyal.
 
   - key: award.tool_interest_award.comment
-    t: Egy **{value}**-os aránnyal, a CSS modulok ebben az évben is a legnépszerűbb fícsör a CSS fejleszők körében.
+    t: Egy **{value}**-os aránnyal, a CSS modulok ebben az évben is a legnépszerűbb funkció a CSS fejleszők körében.
 
   # - key: award.most_write_ins_award.comment
   #   t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
@@ -247,7 +247,7 @@ translations:
   - key: picks.samuelkraft.description
     t: |
       Mostanában imádok Vanilla Extract-tal dolgozni. Olyan, mint a CSS modulok, de
-      teljesen típusos és fejleszői élmény varázslatos.
+      teljesen típusos és a fejlesztői élmény varázslatos.
 
   - key: picks.sachagreif.name
     t: Open Props
@@ -255,8 +255,8 @@ translations:
     t: A State of JS és a State of CSS megalkotója
   - key: picks.sachagreif.description
     t: |
-      Nagyon jó látni a visszacsatolási kört az új CSS fícsörök és új projektek
-      között, amik használják őket! Adam Argyle Open Props-a is egy jó példa a CSS custom
+      Nagyon jó látni a visszacsatolási kört az új CSS funkciók és a projektek
+      között, amik használják őket! Adam Argyle Open Props-ja is egy jó példa a CSS custom
       properties használatára.
 
   - key: picks.shadeed9.name
@@ -380,10 +380,10 @@ translations:
 
   - key: about.content
     t: >
-      A 2021-es State of CSS felmérés 2021 október 5-től november 2-ig futott, valamint 8714 választ érkezett. A felmérés általam, [Sacha Greif](https://sachagreif.com/) által készült, egy csapatnyi nyílt forráskódú fejlesztő és tanácsadó segítségével.
+      A 2021-es State of CSS felmérés 2021 október 5-től november 2-ig futott, valamint 8714 választ érkezett. A felmérés az én ([Sacha Greif](https://sachagreif.com/) munkám által készült, egy csapatnyi nyílt forráskódú fejlesztő és tanácsadó segítségével.
 
 
-      Az idei logó- és pólódizájn és az animációk [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) által készültek.
+      Az idei logó- és pólódizájn és az animációk [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) keze munkáját dícsérik.
 
       ### A felmérés céljai
 
@@ -412,7 +412,7 @@ translations:
 
       - **Felkeresés**: ebben az évben 23 szerveztet kerestünk fel, akik a BIPOC és LGBTQ fejlesztőket reprezentálják, abban a reményben, hogy nyitottak az együttműködésre. Bár ezek közül nagyon kevesen válaszoltak, mi tovább kutatunk olyan módszerek iránt, amivel többféle közösséget is bevonhatunk. 
 
-      - **Adatelemzés**: olyan fícsörök által, mint a facet-ek és variációk, mindig arra törekszünk, hogy megkönnyítsük egy adott demográfiai szegmens hangját is hallatni, figyelmen kívül hagyva, hogy mennyire kicsi része ez az adatnak.
+      - **Adatelemzés**: olyan funkciók által, mint a szempontok és variációk, mindig arra törekszünk, hogy megkönnyítsük egy adott demográfiai szegmens hangját is hallatni, figyelmen kívül hagyva, hogy mennyire kicsi része ez az adatnak.
 
       - **A hozzáférés megkönnyítése**: ha a felémérés túl hosszú, nem akadálymentes, lassú a betöltése, csak angolul elérhető és egyéb probémák mind egy "erőfeszítés adót" vetnek ki, ami kizárja a közösség azok tagjait, akik nem tudják ezt "megfizetni". Ezeknek a problémáknak a kiküszöbölése megkönnyíti a felhasználást és ezzel azt is elősegíti, hogy minél különfélébb emberek is ki tudják tölteni.
 
@@ -432,7 +432,7 @@ translations:
 
       ### Technikai áttekintés
 
-      [Itt](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb) egy mélyebbre menő technikai áttekintést találhatsz arról, hogy hogyan vezetünk le egy ilyen felmérést.
+      [Itt](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb) egy mélyebbre menő technikai áttekintést találhatsz arról, hogyan vezetünk le egy ilyen felmérést.
 
       - **Adatgyűjtés**: saját [Vulcan.js](http://vulcanjs.org/) applikáció.
 
@@ -440,7 +440,7 @@ translations:
 
       - **Adat API**: Node.js GraphQL API. 
 
-      - **Az eredmének weboldala**: [Gatsby](https://www.gatsbyjs.com/) React applikáció.
+      - **Az eredmények weboldala**: [Gatsby](https://www.gatsbyjs.com/) React applikáció.
 
       - **Adatmegjelenítés**: [Nivo](https://nivo.rocks/) React adatmegjelenítő könyvtár.
 
