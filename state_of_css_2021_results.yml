@@ -28,7 +28,6 @@ translations:
 
   - key: sections.tshirt.description
     t: |
-      ## Support the Survey With the State of CSS T-Shirt
       ## Támogasd a felmérést egy State of CSS pólóval
 
       Ha visszaemlékszel a rossz képminőségre, a nagy kazettákra és a visszatekerésre - nem sok minden van, amire nosztalgiával tekintenénk a VHS korából. Az egyetlen dolog, amit *tényleg* hiányolunk, azok a fergeteges 90-es évekbeli motívumok, amik az üres VHS kazettákat díszítették.
@@ -56,7 +55,7 @@ translations:
 
   - key: tshirt.designer.bio
     t: |
-      Eredetileg Franciaországból való, de most már Amerikában él, Chris egy fantasztikus front-end fejlesztő, de ugyanakkor egy tehetséges illusztrátor is, aki a retró megjelenítésben specializálódott. Igazából arra szeretnénk bíztatni, hogy nézd meg a többi [póló dizájnját](https://chriskirknielsen.com/designs) is!
+      Az eredetileg Franciaországból származó, de most már Amerikában élő Chris egy fantasztikus front-end fejlesztő, de ugyanakkor egy tehetséges illusztrátor is, aki a retró megjelenítésben specializálódott. Igazából arra szeretnénk bíztatni, hogy nézd meg a többi [póló dizájnját](https://chriskirknielsen.com/designs) is!
 
   ###########################################################################
   # Sections Introductions
@@ -64,40 +63,40 @@ translations:
 
   - key: sections.user_info.description
     t: |
-      This year's survey reached **8,714** developers throughout the world, and in order
-      to help highlight different voices and surface deeper insights, we made a special
-      effort to provide new ways to break our data down.
+      Ebben az évben **8,714** fejlesztőt értünk el világszerte, és annak érdekében, hogy
+      különböző hangokat is megszólaltassunk, és mélyebben tudjuk az eredményeket elemezni,
+      extra erőfeszítést tettünk, hogy újfajta módon tudjuk az adatokat lebontani.
 
   - key: sections.features.description
     t: |
-      CSS's dynamism shows no sign of stopping, as developers make an effort to adopt the current
-      crop of new features while looking forward to even more innovation in the next few years.
+      A CSS dinamizmusa jelét sem mutatja a lassulásnak, mivel a fejlesztők folyamatosan adoptálják
+      az éppen aktuális új fícsöröket, miköben előretekintenek a jövőbeli innovációkra is.
 
   - key: sections.technologies.description
     t: |
-      With nearly 50% of respondents happily using one or more CSS-in-JS library, it's safe to say that
-      the category has managed to carve out its niche. Maybe the two sides of the front-end world are 
-      not so far apart after all?
+      Mivel a válaszadók közel 50%-a vígan használ egy vagy több CSS-in-JS könyvtárat, kijelenthetjük, hogy
+      ez már kinőtte magát a kezdeti kategóriából. Lehetséges, hogy ez a két oldala a front-end világnak
+      mégsem áll annyira távol egymástól?
 
   - key: sections.tools_others.description
     t: |
-      Picking a technology can often come down to a series of tough choices between 
-      competing priorities, and this year we tried to capture this process using a new bracket-style question format.
+      A technológiák kiválasztása gyakran nehéz döntések árán születik meg a versengő prioritások miatt, 
+      ezért ebben az évben megpróbáltuk ezt figyelbe véve egy új zárójeles stílusú kérdéstfajtát létrehozni.
 
   - key: sections.environments.description
     t: |
-      Accessibility has long been an after-thought when it comes to web development, but many developers
-      are now realizing that it should in fact be the foundation on which everything else rests.
+      Az akadálymentesítés sokáig csak egy utógondolat volt a webfejlesztésben, de manapság már egyre több
+      fejlesző felismeri, hogy ez valójában egy alapkövetelmény kéne, hogy legyen, amire minden más épül.
 
   - key: sections.resources.description
     t: |
-      Highlighting blogs, podcasts, and sites is fine, but this year we decided to go one step further
-      and actually feature the people who make up the CSS community themselves!
+      A blogok, podcastok és weboldalak kiemelése rendben van, de ebben az évben eldüntöttük, hogy egy 
+      lépéssel tovább megyünk és magát a CSS közösség tagjait fogjuk kiemelni.
 
   - key: sections.opinions.description
     t: |
-      Whether it's pain points that hold you back today, or missing features that you hope to use
-      tomorrow, this was your chance to vent and share your gripes with CSS!
+      Legyenek akár fájdalmas pontok, amik visszatartanak, vagy hiányzó fícsörök, amiket remélsz, hogy
+      egyszer majd használhatsz, ez volt itt a lehetőséged, hogy megoszd a kritikáidat és gondolataidat a CSS-ről!
 
   ###########################################################################
   # Notes
@@ -105,38 +104,38 @@ translations:
 
   - key: blocks.gender.note
     t: |
-      If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
+      Ha többet szeretnél megtudni, írtunk egy [blogposztot](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj), ami a felmérés nemi dinamizmusáról szól.
 
   - key: blocks.currently_missing_from_css.note
     t: |
-      You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
+      A kérdésre adott válaszok teljes adathalmazát ebben a [mellékprojektben](https://whatsmissingfromcss.com/) találhatod meg.
 
   - key: blocks.source.note
     t: >
 
-      This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
+      Ez a gráf a referrerek, URL paraméterek és szabad formájú válaszok keverékét összesíti.
 
-      - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+      - State of JS: a [State of JS](https://stateofjs.com) levelezési lista.
 
-      - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+      - State of CSS: a State of CSS levelezési lista; az `email`, `by email`, stb. szavak is benne vannak.
 
-      - Work: matches `work`, `colleagues`, `coworkers`, etc.
+      - Work: A `work`, `colleagues`, `coworkers`, stb. szavakat tartalmazza.
 
   ###########################################################################
   # Awards
   ###########################################################################
 
   - key: award.feature_adoption_delta_award.comment
-    t: With a **{value}** progression in 2021, CSS comparison functions are becoming a key part of every CSS developer's toolkit.
+    t: A CSS összehasonlítási funkciók 2021-ben **{value}** feljődést produkáltak, amiből látszik, hogy ez a CSS fejlesztők mindennapi eszközévé kezd válni.
 
   # - key: award.tool_usage_delta_award.comment
   #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
 
   - key: award.tool_satisfaction_award.comment
-    t: PostCSS takes the top spot once again with a **{value}** satisfaction ratio.
+    t: A PostCSS megint az első helyet szerezte **{value}** megelégedettségi aránnyal.
 
   - key: award.tool_interest_award.comment
-    t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
+    t: Egy **{value}**-os aránnyal, a CSS modulok ebben az évben is a legnépszerűbb fícsör a CSS fejleszők körében.
 
   # - key: award.most_write_ins_award.comment
   #   t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
@@ -147,61 +146,61 @@ translations:
 
   - key: sections.conclusion.description
     t: |
-      <span class="first-line">The way you write CSS is about to change forever</span>
+      <span class="first-line">Nemsokára örökre megváltozik, hogy hogyan írod a CSS kódot</span>
 
-      For many years now, many innovations in writing styles for the web have happened elsewhere: in preprocessors, JavaScript frameworks, or compilers. To be sure, CSS itself has also received some welcome improvements like [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) or [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*). Yet we still reach for libraries and other helpers on a daily basis. 
+      Sok éven keresztül az innováció inkább másban történt: előfeldolgozásban, JavaScript frameworkökben, és kompájlerekben.  Azért a CSS is kapott néhány fejlesztést, mint az [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) vagy [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*). De még a mai napig is segítő könyvtárakhoz nyúlunk nap mint nap.
 
-      But there's a change coming. The core CSS language is getting shaken up and renewed, and we're right at the forefront of accelerated evolution. 
+      De a változás szele már a levegőben van. A CSS nyelv magja éppen a megújúlás folyamatában van, és mi egy felgyorsult evolúciónak lehetünk tanúi.
 
-      [Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) will bring in an entirely new era of responsive design, and [Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) will make our use of frameworks, theming and managing complex codebases significantly easier. 
+      A [Konténer Lekérdezések](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) egy egészen új korszakot hoznak el az alkalmazkodó dizájn (responsive design) témakörében, a [Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) pedig a frameworkök, témák és a komplex kódbázisok menedzselését fogja nagyban megkönnyíteni.
 
-      When we look a little further ahead, we can also see the [@when/else conditional](https://css-tricks.com/proposal-for-css-when/) coming up, which will let us combine media, container and supports queries into a single at-rule.
+      Ha egy kicsit távolabbra nézünk, a [@when/else feltételeket](https://css-tricks.com/proposal-for-css-when/) is láthatjuk közeledni, ami lehetővé teszi a, hogy összekombináljunk médiát, konténereket és support query-ket egy egyszerű at-rule-ba.
 
-      And fingers crossed, 2022 is the year we finally see some movement on native CSS nesting. Those of us that work with tools like Sass and PostCSS already couldn't imagine another way of working.
+      És reméljük, a 2022-es évben végre láthatunk fejlődést a natív CSS nestingben is. Nekünk, akik már használnak Sass-t vagy PostCSS-t, elképzelhetetlen enélkül dolgozni.
 
-      All of this together means that 2022 is likely to be a year where the way you write CSS is going to fundamentally change. It's an incredibly exciting period, and we look forward to all the amazing implementations in the year to come.
+      A fentiekből is látszik, hogy a 2022-es év végre egy olyan év lehet, amiben a CSS fejlesztés módja alapjaiban megváltozik. Ez egy borzasztóan izgalmas időszak, és nagyon várjuk az összes bámulatos fejlődést ami várható ebben az évben.
 
   - key: conclusion.bio
-    t: Web developer and creator of Polypane
+    t: Webfejlesztő és a Polypane megalkotója
 
   ###########################################################################
   # Picks
   ###########################################################################
 
   - key: picks.my_pick
-    t: 'My 2021 Pick: '
+    t: 'A 2021-es kedvencem: '
   - key: picks.intro
-    t: We asked members of the CSS community to share their “pick of the year”
+    t: Megkérdeztük a CSS közösség tagjait az "idei kedvencükről"
 
   - key: picks.georgedoescode.name
-    t: The CSS Paint API
+    t: A CSS rajzoló API
   - key: picks.georgedoescode.bio
-    t: Developer, writer, and generative artist.
+    t: Fejlesztő, író, alkotóművész.
   - key: picks.georgedoescode.description
     t: |
-      The Paint API allows us to create images programmatically, 
-      to use in our CSS. It unlocks a whole world of creativity, 
-      and I am very excited about it!
+      A rajzoló API-val programozva készíthetünk képeket, amit a CSS-ben 
+      használhatunk. Ez egy egészen új világot nyit meg a kreativitásban,
+      és én nagyon izgatott vagyok emiatt!
 
   - key: picks.cassidoo.name
     t: Lynn Fisher
   - key: picks.cassidoo.bio
-    t: Developer advocate, educator, and startup advisor.
+    t: Fejlesztőtámogató, oktató, startup tanácsadó.
   - key: picks.cassidoo.description
     t: |
-      I'd love to pick Lynn Fisher. She's consistently surprised 
-      and delighted the CSS community with her creative projects and experiments, 
-      and I love how much folks can learn from her!
+      Szeretném kiemelni Lynn Fisher-t. Folyamatosan meglepi és 
+      elragadtatja a CSS közösséget kreatív projektjeivel és kísérleteivel, 
+      és imádom, hogy mennyit tudunk tőle tanulni!
 
   - key: picks.joshwcomeau.name
     t: Amelia Wattenberger
   - key: picks.joshwcomeau.bio
-    t: Software developer and creator of [CSS for JavaScript Developers](https://css-for-js.dev/).
+    t: Szoftverfejlesző és a [CSS for JavaScript Developers](https://css-for-js.dev/) megalkotója.
   - key: picks.joshwcomeau.description
     t: |
-      Amelia is creating some of the most amazing 
-      interactive blog posts about CSS and JS. 
-      Check out this post about how percentages work in CSS!
+      Amelia a legszuperebb interaktív blogposztokat írja a
+      JS-ről és a CSS-ről.
+      Nézd meg ezt a posztot, ami arról szól, hogy hogyan működnek a százalékok CSS-ben!
 
   - key: picks.kevinjpowell.name
     t: Stephanie Eckles
@@ -209,68 +208,66 @@ translations:
     t: CSS Evangelist
   - key: picks.kevinjpowell.description
     t: |
-      I'm constantly blown away by Stephanie's continued initiatives 
-      to help share her knowledge of modern CSS techniques, 
-      as well as her contagious enthusiasm for CSS.
+      Változatlanul nagy hatást tesz rám Stephanie folyamatos kezdeményezése, 
+      hogy megossza a tudását a modern CSS technikákról, 
+      valamint a fertőző lelkesedése a CSS iránt.
 
   - key: picks.mmatuzo.name
     t: aspect-ratio
   - key: picks.mmatuzo.bio
-    t: Front-end developer from Vienna, and creator of [htmhell.dev](https://htmhell.dev).
+    t: Front-end fejlesztő Bécsből, a [htmhell.dev](https://htmhell.dev) megalkotója.
   - key: picks.mmatuzo.description
     t: |
-      All major browsers shipped support for aspect-ratio in 2021. 
-      At first I underestimated it, but there are so many 
-      situations where this property comes in handy.
+      Az összes jelentősebb böngésző kiadta az aspect-ratio támogatást 2021-ben.
+      Először alábecsültem, de sok helyzeben hasznos lehet.
 
   - key: picks.lauragift_.name
     t: Kevin Powell
   - key: picks.lauragift_.bio
-    t: Frontend Developer and Content Creator
+    t: Frontend fejlesztő és alkotó
   - key: picks.lauragift_.description
     t: |
-      Kevin creates CSS content on YouTube and I really enjoy watching his videos a lot. 
-      He does a really good job teaching CSS concepts in a way that's easy and fun 
-      to understand.
+      Kevin CSS vidókat csinál YouTube-on, és én nagyon élvezem ezeket nézni.
+      Érthető és élvezetes módon magyarázza el a CSS fogalmait.
 
   - key: picks.ericwbailey.name
     t: Miriam Suzanne
   - key: picks.ericwbailey.bio
-    t: Inclusive Design and \#a11y advocate.
+    t: Inkluzív dizájn és \#a11y szószóló.
   - key: picks.ericwbailey.description
     t: |
-      CSS is about to go from good to great. 
-      Miriam's work on Container Queries and Cascade Layers is going 
-      to revolutionize how CSS is written.
+      A CSS most fog éppen jóból fantasztikussá válni.
+      Miriam munkássága a Konténer Lekérdezéseken és Cascade Layers-en 
+      meg fogja változtatni, hogy hogy írunk CSS kódot.
 
   - key: picks.samuelkraft.name
     t: Vanilla Extract
   - key: picks.samuelkraft.bio
-    t: Frontend & design
+    t: Frontend & dizájn
   - key: picks.samuelkraft.description
     t: |
-      Lately I've loved working with Vanilla Extract, it's like CSS Modules but 
-      fully typed with a magical developer experience.
+      Mostanában imádok Vanilla Extract-tal dolgozni. Olyan, mint a CSS modulok, de
+      teljesen típusos és fejleszői élmény varázslatos.
 
   - key: picks.sachagreif.name
     t: Open Props
   - key: picks.sachagreif.bio
-    t: State of JS and State of CSS creator
+    t: A State of JS és a State of CSS megalkotója
   - key: picks.sachagreif.description
     t: |
-      It's really cool to see the feedback loop between new CSS features and new 
-      projects taking advantage of them! And I think Adam Argyle's Open Props 
-      is a great use of Custom Properties (CSS variables).
+      Nagyon jó látni a visszacsatolási kört az új CSS fícsörök és új projektek
+      között, amik használják őket! Adam Argyle Open Props-a is egy jó példa a CSS custom
+      properties használatára.
 
   - key: picks.shadeed9.name
-    t: Container Queries
+    t: Konténer lekérdezések
   - key: picks.shadeed9.bio
-    t: Author of [Debugging CSS](https://debuggingcss.com/), Writing at [ishadeed.com](http://ishadeed.com)
+    t: A [Debugging CSS](https://debuggingcss.com/) szerzője és a [ishadeed.com](http://ishadeed.com)-nál ír.
   - key: picks.shadeed9.description
     t: |
-      CSS container queries again! We got the chance to play with them in a browser. 
-      Thanks to Miriam Suzanne for moving this forward! 
-      I can't wait to use them without a flag.
+      Már megint a CSS konténer lekérdezések! Játszottunk velük egy kicsit a böngészőben.
+      Köszönjük Miriam Suzanne-nak, hogy segít ezt továbbvinni!
+      Alig várjuk, hogy flagek nélkül is használhassuk ezeket.
 
   # - key: picks.georgedoescode.name
   #   t:
@@ -280,30 +277,30 @@ translations:
   #   t: |
 
   - key: picks.argyleink.name
-    t: CSS Noise
+    t: CSS zaj
   - key: picks.argyleink.bio
-    t: CSS at Google
+    t: CSS a Google-nál
   - key: picks.argyleink.description
     t: |
-      CSS generated texture and randomness makes for unique and 
-      interesting paint jobs in your design. 
-      Noise tools have made the technique accessible.
+      A CSS által generált textúra és randomizálás egyedi és érdekes
+      képeket eredményez a dizájnodban.
+      Zaj eszközök tették ezt lehetővé.
 
   - key: picks.walterstephanie.name
     t: Miriam Suzanne
   - key: picks.walterstephanie.bio
-    t: UX Researcher and CSS lover
+    t: UX kutató és CSS imádó
   - key: picks.walterstephanie.description
     t: |
-      Miriam is an artist and an activist who creates software and art that celebrate the queer complexity of human experience. She's a CSS expert, and is doing an amazing job on the specifications for CSS Container Queries.
+      Miriam egy művész és egy aktivista, aki a szoftverfejlesztéssel és a művészettel ünnepli az emberi élmények sokszínűségét. Ő egy CSS szakértő, aki csodálatos munkát végez a CSS konténer lekérdezések specifikációján.
 
   - key: picks.michebarks.name
-    t: “Building a Color Scheme” by Adam Argyle
+    t: "Egy színskála kiépítése" \- Adam Argyle
   - key: picks.michebarks.bio
-    t: Senior Front End Developer
+    t: Senior Front End Fejlesztő
   - key: picks.michebarks.description
     t: |
-      I love this article because although custom properties have been around for a while now, it really takes them to a different level and showcases their power. I hope it makes some people think of them in a different way, as more than simple variables.
+      Imádom ezt a cikket, mert bár a rendhagyó propertyk már egy ideje jelen vannak, de ez egy magasabb szintre emeli őket és jól bemutatja az erősségeiket. Remélem, hogy az emberek másként látják ezután őket, hogy többet tudnak, mint a sima változók.
 
   # - key: picks.christianoliff.bio
   #   t: Front-end developer for Trimble MAPS
@@ -314,10 +311,10 @@ translations:
   - key: picks.kilianvalkhof.name
     t: prefers-reduced-data
   - key: picks.kilianvalkhof.bio
-    t: Web developer and creator of Polypane
+    t: Webfejlesztő és a Polypane megalkotója
   - key: picks.kilianvalkhof.description
     t: |
-      We need more devs to ask browsers about this feature, and to realize how big a difference it can make. With 64% of respondents not knowing it though, we have work to do!
+      Még több fejlesztőt kell rávennünk, hogy a böngészőket megkérjék erre, és rájöjjenek, hogy milyen nagy a hatása. A válaszolók 64%-a nem is tud róluk, úgyhogy van még mit tennünk!
 
   # - key: picks.piccalilli_.bio
   #   t: Freelance designer & dev who runs piccalil.li
@@ -371,11 +368,11 @@ translations:
   ###########################################################################
 
   - key: partners.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
+    t: Fejleszd a tudásodat mélyremenő és modern front-end fejlesztői kuzusokkal.
   - key: partners.polypane.description
-    t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+    t: Böngésző az ambíciózus fejlesztők számára. Építs reszponzív, akadálymentes és gyors weboldalakat, könnyen.
   - key: partners.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
+    t: Köszönjük a Google Chrome csapatának, hogy támogatják a munkánkat.
 
   ###########################################################################
   # FAQ/About
@@ -383,68 +380,68 @@ translations:
 
   - key: about.content
     t: >
-      The 2021 State of CSS survey ran from October 5 to November 2 2021, and collected 8714 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+      A 2021-es State of CSS felmérés 2021 október 5-től november 2-ig futott, valamint 8714 választ érkezett. A felmérés általam, [Sacha Greif](https://sachagreif.com/) által készült, egy csapatnyi nyílt forráskódú fejlesztő és tanácsadó segítségével.
 
 
-      This year's logo and t-shirt were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      Az idei logó- és pólódizájn és az animációk [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) által készültek.
 
-      ### Survey Goals
+      ### A felmérés céljai
 
-      This survey, along with the [State of JavaScript](https://stateofjs.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
-
-
-      As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
-
-      ### Survey Design
-
-      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/StateOfJS/StateOfCSS-2020/issues/8). 
-
-      All survey questions were optional. 
-
-      ### Survey Audience
-
-      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
-
-      ### Representativeness & Inclusivity
-
-      While we believe it's important to give a voice to every community, the reality is that an open survey like this one will always struggle to properly represent everybody, especially when operating through systems that already carry their own inherent biases. 
+      Ez a felmérés, a [State of JavaScript](https://stateofjs.com/)-tel együtt azért lett létrehozva, hogy a webfejlesztés jövőbeli tendenciáit feltárva segítse a fejlesztőket a technológiai döntésekben.
 
 
-      In order to counter-balance this, we are implementing three distinct strategies:
+      Mint olyen, ez a felmérés is főleg azt próbálja megjósolni, hogy mi az, ami a következő években népszerű lesz, ahelyett, hogy a jelenlegi trendeket analizálná, emiatt a jelenlegi legnépszerűbb technológiák nem mindig lesznek benne.
+
+      ### A felmérés megalkotása
+
+      Ez a felmérés az előző évi felmérésen alapszik, de átment egy visszacsatolási időszakon, amikor az áttekintést beszéltük meg [a GitHub-on](https://github.com/StateOfJS/StateOfCSS-2020/issues/8).
+
+      Az összes kérdés opcionális.
+
+      ### A felmérés célcsoportja
+
+      A felmérés mindenki számára elérhető volt online és a válaszadók semmilyen módon nem lettek kiszűrve vagy kiválasztva. A válaszadók egy része már kitöltötte ezt a felmérést az előző években (őket egy dedikált levelezési listán értesítettünk), mások a közösségi médiáról szereztek tudomást róla.
+
+      ### Reprezentáció & befogadás
+
+      Habár mi arra törekszünk, hogy mindenkinek egyenlő részben hallhassuk a véleményét, a valóságban azonban egy ilyen nyílt felmérés nem mindig segíti elő az egyenlő reprezentációt, főleg amikor olyan rendszereken dolgozunk, amik már önmagukban hordoznak egy elfogultságot.
 
 
-      - **Outreach**: this year, we reached out to 23 organizations representing BIPOC and LGBTQ developers in the hopes of partnering up. While very few of them replied, we will keep looking for ways to reach out beyond our current audience.
-
-      - **Data Analysis**: through features like facets and variants, we're always trying to make it easier to surface the voices of any demographic segment, no matter how minoritized it might be in our data. 
-
-      - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse. 
-
-      ### Project Funding
-
-      Funding from this project comes from a variety of sources:
+      Annak érdekében, hogy ezt ellensúlyozzuk, három különböző stratégiát alkalmazunk:
 
 
-      - **T-shirt sales**. 
+      - **Felkeresés**: ebben az évben 23 szerveztet kerestünk fel, akik a BIPOC és LGBTQ fejlesztőket reprezentálják, abban a reményben, hogy nyitottak az együttműködésre. Bár ezek közül nagyon kevesen válaszoltak, mi tovább kutatunk olyan módszerek iránt, amivel többféle közösséget is bevonhatunk. 
 
-      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+      - **Adatelemzés**: olyan fícsörök által, mint a facet-ek és variációk, mindig arra törekszünk, hogy megkönnyítsük egy adott demográfiai szegmens hangját is hallatni, figyelmen kívül hagyva, hogy mennyire kicsi része ez az adatnak.
 
-      - **Other Funding**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a small budget to help hire an [accessibility consultant](https://fossheim.io/) to work on the survey.
+      - **A hozzáférés megkönnyítése**: ha a felémérés túl hosszú, nem akadálymentes, lassú a betöltése, csak angolul elérhető és egyéb probémák mind egy "erőfeszítés adót" vetnek ki, ami kizárja a közösség azok tagjait, akik nem tudják ezt "megfizetni". Ezeknek a problémáknak a kiküszöbölése megkönnyíti a felhasználást és ezzel azt is elősegíti, hogy minél különfélébb emberek is ki tudják tölteni.
+
+      ### A projekt költségei
+
+      A költségek fedezése több különböző forrásból jön:
 
 
-      Despite these funding sources, the surveys remains mostly a self-funded project overall and any contribution or sponsorship would be greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+      - **Pólóeladások**. 
 
-      ### Technical Overview
+      - **Szponzorált linkek**: a linkek amit különböző ajánlatokat tartalmaznak minden lap alján, a partnerünktől, a [Frontend Masters](https://frontendmasters.com/)-től valók.
 
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+      - **Más költségforrások**: ebben az évben a [Google Chrome](https://www.google.com/chrome/) csapata félretett egy kis összeget egy [akadálymentesítő tanácsadóra](https://fossheim.io/), hogy a felmérésen dolgozzon.
 
-      - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
 
-      - **Data storage/processing**: MongoDB & MongoDB Aggregations.
+      A külső források ellenére a felmérés még mindig többnyire egy saját pénzből fizetett projekt, és bármilyen hozzájárulásnak vagy szponzorálásnak nagyon örülünk. Különösen örülnénk, ha még több böngészőket fejlesztő céggel tudnánk együtt dolgozni, mivel ezek játsszák a legnagyobb szerepet a webes ököszisztémában.
 
-      - **Data API**: Node.js GraphQL API. 
+      ### Technikai áttekintés
 
-      - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app.
+      [Itt](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb) egy mélyebbre menő technikai áttekintést találhatsz arról, hogy hogyan vezetünk le egy ilyen felmérést.
 
-      - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
+      - **Adatgyűjtés**: saját [Vulcan.js](http://vulcanjs.org/) applikáció.
 
-      - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+      - **Adattárolás/feldolgozás**: MongoDB & MongoDB aggregálások.
+
+      - **Adat API**: Node.js GraphQL API. 
+
+      - **Az eredmének weboldala**: [Gatsby](https://www.gatsbyjs.com/) React applikáció.
+
+      - **Adatmegjelenítés**: [Nivo](https://nivo.rocks/) React adatmegjelenítő könyvtár.
+
+      - **Betűkészlet**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) és [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
