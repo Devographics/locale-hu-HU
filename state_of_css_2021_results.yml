@@ -295,7 +295,7 @@ translations:
       Miriam egy művész és egy aktivista, aki a szoftverfejlesztéssel és a művészettel ünnepli az emberi élmények sokszínűségét. Ő egy CSS szakértő, aki csodálatos munkát végez a CSS konténer lekérdezések specifikációján.
 
   - key: picks.michebarks.name
-    t: "Egy színskála kiépítése" \- Adam Argyle
+    t: Az "Egy színskála kiépítése" Adam Argyle által
   - key: picks.michebarks.bio
     t: Senior Front End Fejlesztő
   - key: picks.michebarks.description
