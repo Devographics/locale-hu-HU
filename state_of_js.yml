@@ -1,417 +1,415 @@
 locale: en-US
 namespace: js
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
+  ###########################################################################
+  # General
+  ###########################################################################
 
-    - key: general.survey_intro_js2019
-      t: >
-          The JavaScript world could use a bit of classification.
-
-
-          Since 2016, this survey has collected 
-          data from over 20,000 developers each year to identify current and upcoming trends.
+  - key: general.survey_intro_js2019
+    t: >
+      A JavaScript világrá ráférne egy kis osztályozás.
 
 
-          Take the survey and help us find out which libraries developers 
-          want to learn next, which have the best satisfaction ratings, and much more.
-
-    ###########################################################################
-    # Sections
-    ###########################################################################
-
-    - key: sections.syntax.title
-      t: Syntax
-    - key: sections.syntax.description
-      t: The grammar of JavaScript.
-
-    - key: sections.language.title
-      t: Language
-    - key: sections.language.description
-      t: The vocabulary of JavaScript.
-
-    - key: sections.data_structures.title
-      t: Data Structures
-    - key: sections.data_structures.description
-      t: How you store and manipulate data.
-
-    - key: sections.browser_apis.title
-      t: Browser APIs
-    - key: sections.browser_apis.description
-      t: The features provided by the browser.
-
-    - key: sections.other_features.title
-      t: Other Features
-    - key: sections.other_features.description
-      t: Other technologies and patterns
-
-    - key: sections.patterns.title
-      t: Patterns
-    - key: sections.patterns.description
-      t: How you prefer writing code
-
-    - key: sections.javascript_flavors.title
-      t: JavaScript Flavors
-    - key: sections.javascript_flavors.description
-      t: Languages that compile to JavaScript
-
-    - key: sections.front_end_frameworks.title
-      t: Front-end Frameworks
-    - key: sections.front_end_frameworks.description
-      t: Front-end frameworks and libraries
-
-    - key: sections.datalayer.title
-      t: Data Layer
-    - key: sections.datalayer.description
-      t: Loading and managing data in your app
-
-    - key: sections.back_end_frameworks.title
-      t: Back-end Frameworks
-    - key: sections.back_end_frameworks.description
-      t: JavaScript on the server
-
-    - key: sections.testing.title
-      t: Testing
-    - key: sections.testing.description
-      t: Tools for testing your code
-
-    - key: sections.mobile_desktop.title
-      t: Mobile & Desktop
-    - key: sections.mobile_desktop.description
-      t: JavaScript for mobile devices and desktop apps
-
-    - key: sections.build_tools.title
-      t: Build Tools
-    - key: sections.build_tools.description
-      t: Compiling & bundling code
-
-    - key: sections.monorepo_tools.title
-      t: Monorepo Tools
-    - key: sections.monorepo_tools.description
-      t: Tools used to manage JavaScript monorepos.
-      
-    - key: sections.tools_others.title
-      t: Other Tools
-    - key: sections.tools_others.description
-      t: Other JavaScript tools
-      
-    - key: sections.other_tools.title
-      t: Other Tools
-    - key: sections.other_tools.description
-      t: For these tools & technologies, just check the ones that you use regularly.
-
-    ###########################################################################
-    # Options
-    ###########################################################################
-
-    # JS pain points
-    # - key: options.js_pain_points.browser_interoperability
-    #   t: Browser Compatibility
-    # - key: options.js_pain_points.browser_interoperability.description
-    #   t: Differences between Chrome, Safari, Firefox, etc.
-    # - key: options.js_pain_points.animations
-    #   t: Animations
-    # - key: options.js_pain_points.animations.description
-    #   t: Managing animations, transitions, etc. using JavaScript.
-    # - key: options.js_pain_points.form_handling
-    #   t: Form Handling
-    # - key: options.js_pain_points.form_handling.description
-    #   t: Creating forms, managing their state and errors, and saving their data. 
-    - key: options.js_pain_points.state_management
-      t: State Management
-    - key: options.js_pain_points.state_management.description
-      t: Managing global data state in complex applications. 
-    # - key: options.js_pain_points.performance_issues
-    #   t: Performance Issues
-    # - key: options.js_pain_points.performance_issues.description
-    #   t: Bundle sizes, slow loading, and other performance issues. 
-    - key: options.js_pain_points.managing_dependencies
-      t: Managing Dependencies
-    - key: options.js_pain_points.managing_dependencies.description
-      t: Managing dependencies, package versions and bundle sizes
-    - key: options.js_pain_points.architecture
-      t: Code Architecture
-    - key: options.js_pain_points.architecture.description
-      t: Organizing and maintaining your codebase.
-    - key: options.js_pain_points.finding_packages
-      t: Finding Packages
-    - key: options.js_pain_points.finding_packages.description
-      t: Finding and evaluating JavaScript packages.
-    - key: options.js_pain_points.writing_modules
-      t: Writing Modules
-    - key: options.js_pain_points.writing_modules.description
-      t: Writing JavaScript modules and publishing them as packages. 
-    - key: options.js_pain_points.debugging
-      t: Debugging
-    - key: options.js_pain_points.debugging.description
-      t: Identifying and solving issues with your code. 
-    - key: options.js_pain_points.async_code
-      t: Async Code
-    - key: options.js_pain_points.async_code.description
-      t: Handling asynchronous functions. 
-    - key: options.js_pain_points.modules_management
-      t: Modules Management
-    - key: options.js_pain_points.modules_management.description
-      t: Writing and importing modules. 
-    - key: options.js_pain_points.date_management
-      t: Date Management
-    - key: options.js_pain_points.date_management.description
-      t: Handling and manipulating dates and times. 
-    # - key: options.js_pain_points.xxx
-    #   t: 
-    # - key: options.js_pain_points.xxx.description
-    #   t: 
+      2016 óta ezek a felmérések majd 20.000 fejlesztőtől gyűjtöttek össze adatokat, 
+      minden évben az éppen aktuális trendeket felmérve.
 
 
-    # JS missing features
-    - key: options.currently_missing_from_js.static_typing
-      t: Static Typing
-    - key: options.currently_missing_from_js.static_typing.description
-      t: Native types (similar to what TypeScript offers).
-    - key: options.currently_missing_from_js.standard_library
-      t: Standard Library
-    - key: options.currently_missing_from_js.standard_library.description
-      t: A standard library of common utilities
-    - key: options.currently_missing_from_js.pattern_matching
-      t: Pattern Matching
-    - key: options.currently_missing_from_js.pattern_matching.description
-      t: A new `match` keyword for pattern-matching objects. 
-    - key: options.currently_missing_from_js.pipe_operator
-      t: Pipe Operator
-    - key: options.currently_missing_from_js.pipe_operator.description
-      t: A new `|>` operator for passing the result of one function to another.
-    - key: options.currently_missing_from_js.decorators
-      t: Decorators
-    - key: options.currently_missing_from_js.decorators.description
-      t: Decorators used to metaprogram and add functionality to a value.
-    - key: options.currently_missing_from_js.immutable_data_structures
-      t: Immutable Data Structures
-    - key: options.currently_missing_from_js.immutable_data_structures.description
-      t: New deeply immutable data structures such as `Record` and `Tuple`.
-    - key: options.currently_missing_from_js.better_date_management
-      t: Better Date Management
-    - key: options.currently_missing_from_js.better_date_management.description
-      t: A new `Temporal` object for working with dates and times.
-    - key: options.currently_missing_from_js.observable
-      t: Observable
-    - key: options.currently_missing_from_js.observable.description
-      t: A new `Observable`` type used to model push-based data sources.
-    # - key: options.currently_missing_from_js.xxx
-    #   t: 
-    # - key: options.currently_missing_from_js.xxx.description
-    #   t: 
-    
+      Töltsd ki ezt a kérdőívet és segíts nekünk megérteni, hogy a fejlesztők melyik könyvtárakat
+      akarják következőként megtanulni, melyikekkel vannak a legjobban megelégedve, és még több szempontot is.
 
-    ###########################################################################
-    # Features
-    ###########################################################################
+  ###########################################################################
+  # Sections
+  ###########################################################################
 
-    # syntax
-    - key: features.destructuring
-      t: Destructuring
-    - key: features.destructuring.description
-      t: 'Example: `const { foo } = bar`'
-    - key: features.spread_operator
-      t: Spread operator
-    - key: features.spread_operator.description
-      t: 'Example: `[...array1, ...array2]`'
-    - key: features.arrow_functions
-      t: Arrow Functions
-    - key: features.arrow_functions.description
-      t: 'Example: `const foo = () => {}`'
-    - key: features.nullish_coalescing
-      t: Nullish Coalescing
-    - key: features.nullish_coalescing.description
-      t: >
-        Example: `const foo = 0 ?? 42`
-    - key: features.optional_chaining
-      t: Optional Chaining
-    - key: features.optional_chaining.description
-      t: >
-        Example: `const dogName = adventurer.dog?.name`
-    - key: features.private_fields
-      t: Private Fields
-    - key: features.private_fields.description
-      t: >
-        Example: `class ClassWithPrivateField { #privateField }`
+  - key: sections.syntax.title
+    t: Szintaxis
+  - key: sections.syntax.description
+    t: A JavaScript nyelvtana.
 
-    # language
-    - key: features.proxies
-      t: Proxies
-    - key: features.async_await
-      t: Async/Await
-    - key: features.promises
-      t: Promises
-    - key: features.decorators
-      t: Decorators
-    - key: features.decorators.description
-      t: >
-          In its simplest form, a decorator is simply a way of 
-          wrapping one piece of code with another — literally “decorating” it.
-    - key: features.dynamic_import
-      t: Dynamic Import
-    - key: features.dynamic_import.description
-      t: >
-        Example: <code>await import('/modules/my-module.js')</code>
+  - key: sections.language.title
+    t: Nyelv
+  - key: sections.language.description
+    t: A JavaScript szókincse.
 
-    # data structures
-    - key: features.maps
-      t: Maps
-    - key: features.sets
-      t: Sets
-    - key: features.typed_arrays
-      t: Typed Arrays
-    - key: array_prototype_flat
-      t: Array.prototype.flat
+  - key: sections.data_structures.title
+    t: Adatstruktúrák
+  - key: sections.data_structures.description
+    t: Hogyan tárolod és módosítod az adatokat.
 
-    # browser apis
-    - key: features.service_workers
-      t: Service Workers
-    - key: features.local_storage
-      t: LocalStorage
-    - key: features.i18n
-      t: i18n
-    - key: features.web_components
-      t: Web Components
-    - key: features.web_audio
-      t: Web Audio API
-    - key: features.webgl
-      t: WebGL
-    - key: features.web_animations
-      t: Web Animations API
-    - key: features.webrtc
-      t: WebRTC
-    - key: features.web_speech
-      t: Web Speech API
-    - key: features.webvr
-      t: WebVR
-    - key: features.websocket
-      t: Websocket
-    - key: features.fetch
-      t: Fetch API
+  - key: sections.browser_apis.title
+    t: Böngésző API-ok
+  - key: sections.browser_apis.description
+    t: A böngésző saját funkciói
 
-    # other features
-    - key: features.pwa
-      t: Progressive Web Apps (PWA)
-    - key: features.wasm
-      t: WebAssembly (WASM)
+  - key: sections.other_features.title
+    t: Egyéb funkciók
+  - key: sections.other_features.description
+    t: Egyéb technológiák és motívumok
 
-    # patterns
-    - key: patterns.object_oriented_programming
-      t: Object-Oriented Programming
-    - key: features.functional_programming
-      t: Functional Programming
-    - key: features.reactive_programming
-      t: Reactive Programming
+  - key: sections.patterns.title
+    t: Motívumok
+  - key: sections.patterns.description
+    t: Hogyan szeretsz kódot írni
 
-    # upcoming features
-    # - key: features.static_typing
-    #   t: Static Typing
+  - key: sections.javascript_flavors.title
+    t: A JavaScript fajtái
+  - key: sections.javascript_flavors.description
+    t: A nyelvek, amik JavaScriptre fordítódnak
 
-    # - key: features.standard_library
-    #   t: Standard Library
-    
-    # - key: features.pattern_matching
-    #   t: Pattern Matching
+  - key: sections.front_end_frameworks.title
+    t: Front-end keretrendszerek
+  - key: sections.front_end_frameworks.description
+    t: Front-end keretrendszerek és könyvtárak
 
-    # - key: features.pipe_operator
-    #   t: Pipe Operator
+  - key: sections.datalayer.title
+    t: Adatréteg
+  - key: sections.datalayer.description
+    t: Adatok betöltése és kezelése
 
-    # - key: features.immutable_data_structures
-    #   t: Immutable Data Structures
+  - key: sections.back_end_frameworks.title
+    t: Back-end keretrendszerek
+  - key: sections.back_end_frameworks.description
+    t: JavaScript a szerveren
 
-    ###########################################################################
-    # Tools
-    ###########################################################################
+  - key: sections.testing.title
+    t: Tesztelés
+  - key: sections.testing.description
+    t: Eszközök teszteléshez
 
-    - key: tools.angular.description
-      t: >
-        Note that this question only targets [Angular](https://angular.io/) experience,
-        and specifically does *not* apply to the deprecated [AngularJS](https://angularjs.org/).
-   
-    ###########################################################################
-    # Other Tools
-    ###########################################################################
+  - key: sections.mobile_desktop.title
+    t: Mobil & Asztali nézet
+  - key: sections.mobile_desktop.description
+    t: JavaScript mobilra és asztali nézetre
 
-    - key: tools_others.runtimes
-      t: JavaScript Runtimes
-    - key: tools_others.runtimes.description
-      t: Which engines/runtimes/execution environments do you regularly use?
-    - key: tools_others.runtimes.others
-      t: Other Runtimes
-    - key: tools_others.runtimes.others.description
-      t: Other answers (freeform field).
+  - key: sections.build_tools.title
+    t: Fordítási eszközök
+  - key: sections.build_tools.description
+    t: A kód fordítása és becsomagolása
 
-    - key: tools_others.package_registries
-      t: Package Registries
-    - key: tools_others.package_registries.description
-      t: Which package registries do you regularly fetch packages from?
-    - key: tools_others.package_registries.others
-      t: Other Package Registries
-    - key: tools_others.package_registries.others.description
-      t: Other answers (freeform field).
+  - key: sections.monorepo_tools.title
+    t: Monorepo eszközök
+  - key: sections.monorepo_tools.description
+    t: Eszközök a JavaScript monorepok menedzselésére
 
-    - key: tools_others.form_factors
-      aliasFor: environments.form_factors
-    - key: tools_others.form_factors.description
-      aliasFor: environments.form_factors.description
+  - key: sections.tools_others.title
+    t: Egyéb eszközök
+  - key: sections.tools_others.description
+    t: Egyéb JavaScript eszközök
 
-    ###########################################################################
-    # Opinions
-    ###########################################################################
+  - key: sections.other_tools.title
+    t: Egyéb eszközök
+  - key: sections.other_tools.description
+    t: Ezekből az eszközökből és technológiákból csak azokat válaszd ki, amiket rendszeresen használsz.
 
-    - key: opinions.js_moving_in_right_direction
-      t: JavaScript is moving in the right direction
+  ###########################################################################
+  # Options
+  ###########################################################################
 
-    - key: opinions.building_js_apps_overly_complex
-      t: Building JavaScript apps is overly complex right now
+  # JS pain points
+  # - key: options.js_pain_points.browser_interoperability
+  #   t: Browser Compatibility
+  # - key: options.js_pain_points.browser_interoperability.description
+  #   t: Differences between Chrome, Safari, Firefox, etc.
+  # - key: options.js_pain_points.animations
+  #   t: Animations
+  # - key: options.js_pain_points.animations.description
+  #   t: Managing animations, transitions, etc. using JavaScript.
+  # - key: options.js_pain_points.form_handling
+  #   t: Form Handling
+  # - key: options.js_pain_points.form_handling.description
+  #   t: Creating forms, managing their state and errors, and saving their data.
+  - key: options.js_pain_points.state_management
+    t: Állapotmenedzselés
+  - key: options.js_pain_points.state_management.description
+    t: A globális állapot menedzselése a komplex applikációkban.
+  # - key: options.js_pain_points.performance_issues
+  #   t: Performance Issues
+  # - key: options.js_pain_points.performance_issues.description
+  #   t: Bundle sizes, slow loading, and other performance issues.
+  - key: options.js_pain_points.managing_dependencies
+    t: Függőségek menedzselése
+  - key: options.js_pain_points.managing_dependencies.description
+    t: A függőségek, a csomagok verziójának és méretének menedzselése.
+  - key: options.js_pain_points.architecture
+    t: Kódarchitektúra
+  - key: options.js_pain_points.architecture.description
+    t: A kódbázis rendezése és fenntartása.
+  - key: options.js_pain_points.finding_packages
+    t: Csomagok megtalálása
+  - key: options.js_pain_points.finding_packages.description
+    t: A JavaScript csomagok megtalálása és értékelése.
+  - key: options.js_pain_points.writing_modules
+    t: Modulok írása
+  - key: options.js_pain_points.writing_modules.description
+    t: Javascript modulok írása és csomagként publikálása.
+  - key: options.js_pain_points.debugging
+    t: Hibakeresés
+  - key: options.js_pain_points.debugging.description
+    t: Problémák megtalálása és megoldása a kódodban.
+  - key: options.js_pain_points.async_code
+    t: Aszinkron kód
+  - key: options.js_pain_points.async_code.description
+    t: Aszinkron funkciók kezelése.
+  - key: options.js_pain_points.modules_management
+    t: Modulok menedzselése
+  - key: options.js_pain_points.modules_management.description
+    t: Modulok készítése és beimportálása.
+  - key: options.js_pain_points.date_management
+    t: Dátummenedzsment
+  - key: options.js_pain_points.date_management.description
+    t: Dátumok és időpontok kezelése és manipulálása.
+  # - key: options.js_pain_points.xxx
+  #   t:
+  # - key: options.js_pain_points.xxx.description
+  #   t:
 
-    - key: opinions.js_over_used_online
-      t: JavaScript is over-used online
+  # JS missing features
+  - key: options.currently_missing_from_js.static_typing
+    t: Statikus típusok
+  - key: options.currently_missing_from_js.static_typing.description
+    t: Natív típusok (hasonló, mint ami a TypeScript-ban van).
+  - key: options.currently_missing_from_js.standard_library
+    t: Alapkönyvtár
+  - key: options.currently_missing_from_js.standard_library.description
+    t: A gyakran használt segédfunkciókat tartalmazó alapkönyvtár
+  - key: options.currently_missing_from_js.pattern_matching
+    t: Mintakeresés
+  - key: options.currently_missing_from_js.pattern_matching.description
+    t: Az új `match` kulcsszóval lehet mintakeresést végezni
+  - key: options.currently_missing_from_js.pipe_operator
+    t: Csővezeték operátor
+  - key: options.currently_missing_from_js.pipe_operator.description
+    t: Az új `|>` operátor, mellyel egy funkció ereményék tudjuk egy másiknak átadni.
+  - key: options.currently_missing_from_js.decorators
+    t: Dekorátorok
+  - key: options.currently_missing_from_js.decorators.description
+    t: A dekorátorok metaprogramozáshoz és egy érték funkcióval való ellátásaára használható.
+  - key: options.currently_missing_from_js.immutable_data_structures
+    t: Állandó adatstruktúrák
+  - key: options.currently_missing_from_js.immutable_data_structures.description
+    t: Új állandó (megváltoztathatatlan) adastruktúrák, mint a `Record` és a `Tuple`.
+  - key: options.currently_missing_from_js.better_date_management
+    t: Jobb adatkezelés
+  - key: options.currently_missing_from_js.better_date_management.description
+    t: Az új `Temporal` objektum a dátumok és idők kezeléséhez.
+  - key: options.currently_missing_from_js.observable
+    t: Megfigyelhetők
+  - key: options.currently_missing_from_js.observable.description
+    t: Az új `Observable`` típus push alapú adatforrások modellezéséhez használható.
+  # - key: options.currently_missing_from_js.xxx
+  #   t:
+  # - key: options.currently_missing_from_js.xxx.description
+  #   t:
 
-    - key: opinions.enjoy_building_js_apps
-      t: I enjoy building JavaScript apps
+  ###########################################################################
+  # Features
+  ###########################################################################
 
-    - key: opinions.would_like_js_to_be_main_lang
-      t: I would like JavaScript to be my main programming language
+  # syntax
+  - key: features.destructuring
+    t: Destruktúrálás
+  - key: features.destructuring.description
+    t: 'Például: `const { foo } = bar`'
+  - key: features.spread_operator
+    t: A kiterítési operátor (Spread operator)
+  - key: features.spread_operator.description
+    t: 'Például: `[...array1, ...array2]`'
+  - key: features.arrow_functions
+    t: Nyilas funkciók (arrow funcions)
+  - key: features.arrow_functions.description
+    t: 'Például: `const foo = () => {}`'
+  - key: features.nullish_coalescing
+    t: Nullás egyesítés (Nullish Coalescing)
+  - key: features.nullish_coalescing.description
+    t: >
+      Például: `const foo = 0 ?? 42`
+  - key: features.optional_chaining
+    t: Feltételes láncolás (Optional Chaining)
+  - key: features.optional_chaining.description
+    t: >
+      Például: `const dogName = adventurer.dog?.name`
+  - key: features.private_fields
+    t: Privát mezők (private fields)
+  - key: features.private_fields.description
+    t: >
+      Például: `class ClassWithPrivateField { #privateField }`
 
-    - key: opinions.js_ecosystem_changing_to_fast
-      t: The JavaScript ecosystem is changing too fast
+  # language
+  - key: features.proxies
+    t: Proxik
+  - key: features.async_await
+    t: Async/Await
+  - key: features.promises
+    t: Promise-ok
+  - key: features.decorators
+    t: Dekorátorok
+  - key: features.decorators.description
+    t: >
+      A legegyszerűbb formájában a dekorátor egy egyszerű módja annak, hogy
+      egy adott kódrészt egy másikba ágyazzunk - szó szerint "dekorálva" azt.
+  - key: features.dynamic_import
+    t: Dinamikus importálás
+  - key: features.dynamic_import.description
+    t: >
+      Példa: <code>await import('/modules/my-module.js')</code>
 
-    - key: opinions_others.missing_from_js.others
-      t: What do you feel is currently missing from JavaScript?
-    - key: opinions_others.missing_from_js.others.description
-      t: Features you'd like to see in JavaScript one day.
+  # data structures
+  - key: features.maps
+    t: Térképek (maps)
+  - key: features.sets
+    t: Halmazok (sets)
+  - key: features.typed_arrays
+    t: Típusos tömbök (types arrays)
+  - key: array_prototype_flat
+    t: Array.prototype.flat
 
-    - key: happiness.state_of_the_web
-      t: How happy are you with the general state of web technologies?
+  # browser apis
+  - key: features.service_workers
+    t: Service Workers
+  - key: features.local_storage
+    t: LocalStorage
+  - key: features.i18n
+    t: i18n
+  - key: features.web_components
+    t: Web komponensek
+  - key: features.web_audio
+    t: Web Audio API
+  - key: features.webgl
+    t: WebGL
+  - key: features.web_animations
+    t: Web Animations API
+  - key: features.webrtc
+    t: WebRTC
+  - key: features.web_speech
+    t: Web beszéd API
+  - key: features.webvr
+    t: WebVR
+  - key: features.websocket
+    t: Websocket
+  - key: features.fetch
+    t: Lekérdezés API (fetch API)
 
-    - key: happiness.state_of_js
-      t: How happy are you with the general state of JavaScript?
+  # other features
+  - key: features.pwa
+    t: Progressive Web Apps (PWA)
+  - key: features.wasm
+    t: WebAssembly (WASM)
 
-    # Pain Points
-    - key: opinions.js_pain_points
-      t: JavaScript Pain Points
-    - key: opinions.js_pain_points.description
-      t: For each matchup, pick the aspect of JavaScript you struggle with the most.
+  # patterns
+  - key: patterns.object_oriented_programming
+    t: Objektumorientált programozás
+  - key: features.functional_programming
+    t: Funkcionális programozás
+  - key: features.reactive_programming
+    t: Visszaható programozás (Reactive)
 
-    - key: opinions_others.js_pain_points.others
-      t: Other JavaScript Pain Points
+  # upcoming features
+  # - key: features.static_typing
+  #   t: Static Typing
 
-    # Missing Features
-    - key: opinions.currently_missing_from_js
-      t: What do you feel is currently missing from JavaScript?
-    - key: opinions.currently_missing_from_js.description
-      t: For each matchup, pick the feature you'd most like to be able to use in JavaScript today.
-    - key: opinions_others.currently_missing_from_js.others
-      t: Other Missing Features
+  # - key: features.standard_library
+  #   t: Standard Library
 
-    ###########################################################################
-    # Resources
-    ###########################################################################
-    
-    - key: resources.first_steps
-      t: First Steps With JavaScript
-    - key: resources.first_steps.description
-      t: When first starting out, how did you initially learn JavaScript?
+  # - key: features.pattern_matching
+  #   t: Pattern Matching
+
+  # - key: features.pipe_operator
+  #   t: Pipe Operator
+
+  # - key: features.immutable_data_structures
+  #   t: Immutable Data Structures
+
+  ###########################################################################
+  # Tools
+  ###########################################################################
+
+  - key: tools.angular.description
+    t: >
+      Megjegyzendő, hogy ez a kérdés csak az [Angular](https://angular.io/)-ra vonatkozik,
+      és különösképpen *nem* vonatkozik az elavult [AngularJS](https://angularjs.org/)-re.
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: tools_others.runtimes
+    t: JavaScript futtatókörnyezet
+  - key: tools_others.runtimes.description
+    t: Mely eszközöket/futtatkörnyezeteket használsz rendszeresen?
+  - key: tools_others.runtimes.others
+    t: Egyéb futtatkörnyezetek
+  - key: tools_others.runtimes.others.description
+    t: Egyéb válaszok (szabad formátumú válasz).
+
+  - key: tools_others.package_registries
+    t: Csomagnyilvántartás
+  - key: tools_others.package_registries.description
+    t: Mely csomagnyilvántartókat használod rendszeresen új csomagok letöltésére?
+  - key: tools_others.package_registries.others
+    t: Egyéb csomagnyilvántartók
+  - key: tools_others.package_registries.others.description
+    t: Egyéb válaszok (szabad formátumú válasz).
+
+  - key: tools_others.form_factors
+    aliasFor: environments.form_factors
+  - key: tools_others.form_factors.description
+    aliasFor: environments.form_factors.description
+
+  ###########################################################################
+  # Opinions
+  ###########################################################################
+
+  - key: opinions.js_moving_in_right_direction
+    t: A JavaScript jó irányba halad
+
+  - key: opinions.building_js_apps_overly_complex
+    t: JavaScript applikációk fejlesztése jelenleg nagyon komplex
+
+  - key: opinions.js_over_used_online
+    t: A JavaScript túl van használva az online világban
+
+  - key: opinions.enjoy_building_js_apps
+    t: Élvezem a JavaScript applikációk fejlesztését
+
+  - key: opinions.would_like_js_to_be_main_lang
+    t: Szeretném, ha a JavaScript lenne a fő programozási nyelvem
+
+  - key: opinions.js_ecosystem_changing_to_fast
+    t: A JavaScript ökoszisztéma túl gyorsan változik
+
+  - key: opinions_others.missing_from_js.others
+    t: Mi az, ami számodra a legjobban hiányzik a JavaScriptből?
+  - key: opinions_others.missing_from_js.others.description
+    t: Funkciók, amiket egyszer majd látni szeretnél a JavaScript-ben
+
+  - key: happiness.state_of_the_web
+    t: Mennyire vagy megelégedve a jelenlegi webes technológiákkal?
+
+  - key: happiness.state_of_js
+    t: Mennyire vagy megelégedve a JavaScript jelenlegi állapotával?
+
+  # Pain Points
+  - key: opinions.js_pain_points
+    t: JavaScript azon részei, amik javításra szorulnak
+  - key: opinions.js_pain_points.description
+    t: Minden egyes JavaScript szempont-párnál azt válaszd ki, amelyikkel nehezebben boldogulsz.
+
+  - key: opinions_others.js_pain_points.others
+    t: A JavaScript egyéb részei, amik javításra szorulnak
+
+  # Missing Features
+  - key: opinions.currently_missing_from_js
+    t: Mi az, ami jelenleg hiányzik számodra a JavaScriptből?
+  - key: opinions.currently_missing_from_js.description
+    t: Minden egyes JavaScript funkció-párnál azt válaszd ki, amelyiket a leginkább szeretnéd látni a JavaScriptben ma.
+  - key: opinions_others.currently_missing_from_js.others
+    t: Egyéb hiányzó funkciók
+
+  ###########################################################################
+  # Resources
+  ###########################################################################
+
+  - key: resources.first_steps
+    t: Első lépések a JavaScript-ben
+  - key: resources.first_steps.description
+    t: Hogyan kezdtél el JavaScriptet tanulni az elején?
