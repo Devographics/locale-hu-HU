@@ -164,7 +164,7 @@ translations:
     t: Konklúziók
 
   - key: sections.about.title
-    t: About
+    t: A kérdőívről
 
   - key: sections.support.title
     t: Támogass minket
@@ -185,125 +185,125 @@ translations:
   ###########################################################################
 
   - key: user_info.locale
-    t: Language
+    t: Nyelv
   - key: user_info.locale.description
-    t: What language did respondents select to fill out the survey?
+    t: Milyen nyelvet választottak a válaszadók?
   - key: user_info.locale.note
     t: >
-      This data is collected automatically based on respondent's settings while taking the survey; 
-      Languages with fewer than 20 respondents not shown.
+      Nyelvi adatok gyűjtése automatikusan történik a válaszadók nyelvi beállításai alapján; 
+      Azon nyelvek melyeket kevesebb mint 20 válaszadó használt nem látható.
 
   - key: user_info.source
-    t: Source
+    t: Forrás
   - key: user_info.source.description
-    t: How did respondents find out about the survey?
+    t: Hogyan hallottak a válaszadók a kérdőívről?
   - key: user_info.source.note
-    t: This data is a mix of self-reported answers, referrer data, and URL tracking data.
+    t: Az adathalmaz kombinálja a kitöltők válaszait, hivatkozási- valamint URL követési adatokat.
 
   - key: user_info.gender_by_country
-    t: Gender By Country
+    t: Nemek ország szerinti bontásban
   - key: user_info.gender_by_country.description
-    t: Gender distribution by country with at least 100 respondents, sorted by "mean gender" (each gender key being assigned an integer value in ascending order) descending.
+    t: Nemek országonkénti eloszlása (legalább 100 kitöltő válaszai alapján), átlagos nemenkénti csökkenő sorrendbe rendezve. (Minden nem kulcsa az adatbázisban egy egész számot kap értékként, növekvő sorrendben)
 
   - key: user_info.years_of_experience_by_salary
-    t: Years of Experience by Salary Range
+    t: Tapasztalat években, fizetések szerint rangsorolva
   - key: user_info.years_of_experience_by_salary.description
-    t: Years of experience by salary range.
+    t: Tapasztalat években, fizetések szerint rangsorolva.
 
   - key: user_info.yearly_salary_by_country
-    t: Salary By Country
+    t: Fizetés ország szerionti bontásban
   - key: user_info.yearly_salary_by_country.description
-    t: Yearly salary distribution by country with at least 100 respondents, sorted by mean salary descending.
+    t: Éves fizetés ország szerinti bontásban (legalább 100 kitöltő adatai alapján), átlagos fizetések szerinti csökkenő sorrendben.
 
   - key: user_info.yearly_salary_by_degree
-    t: Salary By Higher Education Degree
+    t: Fizetés felsőoktatási végzettség alapján
   - key: user_info.yearly_salary_by_degree.description
-    t: Yearly salary distribution by higher education degree, sorted by mean salary descending.
+    t: Éves fizetés eloszlása felsőoktatási végzettség alapján, átlagos fizetések szerinti csökkenő sorrendben.
 
   - key: user_info.yearly_salary_by_experience
-    t: Salary By Experience
+    t: Fizetés tapasztalat alapján
   - key: user_info.yearly_salary_by_experience.description
-    t: Yearly salary distribution by experience, sorted by mean salary descending.
+    t: Éves fizetés eloszlása tapasztalat alapján, átlagos fizetések szerinti csökkenő sorrendben.
 
   - key: user_info.race_ethnicity_by_years_of_experience
-    t: Race & Ethnicity by Years of Experience
+    t: Faji és etnikai eloszlás tapasztalat alapján
   - key: user_info.race_ethnicity_by_years_of_experience.description
-    t: Race & ethnicity distribution by years of experience, sorted by mean experience ascending.
+    t: Faji és etnikai eloszlás tapasztalat alapján években, átlagos tapasztalat szerinti növekvő sorrendben.
 
   - key: user_info.higher_education_degree_by_gender
-    t: Higher Education Degree by Gender
+    t: Felsőoktatási végzettség nemek alapján
   - key: user_info.higher_education_degree_by_gender.description
-    t: Higher education degree distribution by gender.
+    t: Felsőoktatási végzettség eloszlása nemek alapján.
 
   ###########################################################################
   # Locales
   ###########################################################################
 
   - key: options.locale.en-US
-    t: English
+    t: angol
   - key: options.locale.ca-ES
-    t: Catalan
+    t: katalán
   - key: options.locale.es-ES
-    t: Spanish
+    t: spanyol
   - key: options.locale.ru-RU
-    t: Russian
+    t: orosz
   - key: options.locale.fr-FR
-    t: French
+    t: francia
   - key: options.locale.zh-Hant
-    t: Chinese (Traditional)
+    t: tradicionális Kínai
   - key: options.locale.de-DE
-    t: German
+    t: német
   - key: options.locale.cs-CZ
-    t: Czech
+    t: cseh
   - key: options.locale.pt-PT
-    t: Portuguese
+    t: portugál
   - key: options.locale.it-IT
-    t: Italian
+    t: olasz
   - key: options.locale.sv-SE
-    t: Swedish
+    t: svéd
   - key: options.locale.tr-TR
-    t: Turkish
+    t: török
   - key: options.locale.id-ID
-    t: Indonesian
+    t: indonéz
   - key: options.locale.hi-IN
-    t: Hindi
+    t: hindi
   - key: options.locale.zh-Hans
-    t: Chinese (Simplified)
+    t: egyszerűsített kínai
   - key: options.locale.ja-JP
-    t: Japanese
+    t: japán
   - key: options.locale.ua-UA
-    t: Ukrainian
+    t: ukrán
   - key: options.locale.pl-PL
-    t: Polish
+    t: lengyel
   - key: options.locale.fa-IR
-    t: Farsi
+    t: perzsa
   - key: options.locale.nl-NL
-    t: Dutch
+    t: holland
   - key: options.locale.ko-KR
-    t: Korean
+    t: koreai
   - key: options.locale.ro-RO
-    t: Romanian
+    t: román
   - key: options.locale.hu-HU
-    t: Hungarian
+    t: magyar
 
   ###########################################################################
   # Features
   ###########################################################################
 
   - key: features.learn_more
-    t: Learn More (MDN)
+    t: Tudj meg többet (MDN)
   - key: features.mdn_link
     t: MDN
   - key: features.caniuse_link
-    t: Can I use
+    t: Can I use weboldal
   - key: features.specification_link
-    t: W3C Specification
+    t: W3C Specifikácó
 
   # knowledge score
   - key: features.knowledge_score
-    t: Knowledge Score
+    t: Ismeretségi pontérték
   - key: features.knowledge_score.description
-    t: Out of all the features mentioned in the survey, how many did the respondent know about?
+    t: A kérdőívben említett funkciók közül mennyiről volt tudomása a válaszadóknak?
 
   ###########################################################################
   # Tools & Methodologies
@@ -311,17 +311,17 @@ translations:
 
   # general
   - key: tools.links
-    t: Links
+    t: Linkek
   - key: tools.github_link
     t: GitHub
   - key: tools.github_stars
-    t: stars
+    t: csillagok
   - key: tools.homepage_link
-    t: Homepage
+    t: Főoldal
   - key: tools.npm_link
     t: NPM
   - key: tools.technology
-    t: Technology
+    t: Technológia
 
   ###########################################################################
   # Blocks
@@ -705,69 +705,69 @@ translations:
   ###########################################################################
 
   - key: share.share
-    t: Share
+    t: Megosztás
   - key: share.options
-    t: Share Options
+    t: Megosztási opciók
   - key: share.preview
-    t: Social media preview
+    t: Social media előnézet
   - key: share.site.title
-    t: Discover the {siteTitle} results
+    t: Fedezd fel a/az {siteTitle} eredményeit
   - key: share.site.twitter_text
-    t: 'Discover the {siteTitle} results {link} {hashtag}'
+    t: 'Fedezd fel a/az {siteTitle} eredményeit {link} {hashtag}'
   - key: share.site.subject
-    t: '{siteTitle} Survey Results'
+    t: '{siteTitle} felmérés eredményei'
   - key: share.site.body
-    t: 'Here are some interesting survey results: {link}'
+    t: 'Néhány érdekes eredmény a felmérésből: {link}'
   - key: share.block.twitter_text
     t: '{hashtag} {year}: {title} {link}'
   - key: share.block.subject
-    t: '{siteTitle} Survey Results'
+    t: '{siteTitle} felmérés eredményei'
   - key: share.block.body
-    t: 'Here are some interesting survey results ({title}): {link}'
+    t: 'Néhány érdekes eredmény a felmérésből ({title}): {link}'
   - key: share.twitter
-    t: Share on Twitter
+    t: Megosztás Twitter-en
   - key: share.facebook
-    t: Share on Facebook
+    t: Megosztás Facebook-on
   - key: share.linkedin
-    t: Share on LinkedIn
+    t: Megosztás LinkedIn-en
   - key: share.email
-    t: Share by email
+    t: Megosztás email-ben
   - key: share.image
-    t: Get image
+    t: Kép lekérése
   - key: share.link
-    t: Link to section
+    t: Rész megosztása
   - key: share.url
-    t: Get link
+    t: Link lekérése
   - key: share.close
-    t: Close
+    t: Bezárás
 
   ###########################################################################
   # Views
   ###########################################################################
   - key: views.viz
-    t: Graph
+    t: Grafikon
   - key: views.table
-    t: Table
+    t: Táblázat
 
   ###########################################################################
   # Tables
   ###########################################################################
   - key: table.label
-    t: Label
+    t: Címke
   - key: table.item
     t: Item
   - key: table.percentage_survey
-    t: '% of survey respondents'
+    t: 'a felmérés válaszadóinak százaléka (%)'
   - key: table.percentage_question
-    t: '% of question respondents'
+    t: 'kérdés válaszadóinak százaléka (%)'
   - key: table.percentage_facet
-    t: '% of facet respondents'
+    t: 'aspektus válaszadóinak százaléka (%)'
   - key: table.count
-    t: Count
+    t: Összesítve
   - key: table.year
-    t: Year
+    t: Év
   - key: table.mean
-    t: Mean
+    t: Átlagos
   - key: table.usage
     aliasFor: options.features_simplified.used_it
   - key: table.awareness
@@ -787,42 +787,42 @@ translations:
     aliasFor: charts.axis_legends.awareness_percentage
 
   - key: table.percentages_table
-    t: Percentages
+    t: Százalékok
   - key: table.rankings_table
-    t: Rankings
+    t: Rangsorok
 
   - key: table.satisfaction_rank
-    t: Satisfaction Rank
+    t: Elégedettségi besorolás
   - key: table.interest_rank
-    t: Interest Rank
+    t: Érdeklődéso besorolás
   - key: table.usage_rank
-    t: Usage Rank
+    t: Használati besorolás
   - key: table.awareness_rank
-    t: Awareness Rank
+    t: Ismertségi besorolás
 
   - key: table.would_not_use_percentage
-    t: Would not use %
+    t: Nem hásználnám többet %
   - key: table.not_interested_percentage
-    t: Not interested %
+    t: Nem érdekel %
   - key: table.would_use_percentage
-    t: Would use again %
+    t: Újra használnám %
   - key: table.interested_percentage
-    t: Interested %
+    t: Érdeklődő %
 
   ###########################################################################
   # Awards
   ###########################################################################
 
   - key: awards.runner_ups
-    t: Runner Ups
+    t: Második helyezettek
 
   - key: award.feature_adoption_award.title
-    t: Most Used Feature
+    t: A legtöbbet használt funkció
   - key: award.feature_adoption_award.description
     t: Awarded to the most adopted feature.
 
   - key: award.feature_adoption_delta_award.title
-    t: Most Adopted Feature
+    t: A legelfogadottabb funkció
   - key: award.feature_adoption_delta_award.description
     t: Awarded to the feature with the largest year-over-year ”have used” progression.
 
