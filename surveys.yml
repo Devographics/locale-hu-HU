@@ -5,7 +5,7 @@ translations:
   ###########################################################################
 
   - key: general.no_preview_surveys
-    t: No surveys to preview
+    t: Nincseken megjeleníthető kérdőívek
   - key: general.global_nav
     t: Globális
 
@@ -18,35 +18,35 @@ translations:
   - key: faq.create_account
     t: Miért kell felhasználói fiókot készítenem?
   - key: faq.create_account.description
-    t: We ask you to create an account in order to avoid duplicate responses, save your data, and notify you when results are published.
+    t: Azért kérünk a felhasználói fiók készítésére, hogy elkerüljük a válaszok véletlen duplikálását, hogy el tudjuk menteni az adataidat, és hogy tudjunk értesíteni az eredményekről.
   - key: faq.anonymous_survey
-    t: Can I take the survey anonymously?
+    t: Névtelenül is kitölthetem a kérdőívet?
   - key: faq.anonymous_survey.description
-    t: Yes, you can use a fake (something@example.com) or non-identifying email to take the survey as long as you save it for future access.
+    t: Igen, használhatsz egy nemlétező (something@example.com) email címet, vagy egy olyat, ami alapján nem tudunk azonosítani, de arra kérünk, hogy ugyanazt használd a jövőbeli kérdőívek kitöltéséhez is.
   - key: faq.questions_required
-    t: Is answering every question required?
+    t: Minden kérdésre válaszolnom kell?
   - key: faq.questions_required.description
-    t: No, every question of the survey is optional and can freely be skipped.
+    t: Nem, minden egyes kérdés opcionális, és szabadon átugorhatsz rajtuk.
   - key: faq.data_published
-    t: Will my data be made public?
+    t: Az adataim publikusak lesznek?
   - key: faq.data_published.description
-    t: Yes, all data will be released publicly, but only after being purged of any identifying information (emails, usernames, IDs, etc.).
+    t: Igen, minden adat szabadon elérhetővé válik, de csak miután kiszedtünk belőle mindent, amiből azonosítani lehetne bárkit is (email címek, felhasználónevek, azonosítók, stb.)
   - key: faq.survey_design
-    t: How are the surveys designed?
+    t: Hogyan alkottátok meg a kérdőívet?
   - key: faq.survey_design.description
-    t: Surveys are designed based on community feedback, as well as reviewed by experts. You can [learn more here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+    t: A kérdőíveket a közösség véleménye alakította, valamint szakértőket is bevontunk. [Itt](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb) többet megtudhatsz erről.
   - key: faq.results_released
-    t: When will the results be released?
+    t: Mikor lesznek elérhetők az eredmények?
   - key: faq.results_released.description
-    t: Results are generally released a few weeks after the survey closes.
+    t: Az eredmények általában egy pár héttel a kérdőív lezárása után lesznek elérhetőek.
   - key: faq.survey_deadline
-    t: When will the survey close?
+    t: Mikor lesz a kérdőív lezárva?
   - key: faq.survey_deadline.description
-    t: This survey is scheduled to run until {date}
+    t: A kérdőív {date}-ig marad nyitva.
   - key: faq.team
-    t: Who runs these surveys?
+    t: Ki csinálta ezt a kérdőívet?
   - key: faq.team.description
-    t: Surveys are primarily run by [me](http://sachagreif.com) in collaboration with contributors, translators, and volunteers.
+    t: Többnyire [általam](http://sachagreif.com) készült, de sokan mások is hozzájárultak, például fordítók és önkéntjelentkezők.
 
   ###########################################################################
   # Form Controls
@@ -55,18 +55,18 @@ translations:
   - key: bracket.vs
     t: VS
   - key: bracket.start_over
-    t: Start Over
+    t: Újrakezdés
   - key: bracket.winner
     t: >
-    Winner:
+    Nyertes:
   - key: bracket.round
-    t: Round
+    t: Kör
   - key: bracket.empty_bracket
-    t: Pending result (complete the previous round first)
+    t: Függőben lévő eredmény (először töltsd ki az előző kört)
   - key: bracket.result
-    t: Result
+    t: Eredmény
   - key: bracket.cancel
-    t: Cancel
+    t: Kilépés
 
   ###########################################################################
   # Demographics (About You/User Info)
