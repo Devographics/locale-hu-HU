@@ -794,7 +794,7 @@ translations:
   - key: table.satisfaction_rank
     t: Elégedettségi besorolás
   - key: table.interest_rank
-    t: Érdeklődéso besorolás
+    t: Érdeklődési besorolás
   - key: table.usage_rank
     t: Használati besorolás
   - key: table.awareness_rank
