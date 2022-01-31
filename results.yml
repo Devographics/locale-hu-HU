@@ -315,7 +315,7 @@ translations:
   - key: tools.github_link
     t: GitHub
   - key: tools.github_stars
-    t: csillagok
+    t: Csillagok
   - key: tools.homepage_link
     t: Főoldal
   - key: tools.npm_link
