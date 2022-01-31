@@ -579,7 +579,7 @@ translations:
   - key: options.race_ethnicity.south_east_asian
     t: Délkelet-ázsiai
   - key: options.race_ethnicity.hispanic_latin
-    t: Hispániai vagy latin
+    t: Spanyol vagy latin
   - key: options.race_ethnicity.east_asian
     t: Kelet-ázsiai
   - key: options.race_ethnicity.middle_eastern
@@ -604,13 +604,13 @@ translations:
   - key: options.race_ethnicity.south_east_asian.short
     t: DK-ázsiai
   - key: options.race_ethnicity.hispanic_latin.short
-    t: Hispániai vagy latin
+    t: Spanyol vagy latin
   - key: options.race_ethnicity.east_asian.short
     t: Kelet-ázsiai
   - key: options.race_ethnicity.middle_eastern.short
-    t: Középkeleti
+    t: Közel-keleti
   - key: options.race_ethnicity.black_african.short
-    t: Fekete/ázsiai származású
+    t: Fekete/afrikai származású
   - key: options.race_ethnicity.multiracial.short
     t: Többnemzetiségű
   - key: options.race_ethnicity.biracial.short
@@ -662,7 +662,7 @@ translations:
   - key: options.form_factors.smartphone
     t: Okostelefon
   - key: options.form_factors.feature_phone
-    t: Funkcionális telefon
+    t: Hagyományos mobiltelefon
   - key: options.form_factors.tablet
     t: Tablet
   - key: options.form_factors.smart_watch
@@ -722,13 +722,13 @@ translations:
   - key: options.industry_sector.cyber_security
     t: Kiberbiztonság
   - key: options.industry_sector.construction
-    t: Építkezés
+    t: Építőipar
   - key: options.industry_sector.automotive
     t: Autóipar
   - key: options.industry_sector.agriculture
     t: Mezőgazdaság
   - key: options.industry_sector.transport
-    t: Szállítás
+    t: Szállítmányozás
   - key: options.industry_sector.manufacturing
     t: Gyártás
 
@@ -738,7 +738,7 @@ translations:
   - key: options.tool_evaluation.learning_curve_documentation.description
     t: Könnyü megtanulni és/vagy jól dokumentált?
   - key: options.tool_evaluation.momentum_popularity
-    t: Hűhó & lendület
+    t: Felhajtás & lendület
   - key: options.tool_evaluation.momentum_popularity.description
     t: Nagy a hűhó épp körülötte?
   - key: options.tool_evaluation.user_base_size
