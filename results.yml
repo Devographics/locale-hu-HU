@@ -191,7 +191,7 @@ translations:
   - key: user_info.locale.note
     t: >
       Nyelvi adatok gyűjtése automatikusan történik a válaszadók nyelvi beállításai alapján; 
-      Azon nyelvek melyeket kevesebb mint 20 válaszadó használt nem látható.
+      Azon nyelvek, melyeket kevesebb, mint 20 válaszadó használt, nem láthatóak.
 
   - key: user_info.source
     t: Forrás
