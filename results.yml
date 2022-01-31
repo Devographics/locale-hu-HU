@@ -250,7 +250,7 @@ translations:
   - key: options.locale.fr-FR
     t: francia
   - key: options.locale.zh-Hant
-    t: tradicionális Kínai
+    t: tradicionális kínai
   - key: options.locale.de-DE
     t: német
   - key: options.locale.cs-CZ
