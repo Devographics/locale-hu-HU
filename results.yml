@@ -755,7 +755,7 @@ translations:
   - key: table.label
     t: Címke
   - key: table.item
-    t: Item
+    t: Elem
   - key: table.percentage_survey
     t: 'a felmérés válaszadóinak százaléka (%)'
   - key: table.percentage_question
