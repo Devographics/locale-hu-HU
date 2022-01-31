@@ -801,7 +801,7 @@ translations:
     t: Ismertségi besorolás
 
   - key: table.would_not_use_percentage
-    t: Nem hásználnám többet %
+    t: Nem használnám többet %
   - key: table.not_interested_percentage
     t: Nem érdekel %
   - key: table.would_use_percentage
