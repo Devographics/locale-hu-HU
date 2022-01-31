@@ -211,7 +211,7 @@ translations:
     t: Tapasztalat években, fizetések szerint rangsorolva.
 
   - key: user_info.yearly_salary_by_country
-    t: Fizetés ország szerionti bontásban
+    t: Fizetés ország szerinti bontásban
   - key: user_info.yearly_salary_by_country.description
     t: Éves fizetés ország szerinti bontásban (legalább 100 kitöltő adatai alapján), átlagos fizetések szerinti csökkenő sorrendben.
 
