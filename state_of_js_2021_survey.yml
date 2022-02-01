@@ -25,11 +25,11 @@ translations:
 
   - key: features.features_intro
     t: >
-      Welcome to the survey! This first part is all about figuring out 
-      which **features** of the JavaScript language you know about. 
-      And if you know about something but haven't yet used it, that's fine too!
+      Üdvözlünk a felmérésen! Ez az első rész arról szól, hogy mely 
+      JavaScript nyelvi **funkciók**ról van tudomásod.
+      És ha van olyan, amiről már hallottál, de még nem használtad, az is rendben van!
 
   - key: tools.tools_intro
     t: >
-      The next couple sections focus on the **libraries** and **frameworks** that make up 
-      the JavaScript ecosystem. Let us know what you're excited about!
+      A következő pár rész a JavaScript **könyvtárak**ról és a **keretrendszerek**ről szól.
+      Oszd meg velünk, hogy mi az, ami számodra izgalmas ezekből!
