@@ -1,4 +1,4 @@
-locale: en-US
+locale: hu-HU
 namespace: js
 translations:
   ###########################################################################
@@ -7,7 +7,7 @@ translations:
 
   - key: general.survey_intro_js2019
     t: >
-      A JavaScript világrá ráférne egy kis osztályozás.
+      A JavaScript világra ráférne egy kis osztályozás.
 
 
       2016 óta ezek a felmérések majd 20.000 fejlesztőtől gyűjtöttek össze adatokat, 
