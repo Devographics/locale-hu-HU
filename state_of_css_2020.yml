@@ -1,276 +1,272 @@
-locale: en-US
+locale: hu-HU
 translations:
-    ###########################################################################
-    # Introduction
-    ###########################################################################
+  ###########################################################################
+  # Introduction
+  ###########################################################################
 
-    - key: sections.introduction.description
-      t: |
+  - key: sections.introduction.description
+    t: |
 
-            <span class="first-letter">F</span>orget everything you know about CSS. Or at least, be ready to reconsider a lot of it. If like me you've been writing CSS for over a decade, CSS in 2020 looks nothing like what you were used to.
+      <span class="first-letter">F</span>elejts el mindent, amit eddig tudtál a CSS-ről. Vagy legalábbis légy nyitott, hogy megváltozzon a véleményed. Ha te is, mint én, már legalább egy évtized óta írsz CSS kódot, a 2020-ban ez már egészen másképp néz ki.
 
-            Instead of breakpoints, we can now leverage CSS Grid to make dynamic, responsive layouts that adapt to any viewport size with fewer lines of code. Instead of relying on global stylesheets, CSS-in-JS lets us colocate our styles with our components to build themeable design systems.
+      A breakpointok helyett most már a CSS rácsokat (grid) is használhatjuk a dinamikus, reszponzív elrendezésekhez, amik a képernyő méretéhez igazodnak, és sokkal kevesebb kódot kell írni hozzá. A CSS-in-JS a globális stílusok helyett a komponensekbe helyezi a stílusokat, hogy kialakíthassunk egy dizájnrendszert.
 
-            And most of all, Tailwind CSS has burst onto the scene and, through its use of utility-first CSS, forced us to reconsider the traditional dogma of semantic class names.
+      Azt is fontos megemlíteni, hogy a Taliwind CSS berobbant a színtérre és mivel ez a CSS-t hasznossági osztályokra bontja, arra késztet minket, hogy újragondoljuk a CSS hagyományos szemantikus osztályneveit.
 
-            Whether all this change makes you want to write a hyped-up blog post or an angry Twitter rant, we are here to present the data, highlight the trends, and hopefully guide you through another eventful year of CSS!
+      Akár arra késztetnek ezek a változások, hogy egy feltüzelt blogbejegyzést írj, vagy egy mérges Twittet posztolj, mi azért vagyuknk itt, hogy közzétegyük az adatokat, kiemeljük a trendeket, és remélhetőleg egy újabb mozgalmas CSS éven keresztül kalauzoljunk el!
 
-            ### Team
+      ### Team
 
-            The State of CSS Survey is created and maintained by:
+      A State of CSS felmérést ők készítették és tartják fenn:
 
-            - [Sacha Greif](https://twitter.com/sachagreif): Design, writing, coding
-            - [Raphaël Benitte](https://twitter.com/benitteraphael): Data analysis, data visualizations
+      - [Sacha Greif](https://twitter.com/sachagreif): Dizájn, írás, kódolás
+      - [Raphaël Benitte](https://twitter.com/benitteraphael): Adatelemzés, adatvizualizáció
 
-            ### Download Our Data
+      ### Download Our Data
 
-            You can [download the raw JSON data for this survey](https://www.kaggle.com/sachag/state-of-css). Let us know if you end up making your own data visualizations!
+      [Itt letöltheted a felmérés nyers JSON adatait](https://www.kaggle.com/sachag/state-of-css). Szólj nekünk is, ha végül saját vizualizációt készítettél!
 
-            ### Other Links
+      ### Other Links
 
-            - [State of CSS Homepage](https://stateofcss.com)
-            - [State of JS](https://stateofjs.com)
+      - [State of CSS weboldal](https://stateofcss.com)
+      - [State of JS](https://stateofjs.com)
 
-            ### Thanks
+      ### Thanks
 
-            Thanks to all the people who helped us design the survey, including [Chen Hui-Jing](http://chenhuijing.com/), [Philip Jägenstedt](https://blog.foolip.org/), [Adam Argyle](https://nerdy.dev/), [Ahmad Shadeed](https://www.ishadeed.com/), [Robert Flack](https://github.com/flackr), [Dominic Nguyen](https://www.chromatic.com/), [Fantasai](http://fantasai.inkedblade.net/), and [Kilian Valkhof](https://kilianvalkhof.com/).
+      Köszönjük mindenkinek, aki segített a felmérés készítésében, különösen nektek: [Chen Hui-Jing](http://chenhuijing.com/), [Philip Jägenstedt](https://blog.foolip.org/), [Adam Argyle](https://nerdy.dev/), [Ahmad Shadeed](https://www.ishadeed.com/), [Robert Flack](https://github.com/flackr), [Dominic Nguyen](https://www.chromatic.com/), [Fantasai](http://fantasai.inkedblade.net/), és [Kilian Valkhof](https://kilianvalkhof.com/).
 
-            Additional thanks to [Alexey Pyltsyn](https://github.com/lex111) for his help with translations.  
+      Külön köszönet [Alexey Pyltsyn](https://github.com/lex111)-nek a fordításban való segítségéért.
 
-            ### Credits & Stuff
+      ### Credits & Stuff
 
-            The site is set in IBM Plex Mono. Questions? Feedback? [Get in touch!](mailto:hello@stateofjs.com)
+      Az oldal IBM Plex Mono-ban készült. Van kérdésed vagy visszajelzésed? [Írj nekünk!](mailto:hello@stateofjs.com)
 
-            And now, let's see what CSS has been up to this year!
+      És most nézzük, hogy mit történt a CSS-sel ebben az évben!
 
-            <span class="conclusion__byline">– Sacha and Raphaël</span>
+      <span class="conclusion__byline">– Sacha and Raphaël</span>
 
-    ###########################################################################
-    # Tshirt
-    ###########################################################################
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
 
-    - key: sections.tshirt.title
-      t: T-shirt
+  - key: sections.tshirt.title
+    t: Póló
 
-    - key: sections.tshirt.description
-      t: |
-          ## Support the survey and look good in the process!
+  - key: sections.tshirt.description
+    t: |
+      ## Támogasd a felmérést és még nézz is ki jól közben!
 
-          A quick announcement before the survey results. Introducing our very own 🎈🎉👕 State of CSS T-shirt 👕🎉🎈!
+      Egy gyors bejelentés az eredmények előtt. Bemutatjuk az új saját 🎈🎉👕 State of CSS pólónkat 👕🎉🎈!
 
-          What makes this shirt truly special is that it's the only piece of clothing that also teaches you practical, real-world CSS techniques.
+      Ez a póló különleges, mivel ez az egyetlen olyan ruhadarab, ami megtanít néhány praktikus és való életben is használható CSS technikára!
 
-          So whether you're going to a conference, a job interview, or just work, this shirt will demonstrate your CSS mastery like no other garment can!
-    
-    - key: tshirt.about
-      t: About the T-shirt
+      Szóval akár konferenciára, állásinterjúra vagy csak munkába igyekszel, ez a póló úgy fogja demonstrálja a profi CSS tudásodat, mint semmilyen más öltözék!
 
-    - key: tshirt.description
-      t: |
-          The shirt features the State of CSS logo along with snippets of the actual CSS code used to create each shape. Who knows, you might learn a thing or two!
+  - key: tshirt.about
+    t: A pólóról
 
-          We use a high-quality, super-soft tri-blend shirt with a slim fit. 
-          This shirt sizes small, so if you prefer a looser fit we recommend ordering one size up from what you usually wear (I'm wearing an M in the photos).
+  - key: tshirt.description
+    t: |
+      A pólón a State of CSS logó látható, a logó CSS kódjával együtt. Ki tudja, talán még tanulsz is egy-két dolgot ebből!
 
-    - key: tshirt.getit
-      t: Get It
+      Egy kiváló minőségű, szuper puha, tri-blend és slim fit pólót használunk.
 
-    - key: tshirt.price
-      t: USD $24 + shipping
+      A mérétek inkább kisebbek, mint általában, úgyhogy ha kicsit tágasabb pólót szeretnél, akkor javasoljuk az eggyel nagyobb méretet a megszokottól (A képen egy M-es póló van épp rajtam)
 
-    ###########################################################################
-    # Sections Introductions
-    ###########################################################################
+  - key: tshirt.getit
+    t: Szerezd meg
 
-    - key: sections.user_info.description
-      t: |
-          This year's survey reached **11,492** people in **102** countries. For the first time this year,
-          we were able to translate the survey questions in multiple languages thanks to an awesome team of volunteers.
+  - key: tshirt.price
+    t: USD $24 + szállítási költségek
 
-    - key: sections.features.description
-      t: |
-          CSS has seen a surge of new features in recent years, so as you'd expect adoption is
-          lagging a bit behind as the community takes its time to absorb new properties.
+  ###########################################################################
+  # Sections Introductions
+  ###########################################################################
 
-    - key: sections.units_selectors.description
-      t: |
-          We're willing to bet you'll find a few things you didn't know about in this section!
+  - key: sections.user_info.description
+    t: |
+      Ebben az évben **11,492** embert kérdeztünk meg **102** országból. Ebben az évben először több nyelvre
+      is le tudtuk fordítani a felmérést, egy csapatnyi csodálatraméltó önkéntes jóvoltából.
 
-    - key: sections.technologies.description
-      t: |
-          The CSS ecosystem is going through a renewal of sorts, as older mainstays like Bootstrap 
-          now have to accomodate newer entrants like Tailwind CSS. To say nothing of the whole CSS-in-JS
-          movement which, while it has yet to cross over to the CSS mainstream, is nonetheless quite dynamic. 
+  - key: sections.features.description
+    t: |
+      A CSS sok új funkcióval gazdagodott az elmúlt években, szóval ahogy várható, a nyelv adoptálása
+      kissé késlekedik, amint a közösség elmerül az új dolgokban.
 
-    - key: sections.other_tools.description
-      t: |
-          No big surprises here, but it's worth highlighting the appearance of development-focused browsers
-          like Polypane and Sizzy, which go a step further than traditional devtools.
+  - key: sections.units_selectors.description
+    t: |
+      Lefogadjuk, hogy ebben a részben találsz majd új dolgokat, amikről még nem tudsz!
 
-    - key: sections.environments.description
-      t: |
-          One of CSS's core strengths is its ability to adapt to different environment, yet for a variety
-          of reasons media like print and email remain unexplored by a majority of CSS developers. Might they
-          turn out to be the next frontier of CSS…?
+  - key: sections.technologies.description
+    t: |
+      A CSS ökoszisztéma egy megújuláson megy keresztül, ahogy a régi motorosoknak, mint a Bootstrap-nek
+      alkalmazkodnia kell az új belépőkhöz, mint a Tailwind CSS-hez. Ne is említsük az egész CSS-in-JS
+      mozgalmat, ami bár még nem lépett be a köztudatba, de így is elég dinamikusan fejlődik.
 
-    - key: sections.resources.description
-      t: |
-          The “other answers” results in this section highlight the richness and diversity of the CSS community,
-          and feature many outstanding blogs and podcasts which we are looking forward to officially adding
-          to the survey next year!
+  - key: sections.other_tools.description
+    t: |
+      Itt nincsenek nagy meglepetések, de azt érdemes megemlíteni, hogy megjelent egy pár feljesztőközpontú
+      böngésző, mint a Polypan és a Sizzy, amik egy kicsivel többet nyújtanak, mint a tradíciónális fejlesztői eszközök.
 
-    - key: sections.opinions.description
-      t: |
-          These opinions paint a picture of a language getting more mature, but also more complex. And perhaps
-          –at least while we struggle to keep up with the pace of change– a little less enjoyable?
-
-          
-    ###########################################################################
-    # Notes
-    ###########################################################################
-
-    - key: blocks.gender.note
-      t: |
-          If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
-
-    - key: blocks.currently_missing_from_css.note
-      t: |
-          You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
-
-    - key: blocks.source.note
-      t: >
-      
-        This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
-
-        - State of JS: the [State of JS](https://stateofjs.com) mailing list.
-
-        - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
-
-        - Work: matches `work`, `colleagues`, `coworkers`, etc.
-
-    ###########################################################################
-    # Awards
-    ###########################################################################
-
-    - key: award.feature_adoption_delta_award.comment
-      t: With a **{value}** progression in 2020, this was the year CSS Grid crossed over from new technology to established tool.
-
-    - key: award.tool_usage_delta_award.comment
-      t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
-
-    - key: award.tool_satisfaction_award.comment
-      t: PostCSS's **{value}** satisfaction ratio shows that you can't beat doing one thing really, really well.
-
-    - key: award.tool_interest_award.comment
-      t: With a **{value}** ratio, CSS Modules have generated the most interest among CSS developers this year.
-
-    - key: award.most_write_ins_award.comment
-      t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
-
-      
-    ###########################################################################
-    # Conclusion
-    ###########################################################################
-
-    - key: sections.conclusion.description
-      t: |
-            If a JavaScript developer writes a line of CSS code, are they now a CSS developer?
-            
-            This programming *kōan* illustrates a clear trend in the web development world: as more and more CSS developers are tasked with learning JavaScript, so are JavaScript developers starting to realize there might be more to this whole CSS thing than just `font-weight: bold;`. 
-
-            So asking about “the State of CSS” is inherently a tricky proposition: depending on who you ask you might get completely different answers! And how do you know which one's right?
-
-            Here's another kōan for you: the right answer is that there *is* no right answer. Each of the many tools, methodologies, frameworks, and libraries featured here has its place in the vast front-end ecosystem. 
-
-            Building a complex React app? Styled Components is a great option. Designing a static landing page? You can't go wrong with Sass! And even though Bootstrap has lost some of its original hype factor, you can't beat it when it comes to sheer number of themes and plugins.
-
-            So while we keep an eye on the shiny new toys popping up on GitHub every week, let's not forget the tools, techniques, and most of all people who have carried the CSS torch up to now. We'll need everybody if we're to keep CSS moving forward into 2021 and beyond!
-
-    ###########################################################################
-    # Picks
-    ###########################################################################
-
-    - key: picks.my_2020_pick
-      t: 'My 2020 Pick: '
-    - key: picks.intro
-      t: We asked members of the CSS community to share their “pick of the year”
-
-    - key: picks.shadeed9.bio
-      t: Author of debuggingcss.com
-    - key: picks.shadeed9.description
-      t: |
-            Container queries are a long-time awaited feature for us, 
-            and I’m thrilled that the Chrome team is working on support for it natively!
-
-
-    - key: picks.argyleink.bio
-      t: CSS at Google
-    - key: picks.argyleink.description
-      t: |
-            The humble CSS box is more dynamic every year, and for me 2020 was about logical sides, instead of physical sides. Free internationally contextual content flow, spacing and shorthands? pls & ty 
-
-
-    - key: picks.sachagreif.bio
-      t: Creator of this survey
-    - key: picks.sachagreif.description
-      t: |
-            With this blog post, Amelia Wattenberger didn't just go the extra mile, she ran a whole marathon! The animations and quiz will ensure you finally understand the CSS cascade. 
-    
-    - key: picks.christianoliff.bio
-      t: Front-end developer for Trimble MAPS
-    - key: picks.christianoliff.description
-      t: |
-          One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
-    
-    - key: picks.kilianvalkhof.bio
-      t: Web developer and creator of Polypane
-    - key: picks.kilianvalkhof.description
-      t: |
-          `content-visibility` is making a huge difference in the performance of my web apps already, but at the same time I think it should be the job of browsers to optimize this, not devs.
-
-    - key: picks.walterstephanie.bio
-      t: User Centered Designer & CSS Lover
-    - key: picks.walterstephanie.description
-      t: |
-          A series of YouTube videos that explain all the new cool CSS features to build modern designs.
-
-    - key: picks.piccalilli_.bio
-      t: Freelance designer & dev who runs piccalil.li
-    - key: picks.piccalilli_.description
-      t: |
-          This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
-
-    - key: picks.sarasoueidan.bio
-      t: Independent UI/design engineer
-    - key: picks.sarasoueidan.description
-      t: |
-          My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
-
-    - key: picks.5t3ph.bio
-      t: Software Engineer @ Microsoft
-    - key: picks.5t3ph.description
-      t: |
-          In this conference talk, Manuel Matuzovic provides thoughtfully 
-          crafted examples that are engaging, approachable, and actionable.
-
-    - key: picks.hugogiraudel.bio
-      t: Non-binary accessibility & diversity advocate
-    - key: picks.hugogiraudel.description
-      t: |
-          Fela is an amazing piece of software. 
-          It’s pretty powerful, relatively easy to use and very performant
-
-    - key: picks.foolip.bio
-      t: Software Engineer @ Google
-    - key: picks.foolip.description
-      t: |
-          Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium, 
-          notably bringing flex gap to WebKit, 
-          which means that soon it will be available on all modern browsers. 
-    
-    - key: picks.jina.bio
-      t: Design systems advocate and practitioner
-    - key: picks.jina.description
-      t: |
-          The media query to reduce motion, which helps avoid 
-          triggering dizziness and discomfort.
+  - key: sections.environments.description
+    t: |
+      A CSS egyik fő erőssége az a képesség, hogy különböző környezetekhez adaptálható, de mégis különböző
+      okok miatt a nyomtatási vagy az email nézet egy feltáratlan terület a legtöbb CSS fejlesztő számára.
+      Ezek lehetnek a CSS következő határvonalai...?
+
+  - key: sections.resources.description
+    t: |
+      Az "Egyéb válaszok" eredményei ebben a részben jól mutatják a CSS közösség diverzitását és gazdagságát,
+      és egy csomó blogot és podkasztot kiemel, amiket majd szeretnénk hozzáadni a felméréshez a következő évben.
+
+  - key: sections.opinions.description
+    t: |
+      Ezek a vélemények egy érettebb, de komplexebb nyelvről tanúskodnak. És talán -legalábbis míg a beleszokunk a változás ritmusába-
+      egy kicsit kevésbé élvezetes is?
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      Ha többet szeretnél megtudni, írtunk egy [blogposztot](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj), ami a felmérés nemi dinamizmusáról szól.
+
+  - key: blocks.currently_missing_from_css.note
+    t: |
+      A kérdésre adott válaszok teljes adathalmazát ebben a [mellékprojektben](https://whatsmissingfromcss.com/) találhatod meg.
+
+  - key: blocks.source.note
+    t: >
+
+      Ez a gráf a referrerek, URL paraméterek és szabad formájú válaszok keverékét összesíti.
+
+      - State of JS: a [State of JS](https://stateofjs.com) levelezési lista.
+
+      - State of CSS: a State of CSS levelezési lista; az `email`, `by email`, stb. szavak is benne vannak.
+
+      - Work: A `work`, `colleagues`, `coworkers`, stb. szavakat tartalmazza.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: A CSS rácsok 2020-ban **{value}**-os növekedéssel az új technológiából egy érett technológiává vált.
+
+  - key: award.tool_usage_delta_award.comment
+    t: Semelyik másik eszköz nem tudta megközelíteni a Tailwind CSS drámai **{value}**-os növekedését az elmúlt évben.
+
+  - key: award.tool_satisfaction_award.comment
+    t: A PostCSS **{value}**-os megelégedettségi rátája azt mutatja, hogy az a leghatékonyabb, ha valami csak egy dolgot csinál, de azt nagyon-nagyon jól.
+
+  - key: award.tool_interest_award.comment
+    t: A CSS modulok **{value}**-os aránnyal generálták a legnagyobb érdeklődést idén a fejlesztők között.
+
+  - key: award.most_write_ins_award.comment
+    t: A legtöbb kérdésre szabad formátumú választ is lehetett adni, ezek közül **{value}** említi meg a PhpStorm-ot, ami így a legnépszerűbb lett.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: sections.conclusion.description
+    t: |
+      Ha egy JavaScript programozó ír egy sor CSS kódot, akkor most ő is egy CSS feljlesztő lett?
+
+      Ez a programozási *paradoxon* jól illusztrálja az új trendet a webfejlesztésben: ahogy egyre több CSS fejleszőnek kell megtanulnia a JavaScriptet, úgy a JavaScript fejlesztők is elkezdtek rájönni, hogy lehet, hogy több van a CSS-ben mint egy szimpla `font-weight: bold;`.
+
+      Szóval a "State of CSS" felmérés is természeténél fogva egy trükkös ügy: attól függően, hogy kit kérdezel, teljesen más válaszokat kaphatsz! Na de honnan tudjuk, hogy melyik a helyes?
+
+      Itt egy másik paradoxon: a helyes válasz az, hogy *nincs* helyes válasz. Az összes eszköznek, metodológiának, keretrendszernek és könyvtárnak, amikről itt szó esik, megvan a saját helye a front-end ökoszisztémában.
+
+      Egy komplex React applikációt fejlesztesz? A Stílusos Komponensek egy remek opció. Egy statikus kezdőoldalt csinálsz? A Sass-sal nem tévedhetsz! És bár a Bootstrap már elvesztette régi vonzerejének egy részét, nem lehet legyőzni a témák és pluginok hatalmas mennyiségében.
+
+      Habár mi szemmel tartjuk az fényes új játékszereket, amik a GitHubon jelennek meg minden héten, azért ne felejtsük el a meglévő eszközöket, technikákat, és lefőképpen az embereket, akik idáig a hátunkon vitték a CSS-t. Mindenkire szükségünk van, ha a CSS-t tovább szeretnénk görgetni 2021-be és még tovább!
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_2020_pick
+    t: 'A 2020-as kedvencem: '
+  - key: picks.intro
+    t: Megkérdeztük a CSS közösség tagjait az "idei kedvenceikről"
+
+  - key: picks.shadeed9.bio
+    t: A debuggingcss.com készítője
+  - key: picks.shadeed9.description
+    t: |
+      A konténerlekérdezések egy régen várt funkció, 
+      és örömmel jelenthetem, hogy a Chrome csapata azon dolgozik, hogy natívan támogassa!
+
+  - key: picks.argyleink.bio
+    t: CSS a Google-nál
+  - key: picks.argyleink.description
+    t: |
+      A szerény CSS doboz minden évben egyre dinamikusabb, és a 2020 nekem a logikai oldalról szólt a fizikai helyett oldal helyett. Szabad nemzetközi kontextusos tartalomáramlás, sortávoltág és rövidítések? Légyszi & kössz
+
+  - key: picks.sachagreif.bio
+    t: A felmérés készítője
+  - key: picks.sachagreif.description
+    t: |
+      Amelia Wattenberger nem csak egy plusz lépést tett ezzel a blogposztjával, hanem egy egész maratont futott! Az animációk és a kvíz majd biztosítan fognak, hogy megértsd a CSS cascade-ot.
+
+  - key: picks.christianoliff.bio
+    t: Front-end fejlesztő a Trimble MAPS-nél
+  - key: picks.christianoliff.description
+    t: |
+      A Purge CSS az a dolog amit tényleg elkezdtem használni és értékelni idén - egy csodás eszköz a hallott CSS kód kigyomláláshoz. Nagyban lecsökkenti a CSS kódod méretét, és gyors és könnyű használni is.
+
+  - key: picks.kilianvalkhof.bio
+    t: Webfejlesztő és a Polypane alkotója
+  - key: picks.kilianvalkhof.description
+    t: |
+      A `content-visibility` sokat segített a webapplikációim sebességén, de úgy gondolom, hogy az optimalizálás a böngészők dolga kellene, hogy legyen, nem a fejlesztőké.
+
+  - key: picks.walterstephanie.bio
+    t: Felhasználó-központú tervező & a CSS szerelmese
+  - key: picks.walterstephanie.description
+    t: |
+      Ez egy YouTube videosorozat, ami a CSS új funkcióit mutatja be modern dizánjnokon keresztül.
+
+  - key: picks.piccalilli_.bio
+    t: Szabadúszó tervező & kóder aki a piccalil.li-t futtatja
+  - key: picks.piccalilli_.description
+    t: |
+      Ez a blog a CSS tudásbázis abszolút aranybányája. Michelle egy CSS legende és minden poszt és leírás amit ír tele van hasznos tartalommal.
+
+  - key: picks.sarasoueidan.bio
+    t: Független UI/tervezőmérnök
+  - key: picks.sarasoueidan.description
+    t: |
+      Az én kedvencem egy ember, Rachel Andrew. Ő egy egész generációnak tanította meg a CSS rácsok használatát.
+
+  - key: picks.5t3ph.bio
+    t: Fejlesztőmérnök a Microsoft-nál
+  - key: picks.5t3ph.description
+    t: |
+      Manuel Matuzovic ebben a konferencia-előadásban olyan ügyesen kigondolt példákat hoz fel, amik
+      lebilincselőek, mindenki számára hozzáférhetőek és gyakorlatiasak.
+
+  - key: picks.hugogiraudel.bio
+    t: Nembináris akadálymentesítés & a diverzitás szószólója
+  - key: picks.hugogiraudel.description
+    t: |
+      A Fela egy csodás szoftver.
+      Nagyon erőteljes, viszonylag könnyű használni és nagyon gyors
+
+  - key: picks.foolip.bio
+    t: Fejlesztőmérnök a Google-nél
+  - key: picks.foolip.description
+    t: |
+      Sergio nemrég javított meg egy csomó Flexboxot a WebKitben, és még a Chromiumban is, 
+      a legjelentősebb a flex gap behozása a WebKitbe, ami azt jelenit, hogy ez nemsokára elérhető lesz a 
+      modern böngészőkben is.
+
+  - key: picks.jina.bio
+    t: A tervezőrendszerek szószólója és gyakorlója
+  - key: picks.jina.description
+    t: |
+      Médialekérdezés a mozgás lelassítására, ami segít elkerülni a
+      rosszullétetet és a szorongást.

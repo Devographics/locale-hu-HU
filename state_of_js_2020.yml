@@ -31,7 +31,7 @@ translations:
 
       ### Download Our Data
 
-      [Itt letöltheted a felmérés nyers JSON adatait](https://www.kaggle.com/sachag/state-of-js).  Szólj nekünk is, ha végül saját vizualizációt készítettél!
+      [Itt letöltheted a felmérés nyers JSON adatait](https://www.kaggle.com/sachag/state-of-js). Szólj nekünk is, ha végül saját vizualizációt készítettél!
 
       ### State of CSS
 
@@ -47,7 +47,7 @@ translations:
 
       A State of JavaScript felmérést én [Sacha Greif](https://twitter.com/sachagreif) és [Raphaël Benitte](https://twitter.com/benitteraphael) készítettük és tartjuk fenn.
 
-      Nézd meg [ezt az összefoglaló videót](https://www.youtube.com/watch?v=o4w1qEnZxbM), hogy többet megtudj a projekt technikai oldaláról valamint az adagyűjtésről és a vizualizációról. Van kérdésed? Van visszajelzésed? [Írj nekünk emailt](mailto:hello@stateofjs.com) vagy [csatlakozz a Discord csatornákhoz](https://discord.gg/zRDb35jfrt).
+      Nézd meg [ezt az összefoglaló videót](https://www.youtube.com/watch?v=o4w1qEnZxbM), hogy többet megtudj a projekt technikai oldaláról valamint az adagyűjtésről és a vizualizációról. Van kérdésed vagy visszajelzésed? [Írj nekünk emailt](mailto:hello@stateofjs.com) vagy [csatlakozz a Discord csatornákhoz](https://discord.gg/zRDb35jfrt).
 
       És most nézzük, hogy mit történt a JavaScripttel ebben az évben!
 
@@ -102,7 +102,7 @@ translations:
 
   - key: sections.technologies.description
     t: |
-      Általában egy új JavaScript könyvtár magas megelégedettséget de alacsony használatot mutat, ami néha
+      Egy új JavaScript könyvtár általában magas megelégedettséget de alacsony használatot mutat, ami néha
       megnehezít a helyes technológiák kiválasztását. Például ez az egyik szempont, amiben a felmérés adatainak
       elemzése segíthet jó irányba terelődni.
 
