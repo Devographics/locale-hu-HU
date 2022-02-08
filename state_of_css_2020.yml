@@ -201,7 +201,7 @@ translations:
       és örömmel jelenthetem, hogy a Chrome csapata azon dolgozik, hogy natívan támogassa!
 
   - key: picks.argyleink.bio
-    t: CSS a Google-nál
+    t: CSS a Google-nél
   - key: picks.argyleink.description
     t: |
       A szerény CSS doboz minden évben egyre dinamikusabb, és a 2020 nekem a logikai oldalról szólt a fizikai helyett oldal helyett. Szabad nemzetközi kontextusos tartalomáramlás, sortávoltág és rövidítések? Légyszi & kössz
@@ -210,7 +210,7 @@ translations:
     t: A felmérés készítője
   - key: picks.sachagreif.description
     t: |
-      Amelia Wattenberger nem csak egy plusz lépést tett ezzel a blogposztjával, hanem egy egész maratont futott! Az animációk és a kvíz majd biztosítan fognak, hogy megértsd a CSS cascade-ot.
+      Amelia Wattenberger nem csak egy plusz lépést tett ezzel a blogposztjával, hanem egy egész maratont futott! Az animációk és a kvíz biztosítanak arról, hogy megértsd a CSS öröklődést.
 
   - key: picks.christianoliff.bio
     t: Front-end fejlesztő a Trimble MAPS-nél
@@ -234,13 +234,13 @@ translations:
     t: Szabadúszó tervező & kóder aki a piccalil.li-t futtatja
   - key: picks.piccalilli_.description
     t: |
-      Ez a blog a CSS tudásbázis abszolút aranybányája. Michelle egy CSS legende és minden poszt és leírás amit ír tele van hasznos tartalommal.
+      Ez a blog a CSS tudásbázis abszolút aranybányája. Michelle egy élő legenda CSS körökben. Minden poszt és leírás amit ír tele van hasznos tartalommal.
 
   - key: picks.sarasoueidan.bio
     t: Független UI/tervezőmérnök
   - key: picks.sarasoueidan.description
     t: |
-      Az én kedvencem egy ember, Rachel Andrew. Ő egy egész generációnak tanította meg a CSS rácsok használatát.
+      Az én kedvencem egy személy, Rachel Andrew. Ő egy egész generációnak tanította meg a CSS Grid használatát.
 
   - key: picks.5t3ph.bio
     t: Fejlesztőmérnök a Microsoft-nál
