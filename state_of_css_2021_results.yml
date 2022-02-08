@@ -170,7 +170,7 @@ translations:
   - key: picks.my_pick
     t: 'A 2021-es kedvencem: '
   - key: picks.intro
-    t: Megkérdeztük a CSS közösség tagjait az "idei kedvencükről"
+    t: Megkérdeztük a CSS közösség tagjait az "idei kedvenceikről"
 
   - key: picks.georgedoescode.name
     t: A CSS rajzoló API
