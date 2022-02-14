@@ -94,30 +94,29 @@ translations:
       lépéssel tovább megyünk és magát a CSS közösség tagjait fogjuk kiemelni.
   - key: sections.opinions.description
     t: |
-        Whether it's pain points that hold you back today, or missing features that you hope to use
-        tomorrow, this was your chance to vent and share your gripes with CSS!
-          
-    ###########################################################################
-    # Charts
-    ###########################################################################
+      Whether it's pain points that hold you back today, or missing features that you hope to use
+      tomorrow, this was your chance to vent and share your gripes with CSS!
 
-    - key: options.features_categories.layout
-      aliasFor: sections.layout.title
-    - key: options.features_categories.shapes_graphics
-      aliasFor: sections.shapes_graphics.title
-    - key: options.features_categories.interactions
-      aliasFor: sections.interactions.title
-    - key: options.features_categories.typography
-      aliasFor: sections.typography.title
-    - key: options.features_categories.animations_transforms
-      aliasFor: sections.animations_transforms.title
-    - key: options.features_categories.accessibility
-      aliasFor: sections.accessibility.title
-    - key: options.features_categories.media_queries
-      aliasFor: sections.media_queries.title
-    - key: options.features_categories.other_features
-      aliasFor: sections.other_features.title
+  ###########################################################################
+  # Charts
+  ###########################################################################
 
+  - key: options.features_categories.layout
+    aliasFor: sections.layout.title
+  - key: options.features_categories.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: options.features_categories.interactions
+    aliasFor: sections.interactions.title
+  - key: options.features_categories.typography
+    aliasFor: sections.typography.title
+  - key: options.features_categories.animations_transforms
+    aliasFor: sections.animations_transforms.title
+  - key: options.features_categories.accessibility
+    aliasFor: sections.accessibility.title
+  - key: options.features_categories.media_queries
+    aliasFor: sections.media_queries.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
 
     ###########################################################################
     # Notes
