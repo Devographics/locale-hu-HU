@@ -252,6 +252,42 @@ translations:
   - key: features.dynamic_import.description
     t: >
       Példa: <code>await import('/modules/my-module.js')</code>
+  - key: features.promise_all_settled
+    t: Promise.allSettled()
+  - key: features.big_int
+    t: BigInt
+  - key: features.numeric_separators
+    t: Numeric Separators
+  - key: features.string_replace_all
+    t: String.prototype.replaceAll()
+  - key: features.string_match_all
+    t: String.prototype.matchAll()
+  - key: features.logical_assignment
+    t: Logical Assignment
+  - key: features.promise_any
+    t: Promise.any()
+  - key: features.array_at
+    t: Array.prototype.at()
+  - key: features.top_level_await
+    t: Top-Level Await
+  - key: features.intl
+    t: Intl
+  - key: features.custom_elements
+    t: Custom Elements
+  - key: features.shadow_dom
+    t: Shadow DOM
+  - key: features.page_visibility
+    t: Page Visibility API
+  - key: features.broadcast_channel
+    t: Broadcast Channel API
+  - key: features.geolocation
+    t: Geolocation API
+  - key: features.file_system_access
+    t: File System Access API
+  - key: features.web_share
+    t: Web Share API
+  - key: features.webxr
+    t: WebXR
 
   # data structures
   - key: features.maps
@@ -382,6 +418,19 @@ translations:
   - key: opinions_others.missing_from_js.others.description
     t: Funkciók, amiket egyszer majd látni szeretnél a JavaScript-ben
 
+  - key: happiness.front_end_frameworks
+    t: How happy are you with the state of front end frameworks?
+  - key: happiness.back_end_frameworks
+    t: How happy are you with the state of back end frameworks?
+  - key: happiness.testing
+    t: How happy are you with the state of testing tools?
+  - key: happiness.mobile_desktop
+    t: How happy are you with the state of mobile & desktop frameworks?
+  - key: happiness.build_tools
+    t: How happy are you with the state of build tools?
+  - key: happiness.monorepo_tools
+    t: How happy are you with the state of monorepo tools?
+
   - key: happiness.state_of_the_web
     t: Mennyire vagy megelégedve a jelenlegi webes technológiákkal?
 
@@ -404,6 +453,27 @@ translations:
     t: Minden egyes JavaScript funkció-párnál azt válaszd ki, amelyiket a leginkább szeretnéd látni a JavaScriptben ma.
   - key: opinions_others.currently_missing_from_js.others
     t: Egyéb hiányzó funkciók
+
+  # pain points/currently missing (results)
+  - key: js_pain_points.js_pain_points_wins
+    t: JavaScript Pain Points
+  - key: js_pain_points.js_pain_points_wins.description
+    t: Which aspect of JavaScript do you struggle with the most? Results are ranked by number of tournament rounds won.
+
+  - key: js_pain_points.js_pain_points_matchups
+    t: JavaScript Pain Points (Matchups)
+  - key: js_pain_points.js_pain_points_matchups.description
+    t: Which aspect of JavaScript do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
+
+  - key: currently_missing_from_js.currently_missing_from_js_wins
+    t: Features Missing From JavaScript
+  - key: currently_missing_from_js.currently_missing_from_js_wins.description
+    t: Which feature would you most like to be able to use in JavaScript today? Results are ranked by number of tournament rounds won.
+
+  - key: currently_missing_from_js.currently_missing_from_js_matchups
+    t: Features Missing From JavaScript (Matchups)
+  - key: currently_missing_from_js.currently_missing_from_js_matchups.description
+    t: Which feature would you most like to be able to use in JavaScript today? Percentage of rounds won by left-hand item against top-side item.
 
   ###########################################################################
   # Resources

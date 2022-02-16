@@ -113,6 +113,27 @@ translations:
     t: |
       ÁTVIZSGÁLANDÓ: Nagy felhasználóbázis, alacsony elégedettség. Ezen technólógiát használók számára javasolt, hogy felmérjék a hasznosságukat.
 
+  - key: options.quadrant.1
+    t: 1
+  - key: options.quadrant.1.long
+    t: |
+      1: Low usage, high satisfaction. Technologies worth keeping an eye on.
+  - key: options.quadrant.2
+    t: 2
+  - key: options.quadrant.2.long
+    t: |
+      2: High usage, high satisfaction. Safe technologies to adopt.
+  - key: options.quadrant.3
+    t: 3
+  - key: options.quadrant.3.long
+    t: |
+      3: Low usage, low satisfaction. Technologies that are harder to recommend.
+  - key: options.quadrant.4
+    t: 4
+  - key: options.quadrant.4.long
+    t: |
+      4: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+
   - key: ranges.selector.years_of_experience
     t: Tapasztalat
   - key: ranges.selector.yearly_salary
@@ -143,6 +164,14 @@ translations:
     t: Epilepszia
   - key: options.disability_status_others.aspergers
     t: Asperger szindróma
+  - key: options.disability_status_others.color_blindness
+    t: Color Blindness
+  - key: options.disability_status_others.anxiety
+    t: Anxiety
+  - key: options.disability_status_others.dyslexia
+    t: Dyslexia
+  - key: options.disability_status_others.diabetes
+    t: Diabetes
 
   ###########################################################################
   # Sections
@@ -159,6 +188,9 @@ translations:
 
   - key: sections.technologies.title
     t: Technológiák
+
+  - key: sections.libraries.title
+    t: Libraries
 
   - key: sections.conclusion.title
     t: Konklúziók
@@ -420,6 +452,18 @@ translations:
 
       Bar thickness represents the number of respondents aware of a technology.
 
+  # tool tier list
+  - key: blocks.tools_tier_list
+    t: Library Tier List
+  - key: blocks.tools_tier_list.description
+    t: |
+      This chart ranks libraries based on their satisfaction ratio (percentage of users
+      who would use a library again). Note that libraries used by less than 10% of survey 
+      respondents are not included.
+  - key: blocks.tools_tier_list.bounds
+    t: >
+      {lowerBound}% - {upperBound}%
+
   # tools section streams
   - key: blocks.tools_section_streams
     t: Experience Over Time
@@ -560,26 +604,6 @@ translations:
   - key: tool_evaluation.tool_evaluation_matchups.description
     t: Which factors do you prioritize when evaluating a new library? Percentage of rounds won by left-hand item against top-side item.
 
-  - key: css_pain_points.css_pain_points_wins
-    t: CSS Pain Points
-  - key: css_pain_points.css_pain_points_wins.description
-    t: Which aspect of CSS do you struggle with the most? Results are ranked by number of tournament rounds won.
-
-  - key: css_pain_points.css_pain_points_matchups
-    t: CSS Pain Points (Matchups)
-  - key: css_pain_points.css_pain_points_matchups.description
-    t: Which aspect of CSS do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
-
-  - key: currently_missing_from_css.currently_missing_from_css_wins
-    t: Features Missing From CSS
-  - key: currently_missing_from_css.currently_missing_from_css_wins.description
-    t: Which feature would you most like to be able to use in CSS today? Results are ranked by number of tournament rounds won.
-
-  - key: currently_missing_from_css.currently_missing_from_css_matchups
-    t: Features Missing From CSS (Matchups)
-  - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-    t: Which feature would you most like to be able to use in CSS today? Percentage of rounds won by left-hand item against top-side item.
-
   ###########################################################################
   # Charts
   ###########################################################################
@@ -680,25 +704,11 @@ translations:
     t: High usage
   - key: charts.tools_arrows.popularity_positive
     t: Rising popularity
-  - key: charts.tools_arrows.negative
+  - key: charts.tools_arrows.popularity_negative
     t: Falling popularity
 
-  - key: options.features_categories.layout
-    aliasFor: sections.layout.title
-  - key: options.features_categories.shapes_graphics
-    aliasFor: sections.shapes_graphics.title
-  - key: options.features_categories.interactions
-    aliasFor: sections.interactions.title
-  - key: options.features_categories.typography
-    aliasFor: sections.typography.title
-  - key: options.features_categories.animations_transforms
-    aliasFor: sections.animations_transforms.title
-  - key: options.features_categories.accessibility
-    aliasFor: sections.accessibility.title
-  - key: options.features_categories.media_queries
-    aliasFor: sections.media_queries.title
-  - key: options.features_categories.other_features
-    aliasFor: sections.other_features.title
+  - key: charts.no_answer
+    t: No Answer
 
   ###########################################################################
   # Sharing
@@ -920,3 +930,94 @@ translations:
     t: >
       <span class="hint-bracket"><span class="hint-text">The following chart provides the results of a tournament-style 8-player bracket in which
       respondents were tasked with picking the winner of each match-up until a single winner remained.</span><span class="hint-diagram"/></span>
+
+  ###########################################################################
+  # Sponsor Chart
+  ###########################################################################
+
+  - key: sections.sponsor_finish.title
+    t: Thanks
+
+  - key: sponsor.sponsor_finish
+    t: >
+      Thanks for supporting the survey. Your avatar should appear next to the chart you picked
+      within the next hour or so. If it doesn't, please [get in touch](mailto:chartsponsor@stateofjs.com).
+
+  - key: sponsor.sponsored_by
+    t: >
+      **{name}** donated **${amount}** to sponsor this chart
+
+  - key: sponsor.sponsor_button
+    t: Sponsor This Chart
+
+  - key: sponsor.sponsor_chart.title
+    t: Sponsor Chart "{title}"
+
+  - key: sponsor.sponsor_chart.description
+    t: >
+      Support this survey financially by donating $10 or more, and get your
+      Twitter avatar featured next to a chart!
+
+  - key: sponsor.chart_id
+    t: 'Chart ID: '
+
+  - key: sponsor.sponsor_this_chart
+    t: Sponsor This Chart (${baseAmount}+)
+
+  - key: sponsor.how_it_works.title
+    t: How It Works
+
+  - key: sponsor.how_it_works.description
+    t: >
+      1. When you **click the "Sponsor This Chart" button**, you will be redirected to our partner [SendOwl](https://www.sendowl.com/)'s checkout page. 
+
+
+      2. You can then **adjust the amount** you'd like to sponsor the survey for, starting at USD10.  
+
+
+      3. Once you checkout, you will be able to **provide your Twitter username**. 
+
+
+      4. You will see a **File Download** page, but you can safely ignore it. 
+
+
+      5. The site will rebuild in the background and your username and donation will **appear next to the chart within the next hour**.
+
+  - key: sponsor.faq.title
+    t: F.A.Q.
+
+  - key: sponsor.faq.usage.title
+    t: What will my donation be used for?
+
+  - key: sponsor.faq.usage.description
+    t: Your donation will help cover [my](https://sachagreif.com/) living expenses, as well as hire more contributors (illustrators, accessibilty and diversity experts, etc.).
+
+  - key: sponsor.faq.public.title
+    t: Will my donation be public?
+
+  - key: sponsor.faq.public.description
+    t: Yes. Your **Twitter username** as well as the **amount you donated** will be displayed publicly next to the chart.
+
+  # - key: sponsor.faq.donation_public.title
+  #   t: Can I donate on somebody else's behalf?
+
+  # - key: sponsor.faq.donation_public.description
+  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
+
+  - key: sponsor.faq.refund.title
+    t: What's your refund policy?
+
+  - key: sponsor.faq.refund.description
+    t: All donations are refundable within a 1-week period, minus transaction fees.
+
+  - key: sponsor.faq.influence.title
+    t: Do donations influence the survey contents?
+
+  - key: sponsor.faq.influence.description
+    t: Donations take place once the survey is already published, and donors to not have any influence on the contents of the survey.
+
+  - key: sponsor.faq.feedback.title
+    t: Where can I leave feedback/ask questions?
+
+  - key: sponsor.faq.feedback.description
+    t: You can do so [on GitHub](https://github.com/StateOfJS/Monorepo/issues/69) or [in our Discord](https://discord.gg/tuWRUWVyJs).
