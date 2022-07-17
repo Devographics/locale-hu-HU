@@ -479,7 +479,7 @@ translations:
   # Resources
   ###########################################################################
 
-  - key: resources.first_steps
+  - key: resources.first_steps_js
     t: Első lépések a JavaScript-ben
-  - key: resources.first_steps.description
+  - key: resources.first_steps_js.description
     t: Hogyan kezdtél el JavaScriptet tanulni az elején?
