@@ -396,11 +396,11 @@ translations:
   # Sponsors
   ###########################################################################
 
-  - key: partners.frontendmasters.description
+  - key: sponsors.frontendmasters.description
     t: Fejleszd a tudásodat mélyremenő és modern front-end fejlesztői kuzusokkal.
-  - key: partners.polypane.description
+  - key: sponsors.polypane.description
     t: Böngésző az ambíciózus fejlesztők számára. Építs reszponzív, akadálymentes és gyors weboldalakat, könnyen.
-  - key: partners.google_chrome.description
+  - key: sponsors.google_chrome.description
     t: Köszönjük a Google Chrome csapatának, hogy támogatják a munkánkat.
 
   ###########################################################################

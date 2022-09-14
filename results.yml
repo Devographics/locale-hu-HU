@@ -21,10 +21,10 @@ translations:
   - key: general.completion_percentage
     t: 'Teljesítve (%):'
 
-  - key: partners.thanks
+  - key: sponsors.thanks
     t: Köszönet partnereink támogatásáért!
 
-  - key: partners.learn_more
+  - key: sponsors.learn_more
     t: Tudj meg többet.
 
   - key: tabs.all_respondents
