@@ -57,10 +57,10 @@ translations:
   - key: general.preview_survey
     t: Felmérés előnézete »
   - key: general.finish_survey
-    t: Felmérés befejezése »
+    t: Felmérés befejezése
   - key: general.next_section
     t: Következő rész
-  - key: general.prev_section
+  - key: general.previous_section
     t: Előző rész
   - key: general.survey_closed
     t: Ez a felmérés lezárult.
