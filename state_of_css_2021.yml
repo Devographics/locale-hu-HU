@@ -173,7 +173,7 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: sections.conclusion.description
+  - key: conclusion.css2021
     t: |
       <span class="first-line">Nemsokára örökre megváltozik, hogy hogyan írod a CSS kódot</span>
 
@@ -189,7 +189,7 @@ translations:
 
       A fentiekből is látszik, hogy a 2022-es év végre egy olyan év lehet, amiben a CSS fejlesztés módja alapjaiban megváltozik. Ez egy borzasztóan izgalmas időszak, és nagyon várjuk az összes bámulatos fejlődést ami várható ebben az évben.
 
-  - key: conclusion.bio
+  - key: conclusion.css2021.bio
     t: Webfejlesztő és a Polypane megalkotója
 
   ###########################################################################
