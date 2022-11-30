@@ -12,7 +12,7 @@ translations:
   # Introduction
   ###########################################################################
 
-  - key: sections.introduction.description
+  - key: introduction.js2020
     t: |
 
       <span class="first-letter">A</span>milyen pocsék a 2020-as és volt, a JavaScriptnek valahogy mégis csak sikerült előrelépnie. Ahogy a nyelv maga is fejlődik a

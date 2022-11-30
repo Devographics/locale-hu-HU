@@ -4,7 +4,7 @@ translations:
   # Introduction
   ###########################################################################
 
-  - key: sections.introduction.description
+  - key: introduction.css2020
     t: |
 
       <span class="first-letter">F</span>elejts el mindent, amit eddig tudtál a CSS-ről. Vagy legalábbis légy nyitott, hogy megváltozzon a véleményed. Ha te is, mint én, már legalább egy évtized óta írsz CSS kódot, a 2020-ban ez már egészen másképp néz ki.

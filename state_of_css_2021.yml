@@ -4,7 +4,7 @@ translations:
   # Introduction
   ###########################################################################
 
-  - key: sections.introduction.description
+  - key: introduction.css2021
     t: |
 
       <span class="first-letter">V</span>ajon az asztalosok pár évente újratanulják, hogy hogyan fűrészeljenek el egy asztallapot egy újabb, jobb módszerrel? Vajon a festők elavultnak hiszik magukat, amiért még mindig olajfestéket használnak? Vagy ez a folytonos változás csak ránk, front-end fejlesztőkre jellemző?
