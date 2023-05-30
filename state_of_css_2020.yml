@@ -132,7 +132,7 @@ translations:
     t: |
       Ha többet szeretnél megtudni, írtunk egy [blogposztot](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj), ami a felmérés nemi dinamizmusáról szól.
 
-  - key: blocks.currently_missing_from_css.note
+  - key: blocks.css_missing_features.note
     t: |
       A kérdésre adott válaszok teljes adathalmazát ebben a [mellékprojektben](https://whatsmissingfromcss.com/) találhatod meg.
 
@@ -189,7 +189,7 @@ translations:
   ###########################################################################
 
   - key: picks.my_2020_pick
-    t: 'A 2020-as kedvencem: '
+    t: "A 2020-as kedvencem: "
   - key: picks.intro
     t: Megkérdeztük a CSS közösség tagjait az "idei kedvenceikről"
 

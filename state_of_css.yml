@@ -211,37 +211,37 @@ translations:
     t: Akadozás görgetés közben, az animációk zökkenőmentessé tétele, stb.
 
   # CSS missing features (same as features section)
-  - key: options.currently_missing_from_css.nesting
+  - key: options.css_missing_features.nesting
     t: Egymásba ágyazás
-  - key: options.currently_missing_from_css.nesting.description
+  - key: options.css_missing_features.nesting.description
     t: A CSS stílusok egymásba ágyazásának lehetősége a natív CSS-ben.
-  - key: options.currently_missing_from_css.parent_selector
+  - key: options.css_missing_features.parent_selector
     t: Szülő elemek kiválasztása
-  - key: options.currently_missing_from_css.parent_selector.description
+  - key: options.css_missing_features.parent_selector.description
     t: A szülő elemek kiválasztásának lehetősége a gyerek ismeretében.
-  - key: options.currently_missing_from_css.browser_support
+  - key: options.css_missing_features.browser_support
     t: Böngészőtámogatás
-  - key: options.currently_missing_from_css.browser_support.description
+  - key: options.css_missing_features.browser_support.description
     t: A már létező funkciók jobb támogatása a böngészőkben.
-  - key: options.currently_missing_from_css.mixins
+  - key: options.css_missing_features.mixins
     t: Mixinek
-  - key: options.currently_missing_from_css.mixins.description
+  - key: options.css_missing_features.mixins.description
     t: A definíciók funkció alapján történő csoportosítása és újrafelhasználása.
-  - key: options.currently_missing_from_css.color_functions
+  - key: options.css_missing_features.color_functions
     t: Színfunkciók
-  - key: options.currently_missing_from_css.color_functions.description
+  - key: options.css_missing_features.color_functions.description
     t: Funkciók a színek manipulálására.
-  - key: options.currently_missing_from_css.container_queries
+  - key: options.css_missing_features.container_queries
     t: Konténerlekérdezések
-  - key: options.currently_missing_from_css.container_queries.description
+  - key: options.css_missing_features.container_queries.description
     t: Stílusok írásának lehetősége a szülő konténer dimenziói alapján.
-  - key: options.currently_missing_from_css.scoping
+  - key: options.css_missing_features.scoping
     t: Hatáskör
-  - key: options.currently_missing_from_css.scoping.description
+  - key: options.css_missing_features.scoping.description
     t: Annak a lehetősége, hogy konkrétabban meghatározhassuk az adott stílus hatáskörét, hogy mely elemekre hat.
-  - key: options.currently_missing_from_css.subgrid
+  - key: options.css_missing_features.subgrid
     t: Alrácsok
-  - key: options.currently_missing_from_css.subgrid.description
+  - key: options.css_missing_features.subgrid.description
     t: Rácsok egymásba ágyazása
 
   ###########################################################################
@@ -265,7 +265,7 @@ translations:
   - key: features.exclusions
     t: CSS kivételek
   - key: features.position_sticky
-    t: '<code>position: sticky</code>'
+    t: "<code>position: sticky</code>"
   - key: features.logical_properties
     t: Logikai tulajdonságok
   - key: features.logical_properties.description
@@ -470,7 +470,7 @@ translations:
   - key: options.units.pt
     t: pt
   - key: options.units.percent
-    t: '%'
+    t: "%"
   - key: options.units.em
     t: em
   - key: options.units.rem
@@ -496,21 +496,21 @@ translations:
     t: Ezek közül mely nem valós elemeket használtad már?
 
   - key: options.pseudo_elements.before
-    t: '::before'
+    t: "::before"
   - key: options.pseudo_elements.after
-    t: '::after'
+    t: "::after"
   - key: options.pseudo_elements.first_line
-    t: '::first-line'
+    t: "::first-line"
   - key: options.pseudo_elements.first_letter
-    t: '::first-letter'
+    t: "::first-letter"
   - key: options.pseudo_elements.selection
-    t: '::selection'
+    t: "::selection"
   - key: options.pseudo_elements.placeholder
-    t: '::placeholder'
+    t: "::placeholder"
   - key: options.pseudo_elements.marker
-    t: '::marker'
+    t: "::marker"
   - key: options.pseudo_elements.backdrop
-    t: '::backdrop'
+    t: "::backdrop"
 
   - key: features_others.combinators
     t: Kombinátorok
@@ -742,13 +742,13 @@ translations:
     t: A CSS egyéb hiányosságai
 
   # Missing Features
-  - key: opinions.currently_missing_from_css
+  - key: opinions.css_missing_features
     t: Mi az, ami jelenleg hiányzik számodra a CSS-ből?
-  - key: opinions.currently_missing_from_css.description
+  - key: opinions.css_missing_features.description
     t: Minden egyes funkció-párnál azt válaszd ki, amelyiket a leginkább szeretnéd látni a CSS-ben ma.
-  - key: opinions_others.currently_missing_from_css.others
+  - key: opinions_others.css_missing_features.others
     t: Egyéb hiányosságok
-  - key: opinions_others.currently_missing_from_css.others.note
+  - key: opinions_others.css_missing_features.others.note
     t: >
       Ezek az eredmények egy szabad formátumú mezőből lettek összesítve.
       Az eredeti válaszok megtekintése itt lehetséges: [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
@@ -782,14 +782,14 @@ translations:
   - key: css_pain_points.css_pain_points_matchups.description
     t: Which aspect of CSS do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
 
-  - key: currently_missing_from_css.currently_missing_from_css_wins
+  - key: css_missing_features.css_missing_features_wins
     t: Features Missing From CSS
-  - key: currently_missing_from_css.currently_missing_from_css_wins.description
+  - key: css_missing_features.css_missing_features_wins.description
     t: Which feature would you most like to be able to use in CSS today? Results are ranked by number of tournament rounds won.
 
-  - key: currently_missing_from_css.currently_missing_from_css_matchups
+  - key: css_missing_features.css_missing_features_matchups
     t: Features Missing From CSS (Matchups)
-  - key: currently_missing_from_css.currently_missing_from_css_matchups.description
+  - key: css_missing_features.css_missing_features_matchups.description
     t: Which feature would you most like to be able to use in CSS today? Percentage of rounds won by left-hand item against top-side item.
 
   ###########################################################################
