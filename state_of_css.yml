@@ -451,10 +451,6 @@ translations:
     t: Hatáskör
   - key: features.scoping.description
     t: Annak a lehetősége, hogy konkrétabban meghatározhassuk az adott stílus hatáskörét, hogy mely elemekre hat.
-  - key: features.subgrid
-    t: Alrácsok
-  - key: features.subgrid.description
-    t: Rácsok egymásba ágyazása.
 
   ###########################################################################
   # Units & Selectors
