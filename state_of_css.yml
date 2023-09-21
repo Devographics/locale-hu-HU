@@ -417,8 +417,6 @@ translations:
     t: <code>@property</code>
   - key: features.at_layer
     t: <code>@layer</code>
-  - key: features.content_visibility
-    t: <code>content-visibility</code>
   - key: features.marker
     t: <code>::marker</code> pseudo-element
 
@@ -656,7 +654,7 @@ translations:
     t: Milyen akadálymentesítő funkciókat szoktál implementálni?
   - key: environments.accessibility_features.others
     t: Egyéb akadálymentesítési szempontok
-  - key: environments.accessibility_features.others
+  - key: environments.accessibility_features.others.description
     t: Milyen egyéb akadálymentesítő funkciókat szoktál implementálni?
 
   - key: environments.css_for_print

@@ -92,10 +92,6 @@ translations:
     t: |
       A blogok, podcastok és weboldalak kiemelése rendben van, de ebben az évben eldüntöttük, hogy egy 
       lépéssel tovább megyünk és magát a CSS közösség tagjait fogjuk kiemelni.
-  - key: sections.opinions.description
-    t: |
-      Whether it's pain points that hold you back today, or missing features that you hope to use
-      tomorrow, this was your chance to vent and share your gripes with CSS!
 
   ###########################################################################
   # Charts
