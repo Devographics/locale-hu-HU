@@ -9,16 +9,14 @@ translations:
     t: >
       A CSS gyorsabban fejlődik, mint valaha.
 
-
       Flexbox, Grid, Multi-Column… Ne is említsük a CSS-in-JS-t!
-
 
       A State of JavaScript felmérés kezdeti sikerei után eldöntöttük, hogy
       a stílusok és szelektorok világát is felfedezzük. Reméljük, hogy 
       te is segítesz nekünk feltárni, hogy mik a trendek mostanában, és milyen eszközöket érdemes használni!
 
-  - key: general.results.description
-    t: Éves felmérés a CSS trendekről.
+  - key: general.state_of_css.description
+    t: Éves feljesztői felmérés a CSS trendekről.
 
   ###########################################################################
   # Sections
