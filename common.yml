@@ -35,7 +35,7 @@ translations:
   - key: general.take_survey
     t: A {name} {year} felmérés kitöltése
   - key: options.na
-    t: 🚫 None
+    t: 🚫 Egyik sem
 
   # surveys
   - key: general.open_surveys
@@ -55,15 +55,15 @@ translations:
   - key: general.continue_survey
     t: Felmérés folytatása »
   - key: general.completion
-    t: "{completion}% completed"
+    t: "{completion}% kész"
   - key: general.started_on
-    t: Started on {createdAt}
+    t: {createdAt}-n kezdődött
   - key: general.last_modified_on
-    t: Last modified on {updatedAt}
+    t: Legutoljára módosítva {updatedAt}
   - key: general.review_survey
     t: Felmérés ellenőrzése »
   - key: general.review_answers
-    t: Review Answers »
+    t: Válaszok ellenőrzése »
   - key: general.preview_survey
     t: Felmérés előnézete »
   - key: general.finish_survey
@@ -75,7 +75,7 @@ translations:
   - key: general.survey_closed
     t: Ez a felmérés lezárult.
   - key: general.survey_closed_on
-    t: This survey closed on {endedAt}.
+    t: A kérdőív {endedAt}-n fejeződött be.
   - key: general.survey_results
     t: Felmérési eredmények megtekintése »
   - key: general.surveys_available_languages
@@ -91,15 +91,15 @@ translations:
   - key: general.new
     t: Új
   - key: general.devographics_banner
-    t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> is the new name of the collective running the State of JavaScript, CSS, and GraphQL surveys.
+    t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> az kollektív új neve a State of JavaScript, CSS és GraphQL felméréseknek.
 
   # credits
   - key: credits.thanks
     t: Külön köszönet
   - key: credits.contributors
-    t: Contributors
+    t: Közreműködők
   - key: credits.contributors.description
-    t: Special thanks to the following people for helping us design the survey.
+    t: Külön köszönet a következő embereknek akik segítettek nekünk a felmérések tervezésében.
   - key: credits.accessibility
     t: Akadálymentesítési tanácsadó
   - key: credits.survey_design
@@ -117,7 +117,7 @@ translations:
   - key: credits.data_processing
     t: Adatfeldolgozás
   - key: credits.back_end_development
-    t: Back-End Developement
+    t: Back-End fejlesztés
 
   # support
   - key: general.support_from
@@ -163,19 +163,19 @@ translations:
       hogy reprezentatívabb képet kapjunk:
   - key: general.thanks1
     t: >
-      Thanks for filling out the survey! Your data is saved.
+      Kösz, hogy kitöltötted a felméréset! Az adataidat elmentettük.
   - key: general.thanks2
     t: >
-      Help us get the word out by sharing this survey! Every bit counts, and it'll help make our data even
-      more representative.
+      Segíts nekünk a felmérést népszerűsíteni azzal, hogy megosztod! Minden kicsi segítség is számít, és így az eredmények
+      még jobban fogják tükrözni a valóságot.
   - key: thanks.learn_more_about
     t: "Néhány funkció, melyről lehet, hogy többet szeretnél tudni:"
   - key: thanks.knowledge_score
     t: Tudáspontszám (Knowledge Score)
   - key: thanks.features_score
-    t: Features Score
+    t: Funkciók pontszáma
   - key: thanks.quiz_score
-    t: Quiz Score
+    t: Kvíz pontszáma
   - key: thanks.score_statistics
     t: >
       A felmérésben említett <span class="score-number score-number-total">{total}</span> funkciókból <span class="score-number score-number-known">{known}</span> az amiről hallottál,
@@ -183,13 +183,13 @@ translations:
 
   - key: thanks.score_statistics_noranking
     t: >
-      Of the {total} features mentioned in the survey,
+      Az összes {total} funkcióból, amit megemlítettünk, 
   - key: thanks.points
     t: >
-      pts.
+      pont
   - key: thanks.score_awareness_explanation
     t: >
-      For fairness, this percentage is calculated over only the {awareness_total} features you could express you knew
+      A méltányosság kedvéért ezt a százalékos arányt csak abból a {awareness_total} funkcióból számoltuk ki, amelyikről azt mondtad, hogy ismered
   - key: thanks.share_on_twitter
     t: Megosztás Twitteren
   - key: thanks.share_score_message
@@ -209,13 +209,13 @@ translations:
   - key: forms.clear_field
     t: Kérdés törlése
   - key: forms.more_options
-    t: Show more…
+    t: Mutass többet…
   - key: forms.less_options
-    t: Show less
+    t: Mutass kevesebbet
 
   # partners & sponsors
   - key: sponsors.with_support_from
-    t: With Special Support From
+    t: Különleges támogatással
   - key: sponsors.our_partners
     t: Partnereink
   - key: sponsors.become_partner
@@ -235,16 +235,16 @@ translations:
   - key: general.charts_nivo
     t: Diagramjainkat <a href="{link}">Nivo</a>-val készítettük.
   - key: general.made_by_devographics
-    t: Made by <a href="{link}">Devographics</a>
+    t: Készült a <a href="{link}">Devographics</a> által
   - key: general.view_code_example
-    t: View Code Example
+    t: Kódpélda megnyitása
   - key: general.feature_code_example
-    t: "**{featureName}** Code Example"
+    t: "**{featureName}** kódpélda"
   - key: general.code_example
-    t: Code Example
+    t: Kódpélda
   - key: general.language_code
     t: |
-      {language} Code
+      {language} kód
 
   ###########################################################################
   # Nav
@@ -291,13 +291,13 @@ translations:
   - key: sections.report.title
     t: Trend jelentés
   - key: sections.usage.title
-    t: Usage
+    t: Használat
 
   - key: sections.finish.title
-    t: Finish Survey
+    t: A kérdőív befejezése
 
   - key: sections.finish.description
-    t: Finish the survey
+    t: A kérdőív befejezése
 
   ###########################################################################
   # Options
@@ -305,9 +305,9 @@ translations:
 
   # other answer
   - key: options.other
-    t: Other…
+    t: Egyéb…
   - key: options.other.placeholder
-    t: Other items not mentioned above, comma-separated
+    t: Egyéb még nem említett tételek, vesszővel elválasztva
 
   # features
   - key: options.features.never_heard
@@ -318,27 +318,27 @@ translations:
     t: <span aria-hidden="true">👍</span> Már használtam
   # features v2
   - key: options.features2.never_heard
-    t: <span class="option-chip option-main option-main-never_heard">Never heard of it/Not sure what it is</option>
+    t: <span class="option-chip option-main option-main-never_heard">Nem hallottam még róla/Nem vagyok benne biztos, hogy ez mi</option>
   - key: options.features2.interested
     t: |
-      <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-positive">Interested</span>
+      <span class="option-chip option-main option-main-heard">Hallottam már róla</span> » <span class="option-chip option-positive">Érdekel</span>
   - key: options.features2.not_interested
     t: |
-      <span class="option-chip option-main option-main-heard">Heard of it</span> » <span class="option-chip option-negative">Not interested</span>
+      <span class="option-chip option-main option-main-heard">Hallottam már róla</span> » <span class="option-chip option-negative">Nem érdekel</span>
   - key: options.features2.used_positive
     t: |
-      <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-positive">Positive experience</span>
+      <span class="option-chip option-main option-main-used">Már használtam</span> » <span class="option-chip option-positive">Pozitív élmény</span>
   - key: options.features2.used_negative
     t: |
-      <span class="option-chip option-main option-main-used">Used it</span> » <span class="option-chip option-negative">Negative experience</span>
+      <span class="option-chip option-main option-main-used">Már használtam</span> » <span class="option-chip option-negative">Negatív élmény</span>
 
   # features (short)
   - key: options.features.never_heard.short
-    t: <span aria-hidden="true">🤷</span> Never heard of it
+    t: <span aria-hidden="true">🤷</span> Nem hallottam még róla
   - key: options.features.heard.short
-    t: <span aria-hidden="true">👀</span> Heard of it
+    t: <span aria-hidden="true">👀</span> Hallottam már róla
   - key: options.features.used.short
-    t: <span aria-hidden="true">🤓</span> Used it
+    t: <span aria-hidden="true">🤓</span> Már használtam
 
   # features (no emoji)
   - key: options.features.never_heard.label
@@ -350,11 +350,11 @@ translations:
 
   # features (no emoji, short versions)
   - key: options.features.never_heard.label.short
-    t: Never heard of it
+    t: Nem hallottam még róla
   - key: options.features.heard.label.short
-    t: Heard of it
+    t: Hallottam már róla
   - key: options.features.used.label.short
-    t: Used it
+    t: Már használtam
 
   # patterns
   - key: options.patterns.use_never
@@ -506,7 +506,7 @@ translations:
 
   # company size
   - key: options.company_size.na
-    t: 🚫 Not Applicable
+    t: 🚫 Nem releváns
   - key: options.company_size.range_1
     t: Egy alkalmazott
   - key: options.company_size.range_1_5
@@ -546,7 +546,7 @@ translations:
 
   # salary
   - key: options.yearly_salary.na
-    t: 🚫 Not Applicable
+    t: 🚫 Nem releváns
   - key: options.yearly_salary.range_work_for_free
     t: Ingyen dolgozom
   - key: options.yearly_salary.range_0_10
@@ -704,17 +704,17 @@ translations:
     t: Nincs felsorolva
 
   - key: options.race_ethnicity.european
-    t: European
+    t: Európai
   - key: options.race_ethnicity.indian
-    t: Indian
+    t: Indián
   - key: options.race_ethnicity.human
-    t: Human
+    t: Ember
   - key: options.race_ethnicity.slav
-    t: Slav
+    t: Szláv
   - key: options.race_ethnicity.north_african
-    t: North African
+    t: Észak-afrikai
   - key: options.race_ethnicity.jewish
-    t: Jewish
+    t: Zsidó
 
   # Race & Ethnicity (short)
 
@@ -743,7 +743,7 @@ translations:
 
   # Disability Status
   - key: options.disability_status.na
-    t: 🚫 None
+    t: 🚫 Egyik sem
   - key: options.disability_status.visual_impairments
     t: >
       Látási nehézségek (mint a vakság, színvakság, stb.)
@@ -805,7 +805,7 @@ translations:
 
   # Industry Sector
   - key: options.industry_sector.ecommerce
-    t: Ekommersz & kiskereskedelem
+    t: E-kommersz & kiskereskedelem
   - key: options.industry_sector.news_media
     t: Hírek, média & blogolás
   - key: options.industry_sector.healthcare
@@ -831,7 +831,7 @@ translations:
   - key: options.industry_sector.travel
     t: Utazás
   - key: options.industry_sector.tourism
-    t: Tourism
+    t: Turizmus
   - key: options.industry_sector.insurance
     t: Biztosítás
   - key: options.industry_sector.logistics
@@ -860,23 +860,23 @@ translations:
   - key: options.industry_sector.tech_it
     t: Tech & IT
   - key: options.industry_sector.human_resources
-    t: Human Resources
+    t: Emberi erőforrások
   - key: options.industry_sector.sports
-    t: Sports
+    t: Sport
   - key: options.industry_sector.gaming
-    t: Gaming
+    t: Játékfeljesztés
   - key: options.industry_sector.research
-    t: Research
+    t: Kutatás
   - key: options.industry_sector.law
-    t: Law
+    t: Jog
   - key: options.industry_sector.non_profit
     t: Non-Profit
   - key: options.industry_sector.art
-    t: Art
+    t: Művészet
   - key: options.industry_sector.crypto
     t: Crypto
   - key: options.industry_sector.aerospace
-    t: Aerospace
+    t: Repülőipar
   - key: options.industry_sector.web3
     t: Web3
   - key: options.industry_sector.iot
@@ -886,9 +886,9 @@ translations:
   - key: options.industry_sector.blockchain
     t: Blockchain
   - key: options.industry_sector.design
-    t: Design
+    t: Tervezés
   - key: options.industry_sector.unemployed
-    t: Unemployed
+    t: Munkanélküli
 
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
@@ -946,7 +946,7 @@ translations:
 
   # learning methods
   - key: options.first_steps.na
-    t: 🚫 None
+    t: 🚫 Egyik sem
   - key: options.first_steps.books
     t: Könyvek
   - key: options.first_steps.videos
@@ -969,24 +969,24 @@ translations:
     t: Mentorálás
 
   - key: options.first_steps.documentation
-    t: Documentation
+    t: Dokumentáció
   - key: options.first_steps.blogs
-    t: Blogs
+    t: Blogok
   - key: options.first_steps.view_source
-    t: View Source
+    t: A forrás megnézése
   - key: options.first_steps.trial_and_error
-    t: Trial & Error
+    t: Trial & Error (Próba és hiba)
   - key: options.first_steps.forums
-    t: Forums
+    t: Fórumok
   - key: options.first_steps.newsletters
-    t: Newsletters
+    t: Hírújságok
   - key: options.first_steps.events
-    t: Events
+    t: Események
 
   # learning methods
 
   - key: resources.learning_methods
-    t: Learning Methods
+    t: Tanulási metódusok
 
   - key: options.learning_methods.na
     aliasFor: options.first_steps.na
@@ -1045,19 +1045,19 @@ translations:
 
   # employment_status
   - key: options.employment_status.full_time
-    t: Full-time
+    t: Teljes munkaidős
   - key: options.employment_status.student
-    t: Student
+    t: Tanuló
   - key: options.employment_status.self_employed
-    t: Self-employed
+    t: Egyéni vállalkozó
   - key: options.employment_status.contractor
-    t: Contractor
+    t: Vállalkozó
   - key: options.employment_status.part_time
-    t: Part-time
+    t: Részmunkaidős
   - key: options.employment_status.between_jobs
-    t: Between jobs
+    t: Munkák között
   - key: options.employment_status.retired
-    t: Retired
+    t: Nyugdíjas
 
   # bracket
   - key: options.bracket.round1
@@ -1071,19 +1071,19 @@ translations:
 
   # email_temporary (receive updates?)
   - key: options.receive_notifications.yes
-    t: Yes, email me when the survey results are published
+    t: Igen, küldjetek emailt amikor kész vannak az eredmények
 
   # usage type
 
   - key: usage.usage_type
-    t: Usage Type
+    t: Használat típusai
 
   - key: options.usage_type.professionally
-    t: Professionally
+    t: Professzionálisan
   - key: options.usage_type.student
-    t: As a student
+    t: Tanulóként
   - key: options.usage_type.hobby
-    t: As a hobby
+    t: Hobbiként
 
   - key: options.percentage_segments.range_0_10
     t: 0-10%
@@ -1150,17 +1150,17 @@ translations:
 
   # source
   - key: options.source.angular_community
-    t: Angular Community
+    t: Angular közösség
   - key: options.source.work
-    t: Workplace
+    t: Munkahely
   - key: options.source.word_of_mouth
-    t: Word of Mouth
+    t: Hallomás alapján
   - key: options.source.podcast
-    t: Podcasts
+    t: Podcastokból
   - key: options.source.other_online_sources
-    t: Other Online Sources
+    t: Egyéb online források
   - key: options.source.blog
-    t: Blogs
+    t: Blogok
   # - key: options.source.
   #   t:
   # - key: options.source.
@@ -1262,10 +1262,10 @@ translations:
       hogy mennyire befogadó és reprezentatív ez a felmérés.
   - key: user_info.race_ethnicity.not_allowed
     t: >
-      In order to comply with local policies, the collection of race or ethnicity data has
-        been disabled for your country or region.
+      A helyi irányelveknek való megfelelés érdekében a faji vagy etnikai hovatartozásra vonatkozó adatok gyűjtése 
+      le van tiltva az Ön országában vagy régiójában.
   - key: user_info.race_ethnicity.others
-    t: Other Races or Ethnicities
+    t: Más fajok vagy etnikumok
   - key: user_info.race_ethnicity_freeform
     aliasFor: user_info.race_ethnicity.others
 
@@ -1285,15 +1285,15 @@ translations:
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
-    t: Honnan találtad meg ezt a felmérést?
+    t: Hogyan találtad meg ezt a felmérést?
   - key: user_info.email
     t: A felhasználói email
   - key: user_info.email.description
     t: >
-      You have filled out the survey anonymously. If you'd like, you can optionally enter your email to be able to access your data later on, and be notified when the survey results are published.
+      Névtelenül töltötted ki ezt a kérdőívet. Ha szeretnéd, megadhatod e-mail címedet, hogy később hozzáférhess adataidhoz, és értesítést kapj a felmérés eredményeinek közzétételéről.
   - key: user_info.email.note
     t: >
-      We do not store any personal data, so after you fill in your email address we will use it to generate a unique anonymized identifier and then delete the address itself from our records.
+      Személyes adatot nem tárolunk, így az e-mail cím megadását követően egyedi, anonimizált azonosítót generálunk, majd magát a címet töröljük nyilvántartásunkból.
   - key: user_info.country
     t: Az országod és a régiód
   - key: user_info.country.description
@@ -1364,27 +1364,27 @@ translations:
 
   # employment status
   - key: user_info.employment_status
-    t: Employment Status
+    t: Munkahelyi státusz
   - key: user_info.employment_status.description
-    t: What's your employment status?
+    t: Mi a munkahelyi helyzeted?
 
   # completion
   - key: user_info.completion_stats
-    t: Survey Completion
+    t: A kérdőít kitöltése
   - key: user_info.completion_stats.description
-    t: Which proportion of the survey did respondents fill out?
+    t: A kérdőív mekkora részét töltötték ki a válaszadók?
 
   # email_temporary (receive updates?)
   - key: user_info.receive_notifications
-    t: Do you want to be notified when the survey results are released?
+    t: Szeretnél értesítést kapni a felmérés eredményeinek közzétételéről?
   - key: user_info.receive_notifications.note
     t: >
-      We don't store any private data, so after your email address is sent to our
-      mailing list provider it will be deleted from our own records.
+       Személyes adatokat nem tárolunk, így az e-mail címed a levelezőlista szolgáltatójához való elküldése után
+       törlődik a saját nyilvántartásunkból.
 
   # how can we improve the survey?
   - key: user_info.how_can_we_improve
-    t: How could we improve this survey?
+    t: Hogyan tudnánk javítani ezen a felmérésen?
 
   ###########################################################################
   # Usage
@@ -1414,7 +1414,7 @@ translations:
   - key: resources.blogs_news_magazines.others.description
     t: Egyéb válasz (szabad formátum).
   - key: options.blogs_news_magazines.na
-    t: 🚫 None
+    t: 🚫 Egyik sem
 
   # sites & courses
   - key: resources.sites_courses
@@ -1426,7 +1426,7 @@ translations:
   - key: resources.sites_courses.others.description
     t: Egyéb válasz (szabad formátum).
   - key: options.sites_courses.na
-    t: 🚫 None
+    t: 🚫 Egyik sem
 
   # podcasts
   - key: resources.podcasts
@@ -1438,7 +1438,7 @@ translations:
   - key: resources.podcasts.others.description
     t: Egyéb válasz (szabad formátum).
   - key: options.podcasts.na
-    t: 🚫 None
+    t: 🚫 Egyik sem
 
   # people
   - key: resources.people
@@ -1456,20 +1456,20 @@ translations:
       Emberek akiket olvasol, követsz, vagy csak ki szeretnél emelni a munkájuk miatt
       (szabad formátum, vesszővel elválasztott nevek).
   - key: options.people.na
-    t: 🚫 None
+    t: 🚫 Egyik sem
 
   # other surveys
   - key: resources.other_surveys
-    t: Other Surveys
+    t: Egyéb kérdőívek
   - key: resources.other_surveys.description
-    t: Which other developer surveys do you participate in?
+    t: Milyen másik fejlesztői felmérésekben vettél részt?
   - key: resources.other_surveys.others
-    t: Additional surveys not mentioned above
+    t: Egyéb felmérések ami nincs megemlítve
   - key: options.other_surveys.na
-    t: 🚫 None
+    t: 🚫 Egyik sem
     # TODO: temporary fix, this should not be needed in the first place
   - key: user_info.other_surveys.question
-    t: Which other developer surveys do you participate in?
+    t: Milyen másik fejlesztői felmérésekben vettél részt?
 
   - key: user_info.other_surveys
     aliasFor: resources.other_surveys
@@ -1478,55 +1478,55 @@ translations:
 
   # video creators
   - key: resources.video_creators
-    t: Video Creators
+    t: Videókészítők
   - key: resources.video_creators.description
-    t: Creators you follow on video-centric platforms such as YouTube, Twitch, TikTok, etc.
+    t: Alkotók, akiket követsz videó-központú platformokon, például YouTube, Twitch, TikTok, stb.
   - key: resources.video_creators.others
-    t: Other Video Creators
+    t: Egyéb videókészítők
   - key: options.video_creators.na
-    t: 🚫 None
+    t: 🚫 Egyik sem
 
   ###########################################################################
   # Follow-Up Questions
   ###########################################################################
 
   - key: followups.button
-    t: Tell us more…
+    t: Mondj el többet…
 
   - key: followups.description
     t: |
-      Optionally, you can tell us more about why you picked this answer:
+      Opcionálisan többet is elmondhatsz arról, hogy miért ezt a választ választottad:
 
   - key: followups.description.short
     t: |
-      Tell us more:
+      Mondj el többet:
 
   - key: followups.placeholder
-    t: Other reason…
+    t: Egyéb ok…
 
   - key: followups.want_to_learn_more
-    t: I want to learn more
+    t: Többet szeretnék megtudni
   - key: followups.not_interested
-    t: I'm not interested
+    t: Nem érdekel
   - key: followups.insufficient_browser_support
-    t: Insufficient browser support
+    t: Nincs elég böngészőtámogatás
   - key: followups.not_needed
-    t: I haven't needed it
+    t: Nem kellett eddig
   - key: followups.hard_to_use
-    t: It was hard to use
+    t: Nehéz volt használni
   - key: followups.positive_experience
-    t: I had a positive experience
+    t: Pozitív élményem volt
   - key: followups.not_powerful
-    t: It wasn't powerful enough
+    t: Nem volt elég erős
 
   - key: followups.sentiment_interested
-    t: Interested
+    t: Érdekel
   - key: followups.sentiment_not_interested
-    t: Not interested
+    t: Nem érdekel
   - key: followups.sentiment_positive_experience
-    t: Want to use again
+    t: Újra akarom használni
   - key: followups.sentiment_negative_experience
-    t: Negative experience
+    t: Negatív tapasztalat
 
   # - key: followups.
   #   t:
