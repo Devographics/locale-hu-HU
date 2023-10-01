@@ -114,15 +114,6 @@ translations:
   - key: options.features_categories.other_features
     aliasFor: sections.other_features.title
 
-    ###########################################################################
-    # Notes
-    ###########################################################################
-
-  - key: sections.opinions.description
-    t: |
-      Legyenek akár fájdalmas pontok, amik visszatartanak, vagy hiányzó funkciók, amiket remélsz, hogy
-      egyszer majd használhatsz, ez volt itt a lehetőséged, hogy megoszd a kritikáidat és gondolataidat a CSS-ről!
-
   ###########################################################################
   # Notes
   ###########################################################################
@@ -197,98 +188,98 @@ translations:
   - key: picks.intro
     t: Megkérdeztük a CSS közösség tagjait az "idei kedvenceikről"
 
-  - key: picks.georgedoescode.name
-    t: A CSS rajzoló API
-  - key: picks.georgedoescode.bio
-    t: Fejlesztő, író, alkotóművész.
-  - key: picks.georgedoescode.description
+  - key: picks.george_francis.name
+    t: The CSS Paint API
+  - key: picks.george_francis.bio
+    t: Developer, writer, and generative artist.
+  - key: picks.george_francis.description
     t: |
       A rajzoló API-val programozva készíthetünk képeket, amit a CSS-ben 
       használhatunk. Ez egy egészen új világot nyit meg a kreativitásban,
       és én nagyon izgatott vagyok emiatt!
 
-  - key: picks.cassidoo.name
+  - key: picks.cassidy_williams.name
     t: Lynn Fisher
-  - key: picks.cassidoo.bio
-    t: Fejlesztőtámogató, oktató, startup tanácsadó.
-  - key: picks.cassidoo.description
+  - key: picks.cassidy_williams.bio
+    t: Developer advocate, educator, and startup advisor.
+  - key: picks.cassidy_williams.description
     t: |
       Szeretném kiemelni Lynn Fisher-t. Folyamatosan meglepi és 
       elragadtatja a CSS közösséget kreatív projektjeivel és kísérleteivel, 
       és imádom, hogy mennyit tudunk tőle tanulni!
 
-  - key: picks.joshwcomeau.name
+  - key: picks.josh_comeau.name
     t: Amelia Wattenberger
-  - key: picks.joshwcomeau.bio
+  - key: picks.josh_comeau.bio
     t: Szoftverfejlesző és a [CSS for JavaScript Developers](https://css-for-js.dev/) megalkotója.
-  - key: picks.joshwcomeau.description
+  - key: picks.josh_comeau.description
     t: |
       Amelia a legszuperebb interaktív blogposztokat írja a
       JS-ről és a CSS-ről.
       Nézd meg ezt a posztot, ami arról szól, hogy hogyan működnek a százalékok CSS-ben!
 
-  - key: picks.kevinjpowell.name
+  - key: picks.kevin_j_powell.name
     t: Stephanie Eckles
-  - key: picks.kevinjpowell.bio
+  - key: picks.kevin_j_powell.bio
     t: CSS Evangelist
-  - key: picks.kevinjpowell.description
+  - key: picks.kevin_j_powell.description
     t: |
       Változatlanul nagy hatást tesz rám Stephanie folyamatos kezdeményezése, 
       hogy megossza a tudását a modern CSS technikákról, 
       valamint a fertőző lelkesedése a CSS iránt.
 
-  - key: picks.mmatuzo.name
+  - key: picks.manuel_matuzovic.name
     t: aspect-ratio
-  - key: picks.mmatuzo.bio
+  - key: picks.manuel_matuzovic.bio
     t: Front-end fejlesztő Bécsből, a [htmhell.dev](https://htmhell.dev) megalkotója.
-  - key: picks.mmatuzo.description
+  - key: picks.manuel_matuzovic.description
     t: |
       Az összes jelentősebb böngésző kiadta az aspect-ratio támogatást 2021-ben.
       Először alábecsültem, de sok helyzeben hasznos lehet.
 
-  - key: picks.lauragift_.name
+  - key: picks.gift_egwuenu.name
     t: Kevin Powell
-  - key: picks.lauragift_.bio
+  - key: picks.gift_egwuenu.bio
     t: Frontend fejlesztő és alkotó
-  - key: picks.lauragift_.description
+  - key: picks.gift_egwuenu.description
     t: |
       Kevin CSS vidókat csinál YouTube-on, és én nagyon élvezem ezeket nézni.
       Érthető és élvezetes módon magyarázza el a CSS fogalmait.
 
-  - key: picks.ericwbailey.name
+  - key: picks.eric_w_bailey.name
     t: Miriam Suzanne
-  - key: picks.ericwbailey.bio
+  - key: picks.eric_w_bailey.bio
     t: Inkluzív dizájn és \#a11y szószóló.
-  - key: picks.ericwbailey.description
+  - key: picks.eric_w_bailey.description
     t: |
       A CSS most fog éppen jóból fantasztikussá válni.
       Miriam munkássága a Konténer Lekérdezéseken és Cascade Layers-en 
       meg fogja változtatni, hogy hogy írunk CSS kódot.
 
-  - key: picks.samuelkraft.name
+  - key: picks.samuel_kraft.name
     t: Vanilla Extract
-  - key: picks.samuelkraft.bio
+  - key: picks.samuel_kraft.bio
     t: Frontend & dizájn
-  - key: picks.samuelkraft.description
+  - key: picks.samuel_kraft.description
     t: |
       Mostanában imádok Vanilla Extract-tal dolgozni. Olyan, mint a CSS modulok, de
       teljesen típusos és a fejlesztői élmény varázslatos.
 
-  - key: picks.sachagreif.name
+  - key: picks.sacha_greif.name
     t: Open Props
-  - key: picks.sachagreif.bio
+  - key: picks.sacha_greif.bio
     t: A State of JS és a State of CSS megalkotója
-  - key: picks.sachagreif.description
+  - key: picks.sacha_greif.description
     t: |
       Nagyon jó látni a visszacsatolási kört az új CSS funkciók és a projektek
       között, amik használják őket! Adam Argyle Open Props-ja is egy jó példa a CSS custom
       properties használatára.
 
-  - key: picks.shadeed9.name
+  - key: picks.ahmad_shadeed.name
     t: Konténer lekérdezések
-  - key: picks.shadeed9.bio
+  - key: picks.ahmad_shadeed.bio
     t: A [Debugging CSS](https://debuggingcss.com/) szerzője és a [ishadeed.com](http://ishadeed.com)-nál ír.
-  - key: picks.shadeed9.description
+  - key: picks.ahmad_shadeed.description
     t: |
       Már megint a CSS konténer lekérdezések! Játszottunk velük egy kicsit a böngészőben.
       Köszönjük Miriam Suzanne-nak, hogy segít ezt továbbvinni!
@@ -301,29 +292,29 @@ translations:
   # - key: picks.georgedoescode.description
   #   t: |
 
-  - key: picks.argyleink.name
+  - key: picks.adam_argyle.name
     t: CSS zaj
-  - key: picks.argyleink.bio
+  - key: picks.adam_argyle.bio
     t: CSS a Google-nál
-  - key: picks.argyleink.description
+  - key: picks.adam_argyle.description
     t: |
       A CSS által generált textúra és randomizálás egyedi és érdekes
       képeket eredményez a dizájnodban.
       Zaj eszközök tették ezt lehetővé.
 
-  - key: picks.walterstephanie.name
+  - key: picks.stephanie_walter.name
     t: Miriam Suzanne
-  - key: picks.walterstephanie.bio
+  - key: picks.stephanie_walter.bio
     t: UX kutató és CSS imádó
-  - key: picks.walterstephanie.description
+  - key: picks.stephanie_walter.description
     t: |
       Miriam egy művész és egy aktivista, aki a szoftverfejlesztéssel és a művészettel ünnepli az emberi élmények sokszínűségét. Ő egy CSS szakértő, aki csodálatos munkát végez a CSS konténer lekérdezések specifikációján.
 
-  - key: picks.michebarks.name
+  - key: picks.michelle_barker.name
     t: Az "Egy színskála kiépítése" Adam Argyle által
-  - key: picks.michebarks.bio
+  - key: picks.michelle_barker.bio
     t: Senior Front End Fejlesztő
-  - key: picks.michebarks.description
+  - key: picks.michelle_barker.description
     t: |
       Imádom ezt a cikket, mert bár a rendhagyó propertyk már egy ideje jelen vannak, de ez egy magasabb szintre emeli őket és jól bemutatja az erősségeiket. Remélem, hogy az emberek másként látják ezután őket, hogy többet tudnak, mint a sima változók.
 
@@ -333,11 +324,11 @@ translations:
   #   t: |
   #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
 
-  - key: picks.kilianvalkhof.name
+  - key: picks.kilian_valkhof.name
     t: prefers-reduced-data
-  - key: picks.kilianvalkhof.bio
+  - key: picks.kilian_valkhof.bio
     t: Webfejlesztő és a Polypane megalkotója
-  - key: picks.kilianvalkhof.description
+  - key: picks.kilian_valkhof.description
     t: |
       Még több fejlesztőt kell rávennünk, hogy a böngészőket megkérjék erre, és rájöjjenek, hogy milyen nagy a hatása. A válaszolók 64%-a nem is tud róluk, úgyhogy van még mit tennünk!
 
