@@ -8,82 +8,82 @@ translations:
   - key: general.state_of_html.intro
     # aliasFor: general.html2023.survey_intro # Can we do that?
     t: |
-      While web developers tend to focus on JavaScript and CSS, none of what we do would be possible without HTML acting as the foundation.
+      Míg a webfejlesztők többnyire a Javascriptre és a CSS-re fókuszálnak, a HTML mint alapkő nélkül ezek egyike sem lenne megvalósítható.
 
-      It has long seemed like HTML wasn't evolving, but things may be changing.
-      New elements like `<selectlist>` are on the horizon, cool new features like popovers,
-      and a swath of related browser APIs (Web Components, PWAs, etc.).
+      Sokáig úgy tűnt, hogy a HTML megállt a fejlődésben, de most úgy tűnik, hogy végre valami változik.
+      Az új elemek, mint például a `<selectlist>` már a horizonton vannak, és király új funkciók, mint a felugró menük,
+      és egy csomó kapcsolódó böngésző API (Web Komponensek, PWA-k, stb.)
 
-      This year, [Lea Verou](https://lea.verou.me/) took on the formidable task of leading the design of this brand new survey, from content to UX and beyond.
+      Ebben az évben [Lea Verou](https://lea.verou.me/) vállalta magára azt a rettentő feladatot, hogy ennek a vadi új felmérésnek a dizánját vezesse, a tartalomtól a UX-ig, és még ezen felül is, amire szükség van.
 
-      Building on the success of [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/), we introduce **State of HTML**;
-      the last missing piece that completes the trilogy, so we can track the evolution of the web platform as a whole.
+      A [State of JS](http://stateofjs.com/) és [State of CSS](https://stateofcss.com/) sikerén felbuzdulva, bemutatjuk a **State of HTML**-t;
+      az utolsó hiányzó darabot a trilógiából, hogy így az egész webes platform evolúcióját nyomon tudjuk követni.
 
-      Benefits to you:
-      - Survey results are **used by browsers** and standards groups **for roadmap prioritization**.
-      Your responses can help get features you care about implemented, browser incompatibilities being prioritized, and gaps in the platform being addressed.
-      - Learn about new and upcoming features; add features to your reading list and get a list of resources at the end!
-      - Get a personalized knowledge score and see how you compare to other respondents
+      Ez az előnye számodra:
+      - A felmérés eredményeit **használják a böngészők ** és a szabványokat készitő csapatok pedig **a fejlesztési tervek priorizálására**.
+      A válaszaid segíthetnek az általad fontosnak tartott új funkciók implementálásában, a böngészők inkompatibilitásainak priorizálásában, és egyéb hiányosságok orvosolásában.
+      - Ismerd meg az új és készülőben lévő funkciókat; add hozzá ezeket az olvasási listádhoz és mentsd el a forrásokat a végén!
+      - Kapj egy személyre szabott pontszámot a tudásodról és hasonlítsd össze a többi válaszolóéval
 
-      The survey will be open for 3 weeks, but responses entered **within the first 9 days (until October 1st)** will have a much higher impact on the Web,
-      as preliminary data will be used for certain prioritization efforts that have deadlines before then.
+      A kérdőív 3 hétig lesz nyitva, de a **az első 9 nap válaszai (október 1-ig)** sokkal nagyobb hatással lesznek az internetre,
+      mivel az előzetes eredmények is már fel lesznek használva különböző priorizálási feladatokhoz, amiknek ez előtt jár le a határideje.
 
   - key: general.state_of_html.description
-    t: The annual developer survey about the web platform
+    t: A webes platform éves fejlesztői felmérése
 
   ###########################################################################
   # Sections
   ###########################################################################
 
   - key: sections.forms.title
-    t: Forms
+    t: Úrlapok
   - key: sections.forms.description
-    t: Form-related elements and attributes
+    t: Úrlapokhoz kapcsolódó elemek és attribútumok
 
   - key: sections.interactivity.title
-    t: Interactivity
+    t: Interaktivitás
   - key: sections.interactivity.description
-    t: APIs that enable richer user interactions.
+    t: APIk amik gazdagabb felhasználói interakciót tesznek lehetővé.
 
   - key: sections.web_components.title
-    t: Web Components
+    t: Webes Komponensek
   - key: sections.web_components.description
-    t: Making & using web components.
+    t: Webes Komponensek készítése és használata.
 
   - key: sections.content.title
-    t: Content
+    t: Tartalom
   - key: sections.content.description
-    t: Embedding, multimedia, data, and other content-related features.
+    t: Beágyazás, multimédia, adat és egyéb tartalomhoz kapcsolódó funkciók.
 
   - key: sections.external_content.title
-    t: External Content
+    t: Külső tartalom
   - key: sections.external_content.description
-    t: Embedding external resources, and other multimedia APIs.
+    t: Külső tartalmak beágyazása és egyéb multimédia APIk.
 
   - key: sections.accessibility.title
-    t: Accessibility
+    t: Akadálymentesítés
   - key: sections.accessibility.description
-    t: Making sites and apps accessible by all.
+    t: Weboldalak és appok elérhetővé tétele mindenki számára.
 
   - key: sections.mobile_web_apps.title
-    t: Native-like Web Apps
+    t: Natív-szerű webes applikációk
   - key: sections.mobile_web_apps.description
-    t: Authoring mobile and desktop-optimized web apps.
+    t: Mobilra és asztali gépre optimizált webes applikációk készítése
 
   - key: sections.other_features.title
-    t: Other Features
+    t: Egyéb funkciók
   - key: sections.other_features.description
-    t: Other HTML elements & browser APIs.
+    t: Egyéb HTML elemek és böngésző APIk.
 
   - key: sections.other_tools.title
-    t: Other Tools & Features
+    t: Egyéb eszközök és funkciók
   - key: sections.other_tools.description
-    t: Other tools or features you use as part of your work.
+    t: Egyéb eszközök és funkciók amiket a munkád során használsz.
 
   - key: sections.usage.title
-    t: Usage
+    t: Használat
   - key: sections.usage.description
-    t: How you use HTML.
+    t: Hogyan használod a HTML-t.
 
   ###########################################################################
   # Features
@@ -92,56 +92,57 @@ translations:
   # forms
 
   - key: features.form_controls
-    t: Form Controls
+    t: Űrlap vezérlőelemek
   - key: features.form_controls.question
-    t: Which form controls have you used?
+    t: Mely űrlap vezérlőelemeket használtad már?
 
   - key: features.form_input_types
-    t: Input Types
+    t: Beviteli típusok
   - key: features.form_input_types.question
-    t: Which input types have you used?
+    t: Mely beviteli típusokat használtad már?
   - key: options.form_input_types.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> A fentiek egyikét sem
 
   - key: features.form_validation_features
-    t: Form Validation
+    t: Űrlap validáció
   - key: features.form_validation_features.question
-    t: Which of the following form validation features have you used?
+    t: Mely űrlap validációs funkciókat használtad már?
   - key: options.form_validation_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> A fentiek egyikét sem
 
   - key: features.forms_pain_points
-    t: Form Pain Points
+    t: Űrlapok hiányosságai
   - key: features.forms_pain_points.question
-    t: What are your pain points around HTML forms?
+    t: Mik a legnagyobb hiányosságok számodra a HTML űrlapokkal kapcsolatban?
   - key: features.forms_pain_points.description
     t: |
-      Think of the various form controls (e.g. `<input>`, `<textarea>`, `<select>`, `<button>` etc.),
-      behaviors (e.g. validation, autocomplete), handling forms via JS, editing APIs (e.g. `contentEditable`) etc.
-      Anything that bothers you is fair game — browser support, missing features, styling, etc.
+      Gondolj a különböző űrlap vezérlőelemek (pl. `<input>`, `<textarea>`, `<select>`, `<button>`, stb.)
+      viselkedésre (pl. validáció, autocomplete), az űrlapok vezérlése JS-sel, APIkkal (pl. `contentEditable`), stb.
+      Bármi, ami kicsit is zavar, megemlíthető itt - böngészőtámogatás, hiányzó funciók, stilizálás, stb.
   - key: features.forms_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Hiányosság #{index}…
 
   # interactivity
 
   - key: features.dom_attribute_features
-    t: DOM Attribute-related methods
+    t: DOM attribútumokhoz kapcsolódó funkciók
   - key: features.dom_attribute_features.question
-    t: Which of the following DOM attribute-related methods have you used?
+    t: Az alábbiak közül mely DOM attribútumokhoz kapcsolódó funkciókat használtad már?
 
   - key: features.dom_html_features
-    t: HTML String-handling Features
+    t: A HTML sztring kezelési funkciói
   - key: features.dom_html_features.question
-    t: Which of the following DOM HTML string-handling features have you used?
+    t: Az alábbiak közül mely HTML sztring kezelési funkciókat használtad már?
 
   - key: features.dom_methods
-    t: Element reparenting DOM Methods
+    t: DOM metódusok az elemek áthelyezésére másik szülőbe
 
   - key: features.dom_moving_element_features
-    t: Element-moving DOM Methods
+    t: Elem-áthelyezési DOM metódusok
   - key: features.dom_moving_element_features.question
-    t: Which of the following element-moving DOM methods have you used?
+    t: Az alábbiak közül mely elem-áthelyezési DOM metódust használtad már?
+
   # - key: options.dom_methods.element_innerhtml.description
   #   t: |
   #     `element.innerHTML = rawHTML`
@@ -179,73 +180,73 @@ translations:
   #   t: |
   #     `let fragment = document.createDocumentFragment()`
   - key: options.dom_methods.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> A fentiek közül egyik sem
 
   - key: features.interactivity_pain_points
-    t: Interactivity Pain Points
+    t: Interaktivitás hiányosságai
   - key: features.interactivity_pain_points.question
-    t: What are your pain points around dynamic HTML changes?
+    t: Mik azok a hiányosságok amiket fájlalsz a dinamikus HTML változásokban?
   - key: features.interactivity_pain_points.description
     t: |
-      Browser incompatibilities or lack of support, missing features, and other problems you face
-      around interactive elements and behaviors (except forms), DOM manipulation, events, and related APIs.
+      Böngésző inkompatibilitás vagy a támogatás hiánya, hiányzó funkciók és egyéb probémák
+      amiket tapasztalsz az interaktív elemek és viselkedések (az űrlapok kivételével), DOM manipuláció, események és kapcsolódó APIk.
 
   - key: features.interactivity_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Hiányosság #{index}…
 
   - key: features.interactivity_techniques
-    t: Interactivity Methods
+    t: Interaktivitási módszerek
   - key: features.interactivity_techniques.question
-    t: Which of these methods have you used to add interactivity or dynamically modify HTML?
+    t: Az alábbiak módszerek közül melyiket használtad interaktivitás vagy dinamikusan változó HTML hozzáadásához?
   - key: options.interactivity_techniques.css_for_interactivity
-    t: CSS for interactivity (toggles, tabs, etc.)
+    t: CSS az interaktivitáshoz (kapcsolók, tabok, stb.)
   - key: options.interactivity_techniques.js_dom_libraries
-    t: JavaScript DOM libraries (jQuery, etc.)
+    t: JavaScript DOM könyvtárak (jQuery, stb.)
   - key: options.interactivity_techniques.js_framework
-    t: JavaScript frameworks (React, Vue, etc.)
+    t: JavaScript keretrendszerek (React, Vue, stb.)
   - key: options.interactivity_techniques.vanilla_js
-    t: Plain JavaScript (no frameworks or libraries)
+    t: Sima JavaScript (könyvtárak és keretrendszerek nélkül)
   - key: options.interactivity_techniques.web_components
-    t: Web Components
+    t: Webes Komponensek
   - key: options.interactivity_techniques.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> A fentiek közül egyik sem
 
   # content
 
   - key: features.machine_readable_features
-    t: Machine-Readable Data
+    t: Számítógéppel olvasható adat
   - key: features.machine_readable_features.question
-    t: Which of the following have you used to include machine-readable data in HTML?
+    t: Az alábbiak közül melyiket használtad a számítógéppel olvasható adat HTML-hez való hozzáadásához?
   - key: options.machine_readable_features.rdfa.description
     t: |
-      `property`, `typeof`, etc.
+      `property`, `typeof`, stb.
   - key: options.machine_readable_features.json_ld.description
     t: |
       `<script type="application/ld+json">`
   - key: options.machine_readable_features.microdata.description
     t: |
-      `itemprop`, `itemscope`, etc.
+      `itemprop`, `itemscope`, stb.
 
   - key: features.multiple_languages_support
-    t: Multiple-Language Support
+    t: Többnyelvűség támogatása
   - key: features.multiple_languages_support.question
-    t: How often do you work on projects that require supporting more than one language?
+    t: Milyen gyakran dolgozol olyan projekteken, ahol egynél több nyelv támogatására is van szükség?
   - key: options.multiple_languages_support.never
-    t: Never
+    t: Soha
   - key: options.multiple_languages_support.infrequently
-    t: Infrequently (less than once a year)
+    t: Néha (ritkábban mint évente)
   - key: options.multiple_languages_support.frequently
-    t: Frequently (more than once a year)
+    t: Gyakran (egy évben többször)
   - key: options.multiple_languages_support.all_the_time
-    t: All the time
+    t: Egyfolytában
 
   - key: features.i18n_features
-    t: Internationalization Features
+    t: Internacionalizáló funkciók (i18n)
   - key: features.i18n_features.question
-    t: Which of the following internationalization features have you used?
+    t: Az alábbiak közül mely internacionalizáló funkciókat használtad már?
   - key: options.i18n_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> A fentiek közül egyiket sem
 
   # - key: options.i18n_features.intl_datetimeformat.description
   #   t:
@@ -267,40 +268,40 @@ translations:
   #   t:
 
   - key: features.content_pain_points
-    t: Content Pain Points
+    t: A tartalommenedzselés hiányosságai
   - key: features.content_pain_points.question
-    t: What are your pain points around managing content in HTML?
+    t: Melyek a főbb hiányosságok a HTML tartalommenedzselése terén?
   - key: features.content_pain_points.description
     t: |
-      Think of embedding (multimedia, iframes, SVG, etc), machine-readable data, internationalization & localization, security & privacy, performance etc.
-      Missing features, browser incompatibilities, and other problems you face are all fair game.
+      Gondolj a beágyazásra (multimédia, iframek, SVG, stb), számítógéppel olvasható adatok, internacionalizáció & lokalizáció, biztonság & adatvédelem, teljesítmény, stb.
+      Hiányzó funkciók, böngésző inkompatibilitás és egyéb problémák amikkel találkozol, mind ide sorolhatók.
   - key: features.content_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Hiányosság #{index}…
 
   # Content
 
   - key: features.external_content_elements
-    t: External Content Elements
+    t: A külső tartalom elemei
   - key: features.external_content_elements.question
-    t: Which of the following elements have you used?
+    t: Az alábbiak közül mely elemeket használtad?
   - key: options.external_content_elements.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> A fentiek közül egyiket sem
 
   - key: features.privacy_security_features
     t: |
-      Security & Privacy Features
+      Biztonsági & adatvédelmi funkciók
   - key: features.privacy_security_features.question
     t: |
-      Which of the following security & privacy features have you used?
+      Az alábbiak közül mely biztonsági & adatvédelmi funkciókat használtad?
   - key: options.privacy_security_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> A fentiek közül egyiket sem
 
   - key: features.rel_attribute
-    t: Resource Hints
+    t: Források segítőelemei
   - key: features.rel_attribute.question
     t: |
-      Which of these values have you used for the `rel` attribute of `<link>` ?
+      Mely értékeket használtad már a `<link>` `rel` attribútúmában?
 
   # - key: features.external_content_pain_points
   #   t: External Content Pain Points
@@ -316,14 +317,14 @@ translations:
   # Web Components
 
   - key: features.web_components_libraries
-    t: Web Components Libraries
+    t: Webes Komponensek könyvtárai
   - key: features.web_components_libraries.question
-    t: Have you used any Web Components libraries?
+    t: Használtál már Webes Komponens könyvtárat?
 
   - key: features.web_components_features
-    t: Other Web Component Features
+    t: Egyéb Webes Komponens funkciók
   - key: features.web_components_features.question
-    t: Which of the following web component features have you used?
+    t: Az alábbiak közül mely Webes Komponens funkciókat használtad már?
   - key: options.web_components_features.host_pseudos.description
     t: |
       `:host` , `:host()` , `:host-context()`
@@ -331,238 +332,238 @@ translations:
     t: |
       `<button is="fancy-button">`
   - key: options.web_components_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> A fentiek közül egyiket sem
 
   - key: features.using_web_components_pain_points
-    t: Using Web Components Pain Points
+    t: Hiányosságok a Webes Komponensek használatakor
   - key: features.using_web_components_pain_points.question
-    t: What are your biggest pain points around *consuming* web components?
+    t: Mik a legnagyobb hiányosságok a szemedben a mások által írt Webes Komponensek *felhasználásakor*?
   - key: features.using_web_components_pain_points.description
-    t: Using Web Components that you or others have made. Missing features, browser incompatibilities, etc.
+    t: Mások által létrehozott Webes Komponensek használata. Hiányzó funkciók, böngésző inkompatibilitás, stb.
   - key: features.using_web_components_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Hiányosság #{index}…
 
   - key: features.making_web_components_pain_points
-    t: Making Web Components Pain Points
+    t: Hiányosságok a Webes Komponensek készítésekor
   - key: features.making_web_components_pain_points.question
-    t: What are your biggest pain points around *making* web components?
+    t: Mik a legnagyobb hiányosságok a szemedben a Webes Komponensek *készítésekor*?
   - key: features.making_web_components_pain_points.description
     t: |
-      What prevents you from creating the amazing components you envision? Missing features, browser incompatibilities, etc.
+      Mi gátol meg abban, hogy olyan fantasztikus komponenseket készíts, amiket elképzelsz? Hiányzó funkciók, böngésző inkompatibilitás, stb.
   - key: features.making_web_components_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Hiányosság #{index}…
 
   # Accessibility
 
   - key: features.accessibility_features
-    t: Accessibility Features
+    t: Akadálymentesítő funkciók
   - key: features.accessibility_features.question
-    t: Which of these accessibility features have you used?
+    t: Az alábbiak közül mely akadálymentesítő funkciókat használtad már?
 
   - key: features.accessibility_tools
-    t: Accessibility Tools
+    t: Akadálymentesítő eszközök
   - key: features.accessibility_tools.question
-    t: What tools do you use for accessibility testing?
+    t: Milyen eszközöket használtál már az akadálymentesítés tesztelésére?
 
   - key: features.accessibility_pain_points
-    t: Accessibility Pain Points
+    t: Akadálymentesítés hiányosságok
   - key: features.accessibility_pain_points.question
-    t: What are your biggest pain points around web accessibility?
+    t: Mik a legnagyobb hiányosságok a webes akadálymentesítésben?
   - key: features.accessibility_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Hiányosság #{index}…
 
   - key: features.accessibility_disabilities
-    t: User Disabilities
+    t: A felhasználók fogyatákosságai
   - key: features.accessibility_disabilities.question
-    t: What kind of user disabilities do you account for when making websites?
+    t: Mely fogyatákosságokkal számolsz egy weboldal készítésekor?
 
   - key: options.accessibility_disabilities.hearing_impairments
-    t: Hearing impairments
+    t: Hallási nehézségek
   - key: options.accessibility_disabilities.hearing_impairments.description
-    t: Deafness, tinnitus, etc.
+    t: Süketség, fülzúgás, stb.
 
   - key: options.accessibility_disabilities.mobility_impairments
-    t: Mobility impairments
+    t: Mozgási nehézségek
   - key: options.accessibility_disabilities.mobility_impairments.description
-    t: Arthritis, carpal tunnel, etc.
+    t: Ízületi gyulladás, kéztőalagút-szindróma (carpal tunnel), stb.
 
   - key: options.accessibility_disabilities.learning_disabilities
-    t: Learning disabilities
+    t: Tanulási nehézségek
   - key: options.accessibility_disabilities.learning_disabilities.description
-    t: Dyslexia, dyscalculia, etc.
+    t: Diszlexia, diszkalkulia, stb.
 
   - key: options.accessibility_disabilities.cognitive_impairments
     t: |
-      Other cognitive impairments
+      Egyéb kognitív zavarok
   - key: options.accessibility_disabilities.cognitive_impairments.description
     t: |
-      Anxiety, Autism, OCD, ADHD, etc.
+      Szorongás, autozmus, OCD, ADHD, stb.
 
   - key: options.accessibility_disabilities.vestibular_disorders
-    t: Vestibular disorders
+    t: Vesztibulária zavarok
   - key: options.accessibility_disabilities.vestibular_disorders.description
-    t: Epilepsy, vertigo, etc.
+    t: Epilepszia, szédülés, etc.
 
   - key: options.accessibility_disabilities.low_vision
-    t: Low vision
+    t: Gyenge látás
   - key: options.accessibility_disabilities.low_vision.description
-    t: Blindness, high myopia, etc.
+    t: Vakság, rövidlátás, stb.
 
   - key: options.accessibility_disabilities.atypical_vision
-    t: Atypical color vision
+    t: Atipikus színlátás
   - key: options.accessibility_disabilities.atypical_vision.description
-    t: Color blindness
+    t: Színvakság
 
   - key: features.accessibility_screenreaders
-    t: Screen Readers
+    t: Képernyő felolvasók
   - key: features.accessibility_screenreaders.question
-    t: Which screen readers do you use for accessibility testing?
+    t: Milyen képernyő felolvasókat használsz az akadálymentesítés tesztelésekor?
 
   - key: features.accessibility_techniques
-    t: Other Accessibility Techniques
+    t: Egyéb akadálymentesítő technikák
   - key: features.accessibility_techniques.question
-    t: What other techniques are part of your regular accessibility strategy?
+    t: Milyen egyéb technikákat alkalmazol rendszerint az akadálymentesítéshez?
 
   - key: options.accessibility_techniques.tabindex
     t: |
-      Improving focus order with `tabindex`
+      A fókusz besorolás javítása a `tabindex`-szel
   - key: options.accessibility_techniques.tabindex.description
     t: |
-      Roving `tabindex`, `tabindex="0"` to enable focus, etc.
+      Vándorló `tabindex`, `tabindex="0"` a fókusz beállítására, stb.
   - key: options.accessibility_techniques.keyboard_navigation
-    t: Intuitive keyboard navigation
+    t: Intuitív billentyűzetes navigáció
   - key: options.accessibility_techniques.keyboard_navigation.description
-    t: Other than tab order.
+    t: Bármi a tabok sorrendjén kívül
   - key: options.accessibility_techniques.aria_attributes
-    t: ARIA attributes
+    t: ARIA attribútumok
   - key: options.accessibility_techniques.aria_attributes.description
     t: |
-      `role` and `aria-*` attributes
+      `role` és `aria-*` attribútumok
   - key: options.accessibility_techniques.descriptive_alt_text
     t: |
-      Descriptive `alt` text
+      Kifejező `alt` szöveg
   - key: options.accessibility_techniques.descriptive_alt_text.description
-    t: Providing alt text that describes the purpose or content of an image.
+    t: Alternatív (alt) szöveg beállítása ami jól leírja a kép célját és tartalmát.
   - key: options.accessibility_techniques.skip_to_content
-    t: Skip-to-content link
+    t: Link a fő tartalomhoz ("ugrás a fő tartalomra" gomb)
   - key: options.accessibility_techniques.skip_to_content.description
-    t: Letting users skip straight to the main content of a page.
+    t: Segít rögtön a fő tartalomhoz ugrani
   - key: options.accessibility_techniques.fieldset_and_legend
     t: |
-      `<fieldset>` and `<legend>`
+      `<fieldset>` és `<legend>`
   - key: options.accessibility_techniques.fieldset_and_legend.description
     t: |
-      Using `<fieldset>` and `<legend>`  to group related form elements.
+      A `<fieldset>` és `<legend>` használata az űrlaphoz kapcsolódó elemek csoportosításához.
   - key: options.accessibility_techniques.headings_hierarchy
-    t: Information Hierarchy
+    t: Információs hierarchia
   - key: options.accessibility_techniques.headings_hierarchy.description
     t: |
-      Using headings (`<h1>` - `<h6>`) that correctly represent a page's information hierarchy.
+      A HTML címek használata (`<h1>` - `<h6>`) amik megfelelően reprezentálják a szöveg elhelyezkedését a dokumentum hierarchiájában.
   - key: options.accessibility_techniques.meaningful_link_text
-    t: Meaningful Link Text
+    t: Jelentőségteljes link szöveg
   - key: options.accessibility_techniques.meaningful_link_text.description
-    t: Ensuring that link text makes sense out of context
+    t: Fontos, hogy a link szövege érthető legyen még a kontextusból kiemelve is
   - key: options.accessibility_techniques.form_control_label
-    t: Form Control Labels
+    t: Űrlap irányítóelemek leírása
   - key: options.accessibility_techniques.form_control_label.description
     t: |
-      Ensuring every form control has a `<label>` (or `aria-label`, etc.).
+      Fontos, hogy minden irányítóelemeknek legyen egy hozzákapcsolódó `<label>` leírása (vagy `aria-label`, stb.).
   - key: options.accessibility_techniques.visible_focus
-    t: Visible Focus Ring
+    t: Látható fókuszgyűrű
   - key: options.accessibility_techniques.visible_focus.description
-    t: Ensuring focus ring outline is clearly visible when needed.
+    t: Fontos, hogy a fókuszterület körvonala tisztán látható legyen, amikor szükséges.
   - key: options.accessibility_techniques.pointer_alternative
-    t: Not Relying on Pointer Only
+    t: Ne támaszkodjunk csak és kizárólag az egér mutatójára
   - key: options.accessibility_techniques.pointer_alternative.description
-    t: Ensuring pointer interactions (e.g. hover) have a keyboard alternative.
+    t: Fontos, hogy az egér mutatójának interakciói (pl. rámenni egy gombra) mind elérhetőek legyenek a billentyűzeten is.
   - key: options.accessibility_techniques.good_color_contrast
-    t: Sufficient Contrast
+    t: Elégséges kontraszt
   - key: options.accessibility_techniques.good_color_contrast.description
-    t: Using contrast checkers to ensure sufficient color contrast.
+    t: A kontraszt ellenőrzésére szolgáló eszközök használata.
   - key: options.accessibility_techniques.color_alternative
-    t: Not Relying on Color Only
+    t: Ne csak a színekre támaszkodjunk
   - key: options.accessibility_techniques.color_alternative.description
-    t: Ensuring that no information is conveyed by color alone.
+    t: Biztosítani, hogy az információt a színeken kívül máshogy is követítsük.
   - key: options.accessibility_techniques.prefers_reduced_motion
     t: |
-      `prefers-reduced-motion` media query
+      `prefers-reduced-motion` médialekérdezés
   - key: options.accessibility_techniques.prefers_reduced_motion.description
-    t: Providing alternative CSS for users who prefer reduced motion.
+    t: Alternatív CSS használata azoknál, akik inkább kevesebb mozgást preferálnak.
   - key: options.accessibility_techniques.prefers_contrast
     t: |
-      `prefers-contrast` media query
+      `prefers-contrast` médialekérdezés
   - key: options.accessibility_techniques.prefers_contrast.description
-    t: Providing alternative CSS for users who prefer increased contrast.
+    t: Alternatív CSS használata azoknál, akik nagyobb kontrasztot igényelnek.
 
   # PWAs
 
   - key: features.pwa_features
-    t: PWA Features
+    t: PWA funkciók
   - key: features.pwa_features.question
-    t: Have you used any of the following PWA technologies/APIs?
+    t: Használtad ezek közül valamelyik PWA technológiát/APIt?
   - key: options.pwa_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> A fentiek közül egyiket sem
 
   - key: features.local_storage_features
-    t: Local storage features
+    t: Helyi tárhely
   - key: features.local_storage_features.question
-    t: Have you used any of the following to store data client-side?
+    t: Az alábbiak közül használtad-e bármelyiket az adat kliens-oldali tárolására?
   - key: options.local_storage_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> A fentiek közül egyiket sem
 
   - key: features.pwa_app_manifest_fields
-    t: App Manifest Fields
+    t: App Manifest mezől
   - key: features.pwa_app_manifest_fields.question
     t: |
-      Which of these app manifest fields (`<link rel="manifest">`) have you used, if any?
+      Az alábbiak közül mely App Manifest mezőket (`<link rel="manifest">`) használtad már? (Ha használtad?)
 
   - key: features.native_apps_tools
-    t: Native Apps Tools
+    t: Natív app eszközök
   - key: features.native_apps_tools.question
-    t: Have you used any of these tools to build native apps?
+    t: Használtad ezek valamelyikét már natív appok készítésére?
   - key: features.native_apps_tools.description
-    t: Excluding scripts, command-line apps, server-side code, etc.
+    t: Kivéve szkriptek, parancssori appok, szerver-oldali kód, stb.
   - key: options.native_apps_tools.na
-    t: <span aria-hidden="true">🚫</span> I haven't developed native apps
+    t: <span aria-hidden="true">🚫</span> Még nem fejlesztettem natív appokat
   - key: options.native_apps_tools.native_languages
-    t: Native technologies
+    t: Natív technológiák
   - key: options.native_apps_tools.native_languages.description
-    t: Objective-C, Swift, Kotlin, .NET, etc.
+    t: Objective-C, Swift, Kotlin, .NET, stb.
   - key: options.native_apps_tools.webviews
-    t: Web app loaded via Webviews
+    t: Webappok betöltése Webviews-szal
   - key: options.native_apps_tools.js_frameworks
-    t: JavaScript-based frameworks
+    t: JavaScript-alapú keretrendszerek
   - key: options.native_apps_tools.js_frameworks.description
-    t: React Native, Ionic, Electron, etc.
+    t: React Native, Ionic, Electron, stb.
   - key: options.native_apps_tools.other_frameworks
-    t: Non-JavaScript frameworks
+    t: Nem JavaScript-alapú keretrendszerek
   - key: options.native_apps_tools.other_frameworks.description
-    t: Tauri, Flutter, etc.
+    t: Tauri, Flutter, stb.
 
   - key: features.mobile_web_apps_pain_points
-    t: Native-like Web Apps Pain Points
+    t: Natív-szerő webappok hiányosságai
   - key: features.mobile_web_apps_pain_points.question
-    t: What are your biggest pain points around making web apps that feel native?
+    t: Melyek a legnagyobb hiányosságok számodra a webappok készítésekor amikor natívnak érződnek?
   - key: features.mobile_web_apps_pain_points.description
-    t: Capabilities the Web Platform doesn't yet have, browser differences in related APIs, etc.
+    t: Hiányzó képességek amik még nincsenek a Web Platformban, böngészők közötti különbségek az APIkban, stb.
   - key: features.mobile_web_apps_pain_points.placeholder
     t: |
-      Pain point #{index}
+      Hiányosság #{index}
 
   # Other Tools
 
   - key: other_tools.site_generators
-    t: Site Generators
+    t: Weboldal generátorok
   - key: other_tools.site_generators.question
-    t: Which of these static or dynamic site generators do you regularly use?
+    t: Ezek közül melyik statikus vagy dinamikus weboldal generátort használod rendszeresen?
 
   - key: other_tools.ai_tools
-    t: AI Tools
+    t: Mesterséges Intelligencia (MI) eszközök
   - key: other_tools.ai_tools.question
-    t: Which of these AI tools do you regularly use to help you write code?
+    t: Ezek közül mely MI eszközöket használod rendszeresen kódoláskor?
 
   - key: other_tools.machine_readable_features
     aliasFor: features.machine_readable_features
@@ -570,16 +571,16 @@ translations:
     aliasFor: features.machine_readable_features.question
 
   - key: options.machine_readable_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> A fentiek közül egyiket sem
 
   - key: other_tools.blast_from_the_past
-    t: Blast from the Past!
+    t: Üdv a múltból!
   - key: other_tools.blast_from_the_past.question
-    t: Have you ever used any of the following old-school elements?
+    t: Használtad valaha ezeket a régimódi elemeket?
   - key: other_tools.blast_from_the_past.description
-    t: Blast from the past!
+    t: Üdv a múltból!
   - key: options.blast_from_the_past.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> A fentiek közül egyiket sem
 
   # Usage
 
@@ -595,37 +596,37 @@ translations:
   #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
 
   - key: usage.html_interoperability_features
-    t: Browser Interoperability
+    t: Böngésző együttműködés
   - key: usage.html_interoperability_features.question
-    t: Which existing HTML features or browser APIs are you unable to use because of browser differences or lack of support?
+    t: Mely létező HTML funkciókat vagy böngésző APIkat nem tudsz használni a böngészők közötti különbségek vagy hiányzó támogatás miatt?
   # - key: usage.html_interoperability_features.description
   #   t: |
   #     Any type of API the survey has asked about is within scope.
   - key: usage.html_interoperability_features.placeholder
     t: |
-      Feature #{index}
+      Funkció #{index}
 
   - key: usage.html_functionality_features
-    t: Limited Functionality
+    t: Korlátozott funkcionalitás
   - key: usage.html_functionality_features.question
-    t: Which existing HTML features or browser APIs are you unable to use for other reasons (and why)?
+    t: Mely meglévő HTML funkciókat vagy böngésző APIkat nem tudsz használni egyéb okok miatt (és miért)?
   - key: usage.html_functionality_features.description
     t: |
-      Good candidates might be existing HTML features that you often have to recreate or augment using JS.
+      Jó példa lehet egy meglévő HTML funkció amit gyakran újra kell írnod vagy módosítani JavaScripttel.
 
-      Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
+      Kérlek adj meg egy okot is, például funkció hiánya, nehéz stilizálni vagy nehéz használni, stb.
 
   - key: usage.html_functionality_features.placeholder.1
     t: |
-      Feature #1 (hard to style)
+      Funkció #1 (nehéz stilizálni)
   - key: usage.html_functionality_features.placeholder.2
     t: |
-      Feature #2 (limited functionality, poor accessibility)
+      Funkció #2 (korlátozott funkcionalitás, nehéz használat)
 
   - key: usage.what_do_you_use_html_for
-    t: HTML Usage
+    t: A HTML használata
   - key: usage.what_do_you_use_html_for.question
-    t: What do you use HTML for?
+    t: Mire használod a HTML-t?
   - key: options.what_do_you_use_html_for.blogs
     aliasFor: options.what_do_you_use_css_for.blogs
   - key: options.what_do_you_use_html_for.design_systems
@@ -644,33 +645,33 @@ translations:
     aliasFor: options.what_do_you_use_css_for.web_apps
 
   - key: usage.tools_for_other_developers
-    t: Ecosystem Impact
+    t: Az ökoszisztéma hatása
   - key: usage.tools_for_other_developers.question
-    t: Other than yourself, how many developers use the libraries, packages, components, APIs etc. that you create or maintain?
+    t: Magadon kívül, hány másik fejlesztő használja a könyvárakat, csomagokat, komponenseket, APIkat, stb, amiket te írtál vagy tartasz fenn?
   - key: usage.tools_for_other_developers.description
     t: |
-      Total, if you work on multiple projects that are used by other developers.
-      If you’re not sure, pick the closest to your best estimate.
-      For open source code, npm downloads might offer a useful data point.
+      Összesen, ha több projekten is dolgozol amiket mások használnak.
+      Ha nem tudod pontosan, próbáld meg megbecsülni.
+      A nyílt forrású szoftvereknél az npm letöltések száma adhat hasznos kiindulópontot.
   - key: options.tools_for_other_developers.na
-    t: 🚫 None (Just me)
+    t: 🚫 Senki (csak én)
   - key: options.tools_for_other_developers.a_few
-    t: A few other developers (e.g. developers within a small team)
+    t: Néhány másik fejlesztő (pl. fejlesztők egy kisebb csapatban)
   - key: options.tools_for_other_developers.less_than_100
-    t: Less than a hundred developers
+    t: Kevesebb, mint 100 fejlesztő
   - key: options.tools_for_other_developers.less_than_1000
-    t: Less than a thousand developers
+    t: Kevesebb, mint 1000 fejlesztő
   - key: options.tools_for_other_developers.more_than_100
-    t: Hundreds of developers
+    t: Többszáz fejlesztő
   - key: options.tools_for_other_developers.more_than_1000
-    t: Thousands of developers
+    t: Többezer fejlesztő
   - key: options.tools_for_other_developers.more_than_1000000
-    t: Millions of developers
+    t: Többmillió fejlesztő
 
   - key: usage.html_missing_elements
-    t: Missing Elements
+    t: Hiányzó elemek
   - key: usage.html_missing_elements.question
-    t: If you could add 3 elements to HTML, what would they be?
+    t: Ha hozzáadhatnál 3 új elemet a HTML-hez, mik lennének azok?
   # - key: usage.html_missing_elements.description
   #   t: |
   #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
@@ -678,33 +679,33 @@ translations:
   #     These could be things like Accordion, Alert, Calendar, Carousel, Combobox/Autocomplete, Context menu, Data Grid, Rating, Tabs, Image Zoom, Switch, Skeleton loading pattern etc.
 
   - key: options.html_missing_elements.accordion
-    t: Accordion
+    t: Accordion (harmonika)
   - key: options.html_missing_elements.alert
-    t: Alert
+    t: Alert (értesítés)
   - key: options.html_missing_elements.calendar
-    t: Calendar
+    t: Calendar (naptár)
   - key: options.html_missing_elements.carousel
     t: Carousel
   - key: options.html_missing_elements.combobox_autocomplete
     t: Combobox / Autocomplete
   - key: options.html_missing_elements.command_palette
-    t: Command Palette
+    t: Command Palette (vezérlési panel)
   - key: options.html_missing_elements.context_menu
-    t: Context Menu / Right-Click Menu
+    t: Context Menu / Right-Click Menu (jobb-kattintás menü)
   - key: options.html_missing_elements.datatable
-    t: Data table (with sorting, filtering, etc.)
+    t: Adattáblázat (rendezéssel, filterezéssel, stb.)
   - key: options.html_missing_elements.dropdown_menu
-    t: Dropdown Menu
+    t: Legördülő menü
   - key: options.html_missing_elements.image_zoom
-    t: Image Zoom
+    t: Képek nagyíthatósága
   - key: options.html_missing_elements.progress_bar
-    t: Progress Bar
+    t: Folyamatindikátor
   - key: options.html_missing_elements.skeleton_loading_placeholder
-    t: Skeleton UI / Loading Placeholder
+    t: Weboldal váz / Helykitöltő betöltés közben
   - key: options.html_missing_elements.switch
-    t: Switch / Toggle
+    t: Két opciós gomb
   - key: options.html_missing_elements.tabs
-    t: Tabs
+    t: Tabok
   # - key: options.html_missing_elements.toast_message
   #   t: Toast Message
   - key: options.html_missing_elements.tooltip
@@ -712,25 +713,25 @@ translations:
   - key: options.html_missing_elements.offcanvas
     t: Off-Canvas Area
   - key: options.html_missing_elements.spinner
-    t: Loading Spinner
+    t: Betöltési indikátor (forgó kör stb.)
   - key: options.html_missing_elements.segmented_button
-    t: Segmented Button
+    t: Szegmentált gomb
   - key: options.html_missing_elements.scroll_area
-    t: Infinite Scroll
+    t: Végelen görgetés
   - key: options.html_missing_elements.icon
-    t: Icon
+    t: Ikon
   - key: options.html_missing_elements.star_rating
-    t: Star Rating
+    t: Csillag értékelés
 
   - key: usage.html_pain_points_freeform
-    t: Other Pain Points
+    t: Egyéb hiányosságok
   - key: usage.html_pain_points_freeform.question
-    t: Any other pain points around using HTML and related technologies?
+    t: Van bármi más hiányosság a HTML használatában és a kapcsolódó technológiákban?
 
   - key: usage.html_css_js_balance
-    t: HTML/CSS vs JavaScript/TypeScript Balance
+    t: HTML/CSS vs JavaScript/TypeScript egyensúly
   - key: usage.html_css_js_balance.question
-    t: How do you divide your time between writing HTML/CSS and JavaScript (or TypeScript) code?
+    t: Hogyan osztod meg az idődet a HTML/CSS és JavaScript (vagy TypeScript) írásában?
   - key: options.html_css_js_balance.0
     t: 100% HTML/CSS
   - key: options.html_css_js_balance.4
@@ -741,43 +742,43 @@ translations:
   # other features
 
   - key: features.foo_attribute
-    t: "`{id}` attribute"
+    t: "`{id}` attribútum"
 
   - key: features.slot_assignment
-    t: Explicit slot assignment (`slot="foo"`)
+    t: Explicit slot hozzárendelés (`slot="foo"`)
 
   - key: features.tabindex
-    t: "`tabindex` attribute"
+    t: "`tabindex` attribútum"
 
   - key: features.respimg
-    t: "`srcset` and `sizes` attributes"
+    t: "`srcset` és `sizes` attribútumok"
 
   - key: features.model_element
-    t: "`<model>` for AR/VR/3D content"
+    t: "`<model>` a AR/VR/3D tartalomhoz"
 
   - key: features.slot_def
-    t: Defining slots (`<slot>` and `::slotted()`)
+    t: Slotok definiálása (`<slot>` and `::slotted()`)
 
   - key: features.controlslist
-    t: "`controlslist` attribute"
+    t: "`controlslist` attribútum"
 
   - key: features.popover_api
-    t: Popover API
+    t: Popover API (felugró elem API)
 
   - key: features.lazy_loading
-    t: Lazy loading
+    t: Lazy loading (lusta betöltés)
 
   - key: features.sandbox_attr
-    t: "`sandbox` attribute for iframes"
+    t: "`sandbox` attribútum az iframe-ekhez"
 
   - key: features.details_element
-    t: "`<details>` and `<summary>`"
+    t: "`<details>` és `<summary>`"
 
   - key: features.crossorigin
-    t: "`crossorigin` attribute"
+    t: "`crossorigin` attribútum"
 
   - key: features.host_css
-    t: Styling component host (`:host`, `:host()`, `:host-context()`)
+    t: A host komponens stilizálása (`:host`, `:host()`, `:host-context()`)
 
   - key: features.element_internals
     t: "`ElementInternals` API"
@@ -786,61 +787,61 @@ translations:
     t: CORS
 
   - key: features.csp
-    t: Content-Security Policy (CSP)
+    t: Content-Security Policy (CSP) (Tartalombiztonsági irányelv)
 
   - key: features.structured_data
-    t: Structured data (RDFa, Microdata, Microformats)
+    t: Struktúrált adat (RDFa, Microdata, Microformats)
 
   - key: features.extended_builtins
-    t: Extended built-ins
+    t: Kiterjesztett beépített modulok (Extended Built-ins)
 
   - key: features.html_modules
-    t: HTML Modules
+    t: HTML modulok
 
   - key: features.accordion
-    t: Exclusive accordion
+    t: Kizáró accordion
 
   - key: features.imperative_slot
-    t: Imperative slot assignment
+    t: Imperatív slot hozzárendelés
 
   # - key: features.focusgroup
   #   t: "`focusgroup` attribute"
 
   - key: features.form_validation
-    t: Form validation
+    t: Űrlap validáció
 
   - key: features.aria
     t: ARIA
 
   - key: features.rh_preconnect
-    t: "Resource Hints: preconnect (`<link rel=preconnect>`)"
+    t: "Forrás segítők: preconnect (`<link rel=preconnect>`)"
 
   - key: features.rh_prerender
-    t: "Resource Hints: prerender (`<link rel=prerender>`)"
+    t: "Forrás segítők: prerender (`<link rel=prerender>`)"
 
   - key: features.rh_preload
-    t: "Resource Hints: preload (`<link rel=preload>`)"
+    t: "Forrás segítők: preload (`<link rel=preload>`)"
 
   - key: features.resource_hints
-    t: Resource Hints (all)
+    t: Forrás segítők (mind)
 
   - key: features.rh_prefetch
-    t: "Resource Hints: prefetch (`<link rel=prefetch>`)"
+    t: "Forrás segítők: prefetch (`<link rel=prefetch>`)"
 
   - key: features.declarative_shadow
-    t: Declarative Shadow DOM (`<template shadowrootmode="open">`)
+    t: Deklaratív Árnyék DOM (`<template shadowrootmode="open">`)
 
   - key: features.referrerpolicy
-    t: "`referrerpolicy` attribute"
+    t: "`referrerpolicy` attribútum"
 
   - key: features.integrity
-    t: Subresource Integrity (`integrity` attribute)
+    t: Alforrás integritás (`integrity` attribútum)
 
   - key: features.pwa_manifest
     t: PWA manifest
 
   - key: features.part_attr
-    t: Exposing component parts (`part` attribute)
+    t: Exposing component parts (`part` attribútum)
 
   - key: features.part_selector
     t: Styling component parts (`::part()`)
@@ -861,7 +862,7 @@ translations:
     t: Defining Custom Elements
 
   - key: features.decoding
-    t: "`decoding` attribute"
+    t: "`decoding` attribútum"
 
   - key: features.custom_elements_using
     t: Using Custom Elements
@@ -899,7 +900,6 @@ translations:
 
   - key: features.features_intro_html
     t: |
-      Welcome to the survey! These first couple sections are all about figuring out
-      which **features** of HTML (and related APIs) you know about.
+      Üdv a kérdőívben! Ez az első néhány rész arról szól, hogy mely HTML **funkciókról** (vagy kapcsolódó APIk-ról) tudsz.
 
-      By the way, if you want to learn more about any item in the survey, you can add it to your reading list by clicking its little "+" icon!
+      Egyébként, ha többet akarsz megtudni a kérdőív egy-egy eleméről, hozzáadhatod az olvasási listádhoz a kis "+" ikonra kattintva!
