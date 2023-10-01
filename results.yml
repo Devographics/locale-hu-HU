@@ -55,12 +55,12 @@ translations:
     t: Fizetés alapján
   - key: tabs.by_gender
     t: Nemenként
-
-  ###########################################################################
-  # Block
-  ###########################################################################
-
-  - key: block.data_from
+  - key: tabs.by_race_ethnicity
+    t: By Race & Ethnicity
+  - key: tabs.low_vs_high_income
+    t: Low vs High Income
+  - key: tabs.usa_vs_the_world
+    t: U.S. vs World
     t: foo
 
   ###########################################################################
@@ -148,6 +148,12 @@ translations:
     t: Fórumok
   - key: options.first_steps.view_source
     t: View Source
+  - key: options.first_steps.copy_paste
+    t: Copy/paste
+  - key: options.first_steps.trial_and_error
+    t: Trial & Error
+  - key: options.first_steps.documentation
+    t: Documentation
 
   # other disablities
   - key: options.disability_status_others.adhd
@@ -172,6 +178,22 @@ translations:
     t: Dyslexia
   - key: options.disability_status_others.diabetes
     t: Diabetes
+  - key: options.disability_status_others.carpal_tunnel
+    t: Carpal Tunnel
+  - key: options.disability_status_others.migraine
+    t: Migraine
+  - key: options.disability_status_others.speech_impairment
+    t: Speech Impairment
+  - key: options.disability_status_others.ocd
+    t: OCD
+  - key: options.disability_status_others.chronic_pain
+    t: Chronic Pain
+  - key: options.disability_status_others.chronic_fatigue
+    t: Chronic Fatigue
+  - key: options.disability_status_others.crohn
+    t: Crohn's Disease
+  - key: options.disability_status_others.depression
+    t: Depression
 
   ###########################################################################
   # Sections
@@ -197,6 +219,8 @@ translations:
 
   - key: sections.about.title
     t: A kérdőívről
+  - key: sections.how_to_help.title
+    t: How to Help
 
   - key: sections.support.title
     t: Támogass minket
@@ -231,7 +255,11 @@ translations:
     t: Hogyan hallottak a válaszadók a kérdőívről?
   - key: user_info.source.note
     t: Az adathalmaz kombinálja a kitöltők válaszait, hivatkozási- valamint URL követési adatokat.
+  - key: user_info.source_by_gender
+    t: Source by Gender
 
+  - key: user_info.source_by_race_ethnicity
+    t: Source by Race & Ethnicity
   - key: user_info.gender_by_country
     t: Nemek ország szerinti bontásban
   - key: user_info.gender_by_country.description
@@ -241,6 +269,15 @@ translations:
     t: Tapasztalat években, fizetések szerint rangsorolva
   - key: user_info.years_of_experience_by_salary.description
     t: Tapasztalat években, fizetések szerint rangsorolva.
+  - key: user_info.average_income_by_years_of_experience
+    t: Average Income by Years of Experience
+  - key: user_info.average_income_by_years_of_experience.description
+    t: Average income by years of experience.
+
+  - key: user_info.average_income_by_company_size
+    t: Average Income by Company Size
+  - key: user_info.average_income_by_company_size.description
+    t: Average income by company size.
 
   - key: user_info.yearly_salary_by_country
     t: Fizetés ország szerinti bontásban
@@ -256,6 +293,9 @@ translations:
     t: Fizetés tapasztalat alapján
   - key: user_info.yearly_salary_by_experience.description
     t: Éves fizetés eloszlása tapasztalat alapján, átlagos fizetések szerinti csökkenő sorrendben.
+  - key: user_info.yearly_salary_usa_vs_the_world
+    t: >
+      Yearly Income: U.S vs World
 
   - key: user_info.race_ethnicity_by_years_of_experience
     t: Faji és etnikai eloszlás tapasztalat alapján
@@ -289,6 +329,8 @@ translations:
     t: cseh
   - key: options.locale.pt-PT
     t: portugál
+  - key: options.locale.pt-BR
+    t: Portuguese (Brazil)
   - key: options.locale.it-IT
     t: olasz
   - key: options.locale.sv-SE
@@ -315,8 +357,22 @@ translations:
     t: koreai
   - key: options.locale.ro-RO
     t: román
+  - key: options.locale.am-ET
+    t: Amharic
+  - key: options.locale.ar-EG
+    t: Arabic
+  - key: options.locale.el-GR
+    t: Greek
+  - key: options.locale.gl-ES
+    t: Galician
+  - key: options.locale.hr-HR
+    t: Croatian
   - key: options.locale.hu-HU
     t: magyar
+  - key: options.locale.sk-SK
+    t: Slovak
+  - key: options.locale.vi-VN
+    t: Vietnamese
 
   ###########################################################################
   # Features
@@ -386,6 +442,28 @@ translations:
     t: Homepage
   - key: blocks.entity.github_link
     t: GitHub
+  - key: blocks.entity.twitter_link
+    t: Twitter
+  - key: blocks.entity.mastodon_link
+    t: Mastodon
+  - key: blocks.entity.blog_link
+    t: Blog
+  - key: blocks.entity.rss_link
+    t: RSS
+  - key: blocks.entity.twitch_link
+    t: Twitch
+  - key: blocks.entity.npm_link
+    t: npm
+  - key: blocks.entity.youtube_link
+    t: YouTube
+
+  # people
+  - key: blocks.people.name
+    t: Name
+  - key: blocks.people.social_links
+    t: Links
+  - key: blocks.people.responses
+    t: Responses
 
   # cardinality
   - key: blocks.all_sections_tools_cardinality_by_user
@@ -415,19 +493,19 @@ translations:
 
   # tools quadrant
   - key: blocks.tools_quadrant
-    t: Satisfaction vs Usage
+    t: Retention vs Usage
   - key: blocks.tools_quadrant.description
     t: |
-      This chart shows each technology's **satisfaction ratio** (or **interest ratio**) over its total **user count**.
+      This chart shows each technology's **retention ratio** over its total **user count**.
       It can be divided into four quadrants:
 
-        - **ASSESS**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+        - **ASSESS**: Low usage, high retention. Technologies worth keeping an eye on.
 
-        - **ADOPT**: High usage, high satisfaction. Safe technologies to adopt.
+        - **ADOPT**: High usage, high retention. Safe technologies to adopt.
 
-        - **AVOID**: Low usage, low satisfaction. Technologies probably best avoided currently.
+        - **AVOID**: Low usage, low retention. Technologies probably best avoided currently.
 
-        - **ANALYZE**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+        - **ANALYZE**: High usage, low retention. Reassess these technologies if you're currently using them.
 
   # category other tools
   - key: blocks.category_other_tools
@@ -437,7 +515,7 @@ translations:
 
   # tool experience
   - key: blocks.tool_experience
-    t: '{name} Experience'
+    t: "{name} Experience"
   - key: blocks.tool_experience.description
     t: Respondent's experience with {name}.
 
@@ -457,7 +535,7 @@ translations:
     t: Library Tier List
   - key: blocks.tools_tier_list.description
     t: |
-      This chart ranks libraries based on their satisfaction ratio (percentage of users
+      This chart ranks libraries based on their retention ratio (percentage of users
       who would use a library again). Note that libraries used by less than 10% of survey 
       respondents are not included.
   - key: blocks.tools_tier_list.bounds
@@ -484,17 +562,29 @@ translations:
 
   # tools experience ranking
   - key: blocks.tools_experience_ranking
+    t: Rankings Over Time
+  - key: blocks.tools_experience_ranking.percentages
+    t: Percentages
+  - key: blocks.tools_experience_ranking.rankings
     t: Rankings
   - key: blocks.tools_experience_ranking.description
-    t: Satisfaction, interest, usage, and awareness ratio rankings.
+    t: Retention, interest, usage, and awareness ratio rankings.
   - key: blocks.tools_experience_ranking.note
     t: |
       Technologies with less than 10% awareness not included. Each ratio is defined as follows:
 
-      - Satisfaction: **would use again** / (**would use again** + **would not use again**)
+      - Retention: **would use again** / (**would use again** + **would not use again**)
       - Interest: **want to learn** / (**want to learn** + **not interested**)
       - Usage: (**would use again** + **would not use again**) / **total**
       - Awareness: (**total** - **never heard**) / **total**
+
+  # tools experience linechart
+  - key: blocks.tools_experience_linechart
+    t: Ratios Over Time
+  - key: blocks.tools_experience_linechart.description
+    t: Retention, interest, usage, and awareness ratio over time.
+  - key: blocks.tools_experience_linechart.note
+    aliasFor: blocks.tools_experience_ranking.note
 
   # happiness
   - key: blocks.happiness
@@ -518,17 +608,32 @@ translations:
 
   # features_overview
   - key: blocks.features_overview
-    t: Usage Overview
+    t: Features Overview
   - key: blocks.features_overview.description
     t: |
-      This chart presents the various adoption rates for all features, grouped by category.
+      The size of the **outer circle** corresponds to the total number of users who know about a feature (*know about it* + *have used it* respondents), while
+      the **inner circle** represents those who have actually used it (*have used it* respondents).
 
-      The size of the <span class="text-teal-darker text-bold">outer circle</span>
-      corresponds to the total number of users who know about a feature, while
-      the <span class="text-teal text-bold">inner one</span> represents those who have actually used it.
+      Hover on each circle to see detailed stats, including the ratio between both values.
 
-      Hover on each node to view detailed data along with an <span class="text-blackpink text-bold">overlay</span>
-      representing the total number of survey respondents.
+  # features_experience_linechart
+  - key: blocks.features_experience_linechart
+    t: Ratios Over Time
+  - key: blocks.features_experience_linechart.description
+    t: Usage and awareness ratios over time for the highest-rating features.
+  - key: blocks.features_experience_linechart.note
+    t: |
+      Each ratio is defined as follows:
+
+      - Usage: (**have used it**) / **total**
+      - Awareness: (**have used it** + **know about it **) / **total**
+
+  - key: blocks.features_experience_ranking
+    t: Rankings Over Time
+  - key: blocks.features_experience_ranking.description
+    t: Usage and awareness rankings over time.
+  - key: blocks.features_experience_ranking.note
+    aliasFor: blocks.features_experience_linechart.note
 
   # export
   - key: export.export
@@ -555,6 +660,8 @@ translations:
     t: Custom Chart
   - key: custom_data.submit
     t: Submit
+  - key: custom_data.empty_contents
+    t: Please enter some data in the "Custom Data" field.
   - key: custom_data.edit_title
     t: Edit Chart Title
   - key: custom_data.customize
@@ -592,6 +699,8 @@ translations:
   # Recommended Resources
   - key: blocks.recommended_resources
     t: Recommended Resources
+  - key: blocks.recommended_events
+    t: Recommended Events
 
   # Brackets
   - key: tool_evaluation.tool_evaluation_wins
@@ -604,23 +713,53 @@ translations:
   - key: tool_evaluation.tool_evaluation_matchups.description
     t: Which factors do you prioritize when evaluating a new library? Percentage of rounds won by left-hand item against top-side item.
 
+  # other
+  - key: blocks.freeform
+    t: (freeform question)
+
+  # Reading List
+  - key: features.reading_list
+    t: Reading List
+  - key: features.reading_list.description
+    t: How many respondents added each item to their reading list?
+  - key: features.reading_list.note
+    t: >
+      The “Reading List” feature lets respondents save items they want to learn more
+      about while taking the survey; and get a recap of useful resources about them at
+      the end of the survey.
+
   ###########################################################################
   # Charts
   ###########################################################################
 
   - key: chart_units.respondents
-    t: '{count} question respondents ({percentage}% completion percentage)'
+    t: "{count} question respondents ({percentage}% completion percentage)"
   - key: chart_units.percentage
     t: Percents
   - key: chart_units.count
     t: Count
   - key: chart_units.percentage_question
-    t: '% of question respondents'
+    t: "% of question respondents"
+  - key: chart_units.percentageQuestion
+    aliasFor: chart_units.percentage_question
   - key: chart_units.percentage_survey
-    t: '% of survey respondents'
+    t: "% of survey respondents"
+  - key: chart_units.percentageSurvey
+    aliasFor: chart_units.percentage_survey
+  - key: chart_units.percentage_bucket
+    t: "% of bucket"
+  - key: chart_units.percentageBucket
+    aliasFor: chart_units.percentage_bucket
+  - key: chart_units.average
+    t: Average {axis}
+  - key: chart_units.averageByFacet
+    aliasFor: chart_units.average
+
+  - key: chart_units.percentilesByFacet
+    t: "{axis} Percentiles"
 
   - key: charts.average
-    t: Average
+    t: Average {axis}
   - key: charts.mean
     t: Mean
   - key: charts.overall
@@ -628,14 +767,14 @@ translations:
   - key: charts.all_respondents
     t: All Respondents
   - key: charts.facet_responses
-    t: '{count} responses'
+    t: "{count} responses"
 
   - key: charts.axis_legends.years_of_experience
     t: Years of Experience
   - key: charts.axis_legends.yearly_salary
     t: Salary Range (USD)
   - key: charts.axis_legends.company_size
-    t: Number of Employees
+    t: Organization Size
   - key: charts.axis_legends.backend_proficiency
     t: Back-end Proficiency
   - key: charts.axis_legends.css_proficiency
@@ -646,14 +785,26 @@ translations:
     t: Percentage of Users
   - key: charts.axis_legends.users_count
     t: User Count
+  - key: charts.axis_legends.users_average
+    t: Average {axis}
   - key: charts.axis_legends.interest_percentage
     t: Interest %
   - key: charts.axis_legends.satisfaction_percentage
-    t: Satisfaction %
+    t: Retention %
   - key: charts.axis_legends.usage_percentage
     t: Usage %
   - key: charts.axis_legends.awareness_percentage
     t: Awareness %
+
+  - key: chart_units.interest_percentage
+    aliasFor: charts.axis_legends.interest_percentage
+  - key: chart_units.satisfaction_percentage
+    aliasFor: charts.axis_legends.satisfaction_percentage
+  - key: chart_units.usage_percentage
+    aliasFor: charts.axis_legends.usage_percentage
+  - key: chart_units.awareness_percentage
+    aliasFor: charts.axis_legends.awareness_percentage
+
   - key: charts.axis_legends.happiness
     t: Happiness
   - key: charts.axis_legends.knowledge_score
@@ -663,9 +814,22 @@ translations:
   - key: charts.axis_legends.age
     t: Age
   - key: charts.axis_legends.users_percentage_survey
-    t: '% of survey respondents'
+    t: "% of survey respondents"
+  - key: charts.axis_legends.users_percentageSurvey
+    aliasFor: charts.axis_legends.users_percentage_survey
   - key: charts.axis_legends.users_percentage_question
-    t: '% of question respondents'
+    t: "% of question respondents"
+  - key: charts.axis_legends.users_percentageQuestion
+    aliasFor: charts.axis_legends.users_percentage_question
+  - key: charts.axis_legends.users_percentage_bucket
+    t: "% of bucket respondents"
+  - key: charts.axis_legends.users_percentageBucket
+    aliasFor: charts.axis_legends.users_percentage_bucket
+
+  - key: charts.axis_legends.users_averageByFacet
+    aliasFor: chart_units.average
+  - key: charts.axis_legends.users_percentilesByFacet
+    aliasFor: chart_units.percentilesByFacet
 
   - key: charts.ranges_multiple_diverging_lines.baseline
     t: baseline
@@ -709,6 +873,45 @@ translations:
 
   - key: charts.no_answer
     t: No Answer
+  - key: charts.no_answer.short
+    t: No Answer
+
+  - key: charts.other_answers
+    t: Others
+  - key: charts.other_answers.short
+    t: Others
+
+  - key: charts.tick.links
+    t: Links
+
+  - key: charts.resources
+    t: Useful Links
+
+  - key: charts.facets_clarification
+    t: >
+      Note that the percentages shown above are influenced by how many respondents
+      overall belong to each group.
+
+  - key: charts.average_clarification
+    t: >
+      Note that averages are calculated by taking the midpoint value of each range as an approximate representative value.
+
+  ###########################################################################
+  # Comments
+  ###########################################################################
+
+  - key: comments.comments
+    t: Comments
+  - key: comments.comments_for
+    t: Comments for “{name}”
+  - key: comments.description
+    t: |
+      These comments were submitted as part of the survey 
+      through an optional freeform text field next to the main question.
+  - key: comments.report_abuse
+    t: Report this comment
+  - key: comments.share
+    t: Share Comment
 
   ###########################################################################
   # Sharing
@@ -768,10 +971,16 @@ translations:
     t: Elem
   - key: table.percentage_survey
     t: 'a felmérés válaszadóinak százaléka (%)'
+  - key: table.percentageSurvey
+    aliasFor: table.percentage_survey
   - key: table.percentage_question
     t: 'kérdés válaszadóinak százaléka (%)'
+  - key: table.percentageQuestion
+    aliasFor: table.percentage_question
   - key: table.percentage_facet
     t: 'aspektus válaszadóinak százaléka (%)'
+  - key: table.percentageFacet
+    aliasFor: table.percentage_facet
   - key: table.count
     t: Összesítve
   - key: table.year
@@ -818,6 +1027,8 @@ translations:
     t: Újra használnám %
   - key: table.interested_percentage
     t: Érdeklődő %
+  - key: table.not_available
+    t: No datatable available.
 
   ###########################################################################
   # Awards
@@ -847,9 +1058,9 @@ translations:
     t: Awarded to the technology with the largest year-over-year “would use again” progression.
 
   - key: award.tool_satisfaction_award.title
-    t: Highest Satisfaction
+    t: Highest Retention
   - key: award.tool_satisfaction_award.description
-    t: Awarded to the technology with the highest percentage of satisfied users.
+    t: Awarded to the technology with the highest percentage of returning users.
 
   - key: award.tool_interest_award.title
     t: Highest Interest
@@ -870,6 +1081,16 @@ translations:
     t: Most Write-Ins
   - key: award.most_write_ins_award.description
     t: Awarded to the item with the most write-in answers
+
+  - key: award.most_commented_feature_award.title
+    t: Most Commented Feature
+  - key: award.most_commented_feature_award.description
+    t: Awarded to the feature which received the most comments.
+
+  - key: award.most_commented_tool_award.title
+    t: Most Commented Library
+  - key: award.most_commented_tool_award.description
+    t: Awarded to the library which received the most comments.
 
   ###########################################################################
   # Hints
@@ -903,8 +1124,8 @@ translations:
 
   - key: hints.rankings_modes_hint
     t: >
-      The Rankings chart can be toggled between satisfaction, interest, usage, and awareness
-      to give you a fuller picture of a category's rankings.
+      The Experience Over Time chart can be toggled between retention, interest, usage, and awareness
+      to give you a fuller picture of a category.
 
   - key: hints.sharing_hint
     t: >
@@ -930,6 +1151,10 @@ translations:
     t: >
       <span class="hint-bracket"><span class="hint-text">The following chart provides the results of a tournament-style 8-player bracket in which
       respondents were tasked with picking the winner of each match-up until a single winner remained.</span><span class="hint-diagram"/></span>
+
+  - key: hints.comments_hint
+    t: >
+      The <span class="hint-icon hint-comment-button">Comment</span> tab lets you view comments left by survey respondents as they were filling out the survey.
 
   ###########################################################################
   # Sponsor Chart
@@ -959,7 +1184,7 @@ translations:
       Twitter avatar featured next to a chart!
 
   - key: sponsor.chart_id
-    t: 'Chart ID: '
+    t: "Chart ID: "
 
   - key: sponsor.sponsor_this_chart
     t: Sponsor This Chart (${baseAmount}+)
@@ -990,7 +1215,7 @@ translations:
     t: What will my donation be used for?
 
   - key: sponsor.faq.usage.description
-    t: Your donation will help cover [my](https://sachagreif.com/) living expenses, as well as hire more contributors (illustrators, accessibilty and diversity experts, etc.).
+    t: Your donation will help support survey maintainers, as well as help hire more contributors (illustrators, accessibilty and diversity experts, etc.).
 
   - key: sponsor.faq.public.title
     t: Will my donation be public?
@@ -1021,3 +1246,294 @@ translations:
 
   - key: sponsor.faq.feedback.description
     t: You can do so [on GitHub](https://github.com/StateOfJS/Monorepo/issues/69) or [in our Discord](https://discord.gg/tuWRUWVyJs).
+
+  ###########################################################################
+  # Data Explorer
+  ###########################################################################
+
+  - key: sections.data_explorer.title
+    t: Data Explorer
+  - key: sections.data_explorer.description
+    t: |
+      Dynamically explore the survey's audience by picking two questions, and seeing how
+      respondents are distributed between them.
+
+  - key: hints.data_explorer
+    t: |
+      This is a preview version of our new Data Explorer. If you find any issues or data inconsistencies please [let us know]({issueLink}).
+
+  # heading
+
+  - key: explorer.main_heading
+    t: “{xAxisLabel}” vs “{yAxisLabel}”
+
+  - key: explorer.total_respondents
+    t: |
+      (**{totalCount}** total respondents)
+
+  - key: explorer.count_per_dot
+    t: |
+      {respondentsPerDot} Respondents
+  - key: explorer.percentage_per_dot
+    t: |
+      {percentsPerDot}%
+  - key: explorer.extra_respondents
+    t: Extra Respondents
+  - key: explorer.missing_respondents
+    t: Missing Respondents
+
+  - key: explorer.count_per_dot.tooltip
+    t: |
+      1 dot represents {respondentsPerDot} respondents
+  - key: explorer.percentage_per_dot.tooltip
+    t: |
+      1 dot represents {percentsPerDot}% of respondents
+  - key: explorer.extra_respondents.tooltip
+    t: Highlighted dots indicate higher-than-expected results.
+  - key: explorer.missing_respondents.tooltip
+    t: Empty dots indicate lower-than-expected results.
+
+  - key: explorer.units_count
+    t: Count
+  - key: explorer.units_percentage
+    t: "% of Row"
+
+  - key: explorer.edit
+    t: Edit Parameters…
+
+  - key: explorer.get_data
+    t: Get Data…
+
+  # loading
+
+  - key: explorer.loading.1
+    t: Querying API…
+  - key: explorer.loading.2
+    t: Waiting for a response…
+  - key: explorer.loading.3
+    t: Still working…
+  - key: explorer.loading.4
+    t: Hang on just a little bit longer…
+  - key: explorer.loading.5
+    t: Sorry, this is taking a while. You can try waiting a little longer, or [report an issue]({issueLink}).
+  - key: explorer.timeout
+    t: Timeout
+  - key: explorer.timeout.description
+    t: The API didn't respond in time. Please try again later, or [report an issue]({issueLink}).
+
+  # share
+
+  - key: explorer.share
+    t: Share…
+  - key: explorer.share.title
+    t: Share “{xAxisLabel}” vs “{yAxisLabel}”
+  - key: explorer.share.tweet
+    t: “{xAxisLabel}” vs “{yAxisLabel}” from the {surveyName} {year} survey
+
+  # axis
+
+  - key: explorer.axis_total
+    t: "{totalCount} respondents"
+  - key: explorer.axis_percent
+    t: "{percentCount}% of respondents"
+
+  - key: explorer.x_axis_details
+    t: |
+      Out of all respondents who completed question “{yAxisLabel}”, **{totalCount}** survey respondents picked “{xQuestionLabel}” for “{xAxisLabel}”
+  - key: explorer.y_axis_details
+    t: |
+      **{totalCount}** survey respondents picked “{yQuestionLabel}”
+  - key: explorer.main_legend_count
+    t: |
+      **{totalCount}** respondents, **1** dot = **{respondentsPerDot}** respondents, **{dotsPerLine}** dots per line
+
+  # controls
+  - key: explorer.dots_per_line
+    t: Dots per line
+  - key: explorer.respondents_per_dot
+    t: Respondents per dot
+  - key: explorer.show_cell_counts
+    t: Show cell counts
+  - key: explorer.show_no_answer
+    t: Show “No Answer” cells
+
+  - key: explorer.all_fields
+    t: All fields
+  - key: explorer.select_item
+    t: Select item
+
+  # details views
+
+  - key: explorer.count_details.1
+    t: |
+      **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+
+  - key: explorer.count_details.2
+    t: |
+      **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+
+  - key: explorer.count_details.3
+    t: |
+      Applying that percentage to the previous **{xAxisTotal}** respondents figure 
+      gives us an expected baseline of **{normalizedCount}** respondents in this intersection.
+
+  - key: explorer.count_details.4_extra
+    t: |
+      The actual count is **{cellCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*.
+
+  - key: explorer.count_details.4_missing
+    t: |
+      The actual count is **{cellCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots.
+
+  - key: explorer.percentage_details.1_extra
+    t: |
+      Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
+      within **“{yAxisLabel}” respondents who selected “{yAnswerLabel}”** that percentage climbs to  **{bucketPercentage}%**.
+
+  - key: explorer.percentage_details.1_missing
+    t: |
+      Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
+      within **“{yAxisLabel}” respondents who selected “{yAnswerLabel}”** that percentage drops to  **{bucketPercentage}%**.
+
+  - key: explorer.percentage_details.2_extra
+    t: |
+      Those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
+  - key: explorer.percentage_details.2_missing
+    t: |
+      Those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
+
+  # - key: explorer.percentage_details.1
+  #   t: |
+  #     **{xAxisPercentage}%** of **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+
+  # - key: explorer.percentage_details.2
+  #   t: |
+  #       **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+
+  # - key: explorer.percentage_details.3
+  #   t: |
+  #       Applying that percentage to the previous **{xAxisTotal}** respondents figure
+  #       gives us an expected baseline of **{normalizedPercentage}%** of respondents in this intersection.
+
+  # - key: explorer.percentage_details.4_extra
+  #   t: |
+  #       The actual percentage is **{bucketPercentage}%**, and those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+
+  # - key: explorer.percentage_details.4_missing
+  #   t: |
+  #       The actual count is **{bucketPercentage}%**, and those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
+
+  - key: explorer.extra_missing_respondents
+    t: |
+      ### Extra & Missing Respondents
+
+      The chart above aims to identify areas showing higher-than-expected 
+      or lower-than-expected values compared to a calculated baseline. 
+
+      For example, assuming there are 1000 CSS Grid users, and that 50% of survey respondents work in a large company, 
+      you'd expect to find 500 CSS Grid users working in large companies. 
+
+      Any deviation above or below that expected total could potentially indicate an interesting
+      correlation between both variables, and is highlighted on the chart with either colored 
+      dots (for extra respondents above the baseline) or empty dots (for missing respondents).
+
+  ###########################################################################
+  # Filters
+  ###########################################################################
+
+  - key: filters.compare_data
+    t: Compare Data
+  - key: filters.customize_chart
+    t: Customize Chart
+  - key: filters.docs
+    t: Documentation
+  - key: filters.compare_chart
+    t: Customize “{chartName}”
+  - key: filters.filters.description
+    t: |
+      Using a combination of demographics filters, you can define up to four **custom data series** to dynamically
+      load and compare them with the default data for this question.
+  - key: filters.facets.description
+    t: |
+      Pick a variable to break down each bar into "facets".
+  - key: filters.grid_mode
+    t: Side-by-Side
+  - key: filters.combined_mode
+    t: Combined
+  - key: filters.facet_mode
+    t: Facets
+  - key: filters.facet
+    t: "Facet:"
+
+  - key: filters.series.heading
+    t: Series {index}
+  - key: filters.series.add
+    t: Add Series…
+  - key: filters.series.delete
+    t: Delete Series
+  - key: filters.series.year
+    t: |
+      {year} data
+  - key: filters.series.show_default
+    t: |
+      Show default series
+  - key: filters.series.no_data
+    t: No data
+
+  - key: filters.condition.add
+    t: Add Filter
+  - key: filters.condition.delete
+    t: Delete Filter
+  - key: filters.condition.and
+    t: and
+  - key: filters.operators.eq
+    t: is
+  - key: filters.operators.in
+    t: is one of
+  - key: filters.operators.nin
+    t: is not one of
+  - key: filters.value.add
+    t: Add Value
+  - key: filters.value.delete
+    t: Delete Value
+
+  - key: filters.legend.default
+    t: Default
+
+  - key: filters.cancel
+    t: Cancel
+  - key: filters.submit
+    t: Update Chart
+  - key: filters.copy_link
+    t: Copy link to current filters
+  - key: filters.get_code
+    t: Get filters code
+
+  - key: filters.presets.title
+    t: "Presets:"
+  - key: filters.presets.save
+    t: Save current filters as preset…
+  - key: filters.presets.delete
+    t: Delete Preset
+  - key: filters.presets.enter_name
+    t: |
+      Enter a name for your new preset:
+  - key: filters.presets.previous_years
+    t: Previous Years
+  - key: filters.presets.gender
+    t: Gender
+  - key: filters.presets.top_countries
+    t: Top Countries
+  - key: filters.presets.salary_low_high
+    t: |
+      Low vs High Salary
+  - key: filters.presets.experience_low_high
+    t: |
+      Low vs High Experience
+  - key: filters.presets.company_size_low_high
+    t: |
+      Small vs Large Company
+
+  - key: filters.facet.select
+    t: Select a facet…

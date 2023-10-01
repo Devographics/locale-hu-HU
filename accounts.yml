@@ -77,3 +77,9 @@ translations:
       Amennyiben kérdésed van adataid kezelésével kapcsolatban, esetleg adataid
       rendszerünkből való törlését szeretnéd kérni,
       kérünk <a href="mailto:hello@stateofjs.com">lépj kapcsolatba</a>.
+
+  - key: accounts.token_verified
+    t: Token verification successful, redirecting…
+
+  - key: accounts.your_surveys
+    t: Your Surveys

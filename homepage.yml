@@ -17,36 +17,70 @@ translations:
   - key: homepage.previous_years
     t: 'Korábbi évek:'
 
-  - key: homepage.intro
-    t: >
+  - key: homepage.take_survey
+    t: Take Survey
       ## A CSS minden korábbinál gyorsabban fejlődik.
 
-      Flexbox, Grid, Multi-Column… Az új paradigmákról, mint a CSS-in-JS nem is beszélve.
-
-      Így, a [State Of JavaScript](https://stateofjs.com) felmérés sikerén felbuzdulva, úgy döntöttünk,
-      hogy a stílusok és kiválasztók világában is megpróbáljuk felkutatni a trendeket...  illetve megpróbáljuk áthidalni
-      az egyre növekvő  "Nagy front-end szakadékot”!
-
-  - key: homepage.take_survey
-    t: A felmérés kitöltése
-
   - key: homepage.view_results
-    t: 2019-es eredmények megtekintése
+    t: View Results
+
+  - key: homepage.results_coming_soon
+    t: Results Coming Soon…
 
   - key: share.help_spread
-    t: Vidd hírünket!
+    t: Help Spread the Word!
 
+  - key: homepage.other_surveys
+    t: "Other Surveys:"
+
+  - key: homepage.survey_open_now
+    t: Currently Open
+
+  - key: homepage.survey_preview
+    t: Preview Survey
+
+  - key: homepage.most_recent_survey
+    t: Most Recent
+
+  - key: homepage.current_survey
+    t: Current Survey
+
+  - key: homepage.past_surveys
+    t: Past Surveys
+
+  - key: homepage.view_questions
+    t: View Questions
+
+  - key: homepage.preview_questions
+    t: Preview Questions
+
+  # newsletter
   - key: newsletter.stay_tuned
     t: Maradj kapcsolatban
   - key: newsletter.leave_your_email
     t: Add meg az email címed és értesítünk a következő felmérésről.
+  - key: newsletter.email
+    t: Your Email
+  - key: newsletter.submit
+    t: Notify Me
 
-  - key: author.sacha.bio
-    t: >
-      A [Sidebar](http://sidebar.io) napi hírlevél valamint a
-      [VulcanJS](http://vulcanjs.org) – egy React+GraphQL alapú nyílt forráskódú keretrendszer – készítője.
+  # languages
+  - key: languages.available_languages
+    t: "Available languages:"
+  - key: languages.help_us_translate
+    t: Help us translate the survey in your language →
 
-  - key: author.raphael.bio
-    t: >
-      A [Nivo](http://nivo.rocks/) JavaScript alapú adatvizualizációs, valamint
-      a [Mozaik](http://mozaik.rocks/) – a csodaszép dashboard szerkesztő – készítője.
+  # partners
+  - key: homepage.with_support_from
+    aliasFor: sponsors.with_support_from
+
+  # footer
+  - key: homepage.made_by_devographics
+    aliasFor: general.made_by_devographics
+  - key: homepage.netlify_link
+    aliasFor: general.netlify_link
+
+  - key: homepage.join_discord
+    aliasFor: general.join_discord
+  - key: homepage.astro_link
+    t: Powered by [Astro](https://astro.build/)

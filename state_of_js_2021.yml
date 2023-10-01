@@ -1,6 +1,16 @@
 locale: hu-HU
 translations:
   ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: The 2021 edition of the annual survey about the latest trends in the JavaScript ecosystem.
+
+  - key: general.livestream_announcement
+    t: Make sure to tune in for our [special survey results livestream](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) on February 22! (English)
+
+  ###########################################################################
   # Introduction
   ###########################################################################
 
@@ -9,11 +19,15 @@ translations:
 
       <span class="first-letter">A</span> lot happened in 2021. So much in fact that the survey was pushed back all the way to 2022! 
 
-      Between a slew of faster build tools and a new crop of back-end frameworks, the JavaScript world kept evolving. And we did our best to keep up, giving this survey a couple new power-ups ([read more about what's new](https://dev.to/sachagreif/whats-new-in-the-20212022-state-of-javascript-4jkf)) such as new question types, the ability to cross-reference two datapoints (such as yearly salaries by experience level), and even a way to customize the charts to surface your own insights! Read more about [what's new this year](https://dev.to/sachagreif/whats-new-in-the-20212022-state-of-javascript-4jkf) (English).
 
-      It wasn't all smooth sailing, though. We had to deal with a [data leak](https://dev.to/sachagreif/disclosing-a-state-of-javascriptstate-of-css-data-breach-2lg1) that thankfully didn't seem to have any bad consequences. And we're constantly making efforts to make the survey more inclusive, more accessibe, and more fair. 
+      Between a slew of faster build tools and a new crop of back-end frameworks, the JavaScript world kept evolving. And we did our best to keep up, giving this survey a couple new power-ups ([read more about what's new](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej)) such as new question types, the ability to cross-reference two datapoints (such as yearly salaries by experience level), and even a way to customize the charts to surface your own insights! Read more about [what's new this year](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej) (English).
+
+
+      It wasn't all smooth sailing, though. We had to deal with a [data leak](https://dev.to/sachagreif/disclosing-a-state-of-javascriptstate-of-css-data-breach-2lg1) that thankfully didn't seem to have any bad consequences. And we're constantly making efforts to make the survey more inclusive, more accessible, and more fair. 
+
 
       Still, even though the survey can ever only represents a tiny, tiny part of the JavaScript ecosystem, we hope you'll find the resulting data interesting!
+
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -30,7 +44,7 @@ translations:
 
       Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
 
-      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for CSS at the same time!
+      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for JavaScript at the same time!
 
   - key: tshirt.about
     t: About the T-shirt
@@ -106,16 +120,16 @@ translations:
 
   - key: blocks.tools_quadrant.description
     t: |
-      This chart shows each technology's **satisfaction ratio** (or **interest ratio**) over its total **user count**.
+      This chart shows each technology's **retention ratio** over its total **user count**.
       It can be divided into four quadrants:
 
-        - **1**: Low usage, high satisfaction. Technologies worth keeping an eye on.
+        - **1**: Low usage, high retention. Technologies worth keeping an eye on.
 
-        - **2**: High usage, high satisfaction. Safe technologies to adopt.
+        - **2**: High usage, high retention. Safe technologies to adopt.
 
-        - **3**: Low usage, low satisfaction. Technologies that are harder to recommend currently.
+        - **3**: Low usage, low retention. Technologies that are harder to recommend currently.
 
-        - **4**: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+        - **4**: High usage, low retention. Reassess these technologies if you're currently using them.
 
   ###########################################################################
   # Notes
@@ -151,7 +165,7 @@ translations:
     t: esbuild is barely two years old, but with a **{value}** progression over the last year it's already gaining ground.
 
   - key: award.tool_satisfaction_award.comment
-    t: Vite takes the top spot with a sky-high **{value}** satisfaction ratio!
+    t: Vite takes the top spot with a sky-high **{value}** retention ratio!
 
   - key: award.tool_interest_award.comment
     t: With a **{value}** interest ratio, Vite once again wins the gold!
@@ -172,7 +186,7 @@ translations:
 
       This is not to say that the language has stood still. The **Optional Chaining** and **Nullish Coalescing** APIs have rocketed up to be the most used new APIs in our survey, despite only being 2 years old. And more good things are on the way from TC39: you reported that date management is a top missing feature, and the Temporal API recently reached [Stage 3](https://github.com/tc39/proposal-temporal).
 
-      The tooling ecosystem is also seeing its own rapid evolution, and it's fair to say that 2021 has been the year of **Vite**. Vite not only debuted at 98% satisfaction, but usage is already at 30% in its first year on our survey, even eclipsing esbuild. Vite isn't alone in trying to improve the state of JavaScript build tools - 8 of the 12 tools we track today are less than two years old! And while **pnpm**, **Turborepo**, and **Nx** took the top spots in our first year tracking monorepo tooling, only 25% report being happy with the state of that category, showing that a lot of work remains to be done. 
+      The tooling ecosystem is also seeing its own rapid evolution, and it's fair to say that 2021 has been the year of **Vite**. Vite not only debuted at 98% retention, but usage is already at 30% in its first year on our survey, even eclipsing esbuild. Vite isn't alone in trying to improve the state of JavaScript build tools - 8 of the 12 tools we track today are less than two years old! And while **pnpm**, **Turborepo**, and **Nx** took the top spots in our first year tracking monorepo tooling, only 25% report being happy with the state of that category, showing that a lot of work remains to be done. 
 
       Also notable: many new entrants like **Deno**, **Rome**, **Astro**, **Remix**, and more are now supported by venture-backed companies, perhaps charting a viable alternative to the fragile open-source funding environment.
 
@@ -188,7 +202,7 @@ translations:
   - key: picks.my_pick
     t: "My 2021 Pick: "
   - key: picks.intro
-    t: We asked members of the CSS community to share their “pick of the year”
+    t: We asked members of the JavaScript community to share their “pick of the year”
 
   - key: picks.lee_robinson.name
     t: SvelteKit
@@ -230,10 +244,10 @@ translations:
   - key: picks.sarah_drasner.name
     t: Pawel Kozlowski
   - key: picks.sarah_drasner.bio
-    t:
+    t: Director of Engineering, Core Developer Web at Google
   - key: picks.sarah_drasner.description
     t: |
-      Pawel Kozlowski is the kind of developerwho can be open-minded to different 
+      Pawel Kozlowski is the kind of developer who can be open-minded to different 
       approaches with humility and curiosity with the interest of improving things.
 
   - key: picks.sara_vieira.name
@@ -321,11 +335,11 @@ translations:
     t: |
       A Git repo full of all the things that have been proposed to be added to JavaScript. It's really fun to read through all the ideas people have for the language and see them go through the stages.
 
-  - key: picks.scott_tolinkski.name
+  - key: picks.scott_tolinski.name
     t: SvelteKit
-  - key: picks.scott_tolinkski.bio
+  - key: picks.scott_tolinski.bio
     t: Creator of Level-Up Tuts, co-host of Syntax
-  - key: picks.scott_tolinkski.description
+  - key: picks.scott_tolinski.description
     t: |
       Svelte Kit provides the amazing developer experience of Svelte with all 
       of the modern features of expected from a web platform.
