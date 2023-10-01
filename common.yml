@@ -47,9 +47,9 @@ translations:
   - key: general.no_closed_surveys
     t: Nincsenek lezárt felmérések.
   - key: general.preview_surveys
-    t: Előnézeti felmérések
+    t: Előnézeti módban lévő felmérések
   - key: general.no_preview_surveys
-    t: Nincs elérhető előnézeti felmérés.
+    t: Nincs elérhető előnézeti módban lévő felmérés.
   - key: general.start_survey
     t: Felmérés kezdése »
   - key: general.continue_survey
