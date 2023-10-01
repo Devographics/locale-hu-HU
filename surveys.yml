@@ -344,25 +344,25 @@ translations:
   # Intro for actual survey page
   - key: general.html2023.survey_intro
     t: |
-      While web developers tend to focus on JavaScript and CSS, none of what we do would be possible without HTML acting as the foundation.
+      Míg a webfejlesztők többnyire a Javascriptre és a CSS-re fókuszálnak, a HTML mint alapkő nélkül ezek egyike sem lenne megvalósítható.
 
-      It has long seemed like HTML wasn't evolving, but things may be changing.
-      New elements like `<selectlist>` are on the horizon, cool new features like popovers,
-      and a swath of related browser APIs (Web Components, PWAs, etc.).
+      Sokáig úgy tűnt, hogy a HTML megállt a fejlődésben, de most úgy tűnik, hogy végre valami változik.
+      Az új elemek, mint például a `<selectlist>` már a horizonton vannak, és király új funkciók, mint a felugró menük,
+      és egy csomó kapcsolódó böngésző API (Web Komponensek, PWA-k, stb.)
 
-      This year, [Lea Verou](https://lea.verou.me/) took on the formidable task of leading the design of this brand new survey, from content to UX and beyond.
+      Ebben az évben [Lea Verou](https://lea.verou.me/) vállalta magára azt a rettentő feladatot, hogy ennek a vadi új felmérésnek a dizánját vezesse, a tartalomtól a UX-ig, és még ezen felül is, amire szükség van.
 
-      Building on the success of [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/), we introduce **State of HTML**;
-      the last missing piece that completes the trilogy, so we can track the evolution of the web platform as a whole.
+      A [State of JS](http://stateofjs.com/) és [State of CSS](https://stateofcss.com/) sikerén felbuzdulva, bemutatjuk a **State of HTML**-t;
+      az utolsó hiányzó darabot a trilógiából, hogy így az egész webes platform evolúcióját nyomon tudjuk követni.
 
-      Benefits to you:
-      - Survey results are **used by browsers** and standards groups **for roadmap prioritization**.
-      Your responses can help get features you care about implemented, browser incompatibilities being prioritized, and gaps in the platform being addressed.
-      - Learn about new and upcoming features; add features to your reading list and get a list of resources at the end!
-      - Get a personalized knowledge score and see how you compare to other respondents
+      Ez az előnye számodra:
+      - A felmérés eredményeit **használják a böngészők ** és a szabványokat készitő csapatok pedig **a fejlesztési tervek priorizálására**.
+      A válaszaid segíthetnek az általad fontosnak tartott új funkciók implementálásában, a böngészők inkompatibilitásainak priorizálásában, és egyéb hiányosságok orvosolásában.
+      - Ismerd meg az új és készülőben lévő funkciókat; add hozzá ezeket az olvasási listádhoz és mentsd el a forrásokat a végén!
+      - Kapj egy személyre szabott pontszámot a tudásodról és hasonlítsd össze a többi válaszolóéval
 
-      The survey will be open for 3 weeks, but responses entered **within the first 9 days (until October 1st)** will have a much higher impact on the Web,
-      as preliminary data will be used for certain prioritization efforts that have deadlines before then.
+      A kérdőív 3 hétig lesz nyitva, de a **az első 9 nap válaszai (október 1-ig)** sokkal nagyobb hatással lesznek az internetre,
+      mivel az előzetes eredmények is már fel lesznek használva különböző priorizálási feladatokhoz, amiknek ez előtt jár le a határideje.
 
   ###########################################################################
   # Survey-Specific FAQs
@@ -504,7 +504,6 @@ translations:
     t: When will the results be released?
   - key: faq.results_released_html2023.description
     t: The survey will run from September 19 to October 10, and the survey results will be released shortly after that.
-
 
   ###########################################################################
   # Demographics (About You/User Info)
