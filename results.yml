@@ -8,9 +8,9 @@ translations:
     t: Kezdés
 
   - key: page.previous
-    t: 'Előző:'
+    t: "Előző:"
   - key: page.next
-    t: 'Következő:'
+    t: "Következő:"
 
   - key: general.state_of_css_link
     t: State of CSS
@@ -19,7 +19,7 @@ translations:
     t: Hosted by <a href="{link}">Netlify</a>.
 
   - key: general.completion_percentage
-    t: 'Teljesítve (%):'
+    t: "Teljesítve (%):"
 
   - key: sponsors.thanks
     t: Köszönet partnereink támogatásáért!
@@ -61,7 +61,6 @@ translations:
     t: Low vs High Income
   - key: tabs.usa_vs_the_world
     t: U.S. vs World
-    t: foo
 
   ###########################################################################
   # Options
@@ -926,17 +925,17 @@ translations:
   - key: share.site.title
     t: Fedezd fel a/az {siteTitle} eredményeit
   - key: share.site.twitter_text
-    t: 'Fedezd fel a/az {siteTitle} eredményeit {link} {hashtag}'
+    t: "Fedezd fel a/az {siteTitle} eredményeit {link} {hashtag}"
   - key: share.site.subject
-    t: '{siteTitle} felmérés eredményei'
+    t: "{siteTitle} felmérés eredményei"
   - key: share.site.body
-    t: 'Néhány érdekes eredmény a felmérésből: {link}'
+    t: "Néhány érdekes eredmény a felmérésből: {link}"
   - key: share.block.twitter_text
-    t: '{hashtag} {year}: {title} {link}'
+    t: "{hashtag} {year}: {title} {link}"
   - key: share.block.subject
-    t: '{siteTitle} felmérés eredményei'
+    t: "{siteTitle} felmérés eredményei"
   - key: share.block.body
-    t: 'Néhány érdekes eredmény a felmérésből ({title}): {link}'
+    t: "Néhány érdekes eredmény a felmérésből ({title}): {link}"
   - key: share.twitter
     t: Megosztás Twitter-en
   - key: share.facebook
@@ -970,15 +969,15 @@ translations:
   - key: table.item
     t: Elem
   - key: table.percentage_survey
-    t: 'a felmérés válaszadóinak százaléka (%)'
+    t: "a felmérés válaszadóinak százaléka (%)"
   - key: table.percentageSurvey
     aliasFor: table.percentage_survey
   - key: table.percentage_question
-    t: 'kérdés válaszadóinak százaléka (%)'
+    t: "kérdés válaszadóinak százaléka (%)"
   - key: table.percentageQuestion
     aliasFor: table.percentage_question
   - key: table.percentage_facet
-    t: 'aspektus válaszadóinak százaléka (%)'
+    t: "aspektus válaszadóinak százaléka (%)"
   - key: table.percentageFacet
     aliasFor: table.percentage_facet
   - key: table.count
