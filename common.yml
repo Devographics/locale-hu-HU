@@ -57,7 +57,7 @@ translations:
   - key: general.completion
     t: "{completion}% kész"
   - key: general.started_on
-    t: {createdAt}-n kezdődött
+    t: Kezdődött ekkor {createdAt}
   - key: general.last_modified_on
     t: Legutoljára módosítva {updatedAt}
   - key: general.review_survey
@@ -183,7 +183,7 @@ translations:
 
   - key: thanks.score_statistics_noranking
     t: >
-      Az összes {total} funkcióból, amit megemlítettünk, 
+      Az összes {total} funkcióból, amit megemlítettünk,
   - key: thanks.points
     t: >
       pont
@@ -1379,8 +1379,8 @@ translations:
     t: Szeretnél értesítést kapni a felmérés eredményeinek közzétételéről?
   - key: user_info.receive_notifications.note
     t: >
-       Személyes adatokat nem tárolunk, így az e-mail címed a levelezőlista szolgáltatójához való elküldése után
-       törlődik a saját nyilvántartásunkból.
+      Személyes adatokat nem tárolunk, így az e-mail címed a levelezőlista szolgáltatójához való elküldése után
+      törlődik a saját nyilvántartásunkból.
 
   # how can we improve the survey?
   - key: user_info.how_can_we_improve

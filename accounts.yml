@@ -79,7 +79,7 @@ translations:
       kérünk <a href="mailto:hello@stateofjs.com">lépj kapcsolatba</a>.
 
   - key: accounts.token_verified
-    t: Token verification successful, redirecting…
+    t: A token verifikáció sikeres, átirányítás…
 
   - key: accounts.your_surveys
-    t: Your Surveys
+    t: A te felméréseid
