@@ -27,7 +27,7 @@ translations:
       ### 1. Adatgyűjtés
 
       A kérdőívben adott válaszokon kívül még összegyűjtjük a készüléked, böngésződ, operációs rendszered és a hivatkozót.      
-      
+
       Megjegyzendő, hogy az összes kérdés teljesen opcionális, és semmilyen módon nem kapcsolunk személyes információt a válaszaidhoz (mint az email cím).
 
       ### 2. Email gyűjtés
@@ -75,7 +75,6 @@ translations:
 
   - key: general.skip_question.description
     t: Hagyja ki a kérdést és jelöle meg már válaszoltként
-    t: Skip question and mark it as completed
 
   - key: general.unskip_question.description
     t: Vonja vissza a kihagyást és válaszolok rá
@@ -337,7 +336,7 @@ translations:
 
       Ebben az évben [Chen Hui Jing](https://chenhuijing.com/) vezeti a felmérés tervezési folyamatát, [Lea Verou](https://lea.verou.me/) tavalyi munkájára építve. És szokás 
       szerint a visszajelzéseid döntő szerepet játszanak az böngésző új funkcióiban és jövőbeli fejlesztési terveiben, valamit a böngészők közötti kompatibilitáshoz kapcsolódó munkákban.
-      
+
       Most, hogy ezt tisztáztunk, lássunk, hogyan fejlődött eddig a CSS 2023-ban!
 
   # Intro for actual survey page
@@ -497,7 +496,7 @@ translations:
     t: Ki tervezte ezt a felmérést?
   - key: faq.survey_design_html2023.description
     t: >
-      A felmérést [Lea Verou](https://lea.verou.me) tervezte, böngészőcégek és közösséget, mint a [WebDX Community Group](https://www.w3.org/community/webdx/) segítségével. 
+      A felmérést [Lea Verou](https://lea.verou.me) tervezte, böngészőcégek és közösséget, mint a [WebDX Community Group](https://www.w3.org/community/webdx/) segítségével.
 
   - key: faq.results_released_html2023
     t: Mikor lesznek az erdemények kihirdetve?
