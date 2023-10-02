@@ -61,9 +61,9 @@ translations:
   - key: general.last_modified_on
     t: Legutoljára módosítva {updatedAt}
   - key: general.review_survey
-    t: Felmérés ellenőrzése »
+    t: Felmérés átnézése »
   - key: general.review_answers
-    t: Válaszok ellenőrzése »
+    t: Válaszok átnézése »
   - key: general.preview_survey
     t: Felmérés előnézete »
   - key: general.finish_survey

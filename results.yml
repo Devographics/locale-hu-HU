@@ -16,7 +16,7 @@ translations:
     t: State of CSS
 
   - key: general.netlify_link
-    t: Hosted by <a href="{link}">Netlify</a>.
+    t: <a href="{link}">Netlify</a> által hosztolva.
 
   - key: general.completion_percentage
     t: "Teljesítve (%):"
@@ -56,11 +56,11 @@ translations:
   - key: tabs.by_gender
     t: Nemenként
   - key: tabs.by_race_ethnicity
-    t: By Race & Ethnicity
+    t: Faj és enikum alapján
   - key: tabs.low_vs_high_income
-    t: Low vs High Income
+    t: Alacsony vs. magas kereset
   - key: tabs.usa_vs_the_world
-    t: U.S. vs World
+    t: USA vs. a világ többi része
 
   ###########################################################################
   # Options
@@ -73,12 +73,12 @@ translations:
   - key: options.experience_ranking.usage
     t: Használat
   - key: options.experience_ranking.awareness
-    t: Ismeretség
+    t: Ismertség
 
   - key: options.features_mode.grouped
     t: Csoportosítva
   - key: options.features_mode.awareness_rank
-    t: Ismeretség alapján
+    t: Ismertség alapján
   - key: options.features_mode.usage_rank
     t: Használat alapján
   - key: options.features_mode.usage_ratio_rank
@@ -116,22 +116,22 @@ translations:
     t: 1
   - key: options.quadrant.1.long
     t: |
-      1: Low usage, high satisfaction. Technologies worth keeping an eye on.
+      1: Ritka használat, magas megelégedettség. Technológiák, amiket érdemes szemmel tartani.
   - key: options.quadrant.2
     t: 2
   - key: options.quadrant.2.long
     t: |
-      2: High usage, high satisfaction. Safe technologies to adopt.
+      2: Gyakori használat, magas megelégedettség. Ezeket biztonságos adaptálni.
   - key: options.quadrant.3
     t: 3
   - key: options.quadrant.3.long
     t: |
-      3: Low usage, low satisfaction. Technologies that are harder to recommend.
+      3: Ritka használat, alacsony megelégedettség. Ezeket nehezebb ajánlani.
   - key: options.quadrant.4
     t: 4
   - key: options.quadrant.4.long
     t: |
-      4: High usage, low satisfaction. Reassess these technologies if you're currently using them.
+      4. Gyakori használat, alacsony megelégedettség. Ha ezeket használod, érdemes újraértékelni.
 
   - key: ranges.selector.years_of_experience
     t: Tapasztalat
@@ -146,13 +146,13 @@ translations:
   - key: options.first_steps.forums
     t: Fórumok
   - key: options.first_steps.view_source
-    t: View Source
+    t: Forrás megtekintése
   - key: options.first_steps.copy_paste
-    t: Copy/paste
+    t: Másolás/beillesztés
   - key: options.first_steps.trial_and_error
-    t: Trial & Error
+    t: Próba és hiba módszer
   - key: options.first_steps.documentation
-    t: Documentation
+    t: Dokumentáció
 
   # other disablities
   - key: options.disability_status_others.adhd
@@ -170,29 +170,29 @@ translations:
   - key: options.disability_status_others.aspergers
     t: Asperger szindróma
   - key: options.disability_status_others.color_blindness
-    t: Color Blindness
+    t: Színvakság
   - key: options.disability_status_others.anxiety
-    t: Anxiety
+    t: Szorongás
   - key: options.disability_status_others.dyslexia
-    t: Dyslexia
+    t: Diszlexia
   - key: options.disability_status_others.diabetes
-    t: Diabetes
+    t: Diabétesz
   - key: options.disability_status_others.carpal_tunnel
-    t: Carpal Tunnel
+    t: Ínhüvelygyulladás
   - key: options.disability_status_others.migraine
-    t: Migraine
+    t: Migrén
   - key: options.disability_status_others.speech_impairment
-    t: Speech Impairment
+    t: Beszédzavarok
   - key: options.disability_status_others.ocd
     t: OCD
   - key: options.disability_status_others.chronic_pain
-    t: Chronic Pain
+    t: Krónikus fájdalom
   - key: options.disability_status_others.chronic_fatigue
-    t: Chronic Fatigue
+    t: Krónikus fáradtság
   - key: options.disability_status_others.crohn
-    t: Crohn's Disease
+    t: Crohn betegség
   - key: options.disability_status_others.depression
-    t: Depression
+    t: Depresszió
 
   ###########################################################################
   # Sections
@@ -211,7 +211,7 @@ translations:
     t: Technológiák
 
   - key: sections.libraries.title
-    t: Libraries
+    t: Könyvtárak
 
   - key: sections.conclusion.title
     t: Konklúziók
@@ -219,21 +219,21 @@ translations:
   - key: sections.about.title
     t: A kérdőívről
   - key: sections.how_to_help.title
-    t: How to Help
+    t: Hogyan tudsz segíteni
 
   - key: sections.support.title
     t: Támogass minket
   - key: sections.support.description
     t: >
-      A felmérést amolyan mellék projektként működtetjük, azonban a fenntarthatóság
-      érdekében segítségre van szükségünk éppen ezért mindig keressük azon partnereinket
-      akik bármi módon a támogatni tudják működésünket, legyen ez anyagi támogatás vagy megosztás.
-      Amennyiben úgy érzed bármi módón segíteni tudsz, kérlek [lépj kapcsolatba](mailto:hello@stateofjs.com)!
+      A felmérést amolyan mellékprojektként működtetjük, azonban a fenntarthatóság
+      érdekében segítségre van szükségünk, éppen ezért mindig keressük azon partnereinket,
+      akik bármi módon támogatni tudják működésünket, legyen ez anyagi támogatás, vagy megosztás.
+      Amennyiben úgy érzed, bármi módón segíteni tudsz, kérlek [lépj kapcsolatba](mailto:hello@stateofjs.com)!
 
   - key: sections.awards.title
     t: Díjak
   - key: sections.awards.description
-    t: Amik idénk kiemelkedtek.
+    t: Amik idén kiemelkedőek voltak.
 
   ###########################################################################
   # User Info
@@ -255,10 +255,10 @@ translations:
   - key: user_info.source.note
     t: Az adathalmaz kombinálja a kitöltők válaszait, hivatkozási- valamint URL követési adatokat.
   - key: user_info.source_by_gender
-    t: Source by Gender
+    t: Forrás nemek alapján
 
   - key: user_info.source_by_race_ethnicity
-    t: Source by Race & Ethnicity
+    t: Forrás faji és etnikai adatok alapján
   - key: user_info.gender_by_country
     t: Nemek ország szerinti bontásban
   - key: user_info.gender_by_country.description
@@ -269,14 +269,14 @@ translations:
   - key: user_info.years_of_experience_by_salary.description
     t: Tapasztalat években, fizetések szerint rangsorolva.
   - key: user_info.average_income_by_years_of_experience
-    t: Average Income by Years of Experience
+    t: Átlagos fizetés, tapasztalati évek alapján
   - key: user_info.average_income_by_years_of_experience.description
-    t: Average income by years of experience.
+    t: Átlagos fizetés, tapasztalati évek alapján
 
   - key: user_info.average_income_by_company_size
-    t: Average Income by Company Size
+    t: Átlagos fizetés a cég mérete alapján
   - key: user_info.average_income_by_company_size.description
-    t: Average income by company size.
+    t: Átlagos fizetés a cég mérete alapján
 
   - key: user_info.yearly_salary_by_country
     t: Fizetés ország szerinti bontásban
@@ -294,7 +294,7 @@ translations:
     t: Éves fizetés eloszlása tapasztalat alapján, átlagos fizetések szerinti csökkenő sorrendben.
   - key: user_info.yearly_salary_usa_vs_the_world
     t: >
-      Yearly Income: U.S vs World
+      Éves bevétel: USA vs. világ többi része
 
   - key: user_info.race_ethnicity_by_years_of_experience
     t: Faji és etnikai eloszlás tapasztalat alapján
@@ -329,7 +329,7 @@ translations:
   - key: options.locale.pt-PT
     t: portugál
   - key: options.locale.pt-BR
-    t: Portuguese (Brazil)
+    t: portugál (brazil)
   - key: options.locale.it-IT
     t: olasz
   - key: options.locale.sv-SE
@@ -357,21 +357,21 @@ translations:
   - key: options.locale.ro-RO
     t: román
   - key: options.locale.am-ET
-    t: Amharic
+    t: amhara
   - key: options.locale.ar-EG
-    t: Arabic
+    t: arab
   - key: options.locale.el-GR
-    t: Greek
+    t: görög
   - key: options.locale.gl-ES
-    t: Galician
+    t: galíciai
   - key: options.locale.hr-HR
-    t: Croatian
+    t: horvát
   - key: options.locale.hu-HU
     t: magyar
   - key: options.locale.sk-SK
-    t: Slovak
+    t: szlovák
   - key: options.locale.vi-VN
-    t: Vietnamese
+    t: vietnámi
 
   ###########################################################################
   # Features
@@ -388,7 +388,7 @@ translations:
 
   # knowledge score
   - key: features.knowledge_score
-    t: Ismeretségi pontérték
+    t: Ismertségi pontérték
   - key: features.knowledge_score.description
     t: A kérdőívben említett funkciók közül mennyiről volt tudomása a válaszadóknak?
 
@@ -416,29 +416,27 @@ translations:
 
   # heatmaps
   - key: blocks.tools_company_size_heatmap
-    t: Usage by Company Size
+    t: Használat a cég mérete alapján
   - key: blocks.tools_company_size_heatmap.description
     t: |
-      For each technology, how usage is spread among respondents
-      who picked different company size ranges.
+      Hogyan oszlik el a cég mérete bizonyos technológiák használatában.
 
   - key: blocks.tools_yearly_salary_heatmap
-    t: Usage by Salary Range
+    t: Használat átlagfizetés alapján
   - key: blocks.tools_yearly_salary_heatmap.description
     t: |
-      For each technology, how usage is spread among respondents
-      who picked different salary ranges.
+      Hogyan oszlik el az átlagfizetés bizonyos technológiák használatában.
 
   - key: blocks.tools_years_of_experience_heatmap
-    t: Usage by Years Of Experience
+    t: Használat tapasztalati évek alapján
   - key: blocks.tools_years_of_experience_heatmap.description
     t: |
-      For each technology, how usage is spread among respondents who picked different experience ranges.
-      Note that the experience in question here is general experience, not experience with a specific technology.
+      Hogyan oszlik el a tapasztalai évek száma bizonyos technológiák használatában.
+      Itt megjegyeznénk, hogy a tapasztalat alapján az általános tapasztalatot értjük, nem pedig egy adott technológián belül.
 
   # tool
   - key: blocks.entity.homepage_link
-    t: Homepage
+    t: Főoldal
   - key: blocks.entity.github_link
     t: GitHub
   - key: blocks.entity.twitter_link
@@ -458,342 +456,343 @@ translations:
 
   # people
   - key: blocks.people.name
-    t: Name
+    t: Név
   - key: blocks.people.social_links
-    t: Links
+    t: Linkek
   - key: blocks.people.responses
-    t: Responses
+    t: Válaszok
 
   # cardinality
   - key: blocks.all_sections_tools_cardinality_by_user
-    t: Technology Usage Cardinality
+    t: Kardinalitás a technológia használatában
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
-      For each section, which percentage of respondents **use** 
-      (defined as having answered “would use again”) one, two, three, etc. technologies.
-      The bottom-most bar represents the sum of all other bars.
+      Az egyes szakaszoknál a válaszadók hány százaléka használja**
+      (úgy definiálva, hogy „újra használnám”) egy, kettő, három stb. technológiát.
+      A legalsó sáv az összes többi sáv összegét jelenti.
 
   - key: blocks.cardinality.max
-    t: Most common answer
+    t: Leggyakoribb válasz
 
   # tools arrows
   - key: blocks.tools_arrows
-    t: Changes Over Time
+    t: Időbeli változás
   - key: blocks.tools_arrows.description
     t: |
-      Each line goes from 2016 to 2020. A higher point means a technology has been used by more people,
-      and a point further to the right means more users want to learn it; or have used it and would use it again.
+      Mindegyik vonal 2016-tól 2020-ig tart. A minél feljebb lévő pont azt jelent, hogy az technológiát több ember használta, 
+      és minél jobbra helyezkedik el, annál többen akarják megtanulni; vagy használta már és újra használná.
   - key: blocks.tools_arrows.note
     t: |
-      - Some lines skip years.
-      - Technologies with only one year of data are not shown. 
-      - Velocity formula = (most recent opinion - oldest opinion) + (most recent usage) - (oldest usage)
-      - A positive velocity means the usage and/or positive opinions have increased over time.
+      - Néhány vonal kihagy egy-egy évet.
+      - Technológiák, amiknek csak egy évnyi adata van, itt nem láthatók.
+      - Sebességképlet = (legújabb vélemény - legrégebbi vélemény) + (legutóbbi használat) - (legrégebbi használat)
+      - A pozitív sebesség azt jelenti, hogy a használat és/vagy a pozitív vélemények idővel növekedtek.
 
   # tools quadrant
   - key: blocks.tools_quadrant
-    t: Retention vs Usage
+    t: Megtartás vs Használat
   - key: blocks.tools_quadrant.description
     t: |
-      This chart shows each technology's **retention ratio** over its total **user count**.
-      It can be divided into four quadrants:
+      Ez a diagram az egyes technológiák **megtartási arányát** mutatja a teljes **felhasználói számhoz** képest.
+      Négy részre osztható:
 
-        - **ASSESS**: Low usage, high retention. Technologies worth keeping an eye on.
+         - **VIZSGÁLD MEG**: Alacsony használat, magas visszatartás. Technológiák, amelyekre érdemes odafigyelni.
 
-        - **ADOPT**: High usage, high retention. Safe technologies to adopt.
+         - **ADOPTÁLD**: Magas használat, magas tartás. Biztonságos technológiák alkalmazása.
 
-        - **AVOID**: Low usage, low retention. Technologies probably best avoided currently.
+         - **KERÜLD EL**: Alacsony használat, alacsony visszatartás. A technológiákat jelenleg talán legjobb elkerülni.
 
-        - **ANALYZE**: High usage, low retention. Reassess these technologies if you're currently using them.
+         - **ANALIZÁLD**: Magas használat, alacsony visszatartás. Értéked újra ezeket a technológiákat, ha jelenleg használod őket.
 
   # category other tools
   - key: blocks.category_other_tools
-    t: Other Tools
+    t: Egyéb eszközök
   - key: blocks.category_other_tools.description
-    t: Other tools in this category (freeform answers).
+    t: Egyéb eszközök ebben a kategóriában (szabad formátumú válasz).
 
   # tool experience
   - key: blocks.tool_experience
-    t: "{name} Experience"
+    t: "{name} tapasztalat"
   - key: blocks.tool_experience.description
-    t: Respondent's experience with {name}.
+    t: A válaszadó tapasztalata a {name}-val/vel.
 
   # tool positive/negative split ("marimekko" chart)
   - key: blocks.tools_experience_marimekko
-    t: Positive/Negative Split
+    t: Pozitív/Negatív felosztás
   - key: blocks.tools_experience_marimekko.description
     t: |
-      This chart splits positive (“want to learn”, “would use again”) vs
-      negative (“not interested”, “would not use again”) experiences on
-      both sides of a central axis.
+      Ez a diagram a pozitív ("tanulni akarok", "újra használnám") és a
+      negatív („nem érdekel”, „nem használnám újra”) tapasztalatokat bontja fel
+      egy központi tengely két oldalán.
 
-      Bar thickness represents the number of respondents aware of a technology.
+      A rúd vastagsága azon válaszadók számát jelenti, akik ismerik a technológiát.
 
   # tool tier list
   - key: blocks.tools_tier_list
-    t: Library Tier List
+    t: Könyvtárak réteges listája
   - key: blocks.tools_tier_list.description
     t: |
-      This chart ranks libraries based on their retention ratio (percentage of users
-      who would use a library again). Note that libraries used by less than 10% of survey 
-      respondents are not included.
+      Ez a diagram a könyvtárakat a megőrzési arányuk (a felhasználók százaléka, aki újra használná ezt a könyvtárat) 
+      alapján rangsorolja. Vedd figyelembe, hogy a válaszadók kevesebb, mint 10%-a által használt könyvtárakat
+      nem szerepeltetjük.
+
   - key: blocks.tools_tier_list.bounds
     t: >
       {lowerBound}% - {upperBound}%
 
   # tools section streams
   - key: blocks.tools_section_streams
-    t: Experience Over Time
+    t: A tapasztalat és az idő függvénye
   - key: blocks.tools_section_streams.description
     t: |
-      Overview of opinions on the technologies surveyed over time.
+      A vizsgált technológiákkal kapcsolatos vélemények áttekintése az idők során.
   - key: blocks.tools_section_streams.note
     t: |
-      Technologies with only one year of data are not included.
+      Azok a technológiák, amikről csak egy évnyi adat van, nem szerepelnek.
 
   # tools section overview
   - key: blocks.tools_section_overview
-    t: Category Overview
+    t: Kategória áttekintés
   - key: blocks.tools_section_overview.description
     t: |
-      Overview of opinions on the technologies surveyed. Darker segments represent positive opinions,
-      while lighter segments correspond to negative sentiment.
+      A vizsgált technológiákról alkotott vélemények áttekintése. A sötétebb szegmensek pozitív véleményeket képviselnek,
+      míg a világosabb szegmensek negatív hangulatot jelölnek.
 
   # tools experience ranking
   - key: blocks.tools_experience_ranking
-    t: Rankings Over Time
+    t: Rangsorolás időbeni függvénye
   - key: blocks.tools_experience_ranking.percentages
-    t: Percentages
+    t: Százalékok
   - key: blocks.tools_experience_ranking.rankings
-    t: Rankings
+    t: Rangsorolás
   - key: blocks.tools_experience_ranking.description
-    t: Retention, interest, usage, and awareness ratio rankings.
+    t: Megtartás, érdeklődés, használat és ismertségi arány rangsor.
   - key: blocks.tools_experience_ranking.note
     t: |
-      Technologies with less than 10% awareness not included. Each ratio is defined as follows:
+      A 10%-nál kevesebb ismertséggel rendelkező technológiákat nem tartalmazza. Az egyes arányok meghatározása a következő:
 
-      - Retention: **would use again** / (**would use again** + **would not use again**)
-      - Interest: **want to learn** / (**want to learn** + **not interested**)
-      - Usage: (**would use again** + **would not use again**) / **total**
-      - Awareness: (**total** - **never heard**) / **total**
+       - Megtartás: **újra használná** / (**újra használná** + **nem használná újra**)
+       - Érdeklődés: **tanulni akar** / (**tanulni akar** + **nem érdekel**)
+       - Használat: (**újra használná** + **nem használnám újra**) / **összesen**
+       - Ismertség: (**összesen** - **soha nem hallottam**) / **összesen**
 
   # tools experience linechart
   - key: blocks.tools_experience_linechart
-    t: Ratios Over Time
+    t: Arányok időbeni függvénye
   - key: blocks.tools_experience_linechart.description
-    t: Retention, interest, usage, and awareness ratio over time.
+    t: Megtartás, érdeklődés, használat és ismertség aránya az idő múlásával.
   - key: blocks.tools_experience_linechart.note
     aliasFor: blocks.tools_experience_ranking.note
 
   # happiness
   - key: blocks.happiness
-    t: Overall Happiness
+    t: Általános megelégedettség
   - key: blocks.happiness.description
     t: |
       On a scale of one (very unhappy) to five (very happy), how happy are developers
       with the current overall state of this category?
+      Egy (nagyon nincs megelégedve) és öt (nagyon elégedett) skálán mennyire boldogok a fejlesztők
+      ennek a kategóriának a jelenlegi általános állapotával?
 
   # newsletter
   - key: blocks.newsletter.title
-    t: Stay Tuned
+    t: Maradj kapcsolatban
   - key: blocks.newsletter.description
     t: |
-      If you'd like to know when we release additional results or announce next year's edition,
-      just leave us your email below:
+      Ha szeretnéd tudni, hogy mikor teszünk közzé további eredményeket, vagy mikor jelentjük be
+      a jövő évi kiadást, hagyd meg nekünk az email címedet:
   - key: blocks.newsletter.email
-    t: Your Email
+    t: Az email címed
   - key: blocks.newsletter.submit
-    t: Notify Me
+    t: Értesítéseket kérek
 
   # features_overview
   - key: blocks.features_overview
-    t: Features Overview
+    t: Fícsörök áttekintése
   - key: blocks.features_overview.description
     t: |
-      The size of the **outer circle** corresponds to the total number of users who know about a feature (*know about it* + *have used it* respondents), while
-      the **inner circle** represents those who have actually used it (*have used it* respondents).
+      A **külső kör** mérete megfelel azoknak a felhasználóknak, akik ismerik a funkciót (*tudják róla* + *használták* válaszadók), míg
+      a **belső kör** azokat jelenti, akik ténylegesen használták (*használták* válaszadók).
 
-      Hover on each circle to see detailed stats, including the ratio between both values.
+      Vigye az egérmutatót az egyes körökre a részletes statisztikák megtekintéséhez, beleértve a két érték arányát.
 
   # features_experience_linechart
   - key: blocks.features_experience_linechart
-    t: Ratios Over Time
+    t: Arányok időbeli függvénye
   - key: blocks.features_experience_linechart.description
-    t: Usage and awareness ratios over time for the highest-rating features.
+    t: Használati és ismertségi arányok idővel a legmagasabb besorolású funkciókhoz.
   - key: blocks.features_experience_linechart.note
     t: |
-      Each ratio is defined as follows:
+      Az egyes arányok meghatározása a következő:
 
-      - Usage: (**have used it**) / **total**
-      - Awareness: (**have used it** + **know about it **) / **total**
+       - Használat: (**használtam**) / **összesen**
+       - Ismertség: (**használtam** + **tudok róla **) / **összesen**
 
   - key: blocks.features_experience_ranking
-    t: Rankings Over Time
+    t: Rangsorolás időbeni függvénye
   - key: blocks.features_experience_ranking.description
-    t: Usage and awareness rankings over time.
+    t: Használati és ismertségi rangsor az idő függvényében.
   - key: blocks.features_experience_ranking.note
     aliasFor: blocks.features_experience_linechart.note
 
   # export
   - key: export.export
-    t: Export
+    t: Exportálás
   - key: export.title
-    t: Export data for {title}
+    t: Adat exportálása a {title}-hoz/hez
   - key: export.nocsv
-    t: Sorry, CSV export is not available for this dataset.
+    t: Sajnos ehhez az adatkészlethez nem elérhető a CSV-ba exportálás.
   - key: export.graphql
     t: >
-      You can copy paste this query into our <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">public GraphQL API</a>.
+      Ezt a lekérdezést bemásolhatja a <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">nyilvános GraphQL API-ba</a>.
   - key: export.export_json
-    t: Get JSON Data
+    t: Kérdezz le JSON adatot
   - key: export.export_graphql
-    t: Get GraphQL Query
+    t: Kérdezz le GraphQL queryt
 
   - key: custom_data.heading
-    t: Custom Chart
+    t: Egyéni diagram
   - key: custom_data.custom_data
-    t: Custom Data
+    t: Egyéni adat
   - key: custom_data.graphql_query
-    t: GraphQL Query
+    t: GraphQL lékérdezés
   - key: custom_data.chart_title
-    t: Custom Chart
+    t: Egyéni diagram
   - key: custom_data.submit
-    t: Submit
+    t: Elküldés
   - key: custom_data.empty_contents
-    t: Please enter some data in the "Custom Data" field.
+    t: Kérjük, adj meg néhány adatot az „Egyéni adatok” mezőben.
   - key: custom_data.edit_title
-    t: Edit Chart Title
+    t: Diagram címének szerkesztése
   - key: custom_data.customize
-    t: Customize Data
+    t: Adatok testreszabása
   - key: custom_data.details
     t: >
+      1. Másold ki a „GraphQL Query” szövegmező tartalmát, és illeszd be a [GraphQL API Explorer] (https://graphiql.stateofjs.com/) középső paneljébe.
 
-      1. Copy the contents of the "GraphQL Query" textfield and paste them into the middle panel of the [GraphQL API explorer](https://graphiql.stateofjs.com/).
+      2. Módosítsd a lekérdezést egy vagy több **szűrő** hozzáadásával a bal oldali Intéző oldalsávon. Ügyelj arra, hogy az adatok általános szerkezete változatlan maradjon.
 
-      2. Modify the query by adding one or more **filters** using the left-hand explorer sidebar. Make sure to keep the overall structure of the data the same.
+      3. Az Intéző ablakban kattints a Lejátszás ("Execute Query") gombra.
 
-      3. In the explorer window, click the Play ("Execute Query") button.
-
-      4. Copy the results of the modified query (`{ data: … }` ) into the "Custom Data" textfield above and submit.
+      4. Másold át a módosított lekérdezés eredményét (`{ data: … }` ) a fenti "Egyéni adatok" szövegmezőbe, és küldd el.
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
-    t: Usage Variations
+    t: Használati variációk
   - key: blocks.tools_usage_variations.description
     t: |
-      How different factors such as salary range, years of experience
-      or company size influence usage (participants who answered either
-      “would use again” or “would not use again”).
+      Különböző tényezők, mint például a fizetési tartomány, a több éves tapasztalat
+      vagy a vállalat mérete mennyire befolyásolja a használatot (azok a résztvevők vannak ebben, akik az 
+      „újra használnám” vagy „nem használnám újra” bármelyikét válaszolták).
 
-      The baseline represents the base usage for each tool and the offsets
-      correspond to the delta from this baseline in each range. Let's say
-      tool X has an overall usage of 10% across all respondents (the baseline),
-      then if the percentage of users having from 1 to 2 years of experience
-      using this tool is 13% (compared to all users having from 1 to 2 years
-      of experience), then we have a positive delta of +3%.
+      Az alapvonal az egyes eszközök alaphasználatát jelöli és az eltolások az ettől való eltérést mutatják meg. 
+      Mondjuk az X eszköz általános használata 10% az összes válaszadónál (az alapérték),
+      akkor ha az 1-2 éves tapasztalattal rendelkező felhasználók százalékos aránya
+      13% (összehasonlítva az összes 1-2 éves tapasztalattal rendelkező felhasználóval), 
+      akkor +3%-os pozitív deltával rendelkezik.
+
   - key: blocks.tools_usage_variations.note
     t: |
-      Please keep in mind that tools having a lower overall usage tends to vary more.
+      Ne feledd, hogy az alacsonyabb használatú eszközök általában nagyobb eltéréseket mutatnak.
 
   # Recommended Resources
   - key: blocks.recommended_resources
-    t: Recommended Resources
+    t: Ajánlott források
   - key: blocks.recommended_events
-    t: Recommended Events
+    t: Ajánlott események
 
   # Brackets
   - key: tool_evaluation.tool_evaluation_wins
-    t: Library Evaluation Rankings
+    t: Könyvtárak értékelési rangsora
   - key: tool_evaluation.tool_evaluation_wins.description
-    t: Which factors do you prioritize when evaluating a new library? Results are ranked by number of tournament rounds won.
+    t: Mely tényezőket részesíted előnyben egy új könyvtár kiértékelésénél? Az eredményeket a megnyert fordulók száma alapján rangsoroljuk.
 
   - key: tool_evaluation.tool_evaluation_matchups
-    t: Library Evaluation Rankings (Matchups)
+    t: Könyvtárak értékelési rangsora (Matchups)
   - key: tool_evaluation.tool_evaluation_matchups.description
-    t: Which factors do you prioritize when evaluating a new library? Percentage of rounds won by left-hand item against top-side item.
+    t: Mely tényezőket részesíted előnyben egy új könyvtár kiértékelésénél? A bal oldali tárgy által megnyert körök százalékos aránya a felső elemmel szemben.
 
   # other
   - key: blocks.freeform
-    t: (freeform question)
+    t: (szabad formátumú válasz)
 
   # Reading List
   - key: features.reading_list
-    t: Reading List
+    t: Olvasási lista
   - key: features.reading_list.description
-    t: How many respondents added each item to their reading list?
+    t: Hány válaszadó vett fel egyes tételeket az olvasási listájára?
   - key: features.reading_list.note
     t: >
-      The “Reading List” feature lets respondents save items they want to learn more
-      about while taking the survey; and get a recap of useful resources about them at
-      the end of the survey.
+      Az „Olvasási lista” funkcióval a válaszadók elmenthetik azokat a tételeket, amelyekről többet szeretnének megtudni
+      a felmérés kitöltése közben; és kap egy összefoglalót a róluk szóló hasznos forrásokról a felmérés végén.
 
   ###########################################################################
   # Charts
   ###########################################################################
 
   - key: chart_units.respondents
-    t: "{count} question respondents ({percentage}% completion percentage)"
+    t: "{count} kérdésre válaszoltak száma ({percentage}% százalékos teljesítés)"
   - key: chart_units.percentage
-    t: Percents
+    t: Százalék
   - key: chart_units.count
-    t: Count
+    t: Darab
   - key: chart_units.percentage_question
-    t: "% of question respondents"
+    t: "A válaszolók százaléka"
   - key: chart_units.percentageQuestion
     aliasFor: chart_units.percentage_question
   - key: chart_units.percentage_survey
-    t: "% of survey respondents"
+    t: "A felmérésre válaszolók százaléka"
   - key: chart_units.percentageSurvey
     aliasFor: chart_units.percentage_survey
   - key: chart_units.percentage_bucket
-    t: "% of bucket"
+    t: "A vödör százaléka"
   - key: chart_units.percentageBucket
     aliasFor: chart_units.percentage_bucket
   - key: chart_units.average
-    t: Average {axis}
+    t: Átlag {axis}
   - key: chart_units.averageByFacet
     aliasFor: chart_units.average
 
   - key: chart_units.percentilesByFacet
-    t: "{axis} Percentiles"
+    t: "{axis} percentilis"
 
   - key: charts.average
-    t: Average {axis}
+    t: Átlag {axis}
   - key: charts.mean
-    t: Mean
+    t: Átlag
   - key: charts.overall
-    t: Overall
+    t: Összesítés
   - key: charts.all_respondents
-    t: All Respondents
+    t: Az összes válaszoló
   - key: charts.facet_responses
-    t: "{count} responses"
+    t: "{count} válasz"
 
   - key: charts.axis_legends.years_of_experience
-    t: Years of Experience
+    t: Tapasztalati évek
   - key: charts.axis_legends.yearly_salary
-    t: Salary Range (USD)
+    t: Fizetési sáv (USD)
   - key: charts.axis_legends.company_size
-    t: Organization Size
+    t: Cég mérete
   - key: charts.axis_legends.backend_proficiency
-    t: Back-end Proficiency
+    t: Back-end jártasság
   - key: charts.axis_legends.css_proficiency
-    t: CSS Proficiency
+    t: CSS jártasság
   - key: charts.axis_legends.javascript_proficiency
-    t: JavaScript Proficiency
+    t: JavaScript jártasság
   - key: charts.axis_legends.users_percentage
-    t: Percentage of Users
+    t: A felhasználók százaléka
   - key: charts.axis_legends.users_count
-    t: User Count
+    t: Felhasználók száma
   - key: charts.axis_legends.users_average
-    t: Average {axis}
+    t: Átlag {axis}
   - key: charts.axis_legends.interest_percentage
-    t: Interest %
+    t: Érdeklődés %
   - key: charts.axis_legends.satisfaction_percentage
-    t: Retention %
+    t: Megtartás %
   - key: charts.axis_legends.usage_percentage
-    t: Usage %
+    t: Használat %
   - key: charts.axis_legends.awareness_percentage
-    t: Awareness %
+    t: Ismertség %
 
   - key: chart_units.interest_percentage
     aliasFor: charts.axis_legends.interest_percentage
@@ -805,23 +804,23 @@ translations:
     aliasFor: charts.axis_legends.awareness_percentage
 
   - key: charts.axis_legends.happiness
-    t: Happiness
+    t: Megelégedettség
   - key: charts.axis_legends.knowledge_score
-    t: Known Features
+    t: Ismert fícsörök
   - key: charts.axis_legends.frequency
-    t: Frequency
+    t: Frekvencia
   - key: charts.axis_legends.age
-    t: Age
+    t: Életkor
   - key: charts.axis_legends.users_percentage_survey
-    t: "% of survey respondents"
+    t: "A kérdőív válaszolók százaléka"
   - key: charts.axis_legends.users_percentageSurvey
     aliasFor: charts.axis_legends.users_percentage_survey
   - key: charts.axis_legends.users_percentage_question
-    t: "% of question respondents"
+    t: "A kérdésre válaszolók százaléka"
   - key: charts.axis_legends.users_percentageQuestion
     aliasFor: charts.axis_legends.users_percentage_question
   - key: charts.axis_legends.users_percentage_bucket
-    t: "% of bucket respondents"
+    t: "Az azonos vödörben lévő válaszolók százaléka"
   - key: charts.axis_legends.users_percentageBucket
     aliasFor: charts.axis_legends.users_percentage_bucket
 
@@ -831,86 +830,85 @@ translations:
     aliasFor: chart_units.percentilesByFacet
 
   - key: charts.ranges_multiple_diverging_lines.baseline
-    t: baseline
+    t: alapvonal
   - key: charts.ranges_multiple_diverging_lines.positive_offset
-    t: positive offset
+    t: pozitív eltérés
   - key: charts.ranges_multiple_diverging_lines.negative_offset
-    t: negative offset
+    t: negatív eltérés
 
   - key: charts.tools_arrows.negative_opinion
-    t: Negative opinions
+    t: Negatív vélemény
   - key: charts.tools_arrows.positive_opinion
-    t: Positive opinions
+    t: Pozitív vélemény
   - key: charts.tools_arrows.have_not_used
-    t: Have not used
+    t: Még nem használtam
   - key: charts.tools_arrows.have_used
-    t: Have used
+    t: Használtam már
   - key: charts.tools_arrows.x_axis
-    t: X-axis range
+    t: X-tengely tartomány
   - key: charts.tools_arrows.y_axis
-    t: Y-axis range
+    t: Y-tengely tartomány
   - key: charts.tools_arrows.legend
-    t: Legend
+    t: Legenda
   - key: charts.tools_arrows.velocity
-    t: Velocity
+    t: Sebesség
   - key: charts.tools_arrows.velocity_positive
-    t: Overall more positive opinions and/or usage over time
+    t: Összességében több pozitív vélemény és/vagy több használat idővel
   - key: charts.tools_arrows.velocity_negative
-    t: Overall more negative opinions and/or less usage over time
+    t: Összességében több negatív vélemény és/vagy kevesebb használat idővel
   - key: charts.tools_arrows.opinions_positive
-    t: Mostly positive opinions
+    t: Többnyire pozitív vélemények
   - key: charts.tools_arrows.opinions_negative
-    t: Mostly negative opinions
+    t: Többnyire negatív vélemények
   - key: charts.tools_arrows.low_usage
-    t: Low usage
+    t: Alacsony használat
   - key: charts.tools_arrows.high_usage
-    t: High usage
+    t: Magas használat
   - key: charts.tools_arrows.popularity_positive
-    t: Rising popularity
+    t: Növekvő népszerűség
   - key: charts.tools_arrows.popularity_negative
-    t: Falling popularity
+    t: Csökkenő népszerűség
 
   - key: charts.no_answer
-    t: No Answer
+    t: Nincs válasz
   - key: charts.no_answer.short
-    t: No Answer
+    t: Nincs válasz
 
   - key: charts.other_answers
-    t: Others
+    t: Egyéb
   - key: charts.other_answers.short
-    t: Others
+    t: Egyéb
 
   - key: charts.tick.links
-    t: Links
+    t: Linkek
 
   - key: charts.resources
-    t: Useful Links
+    t: Hasznos linkek
 
   - key: charts.facets_clarification
     t: >
-      Note that the percentages shown above are influenced by how many respondents
-      overall belong to each group.
+      Megjegyzendő, hogy a fenti százalékokat befolyásolja, hogy h válaszoló tartozik egy adott csoportba.
 
   - key: charts.average_clarification
     t: >
-      Note that averages are calculated by taking the midpoint value of each range as an approximate representative value.
+      Megjegyzendő, hogy az átlagszámítás úgy történik, hogy az egyes tartományok középértékét veszi megközelítően reprezentatív értékként.
 
   ###########################################################################
   # Comments
   ###########################################################################
 
   - key: comments.comments
-    t: Comments
+    t: Kommentek
   - key: comments.comments_for
-    t: Comments for “{name}”
+    t: Kommentek “{name}”-hez
   - key: comments.description
     t: |
-      These comments were submitted as part of the survey 
-      through an optional freeform text field next to the main question.
+      Ezek a kommentek a felmérés részeként lettek elküldve egy 
+      opcionális szabad formátumú szövegmezőben a kérdés mellett.
   - key: comments.report_abuse
-    t: Report this comment
+    t: Komment jelentése
   - key: comments.share
-    t: Share Comment
+    t: Komment megosztása
 
   ###########################################################################
   # Sharing
@@ -1027,7 +1025,7 @@ translations:
   - key: table.interested_percentage
     t: Érdeklődő %
   - key: table.not_available
-    t: No datatable available.
+    t: Nincs elérhető adat.
 
   ###########################################################################
   # Awards
@@ -1039,57 +1037,57 @@ translations:
   - key: award.feature_adoption_award.title
     t: A legtöbbet használt funkció
   - key: award.feature_adoption_award.description
-    t: Awarded to the most adopted feature.
+    t: A legtöbbet használt funkció díjazása
 
   - key: award.feature_adoption_delta_award.title
     t: A legelfogadottabb funkció
   - key: award.feature_adoption_delta_award.description
-    t: Awarded to the feature with the largest year-over-year ”have used” progression.
+    t: Annak a funkciónak ítélték oda, amely évről évre a legnagyobb „már használtam” előrehaladást mutatta.
 
   - key: award.tool_usage_award.title
-    t: Most Used Technology
+    t: A legtöbbet használt technológia
   - key: award.tool_usage_award.description
-    t: Awarded to the technology with the largest user base.
+    t: Annak a technológiának ítélték oda, amelyiknek a legnagyobb a felhasználói bázisa.
 
   - key: award.tool_usage_delta_award.title
-    t: Most Adopted Technology
+    t: Legjobban adoptált technológia
   - key: award.tool_usage_delta_award.description
-    t: Awarded to the technology with the largest year-over-year “would use again” progression.
+    t: Annak a technológiának ítélték oda, amely évről évre a legnagyobb „használnám újra” előrehaladást mutatta.
 
   - key: award.tool_satisfaction_award.title
-    t: Highest Retention
+    t: Legjobb megtartás
   - key: award.tool_satisfaction_award.description
-    t: Awarded to the technology with the highest percentage of returning users.
+    t: Annak a technológiának ítélték oda, amelyhez évről évre a legnagyobb százalékban térnek vissza a felhasználók.
 
   - key: award.tool_interest_award.title
-    t: Highest Interest
+    t: Legnagyobb érdeklődés
   - key: award.tool_interest_award.description
-    t: Awarded to the technology developers are most interested in learning once they are aware of it.
+    t: Annak a technológiának ítélték oda, amely iránt a legnagyobb az érdeklődés a fejlesztők körében.
 
   - key: award.resource_usage_award.title
-    t: Most Used Resource
+    t: Legtöbbet használt eszköz
   - key: award.resource_usage_award.description
-    t: Awarded to the resource with the largest user base.
+    t: Annak az eszköznek ítélik oda, amelyiknek a legnagyobb a felhasználói bázisa.
 
   - key: award.prediction_award.title
-    t: Prediction Award
+    t: Jóslati díj
   - key: award.prediction_award.description
-    t: Awarded to an up-and-coming technology that might take over… or not?
+    t: Annak a feltörekvő technológiának az érdeme, amelyik népszerű lesz... vagy nem?
 
   - key: award.most_write_ins_award.title
-    t: Most Write-Ins
+    t: Téma, ami a legtöbb szabad formátumú választ kapta
   - key: award.most_write_ins_award.description
-    t: Awarded to the item with the most write-in answers
+    t: Annak a témának a díjazása, amelyik a legtöbb szabad formátumú választ kapta
 
   - key: award.most_commented_feature_award.title
-    t: Most Commented Feature
+    t: A legtöbbet kommeltelt fícsör
   - key: award.most_commented_feature_award.description
-    t: Awarded to the feature which received the most comments.
+    t: Annak a fícsörnek a díjazása, amelyik a legtöbb kommentet kapta.
 
   - key: award.most_commented_tool_award.title
-    t: Most Commented Library
+    t: A legtöbbet kommeltelt könyvtár
   - key: award.most_commented_tool_award.description
-    t: Awarded to the library which received the most comments.
+    t: Annak a könyvtárnak a díjazása, amelyik a legtöbb kommentet kapta.
 
   ###########################################################################
   # Hints
@@ -1097,130 +1095,130 @@ translations:
 
   - key: hints.hint_hint
     t: >
-      You'll find little hints like this one throughout the survey results
-      that will point out extra features and details.
+      A felmérés eredményei között ehhez hasonló kis tippeket találhatsz
+      amely további funkciókra és részletekre mutat rá.
 
   - key: hints.units_switcher_hint
     t: >
-      You can use the segmented control at the bottom of each block to switch 
-      between different units to get an alternate view of the same data.
+      Minden egyes rész alatt talász egy szegmentált vezérlőt, aminek a segítségével
+      válthatsz más nézetre ugyanarra az adatra vonatkozóan.
 
   - key: hints.export_hint
     t: >
-      The <span class="hint-icon hint-export-button">Data</span> tab lets you view the raw 
-      data for any chart, view it as JSON, or get a GraphQL query you can 
-      run against our public API.
+      Az <span class="hint-icon hint-export-button">Adat</span> tabban megnézheted a forrásadatokat
+      az adott diagramra vonatkozóan, vagy megnézheted JSON-ként, vagy kaphatsz egy GraphQL lekérést
+      amit egy publikus API ellen tudsz futtatni.
 
   - key: hints.completion_hint
     t: >
-      Since all questions are optional, some of them got fewer responses than others. 
-      The completion indicator (<span class="hint-completion-indicator">◕</span>) tells you exactly how many people answered any given question.
+      Mivel az összes kérdés opcionális, némelyikükre kevesebb válasz érkezett, mint a többire.
+      A kitöltési indikátor (<span class="hint-completion-indicator">◕</span>) mutatja, hogy egy adott kérdésre pontosan hányan válaszoltak.
 
   - key: hints.tool_modal_hint
     t: >
-      You can click on any technology name to get extra details and 
-      a more in-depth look at its related data.
+      Bármelyik technológia nevére kattintva extra részleteket találhatsz és alaposabban
+      átnézheted a kapcsolódó adatokat.
 
   - key: hints.rankings_modes_hint
     t: >
-      The Experience Over Time chart can be toggled between retention, interest, usage, and awareness
-      to give you a fuller picture of a category.
+      A Tapasztalat az idő függvényében diagramnál lehet választani megtartás, érdeklődés, használat és
+      ismertség között, hogy egy teljesebb képet kaphass róla.
 
   - key: hints.sharing_hint
     t: >
-      Sharing this survey on Twitter, Facebook, or by email is scientifically proven to 
-      improve your coding performance by up to 15%.
+      Tudományosan bizonyított, hogy ha ezt a felméréest megosztod Twitteren, Facebookon, vagy emailben, 
+      akár 15%-kal javulhat a kódolási teljesítményed.
 
   - key: hints.tshirt_hint
     t: >
-      Another guaranteed scientific finding: buying our t-shirt will 
-      increase your programming skills by over 9000!
+      Egy másik tudományosam garantált eredmény: ha megveszed a pólónkat, 
+      a programozási készségeid legalább 9000-rel nőnek!
 
   - key: hints.variants_hint
     t: >
-      Some charts feature additional tabs that offer complementary breakdowns of the same data,
-      or related data. Make sure to check them out!
+      Egyes diagramok további tabokat is tartalmaznak, amik kiegészítő lebontásban mutatják ugyanazt az adatot,
+      vagy kapcsolódó adatokat. Mindenképpen nézd meg ezeket is!
 
   - key: hints.share_hint
     t: >
-      The <span class="hint-icon hint-share-button">Share</span> tab makes it easy to share any chart, 
-      or even download it as an image.
+      A <span class="hint-icon hint-share-button">Megosztás</span> tab megkonnyíti a megosztást, 
+      vagy akár képként is letölthető.
 
   - key: hints.bracket_hint
     t: >
-      <span class="hint-bracket"><span class="hint-text">The following chart provides the results of a tournament-style 8-player bracket in which
-      respondents were tasked with picking the winner of each match-up until a single winner remained.</span><span class="hint-diagram"/></span>
+      <span class="hint-bracket"><span class="hint-text">A következő táblázat egy verseny-típusú 8 játékos csapat eredményeit tartalmazza, amelyben
+      a válaszadók azt a feladatot kapták, hogy válasszák ki minden mérkőzés győztesét, amíg csak egyetlen győztes marad.</span><span class="hint-diagram"/></span>
 
   - key: hints.comments_hint
     t: >
-      The <span class="hint-icon hint-comment-button">Comment</span> tab lets you view comments left by survey respondents as they were filling out the survey.
+      A <span class="hint-icon hint-comment-button">Komment</span> tabban megnézheted a válaszadók kommentjeit, amiket a kérdőív kitöltésekor adtak meg.
 
   ###########################################################################
   # Sponsor Chart
   ###########################################################################
 
   - key: sections.sponsor_finish.title
-    t: Thanks
+    t: Köszönjük
 
   - key: sponsor.sponsor_finish
     t: >
-      Thanks for supporting the survey. Your avatar should appear next to the chart you picked
-      within the next hour or so. If it doesn't, please [get in touch](mailto:chartsponsor@stateofjs.com).
+      Köszönjük, hogy támogatod a felmérést. Az avatarodnak meg kell jelennie a kiválasztott diagram mellett az elkövetkezendő egy órában.
+      Ha nem jelenik meg, kérlek [jelezd felénk](mailto:chartsponsor@stateofjs.com).
 
   - key: sponsor.sponsored_by
     t: >
-      **{name}** donated **${amount}** to sponsor this chart
+      **{name}** támogatta **${amount}**-val ezt a diagramot
 
   - key: sponsor.sponsor_button
-    t: Sponsor This Chart
+    t: Támogasd a diagramot
 
   - key: sponsor.sponsor_chart.title
-    t: Sponsor Chart "{title}"
+    t: Támogasd a "{title}" diagramot
 
   - key: sponsor.sponsor_chart.description
     t: >
-      Support this survey financially by donating $10 or more, and get your
-      Twitter avatar featured next to a chart!
+      Támogasd ezt a felmérést legalább $10-ral, hogy megjelenjen a Twitter avatarod
+      a támogatott diagram mellett!
 
   - key: sponsor.chart_id
-    t: "Chart ID: "
+    t: "Diagram ID: "
 
   - key: sponsor.sponsor_this_chart
-    t: Sponsor This Chart (${baseAmount}+)
+    t: Támogasd ezt a diagramot (${baseAmount}+)
 
   - key: sponsor.how_it_works.title
-    t: How It Works
+    t: Hogyan működik
 
   - key: sponsor.how_it_works.description
     t: >
-      1. When you **click the "Sponsor This Chart" button**, you will be redirected to our partner [SendOwl](https://www.sendowl.com/)'s checkout page. 
+      1. Amikor **a "Támogasd ezt a diagramot" gombra** kattintasz, átirányítunk partnerünk [SendOwl](https://www.sendowl.com/) fizetési oldalára.
 
 
-      2. You can then **adjust the amount** you'd like to sponsor the survey for, starting at USD10.  
+      2. Ezután **módosíthatod azt az összeget**, amellyel támogatni szeretnéd a felmérést, 10 USD-tól kezdve.
 
 
-      3. Once you checkout, you will be able to **provide your Twitter username**. 
+      3. A fizetés után **megadhatod a Twitter felhasználónevedet**. 
 
 
-      4. You will see a **File Download** page, but you can safely ignore it. 
+      4. Látni fogsz egy **Fájlletöltés** oldalt, de ezt nyugodtan figyelmen kívül hagyhatod.
 
 
-      5. The site will rebuild in the background and your username and donation will **appear next to the chart within the next hour**.
+      5. A webhely a háttérben újjáépül, és az te felhasználóneved és adományod is **megjelenik a következő órán belül megjelenik a diagram mellett**.
 
   - key: sponsor.faq.title
-    t: F.A.Q.
+    t: GY.I.K.
 
   - key: sponsor.faq.usage.title
-    t: What will my donation be used for?
+    t: Mire használjátok fel az adományomat?
 
   - key: sponsor.faq.usage.description
-    t: Your donation will help support survey maintainers, as well as help hire more contributors (illustrators, accessibilty and diversity experts, etc.).
+    t: Adományod segíthet a felmérések fenntartóinak támogatásában, valamint további közreműködők (illusztrátorok, akadálymentesítássel és sokszínűséggel foglalkozó szakértők stb.) felvételében.
 
   - key: sponsor.faq.public.title
-    t: Will my donation be public?
+    t: Nyilvános lesz az adományom?
 
   - key: sponsor.faq.public.description
-    t: Yes. Your **Twitter username** as well as the **amount you donated** will be displayed publicly next to the chart.
+    t: Igen. A **Twitter felhasználóneved** valamint **az adomány mennyisége** is fel lesz tüntetve nyilvánosan a diagram mellett.
 
   # - key: sponsor.faq.donation_public.title
   #   t: Can I donate on somebody else's behalf?
@@ -1229,37 +1227,37 @@ translations:
   #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
 
   - key: sponsor.faq.refund.title
-    t: What's your refund policy?
+    t: Mik a visszatérítési szabályok?
 
   - key: sponsor.faq.refund.description
-    t: All donations are refundable within a 1-week period, minus transaction fees.
+    t: Minden adomány vissztéríthető 1 héten belül, levonva a tranzakciós költségeket.
 
   - key: sponsor.faq.influence.title
-    t: Do donations influence the survey contents?
+    t: Befolyásolják-e az adományok a felmérés tartalmát?
 
   - key: sponsor.faq.influence.description
-    t: Donations take place once the survey is already published, and donors to not have any influence on the contents of the survey.
+    t: Az adományozásra akkor kerül sor, amikor a felmérés már lezajlott, így az adományozóknak nincs befolyásuk a felmérés tartalmára.
 
   - key: sponsor.faq.feedback.title
-    t: Where can I leave feedback/ask questions?
+    t: Hol tudok visszajelzést küldeni/kérdezni?
 
   - key: sponsor.faq.feedback.description
-    t: You can do so [on GitHub](https://github.com/StateOfJS/Monorepo/issues/69) or [in our Discord](https://discord.gg/tuWRUWVyJs).
+    t: Megteheted a [GitHubon](https://github.com/StateOfJS/Monorepo/issues/69) vagy [a Discordunkon](https://discord.gg/tuWRUWVyJs).
 
   ###########################################################################
   # Data Explorer
   ###########################################################################
 
   - key: sections.data_explorer.title
-    t: Data Explorer
+    t: Adatböngésző
   - key: sections.data_explorer.description
     t: |
-      Dynamically explore the survey's audience by picking two questions, and seeing how
-      respondents are distributed between them.
+      Fedezd fel dinamikusan a a felmérés közönségét, ha két kérdést kiválasztasz,
+      látni fogod, hogyan oszlanak el a válaszadók közöttük.
 
   - key: hints.data_explorer
     t: |
-      This is a preview version of our new Data Explorer. If you find any issues or data inconsistencies please [let us know]({issueLink}).
+      Ez az új Data Explorer előnézeti verziója. Ha bármilyen problémát vagy inkonzisztenciát találsz, kérlek [jelezd]({issueLink}) felénk.
 
   # heading
 
@@ -1268,139 +1266,139 @@ translations:
 
   - key: explorer.total_respondents
     t: |
-      (**{totalCount}** total respondents)
+      (**{totalCount}** összes válaszadó)
 
   - key: explorer.count_per_dot
     t: |
-      {respondentsPerDot} Respondents
+      {respondentsPerDot} Válaszadó
   - key: explorer.percentage_per_dot
     t: |
       {percentsPerDot}%
   - key: explorer.extra_respondents
-    t: Extra Respondents
+    t: Extra válaszadók
   - key: explorer.missing_respondents
-    t: Missing Respondents
+    t: Hiányzó válaszadók
 
   - key: explorer.count_per_dot.tooltip
     t: |
-      1 dot represents {respondentsPerDot} respondents
+      1 pont {respondentsPerDot} válaszolót reprezentál
   - key: explorer.percentage_per_dot.tooltip
     t: |
-      1 dot represents {percentsPerDot}% of respondents
+      1 pont a válaszadók {percentsPerDot}%-át reprezentálja
   - key: explorer.extra_respondents.tooltip
-    t: Highlighted dots indicate higher-than-expected results.
+    t: A kiemelt pontok a vártnál magasabb eredményt tükröznek.
   - key: explorer.missing_respondents.tooltip
-    t: Empty dots indicate lower-than-expected results.
+    t: Az üres pontok a vártnál alacsonyabb eredményt tükröznek.
 
   - key: explorer.units_count
-    t: Count
+    t: Darab
   - key: explorer.units_percentage
-    t: "% of Row"
+    t: "A sor %-a"
 
   - key: explorer.edit
-    t: Edit Parameters…
+    t: Paraméterek módosítása…
 
   - key: explorer.get_data
-    t: Get Data…
+    t: Nézzük az adatokat…
 
   # loading
 
   - key: explorer.loading.1
-    t: Querying API…
+    t: API lekérése…
   - key: explorer.loading.2
-    t: Waiting for a response…
+    t: Várakozás válaszra…
   - key: explorer.loading.3
-    t: Still working…
+    t: Még mindig dolgozunk…
   - key: explorer.loading.4
-    t: Hang on just a little bit longer…
+    t: Még egy kicsit várj…
   - key: explorer.loading.5
-    t: Sorry, this is taking a while. You can try waiting a little longer, or [report an issue]({issueLink}).
+    t: Bocsi, ez kicsit tovább tart, mint gondoltuk. Még várhatsz egy kicsit, vagy pedig [jelentheted problémaként]({issueLink}).
   - key: explorer.timeout
-    t: Timeout
+    t: Időtúllépés
   - key: explorer.timeout.description
-    t: The API didn't respond in time. Please try again later, or [report an issue]({issueLink}).
+    t: Az API nem válaszolt időben. Kérlek, próbáld újra később, vagy pedig [jelentsd problémaként]({issueLink}).
 
   # share
 
   - key: explorer.share
-    t: Share…
+    t: Megosztás…
   - key: explorer.share.title
-    t: Share “{xAxisLabel}” vs “{yAxisLabel}”
+    t: Megosztás “{xAxisLabel}” vs “{yAxisLabel}”
   - key: explorer.share.tweet
-    t: “{xAxisLabel}” vs “{yAxisLabel}” from the {surveyName} {year} survey
+    t: “{xAxisLabel}” vs “{yAxisLabel}” ebből a felmérésből - {surveyName} {year}
 
   # axis
 
   - key: explorer.axis_total
-    t: "{totalCount} respondents"
+    t: "{totalCount} válaszadó"
   - key: explorer.axis_percent
-    t: "{percentCount}% of respondents"
+    t: "A válaszadók {percentCount}%-a"
 
   - key: explorer.x_axis_details
     t: |
-      Out of all respondents who completed question “{yAxisLabel}”, **{totalCount}** survey respondents picked “{xQuestionLabel}” for “{xAxisLabel}”
+      A “{yAxisLabel}” kérdést kitöltő összes válaszadó közül **{totalCount}** válaszadó a(z) “{xQuestionLabel}” elemet választott a(z) “{xAxisLabel}” kérdésre.
   - key: explorer.y_axis_details
     t: |
-      **{totalCount}** survey respondents picked “{yQuestionLabel}”
+      A felmérés **{totalCount}** válaszadója a(z) “{yQuestionLabel} opciót választotta”
   - key: explorer.main_legend_count
     t: |
-      **{totalCount}** respondents, **1** dot = **{respondentsPerDot}** respondents, **{dotsPerLine}** dots per line
+      **{totalCount}** válaszadó, **1** pont = **{respondentsPerDot}** válaszadó, **{dotsPerLine}** pont per vonal
 
   # controls
   - key: explorer.dots_per_line
-    t: Dots per line
+    t: Pont per vonal
   - key: explorer.respondents_per_dot
-    t: Respondents per dot
+    t: Pontokénti válaszadók
   - key: explorer.show_cell_counts
-    t: Show cell counts
+    t: Mutasd meg a cellák számolását
   - key: explorer.show_no_answer
-    t: Show “No Answer” cells
+    t: Mutasd a “Nincs válasz” cellákat is
 
   - key: explorer.all_fields
-    t: All fields
+    t: Összes mező
   - key: explorer.select_item
-    t: Select item
+    t: Válassz egy elemet
 
   # details views
 
   - key: explorer.count_details.1
     t: |
-      **{xAxisTotal}** “{xAxisLabel}” respondents selected “{xAnswerLabel}”.
+      **{xAxisTotal}** “{xAxisLabel}” válaszadók a “{xAnswerLabel}”-t választották.
 
   - key: explorer.count_details.2
     t: |
-      **{yAxisPercentage}%** of “{yAxisLabel}” respondents selected “{yAnswerLabel}”.
+      **“{yAxisLabel}”-ből {yAxisPercentage}%** válaszolt “{yAnswerLabel}”-vel.
 
   - key: explorer.count_details.3
     t: |
-      Applying that percentage to the previous **{xAxisTotal}** respondents figure 
-      gives us an expected baseline of **{normalizedCount}** respondents in this intersection.
+      Ezt a százalékot alkalmazva a korábbi **{xAxisTotal}** válaszadók adatára
+      **{normalizedCount}** válaszadó várható alapértékét adja meg ebben a keresztmetszetben.
 
   - key: explorer.count_details.4_extra
     t: |
-      The actual count is **{cellCount}**, and those extra **{normalizedCountDelta}** respondents are *highlighted*.
+      A tényleges szám **{cellCount}**, és ezek az extra **{normalizedCountDelta}** válaszadók *ki vannak elmelve*.
 
   - key: explorer.count_details.4_missing
     t: |
-      The actual count is **{cellCount}**, and those missing **{normalizedCountDelta}** respondents appear as empty dots.
+      A tényleges szám **{cellCount}**, és a hiányzó **{normalizedCountDelta}** válaszadók üres pontokként jelenik meg.
 
   - key: explorer.percentage_details.1_extra
     t: |
-      Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
-      within **“{yAxisLabel}” respondents who selected “{yAnswerLabel}”** that percentage climbs to  **{bucketPercentage}%**.
+      Összességében a „{xAxisLabel}” válaszadók **{xAxisPercentage}%**-a választotta a „{xAnswerLabel}” lehetőséget, de
+      azon **„{yAxisLabel}” válaszadókon belül, akik a „{yAnswerLabel}”** lehetőséget választották, ez az arány **{bucketPercentage}%**-ra emelkedik.
 
   - key: explorer.percentage_details.1_missing
     t: |
-      Overall, **{xAxisPercentage}%** of “{xAxisLabel}” respondents selected “{xAnswerLabel}”, but
-      within **“{yAxisLabel}” respondents who selected “{yAnswerLabel}”** that percentage drops to  **{bucketPercentage}%**.
+      Összességében a „{xAxisLabel}” válaszadók **{xAxisPercentage}%**-a választotta a „{xAnswerLabel}” lehetőséget, de
+      azon **„{yAxisLabel}” válaszadókon belül, akik a „{yAnswerLabel}”** lehetőséget választották, ez az arány **{bucketPercentage}%**-ra csökken.
 
   - key: explorer.percentage_details.2_extra
     t: |
-      Those extra **{normalizedPercentageDelta}%** respondents are *highlighted*.
+      Az extra **{normalizedPercentageDelta}%** válaszadók *ki vannak emelve*.
 
   - key: explorer.percentage_details.2_missing
     t: |
-      Those missing **{normalizedPercentageDelta}%** respondents appear as empty dots.
+      A hiányzó **{normalizedPercentageDelta}%** válaszokadók üres pontokként jelennek meg.
 
   # - key: explorer.percentage_details.1
   #   t: |
@@ -1425,114 +1423,115 @@ translations:
 
   - key: explorer.extra_missing_respondents
     t: |
-      ### Extra & Missing Respondents
+      ### Extra & hiányzó válaszadók
 
-      The chart above aims to identify areas showing higher-than-expected 
-      or lower-than-expected values compared to a calculated baseline. 
+      A fenti diagram célja, hogy azonosítsa azokat a területeket, amelyek a 
+      vártnál magasabb vagy alacsonyabb értékeket mutatnak egy számított kiindulási értékhez képest.
 
-      For example, assuming there are 1000 CSS Grid users, and that 50% of survey respondents work in a large company, 
-      you'd expect to find 500 CSS Grid users working in large companies. 
+      Például, ha feltételezzük, hogy 1000 CSS Grid-felhasználó van, és a felmérés válaszadóinak 50%-a nagyvállalatnál dolgozik,
+      várhatóan 500 CSS Grid felhasználó dolgozik a nagyvállalatoknál.
 
-      Any deviation above or below that expected total could potentially indicate an interesting
-      correlation between both variables, and is highlighted on the chart with either colored 
-      dots (for extra respondents above the baseline) or empty dots (for missing respondents).
+      A várt érték feletti vagy alatti eltérés pontenciálian egy érdekes korrelációra mutathat rá, 
+      és ez ki van emelve a diagramon is, vagy színes (ahol extra válaszadó volt) vagy pedig üres pontokként
+      (ahol hiányoznak válaszadók).
 
   ###########################################################################
   # Filters
   ###########################################################################
 
   - key: filters.compare_data
-    t: Compare Data
+    t: Hasonlítsd össze az adatokat
   - key: filters.customize_chart
-    t: Customize Chart
+    t: Személyre szabott diagram
   - key: filters.docs
-    t: Documentation
+    t: Dokumentáció
   - key: filters.compare_chart
-    t: Customize “{chartName}”
+    t: Szabd személyre a “{chartName}-t”
   - key: filters.filters.description
     t: |
-      Using a combination of demographics filters, you can define up to four **custom data series** to dynamically
-      load and compare them with the default data for this question.
+      A demográfiai szűrők kombinációjával legfeljebb négy **személyre szabott adatsort** határozhatsz meg, 
+      hogy dinamikusan betöltődjenek és össze lehessen hasonlítani őket a kérdés alapértelmezett adataival.
+
   - key: filters.facets.description
     t: |
-      Pick a variable to break down each bar into "facets".
+      Válasszon egy változót az egyes sávok "oldalra" bontásához.
   - key: filters.grid_mode
-    t: Side-by-Side
+    t: Egymás mellett
   - key: filters.combined_mode
-    t: Combined
+    t: Kombinált
   - key: filters.facet_mode
-    t: Facets
+    t: Oldalak
   - key: filters.facet
-    t: "Facet:"
+    t: "Oldal:"
 
   - key: filters.series.heading
-    t: Series {index}
+    t: Sorozat {index}
   - key: filters.series.add
-    t: Add Series…
+    t: Sorozat hozzáadása…
   - key: filters.series.delete
-    t: Delete Series
+    t: Sorozat törlése
   - key: filters.series.year
     t: |
-      {year} data
+      {year} adat
   - key: filters.series.show_default
     t: |
-      Show default series
+      Mutassa az alapértelmezett sorozatot
   - key: filters.series.no_data
-    t: No data
+    t: Nincs adat
 
   - key: filters.condition.add
-    t: Add Filter
+    t: Szűrő hozzáadása
   - key: filters.condition.delete
-    t: Delete Filter
+    t: Szűrő törlése
   - key: filters.condition.and
-    t: and
+    t: és
   - key: filters.operators.eq
-    t: is
+    t: vagy
   - key: filters.operators.in
-    t: is one of
+    t: az egyik ezen közül
   - key: filters.operators.nin
-    t: is not one of
+    t: nem az egyik ezek közül
   - key: filters.value.add
-    t: Add Value
+    t: Érték hozzáadása
   - key: filters.value.delete
-    t: Delete Value
+    t: Érték törlése
 
   - key: filters.legend.default
-    t: Default
+    t: Alapértelmezett
 
   - key: filters.cancel
-    t: Cancel
+    t: Érvénytelenítés
   - key: filters.submit
-    t: Update Chart
+    t: Diagram frissítése
   - key: filters.copy_link
-    t: Copy link to current filters
+    t: Másolja ki a linket az aktuális szűrőkre
   - key: filters.get_code
-    t: Get filters code
+    t: Szűrőkód lekérése
 
   - key: filters.presets.title
-    t: "Presets:"
+    t: "Sablonok:"
   - key: filters.presets.save
-    t: Save current filters as preset…
+    t: Az aktuális szűrők mentése sablonként…
   - key: filters.presets.delete
-    t: Delete Preset
+    t: Sablon törlése
   - key: filters.presets.enter_name
     t: |
-      Enter a name for your new preset:
+      Adj meg egy nevet az új sablonnak:
   - key: filters.presets.previous_years
-    t: Previous Years
+    t: Előző évek
   - key: filters.presets.gender
-    t: Gender
+    t: Nem
   - key: filters.presets.top_countries
-    t: Top Countries
+    t: Legnépszerűbb országok
   - key: filters.presets.salary_low_high
     t: |
-      Low vs High Salary
+      Alacsony vagy magas fizetés
   - key: filters.presets.experience_low_high
     t: |
-      Low vs High Experience
+      Alacsony vagy magas tapasztalat
   - key: filters.presets.company_size_low_high
     t: |
-      Small vs Large Company
+      Kis vagy nagyvállalat
 
   - key: filters.facet.select
-    t: Select a facet…
+    t: Válassz ki egy oldalt…
