@@ -12,47 +12,46 @@ translations:
     t: Lépj kapcsolatba
 
   - key: homepage.made_by
-    t: 'A State of CSS felmérést készítette:'
+    t: "A State of CSS felmérést készítette:"
 
   - key: homepage.previous_years
-    t: 'Korábbi évek:'
+    t: "Korábbi évek:"
 
   - key: homepage.take_survey
-    t: Take Survey
-      ## A CSS minden korábbinál gyorsabban fejlődik.
+    t: Kérdőív kitöltése
 
   - key: homepage.view_results
-    t: View Results
+    t: Eredmények megtekintése
 
   - key: homepage.results_coming_soon
-    t: Results Coming Soon…
+    t: Az erdemények hamarosan érkeznek…
 
   - key: share.help_spread
-    t: Help Spread the Word!
+    t: Segíts népszerűsíteni minket!
 
   - key: homepage.other_surveys
-    t: "Other Surveys:"
+    t: "Egyéb felmérések:"
 
   - key: homepage.survey_open_now
-    t: Currently Open
+    t: Nyitott felmérések
 
   - key: homepage.survey_preview
-    t: Preview Survey
+    t: Előnézeti módban lévő felmérések
 
   - key: homepage.most_recent_survey
-    t: Most Recent
+    t: Legutóbbi felmérés
 
   - key: homepage.current_survey
-    t: Current Survey
+    t: Jelenlegi felmérés
 
   - key: homepage.past_surveys
-    t: Past Surveys
+    t: Lezárt felmérések
 
   - key: homepage.view_questions
-    t: View Questions
+    t: Kérdések megtekintése
 
   - key: homepage.preview_questions
-    t: Preview Questions
+    t: Kérdések előnézete
 
   # newsletter
   - key: newsletter.stay_tuned
@@ -60,15 +59,15 @@ translations:
   - key: newsletter.leave_your_email
     t: Add meg az email címed és értesítünk a következő felmérésről.
   - key: newsletter.email
-    t: Your Email
+    t: Az email címed
   - key: newsletter.submit
-    t: Notify Me
+    t: Értesítésekek kérek
 
   # languages
   - key: languages.available_languages
-    t: "Available languages:"
+    t: "Elérherő nyelvek:"
   - key: languages.help_us_translate
-    t: Help us translate the survey in your language →
+    t: Segíts lefordítani a felmérést a nyelvedre →
 
   # partners
   - key: homepage.with_support_from
@@ -83,4 +82,4 @@ translations:
   - key: homepage.join_discord
     aliasFor: general.join_discord
   - key: homepage.astro_link
-    t: Powered by [Astro](https://astro.build/)
+    t: [Astro](https://astro.build/) által üzemel
