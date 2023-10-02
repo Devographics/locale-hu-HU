@@ -5,128 +5,127 @@ translations:
   ###########################################################################
 
   - key: general.no_preview_surveys
-    t: Nincseken megjeleníthető kérdőívek
+    t: Nincsenek megjeleníthető kérdőívek
   - key: general.global_nav
     t: Globális
   - key: general.survey_status_preview
-    t: Preview
+    t: Előnézeti mód
   - key: general.survey_status_open
-    t: Open
+    t: Nyitott
   - key: general.survey_status_closed
-    t: Closed
+    t: Zárt
   - key: general.survey_status_hidden
-    t: Hidden
+    t: Elrejtett
 
   - key: general.pick_up_to
-    t: Pick up to {limit} items.
+    t: Válassz maximum {limit} opciót.
 
   - key: general.privacy_policy
-    t: Privacy Policy
+    t: Adatvédelmi szabályzat
   - key: general.privacy_policy.description
     t: >
-      ### 1. Data Collection
+      ### 1. Adatgyűjtés
 
-      In addition to the data collected through a survey's questions, we collect your device, browser, OS, browser version, and referrer.
+      A kérdőívben adott válaszokon kívül még összegyűjtjük a készüléked, böngésződ, operációs rendszered és a hivatkozót.      
+      
+      Megjegyzendő, hogy az összes kérdés teljesen opcionális, és semmilyen módon nem kapcsolunk személyes információt a válaszaidhoz (mint az email cím).
 
-      Note that all questions are entirely optional, and we never link any identifiable information (such as email addresses) to your survey answers.
+      ### 2. Email gyűjtés
 
-      ### 2. Email Collection
+      Opcionálisan begyűjtjük az email címedet, hogy:
 
-      We may optionally collect your email to:
+      1. Mágikus bejelentkezési link generálásakor, miután eldobjuk az email címedet és csak egy egyirányú hash-t tartunk meg a felhasználói adatbázisunkban.
 
+      2. Felvesszük veled a kapcsolatot, amikor a felmérés eredményei elkészültek, valamint a felmérés jövőbeni kiadásairől küldünk értesítést nagyon ritkán. Erről bármikor leiratkozhatsz, és az email címed törlésre kerül az adatbázisunkból, amint elküldtük a hírlevél szolgáltatónak.
 
-      1. Generate a magic log-in link, after which we discard your email and only keep a one-way hash in our user database.
+      3. Egy emlékeztetőt küldünk a témákról, amikről jelezted, hogy érdekelnek. Az email címedet töröljük, amint elküldtük a hírlevél szolgáltatónak.
 
-      2. Contact you once survey results are available, as well as when we launch future editions of a survey and for infrequent announcements. You can unsubscribe from our mailing list at any time, and your email is discarded from our records once it is sent to our email newsletter provider.
+      Amikor összegyűjtjük az email címedet, ez soha nincs hozzákötve a válaszaidhoz, vagy a felhasználói fiókodhoz.
 
-      3. Send you a recap list of features or tools you want to learn more about. We will discard your address once the email has been sent out through our transactional email provider.
+      ### 3. Sütik
 
+      Beállítunk egy bejelentkezési sütit, és a hoszting szolgáltatónk (Vercel) is beállíthatja a saját sütijét. Mi nem használunk semmilyen más sütit, kliens-oldali analitika és reklámok céljából sem.
 
-      When we do collect your email address, it is never linked to your responses for a survey, or to your user account.
+      ### 4. Adathasználat
 
-      ### 3. Cookies
+      Feldolgozzuk a válaszaidat egy adathalmazba, amit aztán arra használunk, hogy riportokat készítsünk. Ezeket mind nyílvánosan elérhetővé tesszük.
 
-      We set a log-in cookie, and our hosting provider (Vercel) may also sets its own cookie. We do not set any other cookie or use client-side analytics or ads.
+      ### 5. Adat/fiók törlése
 
-      ### 4. Data Use
-
-      We process the data and then use it to publish reports. We also make the entire dataset publicly available.
-
-      ### 5. Data/Account Deletion
-
-      You can email us at [hello@stateofjs.com](mailto:hello@stateofjs.com) if you'd like us to delete all or part of your data.
+      Küldj egy emailt a [hello@stateofjs.com](mailto:hello@stateofjs.com)-re, ha szeretnéd, hogy adataidat részben vagy egészben töröljük.
 
   ###########################################################################
   # Other UI Strings
   ###########################################################################
 
   - key: textlist.placeholder
-    t: Item {index}…
+    t: Tétel {index}…
 
   - key: feature.unimplemented
-    t: No browser support
+    t: Nem támogatott böngésző
 
   - key: feature.unimplemented.description
-    t: This feature has not yet been implemented in browsers. You can still select “Used it” if you have used it via polyfills, transpilers, or other tools.
+    t: Ez a funkció még nincs implementálva a böngészőkben. Kiválaszthatod, hogy “Már használtam”, ha használtad polyfillek, transpilerek által vagy egyéb eszközökkel.
 
   - key: general.skip_question
-    t: Skip
+    t: Kihagyás
 
   - key: general.unskip_question
-    t: Answer Question
+    t: Válaszlok a kérdésre
 
   - key: general.skip_question.description
+    t: Hagyja ki a kérdést és jelöle meg már válaszoltként
     t: Skip question and mark it as completed
 
   - key: general.unskip_question.description
-    t: Unskip question and answer it
+    t: Vonja vissza a kihagyást és válaszolok rá
 
   ###########################################################################
   # Errors & Messages
   ###########################################################################
 
   - key: error.duplicate_response
-    t: Sorry, you already have a session in progress for this survey.
+    t: Elnézést, már van egy folyamatban lévő kérdőív.
 
   - key: error.report_issue
-    t: Report issue
+    t: Probléma jelzése
 
   - key: success.data_saved
-    t: Data Saved
+    t: Adat elmentve
   - key: success.data_saved.description
-    t: Your data has been saved.
+    t: Az adataid el lettek mentve.
 
   ###########################################################################
   # Accounts
   ###########################################################################
 
   - key: accounts.create_account
-    t: Continue with Account
+    t: Folytatás felhasználói fiókkal
   - key: accounts.create_account.description
-    t: Having an account lets you **access your own data in the future** and be notified when survey results are published.
+    t: A felhasználói fiókkal **el tudod érni a saját adataidat a jövőben is** és értesítünk, ha kész vannak a felmérés eredményei.
   - key: accounts.create_account.note
-    t: If you **already have an account** we will send you a magic log-in link by email.
+    t: Ha **már van felhasználói fiókod**, egy mágikus bejelentkezési linket küldünk majd emailedre.
   - key: accounts.create_account.action
-    t: Continue with Account
+    t: Folyatás felhasználói fiókkal
   - key: accounts.your_email
-    t: Your Email
+    t: Az email címed
 
   - key: accounts.upgrade_account.action
-    t: Upgrade your account
+    t: Frissítsd a fiókodat
   - key: accounts.upgrade_account.description
-    t: Upgrading your account with an email address will let you access your survey response after you end your session.
+    t: Frissítsd a fiókodat az email címed hozzáadásával, hogy így el tudd érni a válaszaidat a jövőben is.
 
   - key: accounts.continue_as_guest
-    t: Continue as Guest
+    t: Folyatás vendégként
   - key: accounts.continue_as_guest.description
-    t: Taking the survey anonymously means you **won't be able to access your data again** after you end your session.
+    t: Ha névtelenül töltöd ki a kérdőívet, **nem fogod tudni a jövőben újra elérni a válaszaidat**.
   - key: accounts.continue_as_guest.action
-    t: Continue as Guest
+    t: Folyatás vendégkéntt
 
   - key: accounts.magic_link.no_email
-    t: Please enter your email
+    t: Kérlek add meg az email címedet
   - key: accounts.magic_link.success
-    t: Check your inbox! We sent you a magic link, just click it to confirm your account and log in.
+    t: Nézd meg a bejövő emaileket! Küldtünk egy mágikus linket, csak kattints rá, hogy megerősítsd az email címedet és bejelentkezz.
 
   ###########################################################################
   # FAQ
@@ -187,25 +186,25 @@ translations:
   - key: bracket.cancel
     t: Kilépés
   - key: experience.leave_comment
-    t: Leave a Comment (optional)
+    t: Hagyj egy kommentet (opcionális)
   - key: experience.leave_comment_short
-    t: Leave a Comment
+    t: Hagyj egy kommentet
   - key: experience.tell_us_more
-    t: "You answered “{response}”. Tell us more about your choice:"
+    t: "A te válaszod “{response}”. Mondj el többet a válaszodról:"
   - key: experience.tell_us_more_generic
-    t: "Tell us more about your answer:"
+    t: "Mondj el többet a válaszodról:"
   - key: experience.tell_us_more_no_value
-    t: "You didn't pick any response. Tell us why:"
+    t: "Nem választottad egyik opciót sem. Mondd el, hogy miért:"
 
   ###########################################################################
   # Response
   ###########################################################################
 
   - key: response.completion
-    t: "{completion}% completed"
+    t: "{completion}% kész"
 
   - key: response.details
-    t: Started on {startedAt}, {completion}% completed.
+    t: Kezdés {startedAt}-kor, {completion}% kész.
 
   ###########################################################################
   # Reading List
@@ -213,63 +212,62 @@ translations:
 
   - key: readinglist.prompt
     t: >
-      You picked “{option}”. If you'd like to learn more about this feature at the end of the survey, you can click the "+" icon above to add it to your **reading list**.
+      Ezt választottad: “{option}”. Ha többet szeretnél megtudni erről a végén, kattints a "+" ikonra, hogy hozzáadd az **olvasási listádhoz**.
 
   - key: readinglist.add_to_list
-    t: Add to Your Reading List
+    t: Hozzáadás az olvasási listához
 
   - key: readinglist.remove_from_list
-    t: Remove from Reading List
+    t: Eltávolítás az olvasási listáról
 
   - key: readinglist.added_to_list
-    t: Added “{label}” to your reading list.
+    t: Hozzáadtuk “{label}”-t az olvasási listádhoz
 
   - key: readinglist.title
-    t: Reading List
+    t: Olvasási lista
 
   - key: readinglist.description
     t: >
-      Save items here using the "+" button, and you'll get a list of links to learn more about them at the end of the survey.
+      Ments el tételeket a "+" gomb segítségével, és a kérdőív végén egy sor linket kapsz majd, ami ehhez kapcsolódik.
 
   - key: readinglist.empty
     t: >
-      You don't have any items in your reading list.
-      Try going back to the survey and adding features or libraries you'd like
-      to learn more about using the "+" button.
+      Nincs még tétel az olvasási listádban.
+      Próbálj visszamenni a kérdőívre és adj hozzá tételeket, amikről többet szeretnél megtudni a "+" gomb segítségével.
 
   - key: readinglist.results
     t: >
-      Here are some resources to learn more about the items in your reading list:
+      Itt van pár forrás, ami segíthet többet tanulni az olvasási listádban található tételekről:
 
   - key: readinglist.homepage_link
-    t: Homepage
+    t: Főoldal
 
   - key: readinglist.receive_copy
     t: >
-      Enter your email to get a copy of your reading list straight in your inbox:
+      Add meg az email címedet, hogy kapj egy másolatot az olvasási listádról:
   - key: readinglist.send_by_email
-    t: Send
+    t: Küldés
   - key: readinglist.email_sent
-    t: Thanks! Your reading list is on its way to your inbox.
+    t: Köszi! Az oldasási listád már úton is van az inboxodba.
 
   ###########################################################################
   # Score & Knowledge Ranks
   ###########################################################################
 
   - key: knowledge_rank.your_rank
-    t: "Your Rank:"
+    t: "A te fokozatod:"
   - key: knowledge_rank.rank1
-    t: Novice
+    t: Kezdő
   - key: knowledge_rank.rank2
-    t: Apprentice
+    t: Tanonc
   - key: knowledge_rank.rank3
-    t: Intermediate
+    t: Középfokú tudás
   - key: knowledge_rank.rank4
-    t: Expert
+    t: Szakértő
   - key: knowledge_rank.rank5
-    t: Scholar
+    t: Tudós
   - key: knowledge_rank.rank6
-    t: Elite
+    t: Elit
 
   ###########################################################################
   # Survey-Specific Intros
@@ -333,13 +331,14 @@ translations:
 
   - key: general.css2023.survey_intro
     t: |
-      To help you keep up with `:has()`, `@container`, and all the other new CSS features, we're introducing a new feature of our own this year: the **Reading List**.
+      Hogy lépést tudjunk tartani a `:has()`, `@container`, és az összes többi új CSS funkcióval, egy új fogalmat vezetünk be idén: **Olvasási Lista**.
 
-      As you take the survey, you'll be able to bookmark any feature you want and learn more about it after you submit your answers.
+      Ahogy kitöltöd a kérdőívet, lehetőséged van megjelölni egyes témákat, amikről többet szeretnél megtudni a válaszadás utan.
 
-      This year [Chen Hui Jing](https://chenhuijing.com/) took the lead of the survey design process, building on the work done by [Lea Verou](https://lea.verou.me/) last year. And as usual, your feedback here will play a key role in helping browser vendors prioritize their roadmaps and work towards better compatibility between browsers.
-
-      With all this out of the way, let's see how CSS has evolved so far in 2023!
+      Ebben az évben [Chen Hui Jing](https://chenhuijing.com/) vezeti a felmérés tervezési folyamatát, [Lea Verou](https://lea.verou.me/) tavalyi munkájára építve. És szokás 
+      szerint a visszajelzéseid döntő szerepet játszanak az böngésző új funkcióiban és jövőbeli fejlesztési terveiben, valamit a böngészők közötti kompatibilitáshoz kapcsolódó munkákban.
+      
+      Most, hogy ezt tisztáztunk, lássunk, hogyan fejlődött eddig a CSS 2023-ban!
 
   # Intro for actual survey page
   - key: general.html2023.survey_intro
@@ -371,30 +370,30 @@ translations:
   # CSS
 
   - key: faq.data_used_css
-    t: How will this data be used?
+    t: Hogyan lesznek az adatok felhasználva?
   - key: faq.data_used_css.description
     t: >
-      All data collected will be released openly for any developer or company to consult.
-      Browser vendors also [use this data](https://web.dev/interop-2023/) to prioritize focus areas and inform their roadmaps.
+      Az összes adat nyíltan meg lesz osztva bármely fejlesztőnek vagy cégnek szabad felhasználásra.
+      A böngésző fejlesztő cégek is [használják ezt az adathalmazt](https://web.dev/interop-2023/) a jövőbeli fejlesztési terveikben.
 
   - key: faq.who_should_take_survey_css
-    t: Who should take this survey?
+    t: Ki töltse ki ezt a felmérést?
   - key: faq.who_should_take_survey_css.description
     t: >
-      This is an open survey for anybody who writes CSS, whether regularly
-      or occasionally, as part of their job, as a student, or just for fun!
+      Ez egy nyitott felmérés, amit bárki kitölthet, aki foglalkozik a CSS-sel, 
+      akár rendszeresen, akár alkalmanként, a munkája részeként, tanulóként, vagy csak úgy!
 
   - key: faq.survey_goals_css
-    t: What is the survey's goal?
+    t: Mi a célja ennek a felmérésnek?
   - key: faq.survey_goals_css.description
     t: >
-      The survey's goal is to track the evolution of upcoming features and libraries,
-      and help developers decide which new technologies to focus on.
+      A felmérés célja az, hogy végigkövessük az új funkciók és könyvtárak feljődését, 
+      valamint a fejlesztőknek segíteni az új technológiák megismerésében.
 
   # CSS 2022
 
   - key: faq.learn_more_css2022
-    t: Where can I learn more?
+    t: Hol tudok többet megtudni?
   - key: faq.learn_more_css2022.description
     t: You can learn more about [last year's survey here](https://2021.stateofcss.com/en-US/about/).
 
@@ -416,28 +415,28 @@ translations:
   # CSS 2023
 
   - key: faq.how_long_will_survey_take_css2023
-    t: How long will answering the survey take?
+    t: Meddig fog tartani a kérdőív kitöltése?
   - key: faq.how_long_will_survey_take_css2023.description
     t: >
-      Depending on how many questions you answer (all questions can be skipped),
-      filling out the survey should take around 10-15 minutes.
+      Attól függ, hogy hány kérdésre válaszolsz (az összes kérdés opcionális),
+      az egész kb. 10-15 percet vesz igénybe.
 
   - key: faq.learn_more_css2023
-    t: Where can I learn more?
+    t: Hol tudok többet megtudni?
   - key: faq.learn_more_css2023.description
-    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-2023-state-of-css-survey-is-now-open-18bk).
+    t: A [kihirdetett cikkünkben](https://dev.to/sachagreif/the-2023-state-of-css-survey-is-now-open-18bk) többet megtudhatsz a felmérésről.
 
   - key: faq.survey_design_css2023
-    t: How was this survey designed?
+    t: Hogyan lett ez a felmérés megtervezve?
   - key: faq.survey_design_css2023.description
     t: >
-      This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/),
-      [Chen Hui Jing](https://chenhuijing.com/) was able to help manage the survey's [open design process](https://github.com/Devographics/surveys/issues/84).
+      Ebben az évben a Google [UI Fund](https://web.dev/ui-fund/)-jának köszönhetően [Chen Hui Jing](https://chenhuijing.com/) segíteni tudott nekünk 
+      a felmérés [nyílt tervezésében](https://github.com/Devographics/surveys/issues/84)
 
   - key: faq.results_released_css2023
-    t: When will the results be released?
+    t: Mikor lesznek az erdemények kihirdetve?
   - key: faq.results_released_css2023.description
-    t: The survey will run until July 15, 2023, and the survey results will be released in the following weeks.
+    t: A felmérés 2023. július 15-ig fog futni, és az eredmények az azt követő hetekben lesznek közzétéve.
 
   # JS 2022
 
@@ -464,46 +463,46 @@ translations:
   # HTML 2023
 
   - key: faq.data_used_html2023
-    t: How will this data be used?
+    t: Hogyan lesznek az adatok felhasználva?
   - key: faq.data_used_html2023.description
     t: >
-      All data collected will be released openly for any developer or company to consult.
-      Browser vendors also [use this data](https://web.dev/interop-2023/) to prioritize focus areas and inform their roadmaps.
+      Az összes adat nyíltan meg lesz osztva bármely fejlesztőnek vagy cégnek szabad felhasználásra.
+      A böngésző fejlesztő cégek is [használják ezt az adathalmazt](https://web.dev/interop-2023/) a jövőbeli fejlesztési terveikben.
 
   - key: faq.survey_goals_html2023
-    t: What are the survey's goals?
+    t: Mi a felmérés célja?
   - key: faq.survey_goals_html2023.description
     t: >
-      The survey's goals are to measure awareness of new HTML features and browser APIs, and help developers keep track of how their usage is evolving.
+      A felmérés célja a HTML új funkciói és böngésző API-jairól való tudomás felmérése, és a fejlesztőknek segítséget nyújtani a saját tudásuk fejlődésében.
 
   - key: faq.who_should_take_survey_html2023
-    t: Who should take this survey?
+    t: Ki töltse ki ezt a kérdőívet?
   - key: faq.who_should_take_survey_html2023.description
     t: >
-      This is an open survey for anybody who makes websites or web apps, whether regularly or occasionally, as part of their job, as a student, or just for fun!
+      Bárki kitöltheti aki weboldalakat vagy webalkalmazásokat készít, akár rendszeresen, akár alkalmanként, a munkája részeként, tanulóként, vagy csak úgy!
 
   - key: faq.how_long_will_survey_take_html2023
-    t: How long will answering the survey take?
+    t: Meddig for tartani kitölteni?
   - key: faq.how_long_will_survey_take_html2023.description
     t: >
-      Depending on how many questions you answer (all questions are optional),
-      filling out the survey should take around 15-20 minutes.
+      Attól függ, hogy hány kérdésre válaszolsz (az összes kérdés opcionális),
+      az egész kb. 10-15 percet vesz igénybe.
 
   - key: faq.learn_more_html2023
-    t: Where can I learn more?
+    t: Hol tudok többet megtudni?
   - key: faq.learn_more_html2023.description
-    t: You can learn more about this survey in [our announcement post](https://lea.verou.me/blog/2023/design-state-of-html/).
+    t: A [kihirdetett cikkünkben](https://lea.verou.me/blog/2023/design-state-of-html/) többet megtudhatsz a felmérésről.
 
   - key: faq.survey_design_html2023
-    t: How was this survey designed?
+    t: Ki tervezte ezt a felmérést?
   - key: faq.survey_design_html2023.description
     t: >
-      The survey was designed by [Lea Verou](https://lea.verou.me), with input from browser vendors as well as groups such as the [WebDX Community Group](https://www.w3.org/community/webdx/).
+      A felmérést [Lea Verou](https://lea.verou.me) tervezte, böngészőcégek és közösséget, mint a [WebDX Community Group](https://www.w3.org/community/webdx/) segítségével. 
 
   - key: faq.results_released_html2023
-    t: When will the results be released?
+    t: Mikor lesznek az erdemények kihirdetve?
   - key: faq.results_released_html2023.description
-    t: The survey will run from September 19 to October 10, and the survey results will be released shortly after that.
+    t: A felmérést szeptember 19-től fog októbet 10-ig futni, és az eredmények ezután nem sokkal lesznek kihirdetve.
 
   ###########################################################################
   # Demographics (About You/User Info)
