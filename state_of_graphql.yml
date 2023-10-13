@@ -7,91 +7,93 @@ translations:
 
     - key: general.state_of_graphql.intro
       t: |
-          Since being originally created at Facebook in September 2015, many developers have embraced GraphQL as a new and promising way to build APIs. 
+          Miután eredetileg a Facebook hozta létre 2015 szeptemberében, sok-sok fejlesztő megszerette a GraphQL, a új, sokat ígérő API építési módszereivel együtt.
 
-          Yet a lot of questions still remain: when do you need GraphQL exactly? Should you hand-code your GraphQL API or generate it from your database? And will it ever replace REST?
+          Habár sok kérdés áll még mindig fenn: pontosan mikor érdemes használni a GraphQL-t? Kézzel írjuk meg a GraphQL API kódját, vagy adatbázisból generáljuk? És mikor fogja REST-et teljesen helyettesíteni?
 
-          The annual State of GraphQL developer survey aims to answer these questions, and many more!
+          Az éves State of GraphQL fejlesztői felmérés ezeket a kérdéseket célozza meg, és még sok mást is!
 
     - key: general.state_of_graphql.description
-      t: The annual developer survey of the GraphQL ecosystem
+      t: A GraphQL ökoszisztéme éves fejlesztői felmérése
     ###########################################################################
     # Survey
     ###########################################################################
 
     - key: features.graphql_features_intro
       t: >
-          Welcome to the survey! This first part is all about figuring out 
-          which **features** of GraphQL and its ecosystem you know about. 
-          And if you know about something but haven't yet used it, that's fine too!
+          Üdv a kérdőívben! Ez az első rész többnyire arról szól, hogy megértsük, 
+          hogy mennyire vagy jártas a GraphQL **funkcióiban** és az ökoszisztémájában.
+
+          És ha van olyan, amiről már hallottál, de még nem használtad, az is rendben van!
 
     - key: tools.graphql_tools_intro
       t: >
-          The next couple sections focus on the **libraries** and **services** that make up 
-          the GraphQL ecosystem. Let us know what you're excited about!
+          A következő pár rész a JavaScript **könyvtárak**ról és a **szolgáltatások**ről szól,
+          amik a GraphQL ökoszisztémáját alkotják.
+          Oszd meg velünk, hogy mi az, ami számodra izgalmas ezekből!
 
     - key: usage.bracket_intro
       t: >
-          The next question uses a special **bracket** format! For each match-up, pick the item 
-          that you feel is most important to you (note that match-ups are randomized for every respondent). 
+          A következő kérdés egy speciális **zárójel** formátumot használ! Minden egyes párhoz válaszd ki 
+          azt az elemet, ami a számodra a legfontosabb (megjegyeznénk, hogy a párosítások minden válaszoló számára randomizálva vannak).
 
     ###########################################################################
     # Sections
     ###########################################################################
 
     - key: sections.graphql_language.title
-      t: Language
+      t: Nyelv
     - key: sections.graphql_language.description
-      t: The vocabulary of GraphQL.
+      t: A GraphQL szójegyzéke
     - key: sections.directives.title
-      t: Directives
+      t: Direktívák
     - key: sections.directives.description
-      t: Augmenting your GraphQL fields. 
+      t: A GraphQL mezők változtatása. 
     - key: sections.security_performance.title
-      t: Security & Performance
+      t: Biztonság & teljesítmény
     - key: sections.security_performance.description
-      t: Making your API more robust. 
+      t: Az API-d robosztusabbá tétele. 
     - key: sections.other_features.title
-      t: Other Features
+      t: Egyéb funkciók
 
     - key: sections.graphql_servers.title
-      t: GraphQL Servers
+      t: GraphQL szerverek
     - key: sections.graphql_servers.description
-      t: How you power your API.
+      t: Hogyan szolgáld ki az API-dat.
     - key: sections.graphql_clients.title
-      t: GraphQL Clients
+      t: GraphQL kliensek
     - key: sections.graphql_clients.description
-      t: Querying your API. 
+      t: API lekérések. 
     - key: sections.api_generators.title
-      t: API Generators
+      t: API Generátorok
     - key: sections.api_generators.description
-      t: ORMs, CMSes, and other tools that create an API for you. 
+      t: ORM-ek, CMS-ek, és egyéb eszközök, amit legenerálják az API-dat.
     - key: sections.web_frameworks.title
-      t: Web Frameworks
+      t: Webes Keretrendszerek
     - key: sections.web_frameworks.description
-      t: Web frameworks that you use in conjunction with GraphQL. 
+      t: Webes Keretrendszerek ami a GraphQL-hez használsz.
     - key: sections.graphql_code_generators.title
-      t: Code & Schema Generators
+      t: Kód- és sémagenerátorok
     - key: sections.graphql_code_generators.description
-      t: Generators, schema builders, and other libraries that write part of your code for you. 
+      t: Generátorok, sémaépítők és egyéb könyvtárak, amik legenerálják a kódod egy részét.
     - key: sections.schema_builders.title
-      t: Schema Builders
+      t: Sémaépítők
     - key: sections.schema_builders.description
-      t: Libraries and utilities that help you build all or part of your GraphQL schema.
+      t: Könyvárak és eszközök amik a GraphQL séma egészét vagy egy részét építik meg.
     - key: sections.usage_graphql.title
-      t: GraphQL Usage
+      t: GraphQL használat
     - key: sections.usage_graphql.description
-      t: How you use GraphQL. 
+      t: Hogyan használod a GraphQL-t. 
 
     - key: sections.tools_others.title
-      t: Other Tools
+      t: Egyéb eszközök
     - key: sections.tools_others.description
-      t: Other GraphQL tools.
+      t: Egyéb GraphQL eszközök.
 
     - key: sections.resources_graphql.title
-      t: Resources
+      t: Források
     - key: sections.resources_graphql.description
-      t: What GraphQL resources do you consult?
+      t: Milyen GraphQL forrásokat használsz?
 
     ###########################################################################
     # Features
@@ -99,15 +101,15 @@ translations:
 
     # common features
     - key: features.custom_directives
-      t: Custom Directives
+      t: Saját direktívák
     - key: features.custom_scalars
-      t: Custom Scalars
+      t: Saját skalárok
     - key: features.fragments
-      t: Fragments
+      t: Fragmentek
     - key: features.unions
-      t: Unions
+      t: Unionok
     - key: features.interfaces
-      t: Interfaces
+      t: Interfészek
 
     # directives
     - key: features.at_skip
