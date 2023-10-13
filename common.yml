@@ -135,7 +135,8 @@ translations:
 
   # navigation
   - key: general.table_of_contents
-    t: Tartalomjegyzék
+    t: >
+     {sectionCount} szekcióból ({completion}% kész)
   - key: general.all_questions_optional
     t: >
       Megjegyzés: a kérdések megválaszolása opcionális, a 100%-os kitöltöttség nem részvételi követelmény.
@@ -155,9 +156,8 @@ translations:
     t: Vissza
   - key: general.thanks
     t: >
-      Köszönjük, hogy kitöltötted a felmérést!
+      Köszönjük, hogy kitöltötted a felmérést!  Az adataidat elmentettük.
 
-      Az adataidat elmentettük. Módosításra a felmérés lezártáig van lehetőséged.
 
       A felmérés megosztásával nagyban segítheted munkánkat. Minden kitöltés segít abban,
       hogy reprezentatívabb képet kapjunk:
@@ -178,12 +178,15 @@ translations:
     t: Kvíz pontszáma
   - key: thanks.score_statistics
     t: >
-      A felmérésben említett <span class="score-number score-number-total">{total}</span> funkciókból <span class="score-number score-number-known">{known}</span> az amiről hallottál,
-      ez azt jelenti, hogy az összes kitöltők közül a felső <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>-ban vagy.
-
+      A {total} funkcióból, amit megemlítettünk,
+      összesen {usage_count}-et használtál már, és {awareness_count}-ról hallottál, 
+      emiatt az összes kitöltő közül a felső {knowledgeRankingFromTop}-be tartozol.
+      Szép munka!
   - key: thanks.score_statistics_noranking
     t: >
-      Az összes {total} funkcióból, amit megemlítettünk,
+      A {total} funkcióból, amit megemlítettünk,
+      összesen {usage_count}-et használtál már, és {awareness_count}-ról hallottál.
+      Szép munka!
   - key: thanks.points
     t: >
       pont
@@ -194,7 +197,7 @@ translations:
     t: Megosztás Twitteren
   - key: thanks.share_score_message
     t: >
-      Az idei #{hashtag} felmérésen {score}% pontot értem el! Töltsd ki te is: {shareUrl}
+      Az idei #{hashtag} felmérésen {score}% pontot értem el!
   # share
   - key: general.share_subject
     t: >
@@ -579,62 +582,6 @@ translations:
     t: $100k-$200k
   - key: options.yearly_salary.range_more_than_200.short
     t: ">$200k"
-
-  # job titles
-  - key: options.job_title.cto
-    t: CTO
-  - key: options.job_title.front_end_developer
-    t: Front End fejlesző/mérnök
-  - key: options.job_title.back_end_developer
-    t: Back End fejlesző/mérnök
-  - key: options.job_title.full_stack_developer
-    t: Full Stack fejlesző/mérnök
-  - key: options.job_title.web_developer
-    t: Webfejlesztő
-  - key: options.job_title.web_designer
-    t: Webdizájner
-  - key: options.job_title.ux_designer
-    t: UX dizájner
-  - key: options.job_title.ui_designer
-    t: UI dizájner
-  - key: options.job_title.back_end_dev
-    t: Back-end fejlesző/mérnök
-
-  # JavaScript proficiency
-  - key: options.javascript_proficiency.0
-    t: Nem tudok JavaScriptben írni
-  - key: options.javascript_proficiency.1
-    t: Tudok egyszerű, rövid JavaScript vagy jQuery kifejezéseket írni
-  - key: options.javascript_proficiency.2
-    t: Tudok meglévő kódbázison dolgozni, amik modern keretrendszereket használnak (React, Vue, stb.)
-  - key: options.javascript_proficiency.3
-    t: Tudok megtervezni és létrehozni egy egész front-end kódbázist
-  - key: options.javascript_proficiency.4
-    t: Haladó funkciók és minták használata (állapotmenedzsment, adatbetöltés, stb.)
-
-  # CSS proficiency
-  - key: options.css_proficiency.0
-    t: Jóformán semmilyen CSS tudás
-  - key: options.css_proficiency.1
-    t: CSS keretrendszerek használata és meglévő stílusok módosítása
-  - key: options.css_proficiency.2
-    t: A specificitási szabályok ismerete, tudod, hogy hogyan kell egy adott elrendezést létrehozni
-  - key: options.css_proficiency.3
-    t: Az animációk, interakciók, átmenetek, stb. profi szinten való űzése
-  - key: options.css_proficiency.4
-    t: Egy egész front-end stílusának implementálása nulláról konzisztens metodológiát használva
-
-  # Back-end proficiency
-  - key: options.backend_proficiency.0
-    t: Egyáltalán nem tud backendet fejleszteni
-  - key: options.backend_proficiency.1
-    t: Fel tud állítani egy minden-az-egyben CMS-t (WordPress, stb.) vagy egy statikus weboldal generátort (Jekyll, stb.)
-  - key: options.backend_proficiency.2
-    t: Tud applikációt fejleszteni egy meglévő keretrendszere segítségével (Rails, Laravel, stb.)
-  - key: options.backend_proficiency.3
-    t: Egy egész backend felépítése nulláról (Go, Node.js, stb.)
-  - key: options.backend_proficiency.4
-    t: Komplex multi-szerver és microservices architektúra kezelése
 
   # Proficiency (generic versions)
   - key: options.proficiency.0
@@ -1339,28 +1286,6 @@ translations:
     t: Magasabb végzettség
   - key: user_info.higher_education_degree.description
     t: Van magasabb végzettséged?
-
-  ###########################################################################
-  # Other Tools
-  ###########################################################################
-
-  - key: tools_others.libraries
-    t: Könyvtárak
-  - key: tools_others.libraries.description
-    t: Milyen könyvtárakat használsz rendszeresen?
-  - key: tools_others.libraries.others
-    t: Egyéb könyvtárak
-  - key: tools_others.libraries.others.description
-    t: Egyéb válasz (szabad formátum).
-
-  - key: tools_others.text_editors
-    t: Szövegszerkesztők
-  - key: tools_others.text_editors.description
-    t: Milyen szövegszerkesztőket használsz rendszeresen?
-  - key: tools_others.text_editors.others
-    t: Egyéb szövegszerkesztők
-  - key: tools_others.text_editors.others.description
-    t: Egyéb válasz (szabad formátum).
 
   # employment status
   - key: user_info.employment_status

@@ -125,6 +125,10 @@ translations:
     t: Kérlek add meg az email címedet
   - key: accounts.magic_link.success
     t: Nézd meg a bejövő emaileket! Küldtünk egy mágikus linket, csak kattints rá, hogy megerősítsd az email címedet és bejelentkezz.
+    # Open known mail provider directly in browser with the right search params
+  - key: accounts.magic_link.browser
+    t: <a href="{link}">Kattinsd ide, hogy megnyisd az inboxodat.</a>
+
 
   ###########################################################################
   # FAQ
@@ -501,7 +505,7 @@ translations:
   - key: faq.results_released_html2023
     t: Mikor lesznek az erdemények kihirdetve?
   - key: faq.results_released_html2023.description
-    t: A felmérést szeptember 19-től fog októbet 10-ig futni, és az eredmények ezután nem sokkal lesznek kihirdetve.
+    t: A felmérést szeptember 19-től fog októbet 16-ig futni, és az eredmények ezután nem sokkal lesznek kihirdetve.
 
   ###########################################################################
   # Demographics (About You/User Info)
