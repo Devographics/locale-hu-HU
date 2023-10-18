@@ -58,19 +58,19 @@ translations:
     t: Annak a módja, hogy hogyan tudjuk a megjelenítést a felhasználó eszközére és preferenciájára szabni.
 
   - key: sections.selectors.title
-    t: Selectors
+    t: Szelektorok
   - key: sections.selectors.description
-    t: CSS selectors.
+    t: A CSS szelektorok használata.
 
   - key: sections.colors.title
-    t: Colors
+    t: Színek
   - key: sections.colors.description
-    t: Color-related features.
+    t: A színekhez kapcsolódó funkciók.
 
   - key: sections.javascript_apis.title
-    t: JavaScript APIs
+    t: JavaScript API-k
   - key: sections.javascript_apis.description
-    t: JavaScript APIs used to control or complement CSS.
+    t: JavaScript API-k, amik a CSS-t szabályozzák vagy kiegészítik.
 
   - key: sections.other_features.title
     t: Egyéb funkciók
@@ -126,14 +126,14 @@ translations:
     t: Milyen környezeteket és akadálymentesítési szempontokat veszel figyelembe amikor CSS kódot írsz?
 
   - key: sections.usage_css.title
-    t: CSS Usage
+    t: A CSS használata
   - key: sections.usage_css.description
-    t: How you use CSS.
+    t: Hogyan használod a CSS-t.
 
   - key: sections.resources_css.title
-    t: Resources
+    t: Források
   - key: sections.resources_css.description
-    t: What CSS resources do you consult?
+    t: Milyen CSS forrásokat használsz?
 
   ###########################################################################
   # Options
@@ -197,22 +197,22 @@ translations:
   - key: options.what_do_you_use_css_for.emails
     t: Emailek
   - key: options.what_do_you_use_css_for.printed_documents
-    t: Printed documents
+    t: Nyomtatott dokumentumok
   - key: options.what_do_you_use_css_for.desktop_apps
-    t: Desktop apps
+    t: Asztali alkalmazások
 
   - key: options.what_do_you_use_css_for.e_commerce
-    t: E-commerce
+    t: E-kereskedelem
   - key: options.what_do_you_use_css_for.websites
-    t: Websites
+    t: Weboldalak
   - key: options.what_do_you_use_css_for.games
-    t: Games
+    t: Játékok
   - key: options.what_do_you_use_css_for.portfolio
-    t: Portfolio
+    t: Portfólió
   - key: options.what_do_you_use_css_for.extensions
-    t: Browser Extensions
+    t: Böngészőbővítmények
   - key: options.what_do_you_use_css_for.desktop
-    t: Desktop
+    t: Asztali
 
   # CSS pain points
   - key: options.css_pain_points.browser_interoperability
@@ -283,59 +283,59 @@ translations:
     t: Rácsok egymásba ágyazása
 
   - key: options.css_missing_features.native_visually_hidden
-    t: Visually Hidden Content
+    t: Vizuálisan rejtett tartalom
   - key: options.css_missing_features.native_visually_hidden.description
-    t: Native support for visually hidden content.
+    t: Natív támogatás a vizuálisan rejtett tartalomhoz.
 
   - key: options.css_missing_features.generated_content_alt_text
-    t: Generated Content Alt Text
+    t: Generált tartalom alt szövege
   - key: options.css_missing_features.generated_content_alt_text.description
-    t: Add alt text to generated (`::before`, `::after`) content.
+    t: Alt szöveg hozzáadása a generált tartalomhoz (`::before`, `::after`).
 
   - key: options.css_missing_features.animate_to_auto
-    t: Animate to `auto`
+    t: Animáció `auto`-ra
   - key: options.css_missing_features.animate_to_auto.description
-    t: Animate an element's dimension to `auto`.
+    t: Egy elem méretének animálása `auto`-ra.
 
   - key: options.css_missing_features.anchored_positioning
-    t: Anchored Positioning
+    t: Rögzített pozícionálás
   - key: options.css_missing_features.anchored_positioning.description
-    t: Positioning elements relative to the edges of any arbitrary other element.
+    t: Egy elem rögzítése egy bármelyik másik elemhez képest.
 
   - key: options.css_missing_features.wrapping_detection
-    t: Wrapping Detection
+    t: Beágyazódás észlelése
   - key: options.css_missing_features.wrapping_detection.description
-    t: Detecting when a flex or grid item has wrapped to another line.
+    t: A flex vagy rács elemek beágyazódásának észlelése egy másik sorba.
 
   - key: options.css_missing_features.more_pseudo_elements
-    t: More Pseudo-Elements
+    t: Több pszeudo-elem
   - key: options.css_missing_features.more_pseudo_elements.description
-    t: Having more than two pseudo-elements per element.
+    t: Több mint két pszeudo-elem egy elemhez.
 
   - key: options.css_missing_features.svg_in_css
     t: SVG-in-CSS
   - key: options.css_missing_features.svg_in_css.description
-    t: Support for SVG syntax inside CSS code (such as `background`).
+    t: Az SVG szintaxis támogatása a CSS kódban (pl. `background`).
 
   - key: options.css_missing_features.grid_lines_styling
-    t: Grid-lines Styling
+    t: Rácsvonalak stílusozása
   - key: options.css_missing_features.grid_lines_styling.description
-    t: The ability to style the invisible lines that divide a grid.
+    t: A rácsot alkotó láthatatlan vonalak stílusozásának lehetősége.
 
   - key: options.css_missing_features.media_queries_variables
-    t: Media Queries Variables
+    t: Változók a médialekérdezésekben
   - key: options.css_missing_features.media_queries_variables.description
-    t: Being able to use variables inside media queries.
+    t: Annak a lehetősége, hogy változókat használhassunk a médialekérdezésekben.
 
   - key: options.css_missing_features.masonry_layout
-    t: Masonry Layout
+    t: Masonry elrendezés
   - key: options.css_missing_features.masonry_layout.description
-    t: Native support for Pinterest-style free-flowing grid layouts.
+    t: Natív támogatás a Pinterest-stílusú szabadon elrendezett rácsokhoz.
 
   - key: options.css_missing_features.css_toggle
     t: CSS Toggle
   - key: options.css_missing_features.css_toggle.description
-    t: A way to associate a "toggleable value" with an element
+    t: Lehetőség arra, hogy egy elemhez társítsunk egy "átkapcsolható értéket".
 
   ###########################################################################
   # Features
@@ -356,11 +356,11 @@ translations:
     t: A Flexbox rés tulajdonsága
 
   - key: features.viewport_percentage_length_units
-    t: Small, Large, and Dynamic Viewport Units
+    t: Kicsi, nagy és dinamikus nézethez tartozó egységek
   - key: features.at_container
     t: Konténerlekérdezések
   - key: features.at_container.description
-    t: <code>@container</code> query
+    t: <code>@container</code> lekérdezés
 
   # shapes & graphics
   - key: features.shapes
@@ -373,7 +373,7 @@ translations:
   - key: features.linear_easing_function
     t: "`linear()` Easing Function"
   - key: features.blend_modes
-    t: Blend Modes
+    t: Blendelési módok
   - key: features.intrinsic_sizing
     t: Saját magát megszabó méretezés (Intrinsic sizing)
   - key: features.gradient_color_spaces
@@ -399,12 +399,12 @@ translations:
 
   # media queries/accessibility
   - key: features.tabindex
-    t: <code>tabindex</code> HTML attribute
+    t: <code>tabindex</code> HTML attribútum
 
   - key: features.aria_attributes
     t: ARIA HTML attribútumok
   - key: features.aria_attributes.description
-    t: <code>role</code>, <code>aria-label</code>, etc.
+    t: <code>role</code>, <code>aria-label</code>, stb.
 
   # other features
   - key: features.variables
@@ -412,30 +412,30 @@ translations:
   - key: features.containment
     t: CSS behatárolás
   - key: features.css_nesting.description
-    t: Native CSS nesting, excluding pre- or post-processors.
+    t: Natív CSS beágyazás, elő- és utófeldolgozók nélkül.
 
   - key: features.trigonometric_functions
-    t: Trigonometric Functions
+    t: Trigonometrikus függvények
   - key: features.exponential_functions
-    t: Exponential Functions
+    t: Exponenciális függvények
   - key: features.sign_related_functions
-    t: Sign-Related Functions
+    t: Szignumfüggvények
   - key: features.stepped_value_functions
-    t: Stepped Value Functions
+    t: Lépcsős függvények
   - key: features.css_nesting
-    t: CSS Nesting
+    t: CSS egymásba ágyazás
   - key: features.shadow_dom_css
-    t: Shadow DOM Features
+    t: Árnyék DOM funkciók
   - key: features.individual_transform_properties
-    t: Individual Transform Properties
+    t: Egyéni transzformációs tulajdonságok
   - key: features.comparison_functions
-    t: CSS Comparison Functions
+    t: CSS összehasonlító függvények
   - key: features.math_functions
-    t: CSS Math Functions
+    t: CSS matematikai függvények
   - key: features.viewport_units
-    t: Viewport Units (`vh`, `vw`)
+    t: Nézeti ablakhoz tartozó egységek (`vh`, `vw`)
   - key: features.cascade_layers
-    t: Cascade Layers
+    t: Lépcsőzetes rétegek
 
   # missing features (see also options)
   - key: features.nesting
@@ -529,13 +529,13 @@ translations:
     t: Ezek közül mely CSS kombinációkat használtad már?
 
   - key: options.combinators.descendant
-    t: div span (descendant)
+    t: div span (leszármazott)
   - key: options.combinators.child
-    t: div > span (child)
+    t: div > span (gyerek)
   - key: options.combinators.next_sibling
-    t: div + div (next sibling)
+    t: div + div (következő testvér)
   - key: options.combinators.subsequent_sibling
-    t: div ~ div (subsequent sibling)
+    t: div ~ div (későbbi testvér)
 
   - key: features_others.tree_document_structure
     t: Fa- és dokumentumstruktúra
@@ -583,17 +583,17 @@ translations:
     t: Ezek közül mely CSS attribútumokat használtad már?
 
   - key: options.attributes.presence
-    t: div[foo] (Presence)
+    t: div[foo] (Előfordulás)
   - key: options.attributes.equality
-    t: div[foo="bar"] (Equality)
+    t: div[foo="bar"] (Egyenlőség)
   - key: options.attributes.starts_with
-    t: div[foo^="bar"] (Starts with)
+    t: div[foo^="bar"] (Ezzel kezdődik)
   - key: options.attributes.ends_with
-    t: div[foo$="bar"] (Ends with)
+    t: div[foo$="bar"] (Ezzel végződik)
   - key: options.attributes.contains_word
-    t: div[foo~="bar"] (Contains word)
+    t: div[foo~="bar"] (Ezt a szót tartalmazza)
   - key: options.attributes.contains_substring
-    t: div[foo*="bar"] (Contains substring)
+    t: div[foo*="bar"] (Ezt a részszöveget tartalmazza)
 
   - key: features_others.links_urls
     t: Linkek/URLek
@@ -668,7 +668,7 @@ translations:
   - key: other_tools.pre_post_processors
     aliasFor: sections.pre_post_processors.title
   - key: tools_others.pre_post_processors.description
-    t: Which pre- or post-processors do you regularly use?
+    t: Mely elő- és utófeldolgozókat használod rendszeresen?
   - key: other_tools.pre_post_processors.description
     aliasFor: tools_others.pre_post_processors.description
   - key: tools_others.pre_post_processors.others
@@ -678,18 +678,18 @@ translations:
   - key: other_tools.pre_post_processors_freeform
     aliasFor: sections.pre_post_processors_others.title
   - key: options.pre_post_processors.na
-    t: None
+    t: Semelyiket
 
   - key: tools_others.utilities
-    t: Utilities
+    t: Eszközök
   - key: tools_others.utilities.description
-    t: Which utilities or tools do you regularly use?
+    t: Mely eszközöket használod rendszeresen?
   - key: tools_others.utilities.others
-    t: Other Utilities
+    t: Egyéb eszközök
   - key: tools_others.utilities.others.description
-    t: Other utilities (freeform field).
+    t: Egyéb eszközök (szabad formátumú mező).
   - key: options.utilities.na
-    t: None
+    t: Semelyiket
 
   - key: other_tools.utilities
     aliasFor: tools_others.utilities
@@ -703,13 +703,13 @@ translations:
     aliasFor: tools_others.utilities.others
 
   - key: tools_others.browsers
-    t: Browsers
+    t: Böngészők
   - key: tools_others.browsers.description
-    t: Which browser(s) do you primarily work in during initial development?
+    t: Mely böngésző(ke)t használod a fejlesztés kezdeti szakaszában?
   - key: tools_others.browsers.others
-    t: Other Browsers
+    t: Egyéb böngészők
   - key: tools_others.browsers.others.description
-    t: Other answers (freeform field).
+    t: Egyéb válaszok (szabad formátumú mező).
 
   - key: other_tools.browsers
     aliasFor: tools_others.browsers
@@ -734,9 +734,9 @@ translations:
   - key: environments.form_factors.description
     t: Milyen felbontásokat és tesztelési környezetet szoktál használni teszteléshez?
   - key: environments.form_factors.others
-    t: Other Testing Environments
+    t: Egyéb tesztelési környezetek
   - key: environments.form_factors.others.description
-    t: Other form factors or environments you usually test on.
+    t: Egyéb felbontások vagy tesztelési környezetek, amin szoktál tesztelni.
 
   - key: usage.form_factors
     aliasFor: environments.form_factors
@@ -866,7 +866,7 @@ translations:
     aliasFor: features.cascade_layers
 
   - key: options.css_interoperability_features.na
-    t: None
+    t: Semelyik
 
   # Pain Points
   - key: opinions.css_pain_points
@@ -874,7 +874,7 @@ translations:
   - key: opinions.css_pain_points.description
     t: Minden egyes párnál válaszd ki, hogy a CSS mely aspektusával küzdesz a legtöbbet.
   - key: usage.other_pain_points_freeform
-    t: Any other pain points related to writing CSS?
+    t: Van egyéb CSS hiányosság, amivel küzdesz?
   - key: usage.other_pain_points_freeform.others
     aliasFor: usage.other_pain_points_freeform
 
@@ -888,7 +888,7 @@ translations:
     aliasFor: usage.other_pain_points_freeform
 
   - key: options.css_pain_points.na
-    t: None
+    t: Semelyik
 
   # Missing Features
   - key: opinions.css_missing_features
@@ -896,14 +896,14 @@ translations:
   - key: opinions.css_missing_features.description
     t: Minden egyes funkció-párnál azt válaszd ki, amelyiket a leginkább szeretnéd látni a CSS-ben ma.
   - key: usage.missing_features_freeform
-    t: What features do you feel are currently missing from CSS altogether?
+    t: Mely funkciók hiányoznak jelenleg a CSS-ből teljes egészében a véleményed szerint?
   - key: usage.missing_features_freeform.others
     aliasFor: usage.missing_features_freeform
   - key: usage.missing_features_freeform
     aliasFor: usage.missing_features_freeform
 
   - key: usage.css_missing_features
-    t: Missing Features
+    t: Hiányzó funkciók
   - key: usage.css_missing_features.description
     aliasFor: usage.missing_features_freeform
   - key: opinions_others.css_missing_features.others
@@ -934,18 +934,18 @@ translations:
     aliasFor: happiness.css_frameworks
 
   - key: happiness.state_of_the_web
-    t: Mennyive vagy megelégedve a jelenlegi webes technológiákkal?
+    t: Webes technológiák állapota
   - key: happiness.state_of_the_web.description
-    t: How happy are you with the general state of web technologies?
+    t: Mennyire vagy megelégedve a jelenlegi webes technológiákkal?
   - key: usage.state_of_the_web_happiness
     aliasFor: happiness.state_of_the_web
   - key: usage.state_of_the_web_happiness.description
     aliasFor: happiness.state_of_the_web.description
 
   - key: happiness.state_of_css
-    t: Mennyire vagy megelégedve a CSS jelenlegi állapotával?
+    t: CSS állapota
   - key: happiness.state_of_css.description
-    t: How happy are you with the general state of CSS?
+    t: Mennyire vagy megelégedve a CSS jelenlegi állapotával?
   - key: usage.state_of_css_happiness
     aliasFor: happiness.state_of_css
   - key: usage.state_of_css_happiness.description
@@ -953,36 +953,36 @@ translations:
 
   # pain points/currently missing (results)
   - key: css_pain_points.css_pain_points_wins
-    t: CSS Pain Points
+    t: CSS hiányosságok
   - key: css_pain_points.css_pain_points_wins.description
-    t: Which aspect of CSS do you struggle with the most? Results are ranked by number of tournament rounds won.
+    t: Melyik CSS hiányossággal küzdesz a legtöbbet? Az eredmények a legtöbb győzelmet elért válaszok alapján vannak rangsorolva.
 
   - key: css_pain_points.css_pain_points_matchups
-    t: CSS Pain Points (Matchups)
+    t: CSS hiányosságok (Matchupok)
   - key: css_pain_points.css_pain_points_matchups.description
-    t: Which aspect of CSS do you struggle with the most? Percentage of rounds won by left-hand item against top-side item.
+    t: Melyik CSS hiányossággal küzdesz a legtöbbet? A bal oldali elem győzelmeinek százalékos aránya a jobb oldali elem ellen.
 
   - key: css_missing_features.css_missing_features_wins
-    t: Features Missing From CSS
+    t: A CSS-ből hiányzó funkciók
   - key: css_missing_features.css_missing_features_wins.description
-    t: Which feature would you most like to be able to use in CSS today? Results are ranked by number of tournament rounds won.
+    t: Melyik funkció hiányzik a legjobban a CSS-ből? Az eredmények a legtöbb győzelmet elért válaszok alapján vannak rangsorolva.
 
   - key: css_missing_features.css_missing_features_matchups
-    t: Features Missing From CSS (Matchups)
+    t: A CSS-ből hiányzó funkciók (Matchupok)
   - key: css_missing_features.css_missing_features_matchups.description
-    t: Which feature would you most like to be able to use in CSS today? Percentage of rounds won by left-hand item against top-side item.
+    t: Melyik funkció hiányzik a legjobban a CSS-ből? A bal oldali elem győzelmeinek százalékos aránya a jobb oldali elem ellen.
 
   - key: usage.css_js_balance
-    t: CSS vs JavaScript Balance
+    t: CSS vs JavaScript egyensúly
   - key: usage.css_js_balance.description
-    t: How do you divide your time between writing CSS (including HTML markup) and JavaScript code?
+    t: Hogyan oszlik meg az időd a CSS (a HTML-t is beleértve) és a JavaScript írása között?
 
   - key: usage.css_usage_type
-    t: CSS Usage
+    t: CSS használat
   - key: usage.css_usage_type.description
-    t: In what context do you primarily use CSS?
+    t: Milyen kontextusban használod a CSS-t a legtöbbet?
   - key: usage.css_usage_type.others
-    t: Other CSS Usages
+    t: Egyéb CSS használat
   ###########################################################################
   # Resources
   ###########################################################################
@@ -992,27 +992,27 @@ translations:
   - key: resources.first_steps_css.description
     t: Hogyan kezdtél el CSS-t tanulni az elején?
   - key: resources.learning_methods_css
-    t: CSS Learning Methods
+    t: CSS tanulási módszerek
   - key: resources.learning_methods_css.description
-    t: Which resources have you used to learn CSS?
+    t: Milyen módszereket használsz a CSS tanulásához?
 
   # sites & courses
   - key: resources.sites_courses_css
     aliasFor: resources.sites_courses
   - key: resources.sites_courses_css.description
-    t: Which CSS-related sites/courses/etc. do you use to learn about CSS?
+    t: Mely CSS-tanulási oldalakat, kurzusokat, stb. használod a CSS tanulásához?
 
   # podcasts
   - key: resources.podcasts_css
     aliasFor: resources.podcasts
   - key: resources.podcasts_css.description
-    t: Which CSS-related podcasts do you listen to?
+    t: Mely CSS-sel kapcsolatos podcastokat hallgatsz?
 
   # people
   - key: resources.people_css.others
     aliasFor: resources.people.others
   - key: resources.people_css.others.description
-    t: People you read, follow, or just want to highlight for their work in the CSS ecosystem.
+    t: Kik azok a CSS-szel kapcsolatos személyek, akiket követsz, olvasol, vagy csak szeretnél kiemelni a munkájuk miatt?
 
   ###########################################################################
   # Survey Help
@@ -1020,12 +1020,11 @@ translations:
 
   - key: features.features_intro_css
     t: |
-      Welcome to the survey! This first part is all about figuring out 
-      which **features** of CSS you know about. 
+      Üdv a felmérésben! Ez az első rész arról szól, hogy mely **funkciókat** ismersz a CSS-ben.
 
-      By the way, if you want to tell us more about any of your choices, just click that little "comment" icon!
+      Egyébként ha szeretnél bármit hozzáfűzni a válaszokhoz, kattints a kis "komment" ikonra!
 
   - key: tools.tools_intro_css
     t: |
-      The next couple sections focus on the **libraries** and **frameworks** that make up 
-      the CSS ecosystem. Let us know what you're excited about!
+      A következő néhány rész a CSS ökoszisztémában lévő **könyvtárakról** és **keretrendszerekről** szól.
+      Mondd el nekünk, hogy mi az, ami lázba hoz ezzel kapcsolatban!

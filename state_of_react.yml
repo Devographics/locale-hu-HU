@@ -19,7 +19,7 @@ translations:
     t: |
       Üdv a kérdőívben! Ez az első rész többnyire arról szól, hogy megértsük, hogy mennyire vagy jártas a React APIkban és a használatában.
 
-      Egyébként ha bármit szeretnél hozzáfűzni a válaszokhoz, kattints a kis "komment" ikonra.-
+      Egyébként ha bármit szeretnél hozzáfűzni a válaszokhoz, kattints a kis "komment" ikonra.
 
   - key: tools.tools_intro_react
     t: |
