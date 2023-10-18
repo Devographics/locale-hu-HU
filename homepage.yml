@@ -7,12 +7,9 @@ translations:
   - key: homepage.hand_coded
     t: Kézzel kódolva, Japánban.
   - key: homepage.leave_issue
-    t: Hagyj egy kérdést
+    t: Jelents egy hibát
   - key: homepage.get_in_touch
     t: Lépj kapcsolatba
-
-  - key: homepage.made_by
-    t: "A State of CSS felmérést készítette:"
 
   - key: homepage.previous_years
     t: "Korábbi évek:"
