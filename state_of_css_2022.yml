@@ -1,24 +1,24 @@
-locale: en-US
+locale: hu-HU
 translations:
   ###########################################################################
   # General
   ###########################################################################
 
   - key: general.results.description
-    t: The 2022 edition of the annual survey about the latest trends in the CSS ecosystem.
+    t: A CSS ökoszisztéma legújabb trendjeiről szóló éves felmérés 2022-es kiadása.
 
   - key: general.css2022.js2022_banner
-    t: The State of JS 2022 survey is currently open, you can [go take it right now](https://survey.devographics.com/survey/state-of-js/2022?source=css2022)!
+    t: A State of JS 2022 felmérés jelenleg is fut, [itt vehetsz részt](https://survey.devographics.com/survey/state-of-js/2022?source=css2022)!
 
   - key: general.css2022.results_intro
     t: |
-      CSS keeps progressing at an unprecedented rate. Not only are we seeing new features and properties, but even the language's foundations are being retooled and improved thanks to innovations like nesting and cascade layers. 
+      A CSS példátlan ütemben fejlődik. Nem csak új funkciók és tulajdonságok jelennek meg, de a nyelv alapjai is újraépülnek és fejlődnek az új innovációknak köszönhetően, mint pl. az egymásbaágyazás és lépcsőzetes rétegek.
 
-      Luckily this year we got help from someone at the forefront of all these changes: W3C working group member [Lea Verou](https://lea.verou.me/) has selected this year's survey questions, with a special focus on highlighting new and upcoming CSS features. 
+      Szerencsére idén segítséget kaptunk valakitől, aki a változások élén áll: a W3C munkacsoport tagja, [Lea Verou](https://lea.verou.me/) választotta ki az idei kérdéseket, különös hangsúlyt fektetve az új és közelgő CSS funkciók kiemelésére.
 
-      What's more, the survey results will also help browser vendors prioritize their roadmaps and work towards better compatibility between browsers. 
+      És mi több, a felmérés eredményei segítenek a böngészők fejlesztőinek a fejlesztési prioritások meghatározásában és a böngészők közötti kompatibilitás javításában.
 
-      With all this out of the way, let's see how CSS evolved in 2022!
+      Most, hogy mindezt tisztáztuk, lássuk, hogyan fejlődött a CSS 2022-ben!
 
   ###########################################################################
   # Introduction
@@ -26,53 +26,53 @@ translations:
 
   - key: introduction.css2022
     t: |
-      <span class="first-letter">W</span>e thought CSS had already evolved into a pretty formidable language thanks to advancements like Flexbox, Grid, and CSS Variables. But it turns out this wasn't even its final form. 
+      <span class="first-letter">Ú</span>gy gondoltuk, hogy a CSS már eléggé fejlett nyelv, köszönhetően a Flexbox, a Grid és a CSS változók fejlődésének. De kiderült, hogy ez még nem is a végső formája.
 
-      Parent selector, native nesting, container queries, cascade layers… The list of absolutely game-changing features coming imminently is pretty shocking when you think about it. 
+      Szülő szelektorok, natív egymásbaágyazás, konténer lekérdezések, lépcsőzetes rétegek… A forradalmi új funkciók listája, amelyek hamarosan érkeznek, elég sokkoló, ha belegondolunk.
 
-      Thankfully, we have the best guide you could ask for to help us navigate these waters: [Lea Verou](http://lea.verou.me/) has taken the lead on this year's survey design, and the result is a survey that will hopefully encompass all the key innovations you should be aware of. 
+      Szerencsére a legjobb idegenvezetőt kaptuk, akit kérhettünk: [Lea Verou](http://lea.verou.me/) vezette az idei felmérés tervezését, és az eredmény egy olyan felmérés, amely remélhetőleg átfogja az összes kulcsfontosságú innovációt, amelyről tudnod kell.
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
-      P.S. Also new this year: we gave respondents the ability to **leave comments** on any feature or library mentioned in the survey! Make sure to look up these comments in each chart's sidebar.
+      U.I.: Idei újítás: megadtuk a lehetőségek a felmérésben résztvevőknek, hogy megjegyzéseket fűzzenek a felmérésben szereplő funkciókhoz és könyvtárakhoz! Győződj meg róla, hogy megnézed ezeket a megjegyzéseket a grafikonok oldalsávjában! 
 
   ###########################################################################
   # Tshirt
   ###########################################################################
 
   - key: sections.tshirt.title
-    t: T-shirt
+    t: Póló
 
   - key: sections.tshirt.description
     t: |
-      ## Support the Survey With the State of CSS T-Shirt
+      ## Támogasd a felmérést a State of CSS pólóval
 
-      Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
+      A rossz videóminőség, a nagyméretű kazetták és a visszatekerés között nem sok minden hiányzik a VHS korszakból. De egy dolog, amit *hiányolunk*, az a VHS kazettákra nyomtatott 90-es évek retro dizájnja.
 
-      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for CSS at the same time!
+      Most azonban, köszönhetően a tehetséges Christopher Kirk-Nielsen-nek, élvezheted ezt a retró dizájnt, miközben ugyanakkor a CSS iránti szeretetedet is kifejezheted!
 
   - key: tshirt.about
-    t: About the T-shirt
+    t: A pólóról
 
   - key: tshirt.description
     t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+      A pólók kiváló minőségű, szuper puha tri-blend anyagból készülnek, szűk fazonnal, a Cotton Bureau partnereinknél nyomtatva.
 
   - key: tshirt.getit
-    t: Get It
+    t: Megrendelem
 
   - key: tshirt.price
-    t: USD $29 + shipping
+    t: $29 USD + szállítási költség
 
   - key: tshirt.designer.heading
-    t: About the Designer
+    t: A tervezőről
 
   - key: tshirt.designer.name
     t: Christopher Kirk-Nielsen
 
   - key: tshirt.designer.bio
     t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+      Christopher Kirk-Nielsen egy francia származású, de jelenleg az Egyesült Államokban élő fejlesztő, aki nem csak egy fantasztikus front-end fejlesztő, hanem egy tehetséges illusztrátor is, aki a retró vizuális megjelenítésre specializálódott. Valójában arra is ösztönözzük, hogy nézd meg a [többi pólótervét](https://chriskirknielsen.com/designs)!
 
   ###########################################################################
   # Charts
@@ -101,26 +101,26 @@ translations:
 
   - key: award.feature_adoption_delta_award.comment
     t: |
-      The `gap` property for Flexbox is such a useful addition that it's not surprising
-      it would see a **{value}** progression in 2022
+      A `hézag` tulajdonság a Flexbox számára olyan hasznos kiegészítés, hogy nem meglepő,
+      hogy 2023-ban **{value}**-os fejlődésen esett át
 
   # - key: award.tool_usage_delta_award.comment
   #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
 
   - key: award.most_commented_feature_award.comment
-    t: With **{value}** comments, no other feature even came close to generating as much feedback as Subgrid.
+    t: |
+      **{value}** kommenttel, a Subgrid volt, amelyiket a legtöbb visszajelzést kapta, és egyéb funkciók még közel sem érték el ezt a számot.
 
   - key: award.tool_satisfaction_award.comment
     t: |
-      Out of all the CSS-in-JS solutions, CSS Modules is the only one that maintained a
-      sky-high **{value}** retention ratio.
+      A CSS-in-JS megoldások közül az Open Props az egyetlen, amelyiknek nagyon magas, **{value}**-os az elégedettségi mutatója.
 
   # - key: award.tool_interest_award.comment
   #   t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
 
   - key: award.most_write_ins_award.comment
     t: |
-      With **{value}** mentions, the Arc browser was the tool most mentioned in freeform questions by far.
+      **{value}** megemlítéssel, a Panda volt a legtöbbet említett eszköz a szabadon válaszolható kérdések között.
 
   ###########################################################################
   # Conclusion
@@ -128,18 +128,18 @@ translations:
 
   - key: conclusion.css2022
     t: |
-      <span class="first-line">[Last year](https://2021.stateofcss.com/en-US/conclusion/), Kilian predicted that the way we write CSS was about to change forever, and this year's results validate his prediction.</span>
+      <span class="first-line">[Tavaly](https://2021.stateofcss.com/en-US/conclusion/), Kilian azt jósolta, hogy a CSS írásának módja örökre megváltozik, és az idei eredmények alátámasztják a jóslatát.</span>
 
-      [Interop 2022](https://wpt.fyi/interop-2022) has brought browsers together working towards the same goals, and several features went from "this will never happen" to "this is now happening". Parent selectors (`:has()`) and container queries (`@container`) are two big ones in that category. For years it was hammered into developers that these could not  happen due to performance implications, yet it turned out that both were possible. 
+      Az [Interop 2022](https://wpt.fyi/interop-2022) összehozta a böngészőket, hogy közösen dolgozzanak a közös célokért, és több funkció is a "soha nem fog megtörténni" kategóriából a "most már megtörténik" kategóriába került. A szülő szelektorok (`:has()`) és a konténer lekérdezések (`@container`) két nagy példa erre. Évek óta a fejlesztőkbe verték, hogy ezek nem történhetnek meg a teljesítménybeli következmények miatt, de kiderült, hogy mindkettő lehetséges.
 
-      Subgrid on the other hand was always on the roadmap, it was just a very big chunk of work. It is now supported by both Firefox and Safari, and being actively implemented in Chrome, so we will probably see much higher usage next year.
+      A Subgrid másrészről pedig mindig is tervben volt, csak egy nagyon nagy munka volt. Most már támogatja a Firefox és a Safari is, és a Chrome-ban is aktívan megvalósítják, így valószínűleg jövőre sokkal magasabb lesz a használata.
 
-      I predict that the stars of 2023 will be native Nesting, and color manipulation.
-      Nesting is currently [the primary reason](https://twitter.com/leaverou/status/806936438797307904) people still use preprocessors, so being able to rely on it natively will be incredibly freeing. 
+      Azt jósolom, hogy 2023-ban a CSS legnagyobb sztárjai a natív egymásbaágyazás és a színmanipuláció lesznek.
+      Az egymásbaágyazás jelenleg [a fő oka](https://twitter.com/leaverou/status/806936438797307904), hogy az emberek még mindig preprocesszorokat használnak, így a natív használatra való áttérés nagyon felszabadító lesz.
 
-      Working with color in CSS is also about to get a lot more exciting. There is a swath of features being implemented across the board as we speak. By the end of 2023, we will probably be able to rely on wide gamut colors and device independent colors (`color()`, `lab()`, `lch()`, `oklab()`, `oklch()`), and we'd be able to manipulate them in a basic way through `color-mix()`. 
+      A színmanipulációval való munka a CSS-ben is sokkal izgalmasabb lesz. Jelenleg széles körben bevezetésre kerülő funkciók sora van. 2023 végére valószínűleg széles színtartományú színekre és eszközfüggetlen színekre (`color()`, `lab()`, `lch()`, `oklab()`, `oklch()`) is számíthatunk, és alapvető módon manipulálhatjuk őket a `color-mix()` segítségével.
 
-      All of this together means that 2023 is likely to be a very exciting year for CSS. I look forward to all the amazing implementations to come, whether my predictions turn out to be correct or not. What a fantastic time to be writing CSS!
+      Mindez együtt azt jelenti, hogy a CSS számára 2023 valószínűleg nagyon izgalmas év lesz. Várom az összes lenyűgöző implementációt, legyenek azok akár a fentiekben említettek, akár nem. Micsoda fantasztikus időszak a CSS írására!
 
   - key: conclusion.css2022.bio
     t: W3C Technical Architecture Group Member, MIT CSAIL
@@ -149,105 +149,102 @@ translations:
   ###########################################################################
 
   - key: picks.my_pick
-    t: "My 2022 Pick: "
+    t: "A 2022-es választásom:"
   - key: picks.intro
-    t: We asked members of the CSS community to share their “pick of the year”
+    t: Megkérdeztük a CSS közösség tagjait, hogy osszák meg a évi választásukat.
 
   - key: picks.david_east.name
     t: CSS Subgrid
   - key: picks.david_east.bio
-    t: Advocate for building on the web
+    t: A webes fejlesztés támogatásáért küzdő
   - key: picks.david_east.description
     t: |
-      CSS Subgrid allows child elements to inherit their parents grid properties. 
-      Soon, it will be much easier to lay elements out to the same grid 
-      lines across the entire page.
+      A CSS Subgrid lehetővé teszi, hogy a gyermek elemek örököljék a szülőik rács tulajdonságait.
+      Hamarosan sokkal könnyebb lesz az elemeket elrendezni az egész oldalon ugyanazon rácsok mentén.
 
   - key: picks.bramus_van_damme.name
-    t: The `:has()` Selector
+    t: A `:has()` szelektor
   - key: picks.bramus_van_damme.bio
     t: Chrome Developer Relations Engineer at Google
   - key: picks.bramus_van_damme.description
     t: |
-      You might know this one as the so-called “parent selector” but that name does it 
-      no justice as it only covers a small part of what it can do. 
-      This selector has essentially changed the way I write my CSS.
+      Ezt a szelektort sokan a "szülő szelektor"-nak hívják, de ez a név nem igazságos, 
+      mivel csak egy kis részét fedi le annak, amire képes. Ez a szelektor alapvetően 
+      megváltoztatta, hogy hogyan írok CSS-t.
 
   - key: picks.kevin_j_powell.name
     t: Jhey Tompkins
   - key: picks.kevin_j_powell.bio
-    t: CSS Evangelist
+    t: CSS evangélista
   - key: picks.kevin_j_powell.description
     t: |
-      Jhey is always pushing the limits of what we can do with CSS with 
-      fun and impressive demos and Codepens. With all the new features landing in CSS recently, 
-      Jhey is at the forefront of explaining how they work.
+      Jhey mindig a CSS határait feszegeti azzal, hogy szórakoztató és lenyűgöző demókat és Codepeneket készít.
+      Az összes új CSS funkcióval, amelyek az utóbbi időben érkeztek, Jhey az első, aki elmagyarázza, hogyan működnek.
 
   - key: picks.samuel_kraft.name
-    t: The `:has()` Selector
+    t: A `:has()` szelektor
   - key: picks.samuel_kraft.bio
-    t: Design Engineer
+    t: Design mérnök
   - key: picks.samuel_kraft.description
     t: |
-      The new :has() selector is super powerful and unlocks new styling possibilities. 
-      This great article from Jen Simmons breaks it down with explanations and practical examples.
+      Az új `:has()` szelektor nagyon erőteljes és új lehetőségeket nyit ki a CSS-ben.
+      Ez a szuper cikk Jen Simmonstól elmagyarázza a részleteket és bemutatja a gyakorlati példákat.
 
   - key: picks.josh_comeau.name
     t: Modern CSS
   - key: picks.josh_comeau.bio
-    t: Software developer and educator
+    t: Szoftverfejlesztő és oktató
   - key: picks.josh_comeau.description
     t: |
-      CSS has changed so much over the past few years. 
-      Stephanie shows us how to leverage modern CSS features 
-      to solve old problems in new ways.
+      A CSS nagyon sokat változott az elmúlt években.
+      Stephanie bemutatja, hogyan lehet kihasználni a modern CSS funkciókat,
+      hogy régi problémákat új módon oldjunk meg.
 
   - key: picks.adam_argyle.name
-    t: The `:has()` Selector
+    t: A `:has()` szelektor
   - key: picks.adam_argyle.bio
-    t: UI/CSS DevRel at Google
+    t: UI/CSS fejlesztői kapcsolatok a Google-nál
   - key: picks.adam_argyle.description
     t: |
-      CSS just because even stronger at orchestrating UI interaction across components. 
-      We've barely scratched the surface of the impact of `:has()` on our styles.
+      A CSS még erősebb lett az UI interakciók összehangolásában a komponensek között.
+      Még csak a kezdetén vagyunk a `:has()` szelektornak, de már most nagyon izgalmas dolgokat lehet vele csinálni.
 
   - key: picks.eric_w_bailey.name
-    t: “Style with Stateful, Semantic Selectors” by Ben Myers
+    t: “Stíluskészítés állapotfüggő, szemantikus szelektorokkal” Ben Myers által
   - key: picks.eric_w_bailey.bio
-    t: Accessibility advocate and CSS nerd
+    t: Akadálymentesítési szakértő és CSS kocka
   - key: picks.eric_w_bailey.description
     t: |
-      Ben demonstrates how utilizing ARIA 
-      attribute selectors can simply and powerfully tie appearance to state.
+      Ben bemutatja, hogy ARIA attribútum szelektorok használatával hogyan 
+      lehet egyszerűen és hatékonyan összekapcsolni a megjelenést az állapottal.
 
   - key: picks.michelle_barker.name
     t: Interop 2022
   - key: picks.michelle_barker.bio
-    t: Writer and creator of front-end blog CSS { In Real Life }
+    t: Író és alkotó a  CSS { In Real Life } front-end blogon
   - key: picks.michelle_barker.description
     t: |
-      Interop is a collaboration between all of the major browser vendors, 
-      agreeing 15 key areas of focus for implementation — 
-      including game-changing new CSS features like container queries, 
-      cascade layers and color functions.
+      Az Interop egy kollaboráció az összes nagyobb böngészőgyártó között, 
+      amely 15 kulcsfontosságú területre összpontosít, beleértve a CSS új
+      funkcióit is, mint a konténer lekérdezések, lépcsőzetes rétegek és színfunkciók.
 
   - key: picks.gift_egwuenu.name
-    t: Learn CSS
+    t: CSS tanulása
   - key: picks.gift_egwuenu.bio
     t: Developer Advocate at Cloudflare
   - key: picks.gift_egwuenu.description
     t: |
-      My recommended resource for anyone looking to learn CSS from the ground up, 
-      I also use it as a reference everytime I need to look up any CSS property.
+      Ez az én javasolatom a CSS tanulásához az alapoktól kezdve, 
+      arra is használom, hogy bármikor utána tudjak nézni bármilyen CSS tulajdonságnak.
 
   - key: picks.ahmad_shadeed.name
-    t: Container Queries
+    t: Konténer lekérdezések
   - key: picks.ahmad_shadeed.bio
-    t: Author of [Debugging CSS](https://debuggingcss.com/), Writing at [ishadeed.com](http://ishadeed.com)
+    t: Szerzője a [Debugging CSS](https://debuggingcss.com/) könyvnek, ír a [ishadeed.com](http://ishadeed.com) oldalon
   - key: picks.ahmad_shadeed.description
     t: |
-      If I would pick one highlight for 2022, it's container queries! 
-      They are finally here in stable browser near you
+      Ha egy dolgot kéne kiemelnem 2022-ben, az a konténer lekérdezések lenne.
+      Végre itt vannak egy stabil böngészőben valahol a közeledben
 
   # - key: picks.georgedoescode.name
   #   t:
@@ -257,34 +254,34 @@ translations:
   #   t: |
 
   - key: picks.jen_simmons.name
-    t: The `:has()` Selector
+    t: A `:has()` szelektor
   - key: picks.jen_simmons.bio
-    t: Web technologies evangelist at Apple
+    t: Web technológia evangélista az Apple-nél
   - key: picks.jen_simmons.description
     t: |
-      For two decades, “parent selector” was a top requested feature for CSS. 
-      Then in 2022, in a total surprise, the :has() pseudo-class arrived to solve this and far more.
+      Két évtizeden keresztül a "szülő szelektor" volt a legtöbbet kért funkció a CSS-ben.
+      Majd 2022-ben, teljes meglepetésre, megérkezett a `:has()` szelektor, hogy megoldja ezt és még sok más problémát.
 
   - key: picks.sara_soueidan.name
-    t: The `:has()` Selector
+    t: A `:has()` szelektor
   - key: picks.sara_soueidan.bio
-    t: Independent inclusive design engineer
+    t: Független, befogadó tervezőmérnök
   - key: picks.sara_soueidan.description
     t: |
-      We've been wishing and waiting for CSS container queries for so long. 
-      But then `:has()` arrived shortly after, 
-      and it felt like it was "everything we never knew we always wanted".
+      Már nagyon vártuk a CSS konténer lekérdezéseket, 
+      de aztán a `:has()` szelektor érkezett,
+      és úgy éreztük, hogy "ez minden, amiről nem is tudtunk, hogy mindig is ezt akartuk".
 
   - key: picks.adam_wathan.name
-    t: Empty CSS Variables
+    t: Üres CSS változók
   - key: picks.adam_wathan.bio
-    t: Creator of Tailwind CSS
+    t: A Tailwind CSS alkotója
   - key: picks.adam_wathan.description
     t: |
-      Not many people know this but `--my-var: ;` is totally valid CSS, 
-      and it's way more useful than you think. 
-      We use it in Tailwind CSS all the time to make it 
-      possible to decompose a single CSS property into multiple classes.
+      Nem sokan tudják, de a `--my-var: ;` teljesen érvényes CSS,
+      és sokkal hasznosabb, mint gondolnád.
+      A Tailwind CSS-ben gyakran használjuk, hogy egyetlen CSS tulajdonságot
+      több osztályra bontsunk.
 
   # - key: picks.christianoliff.bio
   #   t: Front-end developer for Trimble MAPS
@@ -295,14 +292,13 @@ translations:
   - key: picks.kilian_valkhof.name
     t: Interop 2022
   - key: picks.kilian_valkhof.bio
-    t: Web developer and creator of Polypane
+    t: Webfejlesztő és a Polypane alkotója
   - key: picks.kilian_valkhof.description
     t: |
-      Started in 2021 as Compat 2021, browser engine makers 
-      have started coordinating which features they prioritize. 
-      Not only is this closing the various feature gaps that exist 
-      between between browsers, it's also increasing the speed with which new 
-      features like @layer lands across browsers.
+      2021-ben indult Compat 2021 néven, a böngészőmotorok fejlesztői 
+      elkezdték koordinálni, hogy mely funkciókat prioritizálják. 
+      Nem csak a böngészők közötti különbségeket csökkenti, hanem 
+      növeli az új funkciók, mint a `@layer` bemutatási sebességét is.
 
   # - key: picks.piccalilli_.bio
   #   t: Freelance designer & dev who runs piccalil.li
@@ -356,13 +352,13 @@ translations:
   ###########################################################################
 
   - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
+    t: Fejleszd a készségeidet mélyreható, modern front-end fejlesztői kurzusokkal.
   - key: sponsors.nijibox.description
-    t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+    t: A ambíciózus fejlesztők böngészője. Készíts reszponzív, akadálymentesített és gyors weboldalakat könnyedén.
   - key: sponsors.renderatl.description
-    t: The largest tech conference with a dedicated Design & CSS track.
+    t: A legnagyobb tech konferencia, amelynek dedikált Design & CSS szekciója van.
   - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
+    t: Köszönjük a Google Chrome csapatának a munkánk támogatását.
 
   ###########################################################################
   # FAQ/About
@@ -370,72 +366,72 @@ translations:
 
   - key: about.content
     t: >
-      The 2022 State of CSS survey ran from October 1 to November 1 2022, and collected 14,310 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+      A 2022-es State of CSS felmérés 2022. október 1. és november 1. között futott, és 14 310 választ gyűjtött össze. A felmérés [Sacha Greif](https://sachagreif.com/) (én) által készült, aki a felméréshez egy nyílt forráskódú csapatot és tanácsadókat is felkért.
 
-      This year's logo and t-shirt were reused from last year, when they were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      Az idei logót és pólót tavaly tervezte és animálta [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
-      ### Survey Goals
+      ### A felmérés célja
 
-      This survey, along with the [State of JavaScript](https://stateofjs.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+      Ez a felmérés a [State of JavaScript](https://stateofjs.com/) felméréshez hasonlóan arra szolgál, hogy azonosítsa a webfejlesztési ökoszisztéma közelgő trendjeit, hogy segítsen a fejlesztőknek technológiai döntéseket hozni.
 
-      As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+      Mint ilyen, ezek a felmérések arra összpontosítanak, hogy mi várható a következő években, és nem arra, hogy mi a jelenleg a legnépszerűbb, ezért a jelenleg legelterjedtebb funkciók vagy technológiák nem mindig szerepelnek.
 
-      Additionally, survey data is also used by browser vendors to prioritize features and inform initiatives such as [Interop 2022](https://wpt.fyi/interop-2022).
+      Továbbá, a felmérés adatai arra is szolgálnak, hogy a böngészőgyártók prioritizálják a funkciókat és segítsék az olyan kezdeményezéseket, mint az [Interop 2022](https://web.dev/interop-2022/).
 
-      ### Survey Design
+      ### A felmérés tervezése
 
-      This year, survey design was lead by [Lea Verou](https://lea.verou.me/) thanks to a funding grant from the Google Chrome team, and managed publicly [on GitHub](https://github.com/orgs/Devographics/projects/1). All survey questions were optional. 
+      Ebben az évben a felmérés tervezését [Lea Verou](https://lea.verou.me/) vezette, aki a Google Chrome csapatának támogatásával készítette el a kérdéseket, amelyeket nyilvánosan [a GitHub-on](https://github.com/orgs/Devographics/projects/1) kezeltünk. Minden kérdés opcionális volt.
 
-      Additionally, going forward we will also coordinate survey design, review, and feedback through a [Working Group mailing list](https://www.devographics.com/working-group/).
+      Továbbá, a jövőben a felmérés tervezését, felülvizsgálatát és visszajelzését egy [Munkacsoport levelezőlistán](https://www.devographics.com/working-group/) keresztül is koordináljuk.
 
-      ### Survey Audience
+      ### A felmérés közönsége
 
       The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
 
-      ### Project Funding
+      ### A projekt finanszírozása
 
-      Funding from this project comes from a variety of sources:
+      A felmérés finanszírozását több forrásból fedeztük:
 
-      - **T-shirt sales**. 
+      - **Póló eladások**. 
 
-      - **Sponsored Links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+      - **Szponzorált linkek**: az oldal alján található ajánlott források linkei a partnerünk, a [Frontend Masters](https://frontendmasters.com/) által biztosítottak. 
 
-      - **Sponsored Charts**: starting last year, anybody can now also choose to directly sponsor a chart for $10 or more, and get their Twitter avatar displayed next to it.
+      - **Szponzorált grafikonok**: tavaly óta bárki directben támogathat egy-egy grafikont $10 vagy annál több összeggel, és ezután a Twitter avatarjuk megjelenik mellette.
 
-      - **Google**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a budget to hire Lea to help design the survey, as well as funded me directly to help support my work. 
+      - **Google**: ebben az évben a [Google Chrome](https://www.google.com/chrome/) csapata külön költségvetést szánt arra, hogy Lea-t felbérelje a felmérés tervezéséhez, valamint közvetlenül támogatott engem is, hogy segítse a munkámat.
 
-      - **Nijibox**: Japan-based [Nijibox](https://nijibox.jp/) has also graciously accepted to sponsor my efforts to help make these yearly surveys more sustainable. 
+      - **Nijibox**: A Japánban található [Nijibox](https://nijibox.jp/) szintén nagylelkűen támogatta a munkámat, hogy segítsen a felmérések fenntarthatóbbá tételében.
 
-      ### Technical Overview
+      ### Technikai áttekintés
 
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). Our code is [open-source](https://github.com/Devographics/Monorepo/). 
+      [Itt](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb) találsz egy részletesebb technikai áttekintést arról, hogy hogyan futnak a felmérések. A kódunk [nyílt forráskódú](https://github.com/Devographics/Monorepo/). 
 
-      - **Data collection**: [Next.js](https://nextjs.org/) app running on [Vercel](https://vercel.com/).
+      - **Adat gyűjtés**: [Next.js](https://nextjs.org/) app fut a [Vercel](https://vercel.com/)-en.
 
-      - **Data storage/processing**: MongoDB & MongoDB Aggregations running on [MongoDB Atlas](https://cloud.mongodb.com/).
+      - **Adat tárolás/feldolgozás**: MongoDB & MongoDB Aggregations fut a [MongoDB Atlas](https://cloud.mongodb.com/)-on.
 
-      - **Data API**: Node.js GraphQL API running on [Render](https://render.com/). 
+      - **Adat API**: Node.js GraphQL API fut a [Render](https://render.com/)-en.
 
-      - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app running on [Netlify](https://netlify.com/).
+      - **Eredmények oldala**: [Gatsby](https://www.gatsbyjs.com/) React app fut a [Netlify](https://netlify.com/)-en.
 
-      - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
+      - **Adatvizualizáció**: [Nivo](https://nivo.rocks/) React dataviz library.
 
-      - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+      - **Betűtípusok**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) és [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
 
-      ### Feedback
+      ### Visszajelzés
 
-      - [Report a technical issue](https://github.com/Devographics/Monorepo/issues)
-      - [Make a suggestion for next year](https://github.com/Devographics/surveys/issues/66)
-      - [Other non-technical issues](https://github.com/Devographics/surveys/issues)
-      - [Join our Discord](https://discord.gg/tuWRUWVyJs)
-      - [Join the Devographics Working Group](https://www.devographics.com/working-group/) to participate in the design and review of future surveys.
+      - [Egy technikai probléma jelentése](https://github.com/Devographics/Monorepo/issues)
+      - [Javaslat a következő évre](https://github.com/Devographics/surveys/issues/66)
+      - [Egyéb nem technika probléma jelentése](https://github.com/Devographics/surveys/issues)
+      - [Csatlakozz a Discordunkhoz](https://discord.gg/tuWRUWVyJs)
+      - [Csatlakozz a Devographics Munkacsoportjához](https://www.devographics.com/working-group/), hogy részt vegyél a jövőbeli felmérések tervezésében és felülvizsgálatában.
 
   - key: options.other_pain_points_freeform.css_nesting
     aliasFor: features.css_nesting
   - key: options.other_pain_points_freeform.select
-    t: Select
+    t: Kiválasztás
   - key: options.other_pain_points_freeform.functions
-    t: Functions
+    t: Funkciók
 
   - key: options.interoperability_features_freeform.at_container
     aliasFor: features.at_container
@@ -448,17 +444,17 @@ translations:
   - key: options.interoperability_features_freeform.ios
     t: iOS
   - key: options.interoperability_features_freeform.functions
-    t: Functions
+    t: Funkciók
   - key: options.interoperability_features_freeform.internet_explorer
     t: Internet Explorer
 
   - key: options.missing_features_freeform.css_nesting
     aliasFor: features.css_nesting
   - key: options.missing_features_freeform.select
-    t: Select
+    t: Kiválasztás
   - key: options.missing_features_freeform.at_container
     aliasFor: features.at_container
   - key: options.missing_features_freeform.functions
-    t: Functions
+    t: Funkciók
   - key: options.missing_features_freeform.svg
     t: SVG
