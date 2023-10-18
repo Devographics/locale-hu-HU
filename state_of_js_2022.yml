@@ -1,14 +1,14 @@
-locale: en-US
+locale: hu-HU
 translations:
   ###########################################################################
   # General
   ###########################################################################
 
   - key: general.results.description
-    t: The 2022 edition of the annual survey about the latest trends in the JavaScript ecosystem.
+    t: A JavaScript ökoszisztéma legfrissebb trendjeiről szóló éves felmérés 2022-es verziója.
 
   - key: general.livestream_announcement
-    t: Make sure to tune in for our [special survey results livestream](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) on February 22! (English)
+    t: Ne felejtsd el megnézni a [speciális livestream felvételt](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) a felmérés eredményeiről Február 22-én! (angol)"
 
   ###########################################################################
   # Introduction
@@ -16,22 +16,21 @@ translations:
 
   - key: introduction.js2022
     t: |
+      <span class="first-letter">É</span>vekig tartó relatív stabilitás után sokan most kezdik megkérdőjelezni a status quo-t.
 
-      <span class="first-letter">A</span>fter years of relative stability, many are now beginning to question the status quo. 
+      Új front-end keretrendszerek, mint a Solid és a Qwik azt sugallják, hogy a React nem mindenre ad választ, és a szerveroldalon az Astro, a Remix és a Next.js (többek között) arra késztetnek minket, hogy újragondoljuk, mennyi kódot kell valójában kliensoldalra küldenünk.
 
-      New front-end frameworks like Solid and Qwik are suggesting that React might not have all the answers after all, and on the server Astro, Remix and Next.js (among others) are making us reconsider how much code we really need to ship to the client. 
+      Minden adatra szükségünk van, ha meg akarjuk érteni, mi történik, és valójában a felmérésünk idén **39,472** választ kapott, ami majdnem duplája a tavalyi mennyiségnek!
 
-      We'll need all the data we can get if we want to make sense of all this, and in fact this year's survey received a massive **39,472** responses, almost double last year's amount! 
+      Emiatt az újonnan kibővült közönség miatt néhány váratlan eredményt is láthatsz, mint például néhány funkció csökkenő ismertsége vagy használata évről évre.
 
-      Because of this newly expanded audience you might notice some unexpected results, such as some features going down year-over-year in terms of awareness or usage. 
+      De ez a több adat potenciálisan új megvilágításba helyezheti a dolgokat, és ezért két új módot fejlesztettünk ki a felmérésünk adatainak feldolgozására: az **Adatböngésző** lehetővé teszi két változó keresztezését és az eltérő eredmények kiemelését; míg a **Grafikon szűrés** lehetővé teszi a specifikus diagramok szűrését fizetés, ország, nem és sok más demográfiai változó szerint.
 
-      But having more data can potentially mean new insights, and that's why we've developed two new ways to interact with our dataset: the **Data Explorer** lets you cross-reference two variables and highlight any outlying results; while **Chart Filters** let you filter specific charts by salary, country, gender, and many other demographic variables. 
+      Az eddigi mindent magába foglaló "back-end" kategóriánkat is egy specifikusabb **Renderelési Keretrendszerek** oldallal helyettesítettük, és egy új **Videó alkotók** listát is hozzáadtunk a Resources szekcióhoz.
 
-      We've also replaced our catch-all "back-end" category with a more specific **Rendering Frameworks** page and added a new **Video Creators** list to the Resources section. 
+      Végezetül, a Features és Libraries kérdések most már tartalmaznak egy **Megjegyzések** felugró ablakot, amely lehetővé teszi, hogy láthasd, mit gondolnak az emberek a felmérésben említett elemekről!
 
-      Finally, Features and Libraries questions also now have a **Comments** popup that lets you see what people actually think of the items mentioned in the survey!
-
-      With all this out of the way, let's discover what JavaScript has been up to in 2022!
+      Most, hogy mindezt tisztáztuk, lássuk, mit is csinált a JavaScript 2022-ben!
 
       <span class="conclusion__byline">– Sacha Greif</span>
 
@@ -40,38 +39,38 @@ translations:
   ###########################################################################
 
   - key: sections.tshirt.title
-    t: T-shirt
+    t: Póló
 
   - key: sections.tshirt.description
     t: |
-      ## Support the Survey With the State of JavaScript T-Shirt
+      ## Támogasd a felmérést a State of JavaScript pólóval
 
-      Between the bad video quality, the bulky cassettes, and having to rewind, there's not much to miss about the VHS era. But one thing we *do* miss are the amazing 90s visuals that used to adorn blank VHS tapes. 
+      A rossz videóminőség, a nagyméretű kazetták és a visszatekerés között nem sok minden hiányzik a VHS korszakból. De egy dolog, amit *hiányolunk*, az a VHS kazettákra nyomtatott 90-es évek retro dizájnja.
 
-      But now, thanks to the talented Christopher Kirk-Nielsen you can enjoy all this retro radness while also celebrating your love for JavaScript at the same time!
+      Most azonban, köszönhetően a tehetséges Christopher Kirk-Nielsen-nek, élvezheted ezt a retró dizájnt, miközben ugyanakkor a JavaScript iránti szeretetedet is kifejezheted!
 
   - key: tshirt.about
-    t: About the T-shirt
+    t: A pólóról
 
   - key: tshirt.description
     t: |
-      We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau.
+      A pólók kiváló minőségű, szuper puha tri-blend anyagból készülnek, szűk fazonnal, a Cotton Bureau partnereinknél nyomtatva.
 
   - key: tshirt.getit
-    t: Get It
+    t: Megrendelem
 
   - key: tshirt.price
-    t: USD $29 + shipping
+    t: $29 USD + szállítási költség
 
   - key: tshirt.designer.heading
-    t: About the Designer
+    t: A tervezőről
 
   - key: tshirt.designer.name
     t: Christopher Kirk-Nielsen
 
   - key: tshirt.designer.bio
     t: |
-      Originally from France but now based in the United States, Chris is not just an amazing front-end developer, but also a talented illustrator who specializes in retro visuals. In fact, we encourage you to also check out his [other t-shirt designs](https://chriskirknielsen.com/designs)!
+      Christopher Kirk-Nielsen egy francia származású, de jelenleg az Egyesült Államokban élő fejlesztő, aki nem csak egy fantasztikus front-end fejlesztő, hanem egy tehetséges illusztrátor is, aki a retró vizuális megjelenítésre specializálódott. Valójában arra is ösztönözzük, hogy nézd meg a [többi pólótervét](https://chriskirknielsen.com/designs)!
 
   ###########################################################################
   # Sections
@@ -79,37 +78,37 @@ translations:
 
   - key: sections.user_info.description
     t: |
-      This year, **39,471** respondents took part in the survey. And in order
-      to help highlight different voices and surface deeper insights, we made a special
-      effort to provide new ways to break our data down.
+      Ebben az évben **39,471** válaszadó vett részt a felmérésben. És annak érdekében, 
+      hogy kiemeljük a különböző hangokat és mélyebb betekintést nyújtsunk, különleges 
+      erőfeszítést tettünk az adatok lebontására.
 
   - key: sections.features.description
     t: |
-      JavaScript may move fast, but it seems like JavaScript developers move even faster, as many relatively new features already show high adoption levels.
+      Lehet, hogy a JavaScript gyorsan fejlődik, de úgy tűnik, hogy a JavaScript fejlesztők még gyorsabban fejlődnek, mivel sok viszonylag új funkció már magas elfogadási szintet mutat.
 
   - key: sections.technologies.description
     t: |
-      This year's results point to a high degree of fragmentation in the JavaScript world. But while this can sometimes cause headaches, all that competition does make for a very dynamic ecosystem.
+      Az idei eredmények a JavaScript világ magas fokú fragmentáltságára utalnak. De bár ez néha fejfájást okozhat, de a verseny miatt nagyon dinamikus ökoszisztémát kapunk.
 
   - key: sections.tools_others.description
     t: |
-      Picking a technology can often come down to a series of tough choices between 
-      competing priorities, and this year we tried to capture this process using a new bracket-style question format.
+      Egy technológia kiválasztása gyakran nehéz döntések sorozatává válik a versengő 
+      prioritások között, és idén megpróbáltuk ezt a folyamatot egy új, bracket-stílusú kérdésformátummal rögzíteni.
 
   - key: sections.environments.description
     t: |
-      Accessibility has long been an after-thought when it comes to web development, but many developers
-      are now realizing that it should in fact be the foundation on which everything else rests.
+      Az akadálymentesítás régóta az utolsó gondolat volt a webfejlesztésben, de sok fejlesztő
+      most rájön, hogy valójában ez kellene, hogy az alapja legyen mindennek.
 
   - key: sections.resources.description
     t: |
-      Highlighting blogs, podcasts, and sites was a good start, but this year we decided to go one step further
-      and actually feature the people who make up the JavaScript community!
+      A blogok, podcastok, és weboldalak kiemelése jó kezdet volt, de idén úgy döntöttünk,
+      hogy egy lépéssel tovább megyünk, és valójában a JavaScript közösség tagjait mutatjuk be!
 
   - key: sections.opinions.description
     t: |
-      Whether it's pain points that hold you back today, or missing features that you hope to use
-      tomorrow, this was your chance to vent and share your gripes with JavaScript!
+      Ha egy hiányosság, ami visszatart, vagy egy funkció, amit hiányolsz, akkor ez volt a
+      lehetőséged, hogy megoszd a JavaScript-el kapcsolatos véleményedet!
 
   ###########################################################################
   # Charts
@@ -124,16 +123,16 @@ translations:
 
   - key: blocks.tools_quadrant.description
     t: |
-      This chart shows each technology's **retention ratio** over its total **user count**.
-      It can be divided into four quadrants:
+      Ez a grafikon a technológiák **használati arányát** mutatja a **felhasználók számához** viszonyítva.
+      Ez négy részre osztható:
 
-        - **1**: Low usage, high retention. Technologies worth keeping an eye on.
+        - **1**: Alacsony használat, magas megtartás. Technológiák, amelyeket érdemes szemmel tartani.
 
-        - **2**: High usage, high retention. Safe technologies to adopt.
+        - **2**: Magas használat, magas megtartás. Biztonságos technológiák, amelyeket érdemes alkalmazni.
 
-        - **3**: Low usage, low retention. Technologies that are harder to recommend currently.
+        - **3**: Alacsony használat, alacsony megtartás. Technológiák, amelyeket jelenleg nehéz ajánlani.
 
-        - **4**: High usage, low retention. Reassess these technologies if you're currently using them.
+        - **4**: Magas használat, alacsony megtartás. Érdemes újraértékelni ezeket a technológiákat, ha jelenleg használod őket.
 
   ###########################################################################
   # Notes
@@ -141,48 +140,48 @@ translations:
 
   - key: blocks.gender.note
     t: |
-      If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
+      Ha többet szeretnél megtudni, írtunk egy [blog posztot](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj), ami a felmérés nemi dinamikájával foglalkozik.
 
   - key: blocks.css_missing_features.note
     t: |
-      You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
+      A válaszok teljes adathalmazt megtekintheted ebben a [side projectben](https://whatsmissingfromcss.com/).
 
   - key: blocks.source.note
     t: >
 
-      This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
+      Ez az grafikon összefoglalja a referrerek, URL paraméterek és szabad szöveges válaszok egy keverékét.
 
-      - State of JS: the [State of JS](https://stateofjs.com) mailing list.
+      - State of JS: a [State of JS](https://stateofjs.com) felmérés levelezési listája.
 
-      - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+      - State of CSS: A State of CSS levelezési listája; szintén illeszkedik az `email`, `by email`, stb. kifejezésekre.
 
-      - Work: matches `work`, `colleagues`, `coworkers`, etc.
+      - Munka: a `work`, `colleagues`, `coworkers`, stb. kifejezésekre illeszkedik.
 
   ###########################################################################
   # Awards
   ###########################################################################
 
   - key: award.feature_adoption_delta_award.comment
-    t: With a **{value}** progression in 2022, **top-level await** has quickly become an integral part of JavaScript.
+    t: A **{value}**-os 2022-es növekedésével a **top-level await** a JavaScript egyik leggyorsabban növekvő funkciója lett.
 
   - key: award.tool_usage_delta_award.comment
     t: |
-      **Vite** is barely two years old, but with a **{value}** progression over the last year it's already gaining ground.
+      A **Vite** még csak két éves sincs, de **{value}**-os növekedésével az egyik leggyorsabban növekvő technológia lett.
 
   - key: award.tool_satisfaction_award.comment
-    t: Vite takes the top spot with a sky-high **{value}** retention ratio!
+    t: A Vite ismét megnyerte az aranyérmet a **{value}**-os elégedettségi aránnyal!
 
   - key: award.tool_interest_award.comment
-    t: With a **{value}** interest ratio, Vite once again wins the gold!
+    t: A **{value}**-os érdeklődési aránnyal a Vite ismét megnyerte az aranyérmet!
 
   - key: award.most_write_ins_award.comment
-    t: Many questions also accepted write-in answers, and with **{value}** mentions **Astro** was the most popular item overall.
+    t: Sok kérdés elfogadott írásbeli válaszokat is, és a **{value}**-os említéssel az **Astro** volt a legnépszerűbb elem.
 
   - key: award.most_commented_feature_award.comment
-    t: With **{value}** comments, no other feature even came close to generating as much feedback as Private Fields.
+    t: A **{value}**- kommenttel a Private Fields-nek nem volt párja a visszajelzések generálásában.
 
   - key: award.most_commented_tool_award.comment
-    t: With **{value}** comments, React showed that it's still the most-discussed library around.
+    t: A **{value}**- kommenttel a React volt a legtöbbet megbeszélt keretrendszer.
 
   ###########################################################################
   # Conclusion
@@ -190,29 +189,29 @@ translations:
 
   - key: conclusion.js2022
     t: |
-      <span class="first-line">JavaScript and TypeScript are more vibrant than ever.</span> 
+      <span class="first-line">A JavaScript és a TypeScript most élénkebb, mint valaha.</span>
 
-      We saw a continuation of performance-lead innovations, many in reactivity and hydration (or the lack thereof). For example, [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) took on simplicity in developer ergonomics and leaned into the compiler. Solid’s explored [new approaches to reactivity](https://www.youtube.com/watch?v=2iK9zzhSKo4), while Qwik [shifted our mental model with resumability](https://www.youtube.com/watch?v=Zddw6qy5pf0). 
+      Láttunk egy folyamatos teljesítmény-vezérelt innovációt, sokat a reaktivitásban és a hidratálásban (vagy annak hiányában). Például a [Svelte](https://www.youtube.com/watch?v=AdNJ3fydeao) egyszerűségre törekedett a fejlesztői ergonómiában, és a fordítóra támaszkodott. A Solid új megközelítéseket vizsgált meg a reaktivitásban, míg a Qwik [megváltoztatta a mentális modellünket a folytathatósággal](https://www.youtube.com/watch?v=Zddw6qy5pf0).
 
-      Innovation is also exciting to see in multi-platform solutions like Tauri, Ionic and Flutter, which opens the door to see applications that span across even more platforms.
+      Az innováció izgalmasan jelenik meg több platformot támogató megoldásokban, mint a Tauri, Ionic és Flutter, amelyek lehetővé teszik az alkalmazások számára, hogy még több platformon jelenjenek meg.
 
-      We see globally distributed talent- like Nigeria and now India [having the highest developer growth on GitHub](https://octoverse.github.com/2022/global-tech-talent). Around the world, there are amazing projects like Segun Adebayo's [Chakra UI](https://chakra-ui.com/), or Liyas Thomas's [Hoppscotch](https://hoppscotch.io/), and folks supporting other people’s growth and learning like Ada Nduka Oyom who founded [SheCodeAfrica](https://shecodeafrica.org/), a non-profit organization that has helped empower over 17K women across Africa.
+      Látjuk a globálisan elosztott tehetséget - mint Nigéria és most India [a GitHub-on a leggyorsabban növekvő fejlesztőkkel](https://octoverse.github.com/2022/global-tech-talent). A világ minden táján fantasztikus projekteket látunk, mint Segun Adebayo [Chakra UI](https://chakra-ui.com/), vagy Liyas Thomas [Hoppscotch](https://hoppscotch.io/), és olyan emberek, akik mások növekedését és tanulását támogatják, mint Ada Nduka Oyom, aki megalapította a [SheCodeAfrica](https://shecodeafrica.org/) nevű nonprofit szervezetet, amely több mint 17 ezer nőt segített Afrikában.
 
-      When we look at established frameworks like React, Angular, or Vue we often see a drop in satisfaction, and people may wonder what it means for the future. I believe that this decline is a function of the tool being battle-tested and used in production, of finding the rough edges and experiencing the trade-offs every tool has. It’s a sign of maturity and clear-eyed appreciation for what these tools can offer. They will also learn from innovation in the space and continue to evolve.
+      Ha megnézünk olyan bevált keretrendszereket, mint a React, az Angular vagy a Vue, gyakran látunk elégedettség-csökkenést, és az emberek azt kérdezik, mit jelent ez a jövő szempontjából. Azt hiszem, hogy ez a csökkenés azzal magyarázható, hogy a keretrendszerek be lettek vetve, és a élesben használják őket, így látni, hogy milyen hiányosságai vannak és megtapasztalják a kompromisszumokat, amelyek minden eszközre jellemzőek. Ez a érettség és a tisztánlátás jele azzal kapcsolatban, hogy ezek az eszközök mit kínálnak. Ezek az innovációból is tanulni fognak és folyamatosan fejlődnek.
 
-      Finally, I couldn’t be happier to see Vite’s absolute resounding presence in the award section for the second year in a row. Build and serve tech is truly making massive strides and we all benefit from this hard work. Bravo!
+      Végezetül, nem lehetnék boldogabb, hogy a Vite második éve is abszolút jelen van a díj szekcióban. A Build and Serve tech valóban hatalmas lépéseket tesz előre, és mindannyian profitálunk ebből a kemény munkából. Bravo!
 
   - key: conclusion.js2022.bio
-    t: Director of Engineering and Web Infrastructure, Google
+    t: Mérnöki és web infrastruktúra igazgató, Google
 
   ###########################################################################
   # Picks
   ###########################################################################
 
   - key: picks.my_pick
-    t: "My 2022 Pick: "
+    t: "A 2022-es választásom: "
   - key: picks.intro
-    t: We asked members of the JavaScript community to share their “pick of the year”
+    t: Megkérdeztük a JavaScript közösség tagjait, hogy osszák meg a évi választásukat.
 
   # https://svelte.dev/blog/announcing-sveltekit-1.0
   - key: picks.lee_robinson.name
@@ -221,8 +220,8 @@ translations:
     t: VP of Developer Experience at Vercel
   - key: picks.lee_robinson.description
     t: |
-      Two years in the making, SvelteKit is finally ready for production – 
-      and it has no shortage of amazing features for developers.
+      Két éve készül, de most már kész a SvelteKit az élesbe állításra - és nem 
+      szenved hiányt a fejlesztők számára készített lenyűgöző funkciókban.
 
   # - key: picks.vadim_makeev.name
   #   t: Server-Side Rendering
@@ -353,29 +352,29 @@ translations:
     t: Twitch Coding Streamer & Content Creator
   - key: picks.miguel_angel_duran.description
     t: |
-      Astro is a new exciting static site generator. 
-      Zero client JavaScript by default, lazy-loading hydration, 
-      and framework-agnostic. Built on top of Vite, it's blazing fast and easy to use.
+      Az Astro egy új izgalmas statikus weboldal generátor. 
+      Alapértelmezés szerint nulla kliens JavaScript, lazy-loading hydration, 
+      és keretrendszer független. A Vite tetején épült, ezért villámgyors és könnyen használható.
 
   # https://sandpack.codesandbox.io/
   - key: picks.josh_comeau.name
     t: Sandpack
   - key: picks.josh_comeau.bio
-    t: Software developer and educator
+    t: Szoftverfejlesztő és oktató
   - key: picks.josh_comeau.description
     t: |
-      The folks at CodeSandbox open-sourced their ridiculously 
-      powerful in-browser bundler, and packaged 
-      it up in a world-class embedded code editor. Such an amazing tool!
+      A CodeSandbox csapata nyílt forráskódúvá tette a hihetetlenül erős böngészőben futó bundlert,
+      és becsomagolta egy világszínvonalú beágyazott kódszerkesztőbe.
+      Milyen fantasztikus eszköz!
 
   # https://github.com/tc39/proposal-type-annotations
   - key: picks.rich_harris.name
-    t: Type Annotations Proposal
+    t: Típusannotáció javaslat
   - key: picks.rich_harris.bio
     t: Principal Software Engineer, Vercel
   - key: picks.rich_harris.description
     t: |
-      I'm going to nominate the type annotations proposal, which was shared with the world this year.
+      Én a típusannotáció javaslatot fogom jelölni, amelyet idén osztottak meg a világgal.
 
   # https://twitter.com/mooeypoo
   - key: picks.cassidy_williams.name
@@ -384,10 +383,10 @@ translations:
     t: CTO at Contenda, Memer and Dreamer
   - key: picks.cassidy_williams.description
     t: |
-      Moriel is an inspiring developer who gives passionate, 
-      interesting talks about internationalization and accessibility, 
-      and some of the things she's built with Vue are SO cool, 
-      everyone should check them out!
+      Moriel egy fantasztikus fejlesztő, aki szenvedélyesen beszél a 
+      nemzetköziesítésről és a hozzáférhetőségről,
+      és néhány olyan dolgot épített a Vue-val, amelyek annyira menők,
+      hogy mindenkinek meg kell néznie őket!
 
   # https://www.withdiode.com/
   - key: picks.charlie_gerard.name
@@ -396,31 +395,30 @@ translations:
     t: Senior Developer Advocate at Stripe, Author and Creative Technologist
   - key: picks.charlie_gerard.description
     t: |
-      Diode is an interactive tool to build and simulate hardware projects in the browser. 
-      As a hardware tinkerer, this is really exciting and the interface built with 
-      Three.js is great!
+      A Diode egy interaktív eszköz, amellyel hardverprojekteket lehet építeni és szimulálni a böngészőben.
+      Hardver tinkerkedőként ez nagyon izgalmas, és az interface, amelyet a Three.js-sel építettek, nagyszerű!
 
   # https://arisa-fukuzaki.dev/
   - key: picks.alba_silvente.name
     t: Arisa Fukuzaki
   - key: picks.alba_silvente.bio
-    t: FrontEnd developer working as DevRel at Storyblok
+    t: Frontend fejlesztő és fejlesztői kapcsolatok a Storybloknál
   - key: picks.alba_silvente.description
     t: |
-      Arisa is a hybrid between FrontEnd and Dev Rels, lover of React and its ecosystem, 
-      she is always thinking about giving back to the community and contributes by giving talks,
-       workshops and articles on the subject.
+      Arisa egy FrontEnd és Dev Rels hibrid, a React és az ökoszisztémája szerelmese,
+      mindig arra gondol, hogy visszaadja a közösségnek, és hozzájárul a beszélgetésekhez,
+      workshopokhoz és cikkekhez a témában.
 
   # https://github.com/statelyai/xstate
   - key: picks.matt_pocock.name
     t: XState
   - key: picks.matt_pocock.bio
-    t: TypeScript educator from the UK, building Total TypeScript.
+    t: TypeScript oktató az Egyesült Királyságból, a Total TypeScript építője.
   - key: picks.matt_pocock.description
     t: |
-      If I were given something complicated to build from scratch, 
-      like a spreadsheet, WYSIWYG, or video calling app, I'd use XState. 
-      It's the only library I can rely on to build complex systems.
+      Ha valami bonyolultat kellene nulláról felépítenem, mint például egy táblázatot,
+      WYSIWYG-t vagy videóhívás alkalmazást, akkor az XState-t használnám.
+      Ez az egyetlen könyvtár, amiben megbízhatok, hogy összetett rendszereket építsek.
 
   # https://beta.reactjs.org/
   - key: picks.kathryn_grayson_nanz.name
@@ -429,18 +427,17 @@ translations:
     t: Developer Advocate at Progress
   - key: picks.kathryn_grayson_nanz.description
     t: |
-      The new React docs are incredibly well-written, accessible for beginners, 
-      and beautifully designed. 
-      Documentation is one of the hardest things to do well, 
-      so this fantastic example is my pick of the year!
+      A új React dokumentáció hihetetlenül jól megírt, hozzáférhető a kezdők számára,
+      és gyönyörűen megtervezett. A dokumentáció az egyik legnehezebb dolog, amit jól kell csinálni,
+      ezért ez a fantasztikus példa az évi választásom!
 
   - key: picks.ryan_carniato.name
     t: Astro
   - key: picks.ryan_carniato.bio
-    t: Creator of Solid
+    t: A Solid készítője
   - key: picks.ryan_carniato.description
     t: |
-      While Astro has been popularizing the "Islands" architecture for the past couple of years, 2022 saw it reach 1.0 and bring on-demand server rendering. It's never been easier to create great sites while shipping less JavaScript.
+      Amíg az Astro a "Szigetes" architektúrát népszerűsíti az elmúlt években, 2022-ben elérte az 1.0-át, és lehetővé tette a kiszolgáló oldali renderelést. Sosem volt könnyebb nagyszerű oldalakat létrehozni, miközben kevesebb JavaScript-et szállítunk.
 
   - key: picks.theo_browne.name
     t: tRPC
@@ -448,7 +445,7 @@ translations:
     t: Youtube Ranter & CEO @Ping.gg
   - key: picks.theo_browne.description
     t: |
-      2022 was a big year for fullstack type-safety, and tRPC deserves most of the credit. tRPC is one of those rare libraries that makes everything you used before feel… awful, honestly. Never felt more productive as a full stack engineer.
+      A 2022 egy nagy év volt a fullstack típusbiztonság számára, és a tRPC érdemelheti a legtöbb elismerést. A tRPC az a ritka könyvtár, amelynek használata előtt minden, amit korábban használtál, szörnyűnek tűnik, őszintén szólva. Sosem éreztem magam produktívabbnak, mint full stack mérnökként.
 
   - key: picks.sebastien_lorber.name
     t: Remotion
@@ -456,7 +453,7 @@ translations:
     t: This Week In React founder and Docusaurus maintainer
   - key: picks.sebastien_lorber.description
     t: |
-      The ability to create videos with React is rad. We can get creative and use any cutting-edge web technology, not only DOM/CSS. With the GitHub Unwrapped project, it has proved it can scale, render thousands of videos and be an awesome marketing tool.
+      A React-ban való videók készítése lehetősége fantasztikus. Kreatívan használhatjuk a webes technológiákat, nem csak a DOM-ot és a CSS-t. A GitHub Unwrapped projekt bizonyította, hogy skálázható, több ezer videót renderelhet, és fantasztikus marketing eszköz lehet.
 
   - key: picks.ben_holmes.name
     t: Zod
@@ -464,9 +461,9 @@ translations:
     t: Open source maintainer at Astro
   - key: picks.ben_holmes.description
     t: |
-      Runtime safety came to define 2022 with tRPC's rise to stardom. 
-      Now, with Astro using Zod for type-safe Markdown and Remix users bringing Zod to form validation, 
-      it's becoming an must-have for any JavaScript developer
+      A futásbeli biztonság 2022-ben a tRPC hírnevét határozta meg. 
+      Most, hogy az Astro a Zod-ot használja a típusbiztos Markdown-hoz, és a Remix felhasználók a Zod-ot hozzák a form validáláshoz, 
+      ez a JavaScript fejlesztők számára elengedhetetlen eszközzé válik.
 
   - key: picks.tyler_mcginnis.name
     t: TanStack
@@ -474,8 +471,7 @@ translations:
     t: Founder, UI.dev
   - key: picks.tyler_mcginnis.description
     t: |
-      My JavaScript pick of the year is TanStack, or anything else that 
-      Tanner and Dominik make.
+      Az én JavaScript választásom a TanStack, vagy bármi más, amit Tanner és Dominik csinál.
 
   - key: picks.shaundai_person.name
     t: Sarah Drasner
@@ -483,7 +479,7 @@ translations:
     t: Senior Software Engineer, Netflix
   - key: picks.shaundai_person.description
     t: |
-      Sarah continues to give back to the community through blog posts, public speaking, and most recently - her book "Engineering Management for the Rest of Us".
+      Sarah folyamatosan visszaad a közösségnek blog posztok, nyilvános beszédek, és most már egy könyv formájában is, aminek a címe "Engineering Management for the Rest of Us".
 
   - key: picks.xxxx.name
     t:
@@ -497,11 +493,11 @@ translations:
   ###########################################################################
 
   - key: sponsors.frontendmasters.description
-    t: Advance your skills with in-depth, modern front-end engineering courses.
+    t: Fejleszd a készségeidet mélyreható, modern front-end fejlesztői kurzusokkal.
   - key: sponsors.google_chrome.description
-    t: Thanks to the Google Chrome team for supporting our work.
+    t: Köszönjük a Google Chrome csapatának a munkánk támogatását.
   - key: sponsors.renderatl.description
-    t: This is a tech conference focused on Front-End Engineering.
+    t: Ez egy tech konferencia, amely a Front-End Engineering-re összpontosít.
 
   ###########################################################################
   # FAQ/About
@@ -509,68 +505,68 @@ translations:
 
   - key: about.content
     t: |
-      The 2022 State of JS survey ran from November 21 to December 22 2022, and collected 39,472 responses. The survey is run by [Sacha Greif](https://sachagreif.com/) and [Eric Burel](https://www.lbke.fr/), with help from a team of open-source contributors and consultants. 
+      A 2022-es State of JS felmérés 2022. november 21. és december 22. között futott, és 39 472 választ gyűjtött. A felmérést [Sacha Greif](https://sachagreif.com/) és [Eric Burel](https://www.lbke.fr/) készítette, egy nyílt forráskódú közösség segítségével.
 
-      This year's logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+      Az idei logó és póló [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) által lett tervezve.
 
-      ### Survey Goals
+      ### A felmérés célja
 
-      This survey was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+      Ez a felmérés azért készült, hogy az elkövetkező években a webfejlesztés ökoszisztémájában várható trendeket azonosítsa, hogy segítsen a fejlesztőknek technológiai döntéseket hozni.
 
-      As such, the survey is focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+      Mint ilyen, a felmérés a következő évekre összpontosít, nem pedig a jelenleg népszerű technológiák elemzésére, ezért a jelenleg legelterjedtebb funkciók vagy technológiák nem mindig szerepelnek.
 
-      It should also be taken as a **snapshot of a specific subset of developers**, and is not meant to speak for the entire ecosystem. 
+      Ez a felmérés nem a JavaScript ökoszisztéma teljes képét mutatja be, hanem egy **adott fejlesztői csoport** pillanatképét, és nem szól az egész ökoszisztéma nevében.
 
-      ### Survey Design
+      ### A felmérés tervezése
 
-      The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/Devographics/surveys/issues?q=is%3Aissue+is%3Aopen+label%3A%22State+of+JS+2022%22). 
+      Ez a felmérés a tavalyi felmérés alapján lett tervezve, egy nyílt visszajelzési időszak alatt, ahol a felmérés vázlata megvitatásra került [a GitHub-on](https://github.com/Devographics/surveys/issues?q=is%3Aissue+is%3Aopen+label%3A%22State+of+JS+2022%22). 
 
-      All survey questions were optional. 
+      Az összes kérdés opcionális volt.
 
-      ### Survey Audience
+      ### A felmérés közönsége
 
-      The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+      Ez a felmérés nyíltan elérhető volt az interneten, és a válaszadókat semmilyen módon nem szűrték vagy válogatták. A válaszadók többsége a korábbi felmérésekből származó válaszadók keveréke volt (egy dedikált e-mail listán keresztül értesítve), valamint a közösségi médiából származó forgalom.
 
-      Note that frameworks, libraries, etc. were free to encourage their audience to participate in the survey and some of them did take advantage of this via banners, tweets, etc. A detailed breakdown of traffic sources is included in the "Sources" chart. 
+      Megjegyzendő, hogy a keretrendszerek, könyvtárak stb. szabadon bátoríthatták közönségüket a felmérésben való részvételre, és néhányan éltek is ezzel a lehetőséggel a felmérésben való részvételre szóló banner, tweetek stb. segítségével. A forgalom forrásainak részletes felbontása szerepel a "Források" diagramban.
 
-      ### Representativeness & Inclusivity
+      ### Reprezentáció és befogadás
 
-      While we believe it's important to give a voice to every community, the reality is that an open survey like this one will always struggle to properly represent everybody, especially when operating through systems that already carry their own inherent biases. 
+      Bár mi hiszünk abban, hogy minden közösségnek hangot kell adni, a valóság az, hogy egy ilyen nyílt felmérés mindig küzdeni fog azzal, hogy megfelelően képviselje mindenkit, különösen akkor, ha olyan rendszereken keresztül dolgozunk, amelyeknek már megvannak a saját beépített előítéleteik.
 
-      In order to counter-balance this, we are implementing three distinct strategies:
+      Ahhoz, hogy ezt a problémát ellensúlyozzuk, három különböző stratégiát alkalmazunk:
 
-      - **Outreach**: we always try to reach out to different organizations (such as BIPOC- or LGBTQ-focused organizations, or online teaching platforms) to try and diversify our own audience. 
+      - **Kitekintés**: mindig igyekszünk elérni különböző szervezeteket (például BIPOC- vagy LGBTQ-fókuszú szervezeteket, vagy online tanítási platformokat), hogy megpróbáljuk sokszínűsíteni a saját közönségünket.
 
-      - **Data Analysis**: through features like facets and variants, we're always trying to make it easier to surface the voices of any demographic segment, no matter how minoritized it might be in our data. 
+      - **Adatelemzés**: olyan funkciókkal, mint a facetek és a variánsok, mindig igyekszünk megkönnyíteni a demográfiai szegmensek hangjának felszínre hozását, függetlenül attól, hogy mennyire kisebbségi csoportról van szó az adatainkban.
 
-      - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse. 
+      - **Az akadályok csökkentése**: a felmérés túl hosszú, elérhetetlen, lassan töltődik be, csak angol nyelven stb. mind hozzájárulhat ahhoz, hogy egy "erőfeszítési adót" rójon a közösség olyan részeire, amelyek nem engedhetik meg maguknak. Ezeknek a problémáknak a megoldása csökkentheti a belépési küszöböt, és ezzel együtt sokszínűbbé teheti a közönségünket.
 
-      ### Project Funding
+      ### A felmérés finanszírozása
 
-      Funding from this project comes from a variety of sources:
+      A felmérés finanszírozását több forrásból fedeztük:
 
-      - **T-shirt sales**. 
+      - **Póló eladások**. 
 
       - **Chart Sponsorships**: members of the community can donate to the survey in exchange for having their name featured in the report.  
 
-      - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partners [Frontend Masters](https://frontendmasters.com/) and [RenderATL](https://www.renderatl.com/).
+      - **Szponzorált linkek**: a lap alján található ajánlott források linkei partnereink, a [Frontend Masters](https://frontendmasters.com/) és a [RenderATL](https://www.renderatl.com/) által kerülnek megjelenítésre.
 
-      - **Other Funding**: this year, [Google](https://www.google.com/) and [Nijibox](https://nijibox.jp/) funded my work on the survey directly.
+      - **Egyéb finanszírozás**: idén a [Google](https://www.google.com/) és a [Nijibox](https://nijibox.jp/) közvetlenül finanszírozta a felmérésen végzett munkámat.
 
-      Any contribution or sponsorship is greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+      Bármely hozzájárulást vagy szponzorálást nagyra értékelünk. Különösen szeretnék szorosabban együttműködni a böngészőgyártókkal, mivel ők központi szerepet játszanak a web ökoszisztémájában.
 
-      ### Technical Overview
+      ### Technikai áttekintés
 
-      You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-devographics-surveys-are-run-2022-edition-3oo4).
+      [Itt](https://dev.to/sachagreif/how-devographics-surveys-are-run-2022-edition-3oo4) egy részletesebb technikai áttekintés található arról, hogy a felmérések hogyan működnek.
 
-      - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
+      - **Adatgyűjtés**: egyedi [Vulcan.js](http://vulcanjs.org/) alkalmazás.
 
-      - **Data storage/processing**: MongoDB & MongoDB Aggregations.
+      - **Adat tárolás/feldolgozás**: MongoDB & MongoDB Aggregations.
 
-      - **Data API**: Node.js GraphQL API. 
+      - **Adat API**: Node.js GraphQL API.
 
-      - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app.
+      - **Eredmények oldala**: [Gatsby](https://www.gatsbyjs.com/) React alkalmazás.
 
-      - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
+      - **Adatvizualizáció**: [Nivo](https://nivo.rocks/) React dataviz library.
 
-      - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+      - **Betűtípusok**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) és [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
