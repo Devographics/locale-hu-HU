@@ -1,117 +1,117 @@
 # this list includes only the top ~50 countries in the world ranked by population,
 # we can add more countries if they appear in the survey. See full list below
-locale: en-US
+locale: hu-HU
 translations:
   - key: options.country.AFG
-    t: Afghanistan
+    t: Afganisztán
   - key: options.country.DZA
-    t: Algeria
+    t: Algéria
   - key: options.country.ARG
-    t: Argentina
+    t: Argentína
   - key: options.country.AUS
-    t: Australia
+    t: Ausztrália
   - key: options.country.AUT
-    t: Austria
+    t: Ausztria
   - key: options.country.BGD
-    t: Bangladesh
+    t: Banglades
   - key: options.country.BEL
     t: Belgium
   - key: options.country.BLR
-    t: Belarus
+    t: Fehérország
   - key: options.country.BRA
-    t: Brazil
+    t: Brazília
   - key: options.country.CAN
-    t: Canada
+    t: Kanada
   - key: options.country.CHE
-    t: Switzerland
+    t: Svájc
   - key: options.country.CHL
     t: Chile
   - key: options.country.CHN
-    t: China
+    t: Kína
   - key: options.country.COD
-    t: DR Congo
+    t: Kongói Demokratikus Köztársaság
   - key: options.country.COL
-    t: Colombia
+    t: Kolombia
   - key: options.country.CIV
-    t: Côte d'Ivoire
+    t: Elefántcsontpart
   - key: options.country.CZE
-    t: Czechia
+    t: Csehország
   - key: options.country.DNK
-    t: Denmark
+    t: Dánia
   - key: options.country.EGY
-    t: Egypt
+    t: Egyiptom
   - key: options.country.ETH
-    t: Ethiopia
+    t: Etiópia
   - key: options.country.FRA
-    t: France
+    t: Franciaország
   - key: options.country.DEU
-    t: Germany
+    t: Németország
   - key: options.country.GHA
-    t: Ghana
+    t: Ghána
   - key: options.country.GBR
-    t: United Kingdom
+    t: Egyesült Királyság
   - key: options.country.IND
     t: India
   - key: options.country.IDN
-    t: Indonesia
+    t: Indonézia
   - key: options.country.IRN
-    t: Iran
+    t: Irán
   - key: options.country.IRQ
-    t: Iraq
+    t: Irak
   - key: options.country.ITA
-    t: Italy
+    t: Olaszország
   - key: options.country.ISR
-    t: Israel
+    t: Izrael
   - key: options.country.JPN
-    t: Japan
+    t: Japán
   - key: options.country.KEN
     t: Kenya
   - key: options.country.KOR
-    t: South Korea
+    t: Dél-Korea
   - key: options.country.MEX
-    t: Mexico
+    t: Mexikó
   - key: options.country.MMR
-    t: Myanmar
+    t: Mianmar
   - key: options.country.NOR
-    t: Norway
+    t: Norvégia
   - key: options.country.NLD
-    t: Netherlands
+    t: Hollandia
   - key: options.country.NGA
-    t: Nigeria
+    t: Nigéria
   - key: options.country.NZL
-    t: New Zealand
+    t: Új-Zéland
   - key: options.country.POL
-    t: Poland
+    t: Lengyelország
   - key: options.country.PAK
-    t: Pakistan
+    t: Pakisztán
   - key: options.country.PHL
-    t: Philippines
+    t: Fülöp-szigetek
   - key: options.country.RUS
-    t: Russia
+    t: Oroszország
   - key: options.country.SAU
-    t: Saudi Arabia
+    t: Szaúd-Arábia
   - key: options.country.SGP
-    t: Singapore
+    t: Szingapúr
   - key: options.country.ZAF
-    t: South Africa
+    t: Dél-Afrika
   - key: options.country.ESP
-    t: Spain
+    t: Spanyolország
   - key: options.country.SWE
-    t: Sweden
+    t: Svédország
   - key: options.country.TZA
-    t: Tanzania
+    t: Tanzánia
   - key: options.country.THA
-    t: Thailand
+    t: Thaiföld
   - key: options.country.TUR
-    t: Turkey
+    t: Törökország
   - key: options.country.UGA
     t: Uganda
   - key: options.country.UKR
-    t: Ukraine
+    t: Ukrajna
   - key: options.country.USA
-    t: United States of America
+    t: Amerikai Egyesült Államok
   - key: options.country.VNM
-    t: Vietnam
+    t: Vietnám
 # from https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/slim-3/slim-3.json
 
 # - name: Afghanistan
