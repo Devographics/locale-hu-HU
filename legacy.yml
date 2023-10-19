@@ -1,4 +1,4 @@
-locale: en-US
+locale: hu-HU
 translations:
   ###########################################################################
   # General
@@ -72,168 +72,167 @@ translations:
   - key: general.translators
     t: Fordítók
   - key: general.translation_help
-    t: Translation Help
+    t: Segítség a fordításhoz
   - key: general.newly_added
-    t: Newly added this year
+    t: Újonnan hozzáadott idén
   - key: general.new
-    t: New
+    t: Új
   - key: general.devographics_banner
-    t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> is the new name of the collective running the State of JavaScript, CSS, and GraphQL surveys.
+    t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> az új név a State of JavaScript, CSS és GraphQL felmérések csoportja mögött.
 
   # credits
   - key: credits.thanks
-    t: Special Thanks
+    t: Külön köszönet
   - key: credits.contributors
-    t: Contributors
+    t: Közreműködők
   - key: credits.contributors.description
-    t: Special thanks to the following people for helping us design the survey.
+    t: Külön köszönet a következő embereknek, akik segítettek a felmérés tervezésében.
   - key: credits.accessibility
-    t: Accessibility Consulting
+    t: Akadálymentesítési tanácsadás
   - key: credits.survey_design
-    t: Survey Design
+    t: Felmérés tervezése
   - key: credits.logo_design
-    t: Logo Design
+    t: Logó tervezése
   - key: credits.mobile_testing
-    t: Mobile Testing
+    t: Mobiltesztelés
   - key: credits.data_visualizations
-    t: Data Visualizations
+    t: Adatvizualizációk
   - key: credits.repo_architecture
-    t: Repo Architecture
+    t: Repo architektúra
   - key: credits.code_refactoring
-    t: Code Refactoring
+    t: Kód refaktorálás
   - key: credits.data_processing
-    t: Data Processing
+    t: Adatfeldolgozás
 
   # support
   - key: general.support_from
-    t: With Support From
+    t: További támogatók
 
   # footer
   - key: general.privacy_policy
-    t: Privacy Policy
+    t: Adatvédelmi szabályzat
   - key: general.leave_issue
-    t: Questions? Found a bug? <a href="{link}" target="_blank">Leave an issue</a>.
+    t: Kérdésed van? Hibát találtál? <a href="{link}" target="_blank">Lépj velünk kapcsolatba</a>.
   - key: general.emoji_icons
-    t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+    t: Emotikonok az <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>-ról.
 
   # navigation
   - key: general.table_of_contents
-    t: Table of Contents
+    t: Tartalomjegyzék
   - key: general.all_questions_optional
     t: >
-      Note: all questions are optional, reaching 100% completion is not required.
+      Megjegyzés: a kérdések megválaszolása opcionális, a 100%-os kitöltöttség nem részvételi követelmény.
   - key: general.data_is_saved
-    t: Your data is saved whenever you navigate to the previous or next section.
+    t: Az adataid az előző/következő részekre való navigálások során mentésre kerülnek.
   - key: general.close_nav
-    t: Close menu
+    t: Menü bezárása
   - key: general.open_nav
-    t: Open menu
+    t: Menü megnyitása
   - key: general.more_actions
-    t: More actions
+    t: További opciók
   - key: general.skip_to_content
-    t: Skip to content
+    t: Ugrás a tartalomhoz
 
   # thanks
   - key: general.back
-    t: Back
+    t: Vissza
   - key: general.thanks
     t: >
-      Thanks for filling out the survey! Your data is saved.
+      Köszönjük, hogy kitöltötted a felmérést!  Az adataidat elmentettük.
 
 
-      Also, you can help us get the word out by sharing this survey. Every bit counts, and it'll help make our data even
-      more representative:
+      A felmérés megosztásával nagyban segítheted munkánkat. Minden kitöltés segít abban,
+      hogy reprezentatívabb képet kapjunk:
   - key: thanks.learn_more_about
-    t: "Some of the features you might want to learn more about:"
+    t: "Néhány funkció, amelyekről érdemes többet megtudni:"
   - key: thanks.knowledge_score
-    t: Knowledge Score
+    t: Tudáspontszám (Knowledge Score)
   - key: thanks.score_explanation
     t: >
-      You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
-      <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
-      puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-      of all respondents.
+      Hallottál már róla, vagy használtál már <span class="score-number score-number-known">{known}</span> a felmérésben említett összes
+      <span class="score-number score-number-total">{total}</span> funkcióból, ami a felmérésben szerepel. Ez a tudáspontszámod, ami a
+      <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span> helyre tesz a válaszadók között.
   - key: thanks.share_on_twitter
-    t: Share on Twitter
+    t: Megosztás Twitteren
   - key: thanks.share_score_message
     t: >
-      I got a {score}% knowledge score on this year's #{hashtag} survey! Take the survey here: {shareUrl}
+      Az idei #{hashtag} felmérésen {score}% pontot értem el! Töltsd ki a felmérést itt: {shareUrl}
   # share
   - key: general.share_subject
     t: >
-      {surveyName} survey
+      {surveyName} felmérés
   - key: general.share_text
     t: >
-      This year's {surveyName} survey is now open! {link}
+      Az idei {surveyName} felmérés megnyílt! {link}
 
   # forms
   - key: forms.select_option
-    t: Select option
+    t: Opció kiválasztása
   - key: forms.clear_field
-    t: Clear question
+    t: Kérdés törlése
 
   # partners
   - key: sponsors.our_partners
-    t: Our Partners
+    t: Partnereink
   - key: sponsors.become_partner
-    t: Become a partner
+    t: Legyél partner
 
   # 404
   - key: notfound.title
-    t: 404 Not Found
+    t: 404 Nem található
   - key: notfound.description
-    t: Sorry, we couldn't find what you were looking for.
+    t: Bocsi, a keresett oldalt nem találjuk.
 
   # other
   - key: general.join_discord
-    t: Join us on <a href="{link}">Discord</a>.
+    t: Csatlakozz hozzánk <a href="{link}">Discord</a>-on.
   - key: general.translator_mode
-    t: Press option/alt to enable translator mode.
+    t: Nyomd le az option/alt billentyűt, a fordító mód bekapcsolásához.
   - key: general.charts_nivo
-    t: Charts built with <a href="{link}">Nivo</a>.
+    t: Diagramjainkat <a href="{link}">Nivo</a>-val készítettük.
   - key: general.made_by_devographics
-    t: Made by <a href="{link}">Devographics</a>
+    t: Készült a <a href="{link}">Devographics</a> által
 
   ###########################################################################
   # Nav
   ###########################################################################
 
   - key: nav.surveys
-    t: Surveys
+    t: Felmérések
   - key: nav.account
-    t: Account
+    t: Fiók
 
   ###########################################################################
   # Sections
   ###########################################################################
 
   - key: sections.user_info.title
-    t: About You
+    t: Rólad
   - key: sections.user_info.description
-    t: Let's get to know the real you.
+    t: Ismerjük meg az igazi éned.
 
   - key: sections.features.title
-    t: Features
+    t: Funkciók
   - key: sections.features.description
-    t: Syntax, keywords, and other language features.
+    t: Szintaxis, kulcsszavak és egyéb nyelvi tulajdonságok.
 
   - key: sections.resources.title
-    t: Resources
+    t: Források
   - key: sections.resources.description
-    t: What {topic} resources do you consult?
+    t: Milyen {topic} forrásokat olvasol?
 
   - key: sections.opinions.title
-    t: Opinions
+    t: Vélemények
   - key: sections.opinions.description
-    t: How do you feel about the state of {topic}?
+    t: Mit gondolsz a(z) {topic} állapotáról?
 
   - key: sections.other_tools.title
-    t: Other Tools
+    t: További eszközök
   - key: sections.other_tools.description
-    t: For these tools & technologies, just check the ones that you use regularly.
+    t: Válaszd ki azokat az eszközöket, technológiákat, melyeket rendszeresen használsz.
 
   - key: sections.report.title
-    t: Trend Report
+    t: Trend jelentés
 
   ###########################################################################
   # Options
@@ -241,19 +240,19 @@ translations:
 
   # features
   - key: options.features.never_heard
-    t: <span aria-hidden="true">🤷</span> Never heard of it/Not sure what it is
+    t: <span aria-hidden="true">🤷</span> Nem hallottam még róla/Nem vagyok benne biztos, hogy ez mi
   - key: options.features.heard
-    t: <span aria-hidden="true">✅</span> Know what it is, but haven't used it
+    t: <span aria-hidden="true">✅</span> Ismerem, de még nem használtam
   - key: options.features.used
-    t: <span aria-hidden="true">👍</span> I've used it
+    t: <span aria-hidden="true">👍</span> Már használtam
 
   # features (no emoji)
   - key: options.features.never_heard.label
-    t: Never heard of it/Not sure what it is
+    t: Nem hallottam még róla/Nem vagyok benne biztos, hogy ez mi
   - key: options.features.heard.label
-    t: Know what it is, but haven't used it
+    t: Ismerem, de még nem használtam
   - key: options.features.used.label
-    t: I've used it
+    t: Már használtam
 
   # features (short versions)
   # - key: options.features.never_heard.short
@@ -265,115 +264,115 @@ translations:
 
   # patterns
   - key: options.patterns.use_never
-    t: Almost always avoid
+    t: Majdnem mindig elkerülöm
   - key: options.patterns.use_sparingly
-    t: Use sparingly
+    t: Néha használom
   - key: options.patterns.use_neutral
-    t: Neutral
+    t: Semleges
   - key: options.patterns.use_frequently
-    t: Use frequently
+    t: Gyakran használom
   - key: options.patterns.use_always
-    t: Use as much as I can
+    t: Annyit használom, amennyit csak tudom
 
   # tools experience
   - key: options.tools.never_heard
-    t: <span aria-hidden="true">🤷</span> Never heard of it/Not sure what it is
+    t: <span aria-hidden="true">🤷</span> Nem hallottam még róla/Nem vagyok benne biztos, hogy ez mi
   - key: options.tools.interested
-    t: <span aria-hidden="true">✅</span> Heard of it > Would like to learn
+    t: <span aria-hidden="true">✅</span> Hallottam róla > Meg szeretném tanulni
   - key: options.tools.not_interested
-    t: <span aria-hidden="true">🚫</span> Heard of it > Not interested
+    t: <span aria-hidden="true">🚫</span> Hallottam róla > Nem érdekel
   - key: options.tools.would_use
-    t: <span aria-hidden="true">👍</span> Used it > Would use again
+    t: <span aria-hidden="true">👍</span> Már használtam > Újra használnám
   - key: options.tools.would_not_use
-    t: <span aria-hidden="true">👎</span> Used it > Would not use again
+    t: <span aria-hidden="true">👎</span> Már használtam > Nem használnám újra
 
   # tools experience (no emoji)
   - key: options.tools.never_heard.legend
-    t: Never heard of it/Not sure what it is
+    t: Nem hallottam még róla/Nem vagyok benne biztos, hogy ez mi
   - key: options.tools.interested.legend
-    t: Heard of it > Would like to learn
+    t: Hallottam róla > Meg szeretném tanulni
   - key: options.tools.not_interested.legend
-    t: Heard of it > Not interested
+    t: Hallottam róla > Nem érdekel
   - key: options.tools.would_use.legend
-    t: Used it > Would use again
+    t: Már használtam > Újra használnám
   - key: options.tools.would_not_use.legend
-    t: Used it > Would not use again
+    t: Már használtam > Nem használnám újra
 
   # tools experience (short versions)
   - key: options.tools.never_heard.short
-    t: Never heard
+    t: Sose hallottam róla
   - key: options.tools.interested.short
-    t: Interested
+    t: Érdekel
   - key: options.tools.not_interested.short
-    t: Not interested
+    t: Nem érdekel
   - key: options.tools.would_use.short
-    t: Would use again
+    t: Újra használnám
   - key: options.tools.would_not_use.short
-    t: Would not use
+    t: Nem használnám
 
   # happiness
   - key: options.happiness.0
-    t: Very Unhappy
+    t: Nagyon nem vagyok vele megelégedve
   - key: options.happiness.1
-    t: Unhappy
+    t: Nem vagyok vele megelégedve
   - key: options.happiness.2
-    t: Neutral
+    t: Semleges
   - key: options.happiness.3
-    t: Happy
+    t: Meg vagyok vele elégedve
   - key: options.happiness.4
-    t: Very Happy
+    t: Nagyon meg vagyok vele elégedve
 
   # happiness (short version)
   - key: options.happiness.0.short
-    t: Very Unhappy
+    t: Nagyon nem vagyok vele megelégedve
   - key: options.happiness.1.short
-    t: Unhappy
+    t: Nem vagyok vele megelégedve
   - key: options.happiness.2.short
-    t: Neutral
+    t: Semleges
   - key: options.happiness.3.short
-    t: Happy
+    t: Meg vagyok vele elégedve
   - key: options.happiness.4.short
-    t: Very Happy
+    t: Nagyon meg vagyok vele elégedve
 
   # opinions
   - key: options.opinions.0
-    t: Disagree Strongly
+    t: Erősen ellenzem
   - key: options.opinions.1
-    t: Disagree
+    t: Ellenzem
   - key: options.opinions.2
-    t: Neutral
+    t: Semleges
   - key: options.opinions.3
-    t: Agree
+    t: Egyetértek
   - key: options.opinions.4
-    t: Agree Strongly
+    t: Erősen egyetértek
 
   # age
   - key: options.age.range_less_than_10
-    t: 10 years old or under
+    t: 10 év alatt
   - key: options.age.range_10_18
-    t: 11-18 years old
+    t: 10-18 év között
   - key: options.age.range_18_24
-    t: 19-24 years old
+    t: 18-24 év között
   - key: options.age.range_25_34
-    t: 25-34 years old
+    t: 24-34 év között
   - key: options.age.range_35_44
-    t: 35-44 years old
+    t: 35-44 év között
   - key: options.age.range_45_54
-    t: 45-54 years old
+    t: 45-54 év között
   - key: options.age.range_55_64
-    t: 55-64 years old
+    t: 55-64 év között
   - key: options.age.range_more_than_65
-    t: 65 years or older
+    t: 65 év vagy afölött
 
   # age (short versions)
   - key: options.age.range_less_than_10.short
-    t: "<=10"
+    t: "<10"
   - key: options.age.range_10_18.short
-    t: 11-18
+    t: 10-18
   - key: options.age.range_18_24.short
-    t: 19-24
+    t: 18-24
   - key: options.age.range_25_34.short
-    t: 25-34
+    t: 24-34
   - key: options.age.range_35_44.short
     t: 35-44
   - key: options.age.range_45_54.short
@@ -385,49 +384,49 @@ translations:
 
   # years of experience
   - key: options.years_of_experience.range_less_than_1
-    t: Less than one year
+    t: Kevesebb, mint egy év
   - key: options.years_of_experience.range_1_2
-    t: 1 to 2 years
+    t: 1 és 2 év között
   - key: options.years_of_experience.range_2_5
-    t: 3 to 5 years
+    t: 2 és 5 év között
   - key: options.years_of_experience.range_5_10
-    t: 6 to 10 years
+    t: 5 és 10 év között
   - key: options.years_of_experience.range_10_20
-    t: 11 to 20 years
+    t: 10 és 20 év között
   - key: options.years_of_experience.range_more_than_20
-    t: More than 20 years
+    t: Több, mint 20 év
 
   # years of experience (short versions)
   - key: options.years_of_experience.range_less_than_1.short
-    t: "<1 years"
+    t: "<1 év"
   - key: options.years_of_experience.range_1_2.short
-    t: 1-2 years
+    t: 1-2 év
   - key: options.years_of_experience.range_2_5.short
-    t: 3-5 years
+    t: 2-5 év
   - key: options.years_of_experience.range_5_10.short
-    t: 6-10 years
+    t: 5-10 év
   - key: options.years_of_experience.range_10_20.short
-    t: 11-20 years
+    t: 10-20 év
   - key: options.years_of_experience.range_more_than_20.short
-    t: ">20 years"
+    t: ">20 év"
 
   # company size
-  - key: options.company_size.range_1
-    t: One employee
+- key: options.company_size.range_1
+    t: Egy alkalmazott
   - key: options.company_size.range_1_5
-    t: 2 to 5 employees
+    t: 1 és 5 alkalmazott között
   - key: options.company_size.range_5_10
-    t: 6 to 10 employees
+    t: 5 és 10 alkalmazott között
   - key: options.company_size.range_10_20
-    t: 11 to 20 employees
+    t: 10 és 20 alkalmazott között
   - key: options.company_size.range_20_50
-    t: 21 to 50 employees
+    t: 20 és 50 alkalmazott között
   - key: options.company_size.range_50_100
-    t: 51 to 100 employees
+    t: 50 és 100 alkalmazott között
   - key: options.company_size.range_100_1000
-    t: 101 to 1000 employees
+    t: 100 és 1000 alkalmazott között
   - key: options.company_size.range_more_than_1000
-    t: More than 1000 employees
+    t: Több, mint 1000 alkalmazott
 
   # company size (short versions)
   - key: options.company_size.range_1.short
@@ -435,21 +434,21 @@ translations:
   - key: options.company_size.range_1_5.short
     t: 1-5
   - key: options.company_size.range_5_10.short
-    t: 6-10
+    t: 5-10
   - key: options.company_size.range_10_20.short
-    t: 11-20
+    t: 10-20
   - key: options.company_size.range_20_50.short
-    t: 21-50
+    t: 20-50
   - key: options.company_size.range_50_100.short
-    t: 51-100
+    t: 50-100
   - key: options.company_size.range_100_1000.short
-    t: 101-1000
+    t: 100-1000
   - key: options.company_size.range_more_than_1000.short
     t: ">1000"
 
   # salary
   - key: options.yearly_salary.range_work_for_free
-    t: I work for free
+    t: Ingyen dolgozom
   - key: options.yearly_salary.range_0_10
     t: $0k-$10k
   - key: options.yearly_salary.range_10_30
@@ -461,7 +460,7 @@ translations:
   - key: options.yearly_salary.range_100_200
     t: $100k-$200k
   - key: options.yearly_salary.range_more_than_200
-    t: More than $200k
+    t: Több, mint $200k
 
   # salary (short versions)
   - key: options.yearly_salary.range_work_for_free.short
@@ -481,328 +480,330 @@ translations:
 
   # Proficiency (generic versions)
   - key: options.proficiency.0
-    t: None
+    t: Nincs
   - key: options.proficiency.1
-    t: Beginner
+    t: Kezdő
   - key: options.proficiency.2
-    t: Intermediate
+    t: Középfokú
   - key: options.proficiency.3
-    t: Advanced
+    t: Haladó
   - key: options.proficiency.4
-    t: Expert
+    t: Szakértő
 
   # Gender
 
   - key: options.gender.female
-    t: Woman
+    t: Nő
   - key: options.gender.male
-    t: Man
+    t: Férfi
   - key: options.gender.non_binary
-    t: Non-Binary or Gender Non-Conforming
+    t: Nem bináris vagy nemi nonkonformista
   - key: options.gender.questioning
-    t: Questioning
+    t: Kérdőjeles
   - key: options.gender.prefer_not_to_say
-    t: Prefer Not to Say
+    t: Nem szeretném megosztani
   - key: options.gender.not_listed
-    t: Not Listed
+    t: Nincs felsorolva
 
   # Gender (short)
 
   - key: options.gender.female.short
-    t: Woman
+    t: Nő
   - key: options.gender.male.short
-    t: Man
+    t: Férfi
   - key: options.gender.non_binary.short
-    t: Non-Binary or GNC
+    t: Nem bináris vagy NNK
   - key: options.gender.questioning.short
-    t: Questioning
+    t: Kérdőjeles
   - key: options.gender.prefer_not_to_say.short
-    t: Prefer Not to Say
+    t: Nem szeretném megosztani
   - key: options.gender.not_listed.short
-    t: Not Listed
+    t: Nincs felsorolva
 
   # Race & Ethnicity
 
   - key: options.race_ethnicity.white_european
-    t: White
+    t: Fehér
   - key: options.race_ethnicity.south_asian
-    t: South Asian
+    t: Dél-ázsiai
   - key: options.race_ethnicity.south_east_asian
-    t: South East Asian
+    t: Délkelet-ázsiai
   - key: options.race_ethnicity.hispanic_latin
-    t: Hispanic or Latino/Latina/Latinx
+    t: Spanyol vagy latin
   - key: options.race_ethnicity.east_asian
-    t: East Asian
+    t: Kelet-ázsiai
   - key: options.race_ethnicity.middle_eastern
-    t: Middle Eastern
+    t: Középkeleti
   - key: options.race_ethnicity.black_african
-    t: Black or of African descent
+    t: Fekete vagy ázsiai származású
   - key: options.race_ethnicity.multiracial
-    t: Multiracial
+    t: Többnemzetiségű
   - key: options.race_ethnicity.biracial
-    t: Biracial
+    t: Kétnemzetiségű
   - key: options.race_ethnicity.native_american_islander_australian
-    t: Native American, Pacific Islander, or Indigenous Australian
+    t: Amerikai őslakos, csendes-óceáni szigetlakó vagy ausztrál őslakos
   - key: options.race_ethnicity.not_listed
-    t: Not listed
+    t: Nincs felsorolva
 
   # Race & Ethnicity (short)
 
   - key: options.race_ethnicity.white_european.short
-    t: White
+    t: Fehér
   - key: options.race_ethnicity.south_asian.short
-    t: South Asian
+    t: Dél-ázsiai
   - key: options.race_ethnicity.south_east_asian.short
-    t: SE Asian
+    t: DK-ázsiai
   - key: options.race_ethnicity.hispanic_latin.short
-    t: Hispanic/Latin
+    t: Spanyol vagy latin
   - key: options.race_ethnicity.east_asian.short
-    t: East Asian
+    t: Kelet-ázsiai
   - key: options.race_ethnicity.middle_eastern.short
-    t: Middle Eastern
+    t: Közel-keleti
   - key: options.race_ethnicity.black_african.short
-    t: Black/African Descent
+    t: Fekete/afrikai származású
   - key: options.race_ethnicity.multiracial.short
-    t: Multiracial
+    t: Többnemzetiségű
   - key: options.race_ethnicity.biracial.short
-    t: Biracial
+    t: Kétnemzetiségű
   - key: options.race_ethnicity.native_american_islander_australian.short
-    t: Native American/Pacific Islander/Indigenous Australian
+    t: Amerikai őslakos/csendes-óceáni szigetlakó/ausztrál őslakos
   - key: options.race_ethnicity.not_listed.short
-    t: Not listed
+    t: Nincs felsorolva
 
   # Disability Status
   - key: options.disability_status.visual_impairments
     t: >
-      Visual impairments (such as: blindness, color blindness, etc.)
+      Látási nehézségek (mint a vakság, színvakság, stb.)
   - key: options.disability_status.hearing_impairments
     t: >
-      Hearing impairments (such as: deafness, tinnitus, etc.)
+      Hallási nehézségek (mint a süketség, fülzúgás, stb.)
   - key: options.disability_status.mobility_impairments
     t: >
-      Mobility impairments (such as: arthritis, carpal tunnel, etc.)
+      Mozgási nehézségek (mint az ízületi gyulladás, ínhüvelygyulladás, stb.)
   - key: options.disability_status.cognitive_impairments
     t: >
-      Cognitive impairments (such as: anxiety, dyslexia, etc.)
+      Kognitív nehézségek (mint a szorongás, dislexia, stb.)
   - key: options.disability_status.not_listed
     t: >
-      Not Listed
+      Nincs felsorolva
 
   # Disability Status (short)
-  - key: options.disability_status.visual_impairments
+  - key: options.disability_status.visual_impairments.short
     t: >
-      Visual impairments
-  - key: options.disability_status.hearing_impairments
+      Látási nehézségek
+  - key: options.disability_status.hearing_impairments.short
     t: >
-      Hearing impairments
-  - key: options.disability_status.mobility_impairments
+      Hallási nehézségek
+  - key: options.disability_status.mobility_impairments.short
     t: >
-      Mobility impairments
-  - key: options.disability_status.cognitive_impairments
+      Mozgási nehézségek
+  - key: options.disability_status.cognitive_impairments.short
     t: >
-      Cognitive impairments
-  - key: options.disability_status.not_listed
+      Kognitív nehézségek
+  - key: options.disability_status.not_listed.short
     t: >
-      Not Listed
+      Nincs felsorolva
 
   # Form Factors
   - key: options.form_factors.desktop
-    t: Desktop
+    t: Asztali számítógép
   - key: options.form_factors.keyboard_only
-    t: Desktop with keyboard only
+    t: Asztali számítógép csak billentyűzettel
   - key: options.form_factors.smartphone
-    t: Smartphone
+    t: Okostelefon
   - key: options.form_factors.feature_phone
-    t: Feature phone
+    t: Hagyományos mobiltelefon
   - key: options.form_factors.tablet
     t: Tablet
   - key: options.form_factors.smart_watch
-    t: Smartwatch
+    t: Okosóra
   - key: options.form_factors.tv
     t: TV
   - key: options.form_factors.gaming_console
-    t: Gaming console
+    t: Játékkonzol
   - key: options.form_factors.screen_reader
-    t: Screen reader
+    t: Képernyőolvasó
   - key: options.form_factors.print
-    t: Print
+    t: Nyomtató
   - key: options.form_factors.testing_tools
-    t: Testing Tools (Axe, Lighthouse, etc.)
+    t: Tesztelői eszközök (Axe, Lighthouse, stb.)
   - key: options.form_factors.vision_simulator
-    t: Altered Vision Simulator (color blindness, etc.)
+    t: Alternatív látás szimulátor (színvakság, stb.)
 
   # Industry Sector
   - key: options.industry_sector.ecommerce
-    t: Ecommerce & Retail
+    t: E-kommersz & kiskereskedelem
   - key: options.industry_sector.news_media
-    t: News, Media, & Blogging
+    t: Hírek, média & blogolás
   - key: options.industry_sector.healthcare
-    t: Healthcare
+    t: Egészségügy
   - key: options.industry_sector.finance
-    t: Finance
+    t: Pénzügy
   - key: options.industry_sector.programming_tools
-    t: Programming & Technical Tools
+    t: Programozási & technikai eszközök
   - key: options.industry_sector.socialmedia
-    t: Social Media
+    t: Közösségi média
   - key: options.industry_sector.marketing_tools
-    t: Marketing/Sales/Analytics Tools
+    t: Marketing/eladás/analitikai eszközök
   - key: options.industry_sector.education
-    t: Education
+    t: Oktatás
   - key: options.industry_sector.real_estate
-    t: Real Estate
+    t: Ingatlan
   - key: options.industry_sector.government
-    t: Government
+    t: Kormányzati
   - key: options.industry_sector.entertainment
-    t: Entertainment
+    t: Szórakoztatás
   - key: options.industry_sector.consulting
-    t: Consulting & Services
+    t: Konzultáció és szolgáltatások
   - key: options.industry_sector.travel
-    t: Travel
+    t: Utazás
+  - key: options.industry_sector.tourism
+    t: Turizmus
   - key: options.industry_sector.insurance
-    t: Insurance
+    t: Biztosítás
   - key: options.industry_sector.logistics
-    t: Logistics
+    t: Logisztika
   - key: options.industry_sector.energy
-    t: Energy
+    t: Energia
   - key: options.industry_sector.telecommunications
-    t: Telecommunications
+    t: Telekommunikáció
   - key: options.industry_sector.student
-    t: Student
+    t: Tanuló
   - key: options.industry_sector.hospitality
-    t: Hospitality
+    t: Vendéglátás
   - key: options.industry_sector.cyber_security
-    t: Cyber Security
+    t: Kiberbiztonság
   - key: options.industry_sector.construction
-    t: Construction
+    t: Építőipar
   - key: options.industry_sector.automotive
-    t: Automotive
+    t: Autóipar
   - key: options.industry_sector.agriculture
-    t: Agriculture
+    t: Mezőgazdaság
   - key: options.industry_sector.transport
-    t: Transport
+    t: Szállítmányozás
   - key: options.industry_sector.manufacturing
-    t: Manufacturing
+    t: Gyártás
 
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
-    t: Documentation
+    t: Dokumentáció
   - key: options.tool_evaluation.learning_curve_documentation.description
-    t: Is it easy to learn and/or well-documented?
+    t: Könnyü megtanulni és/vagy jól dokumentált?
   - key: options.tool_evaluation.momentum_popularity
-    t: Hype & Momentum
+    t: Felhajtás & lendület
   - key: options.tool_evaluation.momentum_popularity.description
-    t: Is it currently generating a lot of buzz?
+    t: Nagy a hűhó épp körülötte?
   - key: options.tool_evaluation.user_base_size
-    t: User Base Size
+    t: A felhasználók száma
   - key: options.tool_evaluation.user_base_size.description
-    t: Is it a well-established option with a long track record?
+    t: Széles körben elfogadott és használt?
   - key: options.tool_evaluation.developer_experience_tooling
-    t: Developer Experience
+    t: A fejlesztői élmény
   - key: options.tool_evaluation.developer_experience_tooling.description
-    t: Does it have good developer tools, a large plugin ecosystem, etc.?
+    t: Vannak jó fejlesztői eszközei, sok a plugin, stb.?
   - key: options.tool_evaluation.performance_user_experience
-    t: User Experience
+    t: A felhasználó élmény
   - key: options.tool_evaluation.performance_user_experience.description
-    t: Does it help you create smooth, performant user experiences?
+    t: Segít egy jól működő, gyors, letiszult felhasználói élményt teremteni?
   - key: options.tool_evaluation.creator_team
-    t: Creator & Team
+    t: Alkotó & a csapat
   - key: options.tool_evaluation.creator_team.description
-    t: Is it backed by a well-known, well-funded, or experienced team?
+    t: Egy jól ismert, jól finanszírozott és tapasztalt csapat csinálta?
   - key: options.tool_evaluation.accessibility_features
-    t: Accessibility Features
+    t: Akadálymentes funkciók
   - key: options.tool_evaluation.accessibility_features.description
-    t: Is it good at creating accessible experiences for all users?
+    t: Jó az akadálymentes funkciókban, ami mindenki számára elérhetővé teszi?
   - key: options.tool_evaluation.community_inclusivity
-    t: Community & Inclusivity
+    t: Közösség & befogadás
   - key: options.tool_evaluation.community_inclusivity.description
-    t: Does it have a welcoming, vibrant community built around it?
+    t: Egy élénk, befogadó közösség gyűlt köré?
 
   # accessibility features
   - key: options.accessibility_features.keyboard_navigation
-    t: Keyboard navigation
+    t: Navigálás billentyűzettel
   - key: options.accessibility_features.compliant_contrast
-    t: WCAG-compliant contrast
+    t: WCAG-nak megfelelő kontraszt
   - key: options.accessibility_features.focus_indicators
-    t: Focus indicators
+    t: Fókuszindikátorok
   - key: options.accessibility_features.skip_to_content_link
-    t: Skip-to-content link
+    t: Ugrás-a-tartalomhoz link
   - key: options.accessibility_features.color_themes
-    t: Color themes (dark mode, high-contrast mode, etc.)
+    t: Színtémák (sötét mód, magas kontraszt mód, stb.)
   - key: options.accessibility_features.prefers_reduced_motion
-    t: Prefers-reduced-motion
+    t: A kevesebb mozgatást preferálja (prefers-reduced-motion)
   - key: options.accessibility_features.alt_text
-    t: Alt texts
+    t: Alternatív szöveg (alt text)
   - key: options.accessibility_features.semantic_markup
-    t: Semantic markup
+    t: Szemantikus leírás (semantic markup)
   - key: options.accessibility_features.aria_attributes
-    t: ARIA HTML attributes
+    t: ARIA HTML attribútumok
 
   # learning methods
   - key: options.first_steps.books
-    t: Books
+    t: Könyvek
   - key: options.first_steps.videos
-    t: Videos & screencasts
+    t: Videók & képernyőfelvételek
   - key: options.first_steps.school
-    t: School & higher education
+    t: Iskola & magasabbfokú végzettség
   - key: options.first_steps.courses_free
-    t: Online courses (free)
+    t: Online kurzusok (ingyenes)
   - key: options.first_steps.courses_paid
-    t: Online courses (paid)
+    t: Online kurzusok (fizetett)
   - key: options.first_steps.podcasts
-    t: Podcasts
+    t: Podcastok
   - key: options.first_steps.bootcamp
-    t: Coding bootcamp
+    t: Kódolós tanfolyamok
   - key: options.first_steps.on_the_job
-    t: On-the-job training
+    t: Tanulás a munka közben
   - key: options.first_steps.self_directed
-    t: Self-directed learning (Google, Stack Overflow, etc.)
+    t: Öntanítás (Google, Stack Overflow, stb.)
   - key: options.first_steps.mentoring
-    t: Mentoring
+    t: Mentorálás
 
   # degree
   - key: options.higher_education_degree.no_degree
-    t: No
+    t: Nem
   - key: options.higher_education_degree.yes_related
-    t: Yes, in a field related to my current profession
+    t: Igen, ugyanazon a területen, ahol dolgozom
   - key: options.higher_education_degree.yes_unrelated
-    t: Yes, but in a field unrelated to my current profession
+    t: Igen, de egy másik területen, mint ahol dolgozom
 
   # degree (short versions)
   - key: options.higher_education_degree.no_degree.short
-    t: No
+    t: Nem
   - key: options.higher_education_degree.yes_related.short
-    t: Yes, related field
+    t: Igen, ugyanazon a területet
   - key: options.higher_education_degree.yes_unrelated.short
-    t: Yes, unrelated field
+    t: Igen, másik területen
 
   # bracket
   - key: options.bracket.round1
-    t: Round 1 wins
+    t: Az 1. kör nyertesei
   - key: options.bracket.round2
-    t: Round 2 wins
+    t: A 2. kör nyertesei
   - key: options.bracket.round3
-    t: Round 3 wins
+    t: A 3. kör nyertesei
   - key: options.bracket.combined
-    t: Combined
+    t: Összesítés
 
   # email_temporary (receive updates?)
   - key: options.receive_notifications.yes
-    t: Yes, email me when the survey results are published
+    t: Igen, küldjetek emailt amikor kész vannak az eredmények
 
   ###########################################################################
   # Tools
   ###########################################################################
 
   - key: tools.other_tools
-    t: Other Options
+    t: Egyéb opciók
   - key: tools.other_tools.description
-    t: Other options you use for the current section not mentioned in the list above.
+    t: Egyéb opciók, amiket ebben a szekcióban használsz, és nincs benne a fenti listában.
   - key: tools.happiness
-    t: Overall Happiness
+    t: Összesített megelégedettség
   - key: tools.happiness.description
     t: >
-      On a scale of one (very unhappy) to five (very happy), how happy are
-      you with the current overall state of things as it relates to the options listed above?
+      Egy 1-től (nagyon nem vagyok megelégedve) 5-ig (nagyon meg vagyok elégedve) futó skálán, mennyire vagy megelégedve
+      a fenti listában lévő opciók jelenlegi állapotával?
 
   ###########################################################################
   # Demographics (About You/User Info)
@@ -810,216 +811,216 @@ translations:
 
   # age
   - key: user_info.age
-    t: Age
+    t: Életkor
   - key: user_info.age.description
-    t: How old are you, in years?
+    t: Hány éves vagy?
 
   # years of experience
   - key: user_info.years_of_experience
-    t: Years of Experience
+    t: Tapasztalati évek száma
   - key: user_info.years_of_experience.description
-    t: How long have you been working or studying in this field, in years?
+    t: Hány éve dolgozol vagy tanulsz ezen a területen?
 
   # company size
   - key: user_info.company_size
-    t: Company Size
+    t: Cég mérete
   - key: user_info.company_size.description
-    t: How big is your company, in number of employees?
+    t: Hányan dolgoznak a cégedben?
 
   # salary ranges
   - key: user_info.yearly_salary
-    t: Yearly Salary
+    t: Éves fizetés
   - key: user_info.yearly_salary.description
-    t: Your yearly salary in U.S. dollar.
+    t: Az éves fizetésed Amerikai dollárban (USD).
 
   # job title
   - key: user_info.job_title
-    t: Job Title
+    t: Munkaköri beosztás
   - key: user_info.job_title.description
-    t: How do you introduce yourself to others?
+    t: Hogyan mutatkozol be másoknak?
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
-    t: JavaScript Proficiency
+    t: JavaScript jártasság
   - key: user_info.javascript_proficiency.description
-    t: How proficient are you at JavaScript?
+    t: Mennyire vagy jártas a JavaScript-ben?
 
   # css proficiency
   - key: user_info.css_proficiency
-    t: CSS Proficiency
+    t: CSS jártasság
   - key: user_info.css_proficiency.description
-    t: How proficient are you at CSS?
+    t: Mennyire vagy jártas a CSS-ben?
 
   # backend proficiency
   - key: user_info.backend_proficiency
-    t: Back-end Proficiency
+    t: Back-end jártasság
   - key: user_info.backend_proficiency.description
-    t: How proficient are you at back-end development?
+    t: Mennyire vagy jártas a back-end fejlesztésben?
 
   # gender
   - key: user_info.gender
-    t: Gender
+    t: Nem
   - key: user_info.gender.description
     t: >
-      Which of the following options describes you, if any? Please pick one.
+      Ezek közül melyik illik rád a legjobban? Kérlek válassz egyet.
   - key: user_info.gender.note
     t: >
-      While we know collecting and publishing diversity data can be a sensitive issue, 
-      we do think it's important to obtain this data to help measure and improve 
-      the survey's efforts in terms of inclusivity and representativeness.
+      Habár a diverzitással foglalkozó adatok érzékenyek lehetnek, mi úgy gondoljuk, hogy
+      fontos, hogy összegyűjtsük ezeket az adatokat, hogy lássuk (és tudjunk rajta javítani), 
+      hogy mennyire befogadó és reprezentatív ez a felmérés.
 
   # race & ethnicity
   - key: user_info.race_ethnicity
-    t: Race & Ethnicity
+    t: Rassz & nemzetiség
   - key: user_info.race_ethnicity.description
     t: >
-      Which of the following options describe you, if any? Please check all that apply.
+      Ezek közül melyik illik rád a legjobban? Kérlek válassz egyet.
   - key: user_info.race_ethnicity.note
     t: >
-      While we know collecting and publishing diversity data can be a sensitive issue, 
-      we do think it's important to obtain this data to help measure and improve 
-      the survey's efforts in terms of inclusivity and representativeness.
+      Habár a diverzitással foglalkozó adatok érzékenyek lehetnek, mi úgy gondoljuk, hogy
+      fontos, hogy összegyűjtsük ezeket az adatokat, hogy lássuk (és tudjunk rajta javítani), 
+      hogy mennyire befogadó és reprezentatív ez a felmérés.
   - key: user_info.race_ethnicity.not_allowed
     t: >
-      In order to comply with local policies, the collection of race or ethnicity data has
-        been disabled for your country or region.
+      A helyi irányelveknek való megfelelés érdekében a faji vagy etnikai hovatartozásra vonatkozó adatok gyűjtése 
+      le van tiltva az Ön országában vagy régiójában.
 
   # disability status
   - key: user_info.disability_status
-    t: Disability Status
+    t: Fogyatékossági helyzet
   - key: user_info.disability_status.description
     t: >
-      Which of the following disabilities do you experience, if any? Please check all that apply.
-      Note that this can include temporary disabilities or injuries.
+      Ezek közül melyikeket szoktad tapasztalni, ha bármelyiket is? Kérlek válaszd ki az összeset, ami rádillik.
+      Ebbe az ideiglenes fogyatákosságok vagy sérülések is beletartozhatnak.
 
   # disability status (other)
   - key: user_info.disability_status.others
-    t: Other Disabilities
+    t: Egyéb fogyatékosságok
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
-    t: How did you find out about this survey?
+    t: Hogyan találtad meg ezt a felmérést?
   - key: user_info.email
-    t: Your Email
+    t: A felhasználói email
   - key: user_info.email.description
     t: >
-      You have filled out the survey anonymously. If you'd like, you can optionally enter your email to be able to access your data later on, and be notified when the survey results are published.
+      Névtelenül töltötted ki ezt a kérdőívet. Ha szeretnéd, megadhatod e-mail címedet, hogy később hozzáférhess adataidhoz, és értesítést kapj a felmérés eredményeinek közzétételéről.
   - key: user_info.email.note
     t: >
-      We do not store any personal data, so after you fill in your email address we will use it to generate a unique anonymized identifier and then delete the address itself from our records.
+      Személyes adatot nem tárolunk, így az e-mail cím megadását követően egyedi, anonimizált azonosítót generálunk, majd magát a címet töröljük nyilvántartásunkból.
   - key: user_info.country
-    t: Country or Region
+    t: Az országod és a régiód
   - key: user_info.country.description
-    t: Where do you currently reside?
+    t: Hol laksz jelen pillanatban?
 
   - key: user_info.github_username
-    t: Your GitHub Username
+    t: A GitHub felhasználói neved
   - key: user_info.github_username.description
     t: >
-      We might use GitHub usernames in the future to look at
-      repos and cross-reference publicly available information.
+      A jövőben lehet, hogy felhasználjuk a GibHub felhasználói nevedet arra,
+      hogy megnézzük a repoidat és összevessünk nyilvánosan elérhető adatokat.
 
   - key: user_info.twitter_username
-    t: Your Twitter Username
+    t: A Twitter felhasználói neved
   - key: user_info.twitter_username.description
     t: >
-      We might use Twitter usernames in the future to look at
-      Twitter activity and cross-reference publicly available information
-       (such as the list of people you're following).
+      A jövőben lehet, hogy felhasználjuk a Twitter felhasználói nevedet arra,
+      hogy megnézzük a Twitter aktivitásodat és összevessünk nyilvánosan elérhető adatokat
+       (például, hogy kiket követsz).
 
   - key: user_info.industry_sector
-    t: Industry Sector
+    t: Iparág
   - key: user_info.industry_sector.description
-    t: Which industry sector(s) do you work in?
+    t: Mely iparágban/iparágakban dolgozol?
   - key: user_info.industry_sector.others
-    t: Other Industry Sectors
+    t: Más iparágak
   - key: user_info.industry_sector.others.description
-    t: Other industry sector(s) you work in not mentioned above.
+    t: Egyéb iparágak, amikben dolgozol, és nincsenek fentebb felsorolva.
 
   # degree
   - key: user_info.higher_education_degree
-    t: Higher Education Degree
+    t: Magasabb végzettség
   - key: user_info.higher_education_degree.description
-    t: Do you have a higher education degree?
+    t: Van magasabb végzettséged?
 
   # email_temporary (receive updates?)
   - key: user_info.receive_notifications
-    t: Do you want to be notified when the survey results are released?
+    t: Szeretnél értesítést kapni a felmérés eredményeinek közzétételéről?
   - key: user_info.receive_notifications.note
     t: >
-      We don't store any private data, so after your email address is sent to our 
-      mailing list provider it will be deleted from our own records.
+      Személyes adatokat nem tárolunk, így az e-mail címed a levelezőlista szolgáltatójához való elküldése után
+      törlődik a saját nyilvántartásunkból.
 
   # how can we improve the survey?
   - key: user_info.how_can_we_improve
-    t: How could we improve this survey?
+    t: Hogyan tudnánk javítani ezen a felmérésen?
 
   ###########################################################################
   # Other Tools
   ###########################################################################
 
   - key: tools_others.libraries
-    t: Libraries
+    t: Könyvtárak
   - key: tools_others.libraries.description
-    t: Which libraries do you regularly use?
+    t: Mely könyvtárakat használod rendszeresen?
   - key: tools_others.libraries.others
-    t: Other Libraries
+    t: Egyéb könyvtárak
   - key: tools_others.libraries.others.description
-    t: Other answers (freeform field).
+    t: Egyéb válaszok (szabad formátumú válasz).
 
   - key: tools_others.text_editors
-    t: Text Editors
+    t: Szövegszerkesztők
   - key: tools_others.text_editors.description
-    t: Which text editor(s) do you regularly use?
+    t: Mely szövegszerkesztőket használod rendszeresen?
   - key: tools_others.text_editors.others
-    t: Other Text Editors
+    t: Mely szövegszerkesztők
   - key: tools_others.text_editors.others.description
-    t: Other answers (freeform field).
+    t: Egyéb válaszok (szabad formátumú válasz).
 
   - key: tools_others.utilities
-    t: Utilities
+    t: Segédprogramok
   - key: tools_others.utilities.description
-    t: Which utilities or tools do you regularly use?
+    t: Mely segédprogramokat vagy eszközöket használod rendszeresen?
   - key: tools_others.utilities.others
-    t: Other Utilities
+    t: Egyéb segédprogramok
   - key: tools_others.utilities.others.description
-    t: Other utilities (freeform field).
+    t: Egyéb segédprogramok (szabad formátumú válasz).
 
   - key: tools_others.browsers
-    t: Browsers
+    t: Böngészők
   - key: tools_others.browsers.description
-    t: Which browser(s) do you primarily work in during initial development?
+    t: Mely böngészőkkel dolgozol az fejlesztés kezdeti szakaszában?
   - key: tools_others.browsers.others
-    t: Other Browsers
+    t: Egyéb böngészők
   - key: tools_others.browsers.others.description
-    t: Other answers (freeform field).
+    t: Egyéb válaszok (szabad formátumú válasz).
 
   - key: tools_others.build_tools
-    t: Build Tools
+    t: Fordítási eszközök
   - key: tools_others.build_tools.description
-    t: Which build tools do you use?
+    t: Mely fordítási eszközöket használod?
   - key: tools_others.build_tools.others
-    t: Other Build Tools
+    t: Egyéb fordítási eszközök
   - key: tools_others.build_tools.others.description
-    t: Other answers (freeform field).
+    t: Egyéb válaszok (szabad formátumú válasz).
 
   - key: tools_others.non_js_languages
-    t: Non-JavaScript Languages
+    t: Nem JavaScript nyelvek
   - key: tools_others.non_js_languages.description
-    t: Which other programming languages do you use?
+    t: Mely másik programozási nyelveket használod?
   - key: tools_others.non_js_languages.others
-    t: Other Languages
+    t: Más nyelvek
   - key: tools_others.non_js_languages.others.description
-    t: Other answers (freeform field).
+    t: Egyéb válaszok (szabad formátumú válasz).
 
   - key: tools_others.javascript_flavors
-    t: JavaScript Flavors
+    t: JavaScript ízek
   - key: tools_others.javascript_flavors.description
-    t: Languages that compile to JavaScript
+    t: Nyelvek amik JavaScriptbe fordulnak
   - key: tools_others.javascript_flavors.others
-    t: Other JavaScript Flavors
+    t: Egyéb JavaScript ízek
   - key: tools_others.javascript_flavors.others.description
-    t: Other answers (freeform field).
+    t: Egyéb válaszok (szabad formátumú válasz).
 
   ###########################################################################
   # Resources
@@ -1027,64 +1028,64 @@ translations:
 
   # first steps
   - key: resources.first_steps
-    t: First Learning Methods
+    t: Kezdeti tanulási módszerek
   - key: resources.first_steps.description
-    t: When first starting out, how did you initially learn coding?
+    t: Hogyan kezdtél el programozást tanulni először?
   - key: resources.first_steps.others
-    t: Other First Learning Methods
+    t: Egyéb kezdeti tanulási módszerek
   - key: resources.first_steps.others.description
-    t: Other answers (freeform field).
+    t: Egyéb válasz (szabad formátum).
 
   # blogs & magazines
   - key: resources.blogs_news_magazines
-    t: Blogs & Magazines
+    t: Blogok & magazinok
   - key: resources.blogs_news_magazines.description
-    t: Which blogs/magazines/etc. do you read?
+    t: Melyik blogokat/magazinokat stb. olvasod?
   - key: resources.blogs_news_magazines.others
-    t: Other Blogs & Magazines
+    t: Egyéb blogok & magazinok
   - key: resources.blogs_news_magazines.others.description
-    t: Other answers (freeform field).
+    t: Egyéb válasz (szabad formátum).
 
   # sites & courses
   - key: resources.sites_courses
-    t: Sites & Courses
+    t: Weboldalak & kurzusok
   - key: resources.sites_courses.description
-    t: Which sites/courses/etc. do you consult?
+    t: Melyik weboldalak és kurzusokat látogatod?
   - key: resources.sites_courses.others
-    t: Other Sites & Courses
+    t: Egyéb weboldalak & kurzusok
   - key: resources.sites_courses.others.description
-    t: Other answers (freeform field).
+    t: Egyéb válasz (szabad formátum).
 
   # podcasts
   - key: resources.podcasts
-    t: Podcasts
+    t: Podcastok
   - key: resources.podcasts.description
-    t: Which programming-related podcasts do you listen to?
+    t: Milyen programozási podcastokat hallgatsz?
   - key: resources.podcasts.others
-    t: Other Podcasts
+    t: Egyéb podcastok
   - key: resources.podcasts.others.description
-    t: Other answers (freeform field).
+    t: Egyéb válasz (szabad formátum).
 
   # people
   - key: resources.people
-    t: People
+    t: Emberek
   - key: resources.people.description
-    t: People you read, follow, or just want to highlight.
+    t: Emberek akiket olvasol, követsz, vagy csak ki szeretnél emelni.
   # - key: resources.people.others
   #   t: Other People
   # - key: resources.people.others.description
   #   t: Other answers (freeform field).
   - key: resources.people.others
-    t: People
+    t: Emberek
   - key: resources.people.others.description
     t: >
-      People you read, follow, or just want to highlight for their work 
-      (freeform field, comma-separated names).
+      Emberek akiket olvasol, követsz, vagy csak ki szeretnél emelni a munkájuk miatt
+      (szabad formátum, vesszővel elválasztott nevek).
 
   # other surveys
   - key: resources.other_surveys
-    t: Other Surveys
+    t: Egyéb kérdőívek
   - key: resources.other_surveys.description
-    t: Which other developer surveys do you participate in?
+    t: Milyen másik fejlesztői felmérésekben vettél részt?
   - key: resources.other_surveys.others
-    t: Additional surveys not mentioned above
+    t: Egyéb felmérések ami nincs megemlítve
