@@ -8,7 +8,7 @@ translations:
     t: A JavaScript ökoszisztéma legfrissebb trendjeiről szóló éves felmérés 2022-es verziója.
 
   - key: general.livestream_announcement
-    t: Ne felejtsd el megnézni a [speciális livestream felvételt](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) a felmérés eredményeiről Február 22-én! (angol)"
+    t: Ne felejtsd el megnézni a [speciális livestream felvételt](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) a felmérés eredményeiről Február 22-én! (angol)
 
   ###########################################################################
   # Introduction
@@ -547,7 +547,7 @@ translations:
 
       - **Póló eladások**. 
 
-      - **Chart Sponsorships**: members of the community can donate to the survey in exchange for having their name featured in the report.  
+      - **Grafikon szponzorálások**: a közösség tagjai adományozhatnak a felméréshez, cserébe a nevük megjelenik a jelentésben.
 
       - **Szponzorált linkek**: a lap alján található ajánlott források linkei partnereink, a [Frontend Masters](https://frontendmasters.com/) és a [RenderATL](https://www.renderatl.com/) által kerülnek megjelenítésre.
 

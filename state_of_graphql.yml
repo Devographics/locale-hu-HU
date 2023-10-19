@@ -14,7 +14,7 @@ translations:
           Az éves State of GraphQL fejlesztői felmérés ezeket a kérdéseket célozza meg, és még sok mást is!
 
     - key: general.state_of_graphql.description
-      t: A GraphQL ökoszisztéme éves fejlesztői felmérése
+      t: A GraphQL ökoszisztéma éves fejlesztői felmérése
     ###########################################################################
     # Survey
     ###########################################################################
