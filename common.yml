@@ -154,6 +154,8 @@ translations:
   # thanks
   - key: general.back
     t: Vissza
+  - key: general.back_to_survey
+    t: Vissza a felméréshez
   - key: general.thanks
     t: >
       Köszönjük, hogy kitöltötted a felmérést!  Az adataidat elmentettük.
@@ -197,7 +199,10 @@ translations:
     t: Megosztás Twitteren
   - key: thanks.share_score_message
     t: >
-      Az idei #{hashtag} felmérésen {score}% pontot értem el!
+      Az idéni #{hashtag} felmérésen {score} pontot értem el a tudáspontszámban!
+      {usage_count} funkciót használtam, és {awareness_count}-ról hallottam,
+      ami a kitöltők felső {rank}%-ába helyezett.
+      Meg tudod verni a pontszámomat? {shareUrl}
   # share
   - key: general.share_subject
     t: >
@@ -836,6 +841,17 @@ translations:
     t: Tervezés
   - key: options.industry_sector.unemployed
     t: Munkanélküli
+
+  - key: options.industry_sector.recruiting
+    t: Toborzás
+  - key: options.industry_sector.agency
+    t: Ügynökség
+  - key: options.industry_sector.business
+    t: Üzleti
+  - key: options.industry_sector.communication
+    t: Kommunikáció
+  - key: options.industry_sector.security
+    t: Biztonság
 
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
