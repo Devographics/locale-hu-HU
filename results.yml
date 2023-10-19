@@ -589,8 +589,6 @@ translations:
     t: Általános megelégedettség
   - key: blocks.happiness.description
     t: |
-      On a scale of one (very unhappy) to five (very happy), how happy are developers
-      with the current overall state of this category?
       Egy (nagyon nincs megelégedve) és öt (nagyon elégedett) skálán mennyire boldogok a fejlesztők
       ennek a kategóriának a jelenlegi általános állapotával?
 
@@ -767,6 +765,9 @@ translations:
   - key: charts.facet_responses
     t: "{count} válasz"
 
+  - key: charts.freeform_data
+    t: (szabad formátumú válasz)
+
   - key: charts.axis_legends.years_of_experience
     t: Tapasztalati évek
   - key: charts.axis_legends.yearly_salary
@@ -873,6 +874,16 @@ translations:
     t: Nincs válasz
   - key: charts.no_answer.short
     t: Nincs válasz
+
+  - key: charts.no_match
+    t: Egyéb válaszok
+  - key: charts.no_match.short
+    t: Egyéb válaszok
+
+  - key: charts.cutoff_answers
+    t: Egyéb válaszok
+  - key: charts.cutoff_answers.short
+    t: Egyéb válaszok
 
   - key: charts.other_answers
     t: Egyéb
