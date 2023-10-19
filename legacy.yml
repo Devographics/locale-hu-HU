@@ -411,7 +411,7 @@ translations:
     t: ">20 év"
 
   # company size
-- key: options.company_size.range_1
+  - key: options.company_size.range_1
     t: Egy alkalmazott
   - key: options.company_size.range_1_5
     t: 1 és 5 alkalmazott között
