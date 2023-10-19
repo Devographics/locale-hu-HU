@@ -403,7 +403,7 @@ translations:
   - key: options.code_generation_target.client_code
     t: Egyéb kliens-oldali kód (pl. React horgok)
 
-   - key: options.graphql_strong_points.avoiding_overfetching
+  - key: options.graphql_strong_points.avoiding_overfetching
     t: Overfetching elkerülése
   - key: options.graphql_strong_points.avoiding_overfetching.description
     t: Az API válaszok kicsin tartása azzal, hogy pontosan csak azt az adatot kérjük le, amire szükségünk van.
