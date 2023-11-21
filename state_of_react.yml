@@ -261,7 +261,7 @@ translations:
 
   - key: usage.js_app_patterns
     t: Applikációs minták
-  - key: usage.js_app_patterns.description
+  - key: usage.js_app_patterns.question
     t: A következők közül melyik architektúrális és renderelési mintákat használad **az elmúlt egy évben**?
 
   - key: options.js_app_patterns.single_page_app

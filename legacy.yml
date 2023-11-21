@@ -10,7 +10,7 @@ translations:
   - key: general.create_account_reasons
     t: >
       Javasoljuk, hogy regisztrálj, hogy:
-      
+
       - Elkerüld a duplikált válaszokat
 
       - Hozzáférést kapj az adataidhoz
@@ -23,7 +23,7 @@ translations:
       Sajnáljuk, a felmérés már lezárult! Még megnézheted a válaszaidat, de már nem tudod módosítani őket.
   - key: general.survey_read_only
     t: >
-      A felmérés jelenleg csak olvasható módban érhető el. 
+      A felmérés jelenleg csak olvasható módban érhető el.
   - key: general.survey_preview
     t: >
       Ez a felmérés előnézeti módban van. A kérdések változhatnak, és az összes adat törlődik, amikor a tényleges felmérés elindul.
@@ -1029,7 +1029,7 @@ translations:
   # first steps
   - key: resources.first_steps
     t: Kezdeti tanulási módszerek
-  - key: resources.first_steps.description
+  - key: resources.first_steps.question
     t: Hogyan kezdtél el programozást tanulni először?
   - key: resources.first_steps.others
     t: Egyéb kezdeti tanulási módszerek
@@ -1039,7 +1039,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: Blogok & magazinok
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: Melyik blogokat/magazinokat stb. olvasod?
   - key: resources.blogs_news_magazines.others
     t: Egyéb blogok & magazinok
@@ -1049,7 +1049,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: Weboldalak & kurzusok
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: Melyik weboldalak és kurzusokat látogatod?
   - key: resources.sites_courses.others
     t: Egyéb weboldalak & kurzusok
@@ -1059,7 +1059,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: Podcastok
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: Milyen programozási podcastokat hallgatsz?
   - key: resources.podcasts.others
     t: Egyéb podcastok
@@ -1085,7 +1085,7 @@ translations:
   # other surveys
   - key: resources.other_surveys
     t: Egyéb kérdőívek
-  - key: resources.other_surveys.description
+  - key: resources.other_surveys.question
     t: Milyen másik fejlesztői felmérésekben vettél részt?
   - key: resources.other_surveys.others
     t: Egyéb felmérések ami nincs megemlítve
