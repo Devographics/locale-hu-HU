@@ -254,6 +254,10 @@ translations:
     t: Hogyan hallottak a válaszadók a kérdőívről?
   - key: user_info.source.note
     t: Az adathalmaz kombinálja a kitöltők válaszait, hivatkozási- valamint URL követési adatokat.
+
+  - key: options.source.other_answers
+    t: Egyéb források
+
   - key: user_info.source_by_gender
     t: Forrás nemek alapján
 
@@ -764,9 +768,18 @@ translations:
     t: Az összes válaszoló
   - key: charts.facet_responses
     t: "{count} válasz"
+  - key: charts.facet_respondents
+    t: "({count} válaszoló)"
+
+  - key: charts.nth_percentile
+    t: "{percentile}th percentile"
+  - key: charts.nth_percentile_value
+    t: "{percentile}th percentile: {value}"
 
   - key: charts.freeform_data
     t: (szabad formátumú válasz)
+  - key: charts.insufficient_data
+    t: Nincs elég adat
 
   - key: charts.axis_legends.years_of_experience
     t: Tapasztalati évek
@@ -958,7 +971,7 @@ translations:
   - key: share.link
     t: Rész megosztása
   - key: share.url
-    t: Link lekérése
+    t: Link másolása
   - key: share.close
     t: Bezárás
 
@@ -1515,7 +1528,7 @@ translations:
   - key: filters.submit
     t: Diagram frissítése
   - key: filters.copy_link
-    t: Másolja ki a linket az aktuális szűrőkre
+    t: Másolja ki a linket a szűrőkre
   - key: filters.get_code
     t: Szűrőkód lekérése
 
@@ -1546,3 +1559,13 @@ translations:
 
   - key: filters.facet.select
     t: Válassz ki egy oldalt…
+
+  - key: dataloader.failed_request
+    t: >
+      Oh no! The API request failed with the following message:
+  - key: dataloader.submit_report_prompt
+    t: >
+      Submit a bug report to let us know about this issue, and we'll do our best to
+      fix it:
+  - key: dataloader.submit_issue
+    t: Submit Issue

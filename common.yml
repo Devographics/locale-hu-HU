@@ -118,6 +118,8 @@ translations:
     t: Adatfeldolgozás
   - key: credits.back_end_development
     t: Back-End fejlesztés
+  - key: credits.survey_review
+    t: Survey Review
 
   # support
   - key: general.support_from
@@ -569,6 +571,21 @@ translations:
     t: $100k-$200k
   - key: options.yearly_salary.range_more_than_200
     t: Több, mint $200k
+
+  - key: options.yearly_salary.range_0_20
+    t: $0k-$20k
+  - key: options.yearly_salary.range_20_40
+    t: $20k-$40k
+  - key: options.yearly_salary.range_40_60
+    t: $40k-$60k
+  - key: options.yearly_salary.range_60_80
+    t: $60k-$80k
+  - key: options.yearly_salary.range_80_100
+    t: $80k-$100k
+  - key: options.yearly_salary.range_100_150
+    t: $100k-$150k
+  - key: options.yearly_salary.range_150_200
+    t: $150k-$200k
 
   # salary (short versions)
   - key: options.yearly_salary.na.short
@@ -1143,10 +1160,8 @@ translations:
     t: Egyéb opciók, amiket ebben a szekcióban használsz, és nincs benne a fenti listában.
   - key: tools.happiness
     t: Összesített megelégedettség
-  - key: tools.happiness.description
-    t: >
-      Egy 1-től (nagyon nem vagyok megelégedve) 5-ig (nagyon meg vagyok elégedve) futó skálán, mennyire vagy megelégedve
-      a fenti listában lévő opciók jelenlegi állapotával?
+  - key: tools.happiness.question
+    t: How happy are you with the current state of things as it relates to the options listed above?
 
   ###########################################################################
   # Demographics (About You/User Info)
@@ -1174,7 +1189,7 @@ translations:
   - key: user_info.yearly_salary
     t: Éves fizetés
   - key: user_info.yearly_salary.description
-    t: Az éves fizetésed Amerikai dollárban (USD).
+    t: Az éves bruttó fizetésed Amerikai dollárban (USD).
 
   # job title
   - key: user_info.job_title
@@ -1349,25 +1364,42 @@ translations:
   - key: resources.blogs_news_magazines
     t: Blogok & magazinok
   - key: resources.blogs_news_magazines.question
-    t: Melyik blogokat/magazinokat stb. olvasod?
+    t: Melyik blogokat/magazinokat/hírleveleket/stb. olvasod?
   - key: resources.blogs_news_magazines.others
     t: Egyéb blogok & magazinok
   - key: resources.blogs_news_magazines.others.description
     t: Egyéb válasz (szabad formátum).
   - key: options.blogs_news_magazines.na
     t: 🚫 Egyik sem
+  - key: resources.blogs_news_magazines.placeholder
+    t: |
+      Blog/hírlevél #{index}…
 
   # sites & courses
   - key: resources.sites_courses
     t: Weboldalak & kurzusok
   - key: resources.sites_courses.question
-    t: Melyik weboldalak és kurzusokat látogatod?
+    t: Melyik weboldalak és kurzusokat látogatod JavaScript tanuláshoz?
   - key: resources.sites_courses.others
     t: Egyéb weboldalak & kurzusok
   - key: resources.sites_courses.others.description
     t: Egyéb válasz (szabad formátum).
   - key: options.sites_courses.na
     t: 🚫 Egyik sem
+  - key: resources.sites_courses.placeholder
+    t: |
+      Oldal/kurzus #{index}…
+
+  # paid courses
+  - key: resources.paid_courses
+    t: Paid Courses
+  - key: resources.paid_courses.question
+    t: Which **paid resources** (courses, videos, books, etc.) have you used to learn JavaScript?
+  - key: options.paid_courses.na
+    t: 🚫 None
+  - key: resources.paid_courses.placeholder
+    t: |
+      Course/book #{index}…
 
   # podcasts
   - key: resources.podcasts
@@ -1380,12 +1412,15 @@ translations:
     t: Egyéb válasz (szabad formátum).
   - key: options.podcasts.na
     t: 🚫 Egyik sem
+  - key: resources.podcasts.placeholder
+    t: |
+      Podcast #{index}…
 
   # people
   - key: resources.people
     t: Emberek
-  - key: resources.people.description
-    t: Emberek akiket olvasol, követsz, vagy csak ki szeretnél emelni.
+  - key: resources.people.question
+    t: Which individuals do you read, follow, or just want to highlight in the JavaScript community?
   # - key: resources.people.others
   #   t: Other People
   # - key: resources.people.others.description
@@ -1398,12 +1433,15 @@ translations:
       (szabad formátum, vesszővel elválasztott nevek).
   - key: options.people.na
     t: 🚫 Egyik sem
+  - key: resources.people.placeholder
+    t: |
+      Ember #{index}…
 
   # other surveys
   - key: resources.other_surveys
     t: Egyéb kérdőívek
   - key: resources.other_surveys.question
-    t: Milyen másik fejlesztői felmérésekben vettél részt?
+    t: Milyen másik fejlesztői felmérésekben veszel részt?
   - key: resources.other_surveys.others
     t: Egyéb felmérések ami nincs megemlítve
   - key: options.other_surveys.na
@@ -1420,12 +1458,15 @@ translations:
   # video creators
   - key: resources.video_creators
     t: Videókészítők
-  - key: resources.video_creators.description
-    t: Alkotók, akiket követsz videó-központú platformokon, például YouTube, Twitch, TikTok, stb.
+  - key: resources.video_creators.question
+    t: Which programming-related video creators do you follow (on YouTube, Twitch, etc.)?
   - key: resources.video_creators.others
     t: Egyéb videókészítők
   - key: options.video_creators.na
     t: 🚫 Egyik sem
+  - key: resources.video_creators.placeholder
+    t: |
+      Videókészítő #{index}…
 
   ###########################################################################
   # Follow-Up Questions
@@ -1477,3 +1518,8 @@ translations:
   #   t:
   # - key: followups.
   #   t:
+
+  # entities info
+
+  - key: entity.learn_more
+    t: Learn more…
