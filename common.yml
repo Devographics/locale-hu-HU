@@ -119,7 +119,7 @@ translations:
   - key: credits.back_end_development
     t: Back-End fejlesztés
   - key: credits.survey_review
-    t: Survey Review
+    t: A felmérés átnézése
 
   # support
   - key: general.support_from
@@ -1161,7 +1161,7 @@ translations:
   - key: tools.happiness
     t: Összesített megelégedettség
   - key: tools.happiness.question
-    t: How happy are you with the current state of things as it relates to the options listed above?
+    t: Mennyire vagy megelégedve a következő eszközökkel?
 
   ###########################################################################
   # Demographics (About You/User Info)
@@ -1392,14 +1392,14 @@ translations:
 
   # paid courses
   - key: resources.paid_courses
-    t: Paid Courses
+    t: Fizetős források
   - key: resources.paid_courses.question
-    t: Which **paid resources** (courses, videos, books, etc.) have you used to learn JavaScript?
+    t: Mely **fizetős forrásokat** (kurzusok, videók, könyvek, stb.) használtad már JavaScript tanuláshoz?
   - key: options.paid_courses.na
-    t: 🚫 None
+    t: 🚫 Egyiket sem
   - key: resources.paid_courses.placeholder
     t: |
-      Course/book #{index}…
+      Kurzus/könyv #{index}…
 
   # podcasts
   - key: resources.podcasts
@@ -1420,7 +1420,7 @@ translations:
   - key: resources.people
     t: Emberek
   - key: resources.people.question
-    t: Which individuals do you read, follow, or just want to highlight in the JavaScript community?
+    t: Melyik embereket követed, olvasod, vagy szeretnéd kiemelni a JavaScript közösségben?
   # - key: resources.people.others
   #   t: Other People
   # - key: resources.people.others.description
@@ -1459,7 +1459,7 @@ translations:
   - key: resources.video_creators
     t: Videókészítők
   - key: resources.video_creators.question
-    t: Which programming-related video creators do you follow (on YouTube, Twitch, etc.)?
+    t: Melyik videókészítőket követed a leginkább (YouTube, Twitch, stb.)?
   - key: resources.video_creators.others
     t: Egyéb videókészítők
   - key: options.video_creators.na
@@ -1522,4 +1522,4 @@ translations:
   # entities info
 
   - key: entity.learn_more
-    t: Learn more…
+    t: Tudj meg többet…

@@ -772,9 +772,9 @@ translations:
     t: "({count} válaszoló)"
 
   - key: charts.nth_percentile
-    t: "{percentile}th percentile"
+    t: "{percentile}-odik percentilis"
   - key: charts.nth_percentile_value
-    t: "{percentile}th percentile: {value}"
+    t: "{percentile}-odik percentilis: {value}"
 
   - key: charts.freeform_data
     t: (szabad formátumú válasz)
@@ -1562,10 +1562,10 @@ translations:
 
   - key: dataloader.failed_request
     t: >
-      Oh no! The API request failed with the following message:
+      Jaj, ne! Az API kérés nem sikerült a következő üzenettel:
   - key: dataloader.submit_report_prompt
     t: >
-      Submit a bug report to let us know about this issue, and we'll do our best to
-      fix it:
+      Küldj egy bug reportot nekünk, hogy tudjunk erről a problémáról, és megpróbáljuk
+      megoldani:
   - key: dataloader.submit_issue
-    t: Submit Issue
+    t: Bug report küldése
