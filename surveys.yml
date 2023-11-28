@@ -129,7 +129,6 @@ translations:
   - key: accounts.magic_link.browser
     t: <a href="{link}">Kattinsd ide, hogy megnyisd az inboxodat.</a>
 
-
   ###########################################################################
   # FAQ
   ###########################################################################
@@ -368,25 +367,26 @@ translations:
 
   - key: general.react2023.survey_intro
     t: |
-      As soon as React was first introduced, it was clear that it would become a big deal for the web. 
+      Amint a React megjelent, egyértelmű volt, hogy nagy hatással lesz a webre.
 
-      It was used to build Facebook after all, and despite this weird "JSX" thing, developers quickly adopted it. And what's even more impressive, the community stuck on through major changes such as function components and hooks. 
+      Végtére is a Facebookot is ezzel építették, és ez a furcsa "JSX" dolog ellenére, a fejlesztők gyorsan elfogadták.
+      És ami még ennél is lenyűgözőbb, a közösség végig kitartott a nagy változások mellett, mint például a funkcionális komponensek és a horgok.
 
-      But it's now 10 years later and the newly-introduced React Server Components promise to be the biggest change since… well, since React itself!
+      De most már 10 évvel később járunk, és a React Server Components bevezetésével a legnagyobb változások jönnek, mióta... hát, a React létezése óta!
 
-      Will the community follow along one more time? Or will developers jump ship to Svelte, Solid, or something else?
+      Vajon a közösség ismét követni fogja a változásokat? Vagy a fejlesztők átugorják a Reactot és inkább a Svelte, Solid, vagy valami más mellett döntenek?
 
-      Let's find out together with the first ever State of React survey!
+      Nézzük meg együtt, ezzel a legelső State of React felméréssel!
 
   # JS 2023
 
   - key: general.js2023.survey_intro
     t: |
-      Between Astro, Vite, and Remix, 2022 kicked off a wave of JavaScript change that kept on growing in 2023 with Bun, Svelte 5, Tauri, and many others. 
+      Az Astro, Vite és Remix bevezetésével 2022 egy hullámot indított el a JavaScript ökoszisztémában, ami 2023-ban is folytatódott a Bun, Svelte 5, Tauri és sok más másik bevezetésével.
 
-      But the –relatively speaking– old guard hasn't been standing still either, with Next.js and React leading the way with innovations such as Server Components and Server Actions. 
+      De a –viszonylag– régi őrség sem állt tétlenül, a Next.js és React vezetésével innovációkkal, mint a Server Components és Server Actions.
 
-      So after yet another busy year, it's now time to take stock, and see where things stand in the JavaScript ecosystem.
+      Most egy újabb tartalmas év végéhez érkeztünk, és ismét itt az ideje, hogy megnézzük, merre tart a JavaScript.
 
   ###########################################################################
   # Survey-Specific FAQs
@@ -420,22 +420,22 @@ translations:
   - key: faq.learn_more_css2022
     t: Hol tudok többet megtudni?
   - key: faq.learn_more_css2022.description
-    t: You can learn more about [last year's survey here](https://2021.stateofcss.com/en-US/about/).
+    t: Többet megtudhatsz a [tavalyi felmérésről itt](https://2021.stateofcss.com/en-US/about/).
 
   - key: faq.survey_design_css2022
-    t: How was this survey designed?
+    t: Hogyan lett ez a felmérés megtervezve?
   - key: faq.survey_design_css2022.description
-    t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub.
+    t: Idén a Google [UI Fund](https://web.dev/ui-fund/)-jának köszönhetően [Lea Verou](https://lea.verou.me/) vezette a felmérés tervezési folyamatát, a [GitHubon](https://github.com/orgs/Devographics/projects/1/views/1).
 
   - key: faq.results_released_css2022
-    t: When will the results be released?
+    t: Mikor lesznek az eredmények kihirdetve?
   - key: faq.results_released_css2022.description
-    t: The survey will run until the end of October 2022, and the survey results will be released in early November.
+    t: A felmérés 2022. október végéig fog futni, és az eredmények az azt követő hetekben lesznek közzétéve.
 
   - key: faq.data_used_css2022
-    t: How will this data be used?
+    t: Hogyan lesznek az adatok felhasználva?
   - key: faq.data_used_css2022.description
-    t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
+    t: Az összes adat nyíltan meg lesz osztva bármely fejlesztőnek vagy cégnek szabad felhasználásra. A böngésző fejlesztő cégek is használják ezt az adathalmazt a jövőbeli fejlesztési terveikhez.
 
   # CSS 2023
 
@@ -466,9 +466,9 @@ translations:
   # JS 2022
 
   - key: faq.learn_more_js2022
-    t: Where can I learn more?
+    t: Hol tudok többet megtudni?
   - key: faq.learn_more_js2022.description
-    t: You can learn more about [last year's survey here](https://2021.stateofjs.com/en-US/about/).
+    t: Többet megtudhatsz a [tavalyi felmérésről itt](https://2021.stateofjs.com/en-US/about/).
 
   # - key: faq.survey_design_js2022
   #   t: How was this survey designed?
@@ -476,14 +476,14 @@ translations:
   #   t: This year, thanks to a grant from Google's [UI Fund](https://web.dev/ui-fund/), [Lea Verou](https://lea.verou.me/) was able to take the lead and managed the [open survey design process](https://github.com/orgs/Devographics/projects/1/views/1) on GitHub.
 
   - key: faq.results_released_js2022
-    t: When will the results be released?
+    t: Mikor lesznek az eredmények kihirdetve?
   - key: faq.results_released_js2022.description
-    t: The survey will run until December 15, 2022, and the survey results will be released shortly afterwards.
+    t: A felmérés 2022. december 15-ig fog futni, és az eredmények az azt követő hetekben lesznek közzétéve.
 
   - key: faq.data_used_js2022
-    t: How will this data be used?
+    t: Hogyan lesznek az adatok felhasználva?
   - key: faq.data_used_js2022.description
-    t: All data collected will be released publicly. It will then become a resources both for developers, who consult it to inform their technological choices, and browser vendors, who use it to prioritize focus areas and inform their roadmaps.
+    t: Minden adat nyíltan meg lesz osztva bármely fejlesztőnek vagy cégnek szabad felhasználásra. A böngésző fejlesztő cégek is használják ezt az adathalmazt a jövőbeli fejlesztési terveikhez.
 
   # HTML 2023
 
@@ -532,98 +532,98 @@ translations:
   # React 2023
 
   - key: faq.data_used_react2023
-    t: How will this data be used?
+    t: Hogyan lesznek az adatok felhasználva?
   - key: faq.data_used_react2023.description
     t: >
-      All data collected will be released openly for anybody to consult. Developers or companies may use it to prioritize focus areas and inform their roadmaps.
+      Az összes adat nyíltan meg lesz osztva bármely fejlesztőnek vagy cégnek szabad felhasználásra.
 
   - key: faq.survey_goals_react2023
-    t: What are the survey's goals?
+    t: Mi a felmérés céljai
   - key: faq.survey_goals_react2023.description
     t: >
-      The survey's goals are to measure awareness and popularity of React APIs, as well as libraries in the React ecosystem.
+      A felmérés célja a React API-k és könyvtárak ismertségének és népszerűségének felmérése, valamint a React ökoszisztéma felmérése.
 
   - key: faq.who_should_take_survey_react2023
-    t: Who should take this survey?
+    t: Ki töltse ki ezt a kérdőívet?
   - key: faq.who_should_take_survey_react2023.description
     t: >
-      This is an open survey for anybody who uses React, whether regularly or occasionally, as part of their job, as a student, or just for fun!
+      Ez egy nyitott felmérés, amit bárki kitölthet, aki foglalkozik a React-tel, akár rendszeresen, akár alkalmanként, a munkája részeként, tanulóként, vagy csak úgy!
 
   - key: faq.how_long_will_survey_take_react2023
-    t: How long will answering the survey take?
+    t: Meddig for tartani kitölteni?
   - key: faq.how_long_will_survey_take_react2023.description
     t: >
-      Depending on how many questions you answer (all questions are optional),
-      filling out the survey should take around 15-20 minutes.
+      Attól függ, hogy hány kérdésre válaszolsz (az összes kérdés opcionális),
+      az egész kb. 10-15 percet vesz igénybe.
 
   - key: faq.learn_more_react2023
-    t: Where can I learn more?
+    t: Hol tudok többet megtudni?
   - key: faq.learn_more_react2023.description
-    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/announcing-the-first-ever-state-of-react-survey-3k6b).
+    t: A [kihirdetett cikkünkben](https://dev.to/sachagreif/announcing-the-first-ever-state-of-react-survey-3k6b) többet megtudhatsz a felmérésről.
 
   - key: faq.survey_design_react2023
-    t: How was this survey designed?
+    t: Ki tervezte ezt a felmérést?
   - key: faq.survey_design_react2023.description
     t: >
-      The survey was designed with input from the community through an [open feedback thread](https://github.com/Devographics/surveys/issues/85).
+      Ez a felmérés a közösség visszajelzése alapján készült, a [GitHubon](https://github.com/Devographics/surveys/issues/85) található nyílt visszajelzési folyamat alapján.
 
   - key: faq.results_released_react2023
-    t: When will the results be released?
+    t: Mikor lesznek az erdemények kihirdetve?
   - key: faq.results_released_react2023.description
-    t: The survey will run from October 27 to November 15, and the survey results will be released shortly after that.
+    t: A felmérés október 27-től november 15-ig fog futni, és az eredmények ezután nem sokkal lesznek kihirdetve.
 
   # JS 2023
 
   - key: general.js2023.survey_intro
     t: >
-      JavaScript started its life as a browser language, and then went to on conquer the server with Node.js. 
+      A JavaScript egy böngésző nyelvnek indult, majd később meghódította a szervereket is a Node.js segítségével.
 
 
-      And it 2023, it seems like the ecosystem as a whole might finally be ready to try and bridge that gap. Between features like React Server Components, frameworks like Solid and Qwik, or meta-frameworks like Next.js and Sveltekit, providing a better way of serving code and data to clients has become JavaScript's next big goal. 
+      És 2023-ban úgy tűnik, hogy az ökoszisztéma végre készen áll arra, hogy áthidalja a két világot. A React Server komponensek, a Solid és a Qwik keretrendszerek, vagy a Next.js és a Sveltekit meta-keretrendszerek segítségével a kód és az adatok jobb módja a kliensek számára való szolgáltatására a JavaScript következő nagy célja lett.
 
 
-      Or should we say TypeScript? At this point it's become hard to disentangle the two, so let's not even try. 
+      Vagy mondjuk inkább a TypeScript? Mostanában nehéz szétválasztani a kettőt, szóval ne is próbáljuk.
 
 
-      Instead, take the survey and help us figure out what's new, what's old, and what async/awaits us in the years to come!
+      Ehelyett inkább töltsd ki a kérdőívet, és segíts nekünk kitalálni, mi az új, mi az régi, és mi vár ránk az elkövetkező években!
 
   - key: faq.data_used_js2023
-    t: How will this data be used?
+    t: Hogyan lesznek az adatok felhasználva?
   - key: faq.data_used_js2023.description
     t: >
-      All data collected will be released openly for anybody to consult. Developers or companies may use it to prioritize focus areas and inform their roadmaps.
+      Minden adat nyíltan meg lesz osztva bármely fejlesztőnek vagy cégnek szabad felhasználásra. A fejlesztők vagy cégek használhatják ezt az adathalmazt a jövőbeli fejlesztési terveikhez.
 
   - key: faq.survey_goals_js2023
-    t: What are the survey's goals?
+    t: Mi a felmérés célja?
   - key: faq.survey_goals_js2023.description
     t: >
-      The survey's goals are to measure awareness and popularity of JavaScript features and libraries in order to anticipate future trends.
+      A felmérés célja a JavaScript funkciók és könyvtárak ismertségének és népszerűségének felmérése, valamint a JavaScript ökoszisztéma felmérése.
 
   - key: faq.who_should_take_survey_js2023
-    t: Who should take this survey?
+    t: Ki töltse ki ezt a kérdőívet?
   - key: faq.who_should_take_survey_js2023.description
     t: >
-      This is an open survey for anybody who uses JavaScript (or TypeScript), whether regularly or occasionally, as part of their job, as a student, or just for fun!
+      Ez egy nyitott felmérés, amit bárki kitölthet, aki foglalkozik a JavaScripttel (vagy TypeScripttel), akár rendszeresen, akár alkalmanként, a munkája részeként, tanulóként, vagy csak úgy!
 
   - key: faq.how_long_will_survey_take_js2023
-    t: How long will answering the survey take?
+    t: Meddig for tartani kitölteni?
   - key: faq.how_long_will_survey_take_js2023.description
     t: >
-      Depending on how many questions you answer (all questions are optional),
-      filling out the survey should take around 15-20 minutes.
+      Attól függ, hogy hány kérdésre válaszolsz (az összes kérdés opcionális),
+      az egész kb. 10-15 percet vesz igénybe.
 
   - key: faq.learn_more_js2023
-    t: Where can I learn more?
+    t: Hol tudok többet megtudni?
   - key: faq.learn_more_js2023.description
-    t: You can learn more about this survey in [our announcement post](https://dev.to/sachagreif/the-state-of-js-2023-survey-is-now-open-2hah).
+    t: A [kihirdetett cikkünkben](https://dev.to/sachagreif/the-state-of-js-2023-survey-is-now-open-2hah) többet megtudhatsz a felmérésről.
 
   - key: faq.survey_design_js2023
-    t: How was this survey designed?
+    t: Ki tervezte ezt a felmérést?
   - key: faq.survey_design_js2023.description
     t: >
-      The survey was designed with input from the community through an [open feedback thread](https://github.com/Devographics/surveys/issues/224).
+      Ez a felmérés a közösség visszajelzése alapján készült, a [GitHubon](https://github.com/Devographics/surveys/issues/224) található nyílt visszajelzési folyamat alapján.
 
   - key: faq.results_released_js2023
-    t: When will the results be released?
+    t: Mikor lesznek az erdemények kihirdetve?
   - key: faq.results_released_js2023.description
-    t: The survey will run from November 22 to December 12, and the survey results will be released shortly after that.
+    t: A felmérés november 22-től december 12-ig fog futni, és az eredmények ezután nem sokkal lesznek kihirdetve.
