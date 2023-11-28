@@ -26,9 +26,9 @@ translations:
   ###########################################################################
 
   - key: sections.features.title
-    t: Features
+    t: Funkciók
   - key: sections.features.description
-    t: Syntax, browser APIs, and other features.
+    t: Szintaxis, böngésző API-k és egyéb funkciók.
 
   - key: sections.syntax.title
     t: Szintaxis
@@ -80,9 +80,9 @@ translations:
     t: Keretrendszerek amik a renderelésre és az applikációd kiszolgálásra fókuszálnak
 
   - key: sections.meta_frameworks.title
-    t: Meta-Frameworks
+    t: Meta keretrendszerek
   - key: sections.meta_frameworks.description
-    t: Frameworks focused on rendering and serving your application
+    t: Keretrendszerek, amik a renderelésre és az applikációd kiszolgálásra fókuszálnak
 
   - key: sections.back_end_frameworks.title
     t: Back-end keretrendszerek
@@ -244,19 +244,19 @@ translations:
     aliasFor: options.js_pain_points.date_management.description
 
   - key: options.top_js_pain_points.performance
-    t: Performance
+    t: Teljesítmény
   - key: options.top_js_pain_points.performance.description
-    t: Writing performant and efficient JavaScript code
+    t: Hatékony és gyors kód írása
 
   - key: options.top_js_pain_points.build_tools
-    t: Build Tools
+    t: Fordítási eszközök
   - key: options.top_js_pain_points.build_tools.description
-    t: Managing tooling to bundle your code
+    t: Az eszközök menedzselése a kódod becsomagolásához
 
   - key: options.top_js_pain_points.typing
-    t: Typing
+    t: Típusosság
   - key: options.top_js_pain_points.typing.description
-    t: Managing and maintaining types
+    t: A típusosság kezelése és menedzselése a kódodban
 
   - key: options.top_js_pain_points.build_tools
     t: Fordítási eszközök
@@ -477,7 +477,7 @@ translations:
   - key: options.js_app_patterns.partial_prerendering
     t: Részleges renderelés
   - key: options.js_app_patterns.partial_prerendering.description
-    t: Render a route with a static loading shell, while keeping some parts dynamic
+    t: Egy statikus oldal renderelése néhány dinamikus elemmel
 
   - key: options.js_app_patterns.micro_frontend
     t: Micro Frontend
@@ -543,39 +543,39 @@ translations:
     t: Dinamikus importálás
 
   - key: features.syntax_features
-    t: Syntax Features
+    t: Szintaxis funkciók
   - key: features.syntax_features.question
-    t: Which of these syntax features have you used?
+    t: Ezek közül a szintaxis funkciók közül melyiket használtál már?
 
   - key: features.string_features
-    t: String Features
+    t: Szöveg funkciók
   - key: features.string_features.question
-    t: Which of these String features have you used?
+    t: Ezek közül a szöveg funkciók közül melyiket használtál már?
 
   - key: features.array_features
-    t: Array Features
+    t: Tömb funkciók
   - key: features.array_features.question
-    t: Which of these Array features have you used?
+    t: Ezek közül a tömb funkciók közül melyiket használtál már?
 
   - key: features.async_features
-    t: Async Features
+    t: Aszinkron funkciók
   - key: features.async_features.question
-    t: Which of these async features have you used?
+    t: Ezek közül az aszinkron funkciók közül melyiket használtál már?
 
   - key: features.browser_api_features
-    t: Browser APIs
+    t: Böngésző APIk
   - key: features.browser_api_features.question
-    t: Which of these browser APIs have you used?
+    t: Ezek közül a böngésző APIk közül melyiket használtál már?
 
   - key: features.language_pain_points
-    t: Language Pain Points
+    t: Nyelvi hiányosságok
   - key: features.language_pain_points.question
-    t: What are your main pain points regarding the JavaScript language?
+    t: Melyek a legnagyobb nyelvi hiányosságok amit tapasztaltál a JavaScriptben?
 
   - key: features.browser_apis_pain_points
-    t: Browser APIs Pain Points
+    t: Böngésző APIk hiányosságai
   - key: features.browser_apis_pain_points.question
-    t: What are your main pain points regarding browser APIs?
+    t: Melyek a legnagyobb hiányosságok amiket tapasztaltál a böngésző APIk használata során?
 
   # patterns
   - key: patterns.object_oriented_programming
@@ -616,74 +616,74 @@ translations:
 
   # front-end frameworks
   - key: tools.front_end_frameworks_happiness
-    t: Front-end Frameworks Happiness
+    t: A frontend keretrendszerekkel való elégedettség
   - key: tools.front_end_frameworks_happiness.question
-    t: How happy are you with the current state of front-end frameworks?
+    t: Mennyire vagy elégedett a frontend keretrendszerekkel?
 
   - key: tools.front_end_frameworks_pain_points
-    t: Front-end Frameworks Pain Points
+    t: Frontend keretrendszerekkel kapcsolatos hiányosságok
   - key: tools.front_end_frameworks_pain_points.question
-    t: What pain points have you encountered when using front-end frameworks?
+    t: Milyen hiányosságokat tapasztaltál a frontend keretrendszerek használata során?
 
   # meta-frameworks
 
   - key: tools.meta_frameworks_happiness
-    t: Meta-Frameworks Happiness
+    t: Meta-keretrendszerekkel való elégedettség
   - key: tools.meta_frameworks_happiness.question
-    t: How happy are you with the current state of meta-frameworks?
+    t: Mennyire vagy elégedett a meta-keretrendszerekkel?
 
   - key: tools.meta_frameworks_pain_points
-    t: Meta-Frameworks Pain Points
+    t: Meta-keretrendszerekkel kapcsolatos hiányosságok
   - key: tools.meta_frameworks_pain_points.question
-    t: What pain points have you encountered when using meta-frameworks?
+    t: Milyen hiányosságokat tapasztaltál a meta-keretrendszerek használata során?
 
   # testing
 
   - key: tools.testing_happiness
-    t: Testing Happiness
+    t: Tesztelési elégedettség
   - key: tools.testing_happiness.question
-    t: How happy are you with the current state of testing tools?
+    t: Mennyire vagy elégedett a tesztelési eszközökkel?
 
   - key: tools.testing_pain_points
-    t: Testing Pain Points
+    t: Tesztelési hiányosságok
   - key: tools.testing_pain_points.question
-    t: What pain points have you encountered when using testing tools?
+    t: Milyen hiányosságokat tapasztaltál a tesztelési eszközök használata során?
 
   # mobile & desktop
 
   - key: tools.mobile_desktop_happiness
-    t: Mobile & Desktop Happiness
+    t: Mobil & desktop elégedettség
   - key: tools.mobile_desktop_happiness.question
-    t: How happy are you with the current state of mobile & desktop tools?
+    t: Mennyire vagy elégedett a mobil & desktop eszközökkel?
 
   - key: tools.mobile_desktop_pain_points
-    t: Mobile & Desktop Pain Points
+    t: Mobil & desktop hiányosságok
   - key: tools.mobile_desktop_pain_points.question
-    t: What pain points have you encountered when using JavaScript to build mobile & desktop apps?
+    t: Milyen hiányosságokat tapasztaltál a mobil & desktop eszközök használata során?
 
   # build tools
 
   - key: tools.build_tools_happiness
-    t: Build Tools Happiness
+    t: Fordítási eszközök elégedettség
   - key: tools.build_tools_happiness.question
-    t: How happy are you with the current state of build tools?
+    t: Mennyire vagy elégedett a fordítási eszközökkel?
 
   - key: tools.build_tools_pain_points
-    t: Build Tools Pain Points
+    t: Fordítási eszközök hiányosságai
   - key: tools.build_tools_pain_points.question
-    t: What pain points have you encountered when using build tools?
+    t: Milyen hiányosságokat tapasztaltál a fordítási eszközök használata során?
 
   # monorepo tools
 
   - key: tools.monorepo_tools_happiness
-    t: Monorepo Happiness
+    t: Monorepo elégedettség
   - key: tools.monorepo_tools_happiness.question
-    t: How happy are you with the current state of monorepo tools?
+    t: Mennyire vagy elégedett a monorepo eszközökkel?
 
   - key: tools.monorepo_tools_pain_points
-    t: Monorepo Pain Points
+    t: Monorepo hiányosságai
   - key: tools.monorepo_tools_pain_points.question
-    t: What pain points have you encountered when using monorepo tools?
+    t: Milyen hiányosságokat tapasztaltál a monorepo eszközök használata során?
 
   ###########################################################################
   # Other Tools
@@ -946,14 +946,14 @@ translations:
     aliasFor: tools_others.backend_frameworks.others
 
   - key: other_tools.ai_tools
-    t: AI Tools
+    t: AI eszközök
   - key: other_tools.ai_tools.question
-    t: Which of these AI tools do you regularly use to help you write code?
+    t: Ezek közül az AI eszközök közül melyiket használod rendszeresen kódszerkesztéshez?
 
   - key: other_tools.hosting
-    t: Hosting Services
+    t: Hosting szolgáltatások
   - key: other_tools.hosting.question
-    t: Which of these services have you used to host JavaScript apps?
+    t: Ezek közül a hosting szolgáltatások közül melyiket használod rendszeresen?
 
   ###########################################################################
   # Usage
@@ -967,7 +967,7 @@ translations:
     t: Egyéb applikációs minták
 
   - key: usage.what_do_you_use_js_for
-    t: JavaScript Usage
+    t: JavaScript használata
   - key: usage.what_do_you_use_js_for.question
     t: Mire használod a JavaScriptet?
   - key: usage.what_do_you_use_js_for.others
@@ -1062,7 +1062,7 @@ translations:
   - key: usage.top_js_pain_points
     aliasFor: opinions.js_pain_points
   - key: usage.top_js_pain_points.question
-    t: What aspects of JavaScript do you struggle with the most?
+    t: Melyek a legnagyobb JavaScript hiányosságok amikkel szembe találod magad?
 
   - key: opinions.js_pain_points
     t: JavaScript azon részei, amik javításra szorulnak
@@ -1083,7 +1083,7 @@ translations:
   # Missing Features
 
   - key: usage.top_currently_missing_from_js
-    t: Missing Features
+    t: JavaScriptből hiányzó funkciók
   - key: usage.top_currently_missing_from_js.question
     aliasFor: opinions.currently_missing_from_js
 
