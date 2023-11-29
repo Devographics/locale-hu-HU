@@ -780,6 +780,8 @@ translations:
     t: (szabad formátumú válasz)
   - key: charts.insufficient_data
     t: Nincs elég adat
+  - key: charts.insufficient_data.description
+    t: Ha a válaszadók száma kevesebb, mint {value}, akkor a szegmensek nem jelennek meg a diagramon.
 
   - key: charts.axis_legends.years_of_experience
     t: Tapasztalati évek
