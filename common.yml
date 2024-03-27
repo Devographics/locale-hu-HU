@@ -1170,55 +1170,55 @@ translations:
   # age
   - key: user_info.age
     t: Életkor
-  - key: user_info.age.description
+  - key: user_info.age.question
     t: Hány éves vagy?
 
   # years of experience
   - key: user_info.years_of_experience
     t: Tapasztalati évek száma
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: Hány éve dolgozol vagy tanulsz ezen a területen?
 
   # company size
   - key: user_info.company_size
     t: Cég mérete
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: Hányan dolgoznak a cégedben?
 
   # salary ranges
   - key: user_info.yearly_salary
     t: Éves fizetés
-  - key: user_info.yearly_salary.description
+  - key: user_info.yearly_salary.question
     t: Az éves bruttó fizetésed Amerikai dollárban (USD).
 
   # job title
   - key: user_info.job_title
     t: Munkaköri beosztás
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: Hogyan mutatkozol be másoknak?
 
   # javascript proficiency
   - key: user_info.javascript_proficiency
     t: JavaScript jártasság
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: Mennyire vagy jártas a JavaScript-ben?
 
   # css proficiency
   - key: user_info.css_proficiency
     t: CSS jártasság
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: Mennyire vagy jártas a CSS-ben?
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: Back-end jártasság
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: Mennyire vagy jártas a back-end fejlesztésben?
 
   # gender
   - key: user_info.gender
     t: Nem
-  - key: user_info.gender.description
+  - key: user_info.gender.question
     t: >
       Ezek közül melyik illik rád a legjobban? Kérlek válassz egyet.
   - key: user_info.gender.note
@@ -1230,7 +1230,7 @@ translations:
   # race & ethnicity
   - key: user_info.race_ethnicity
     t: Rassz & nemzetiség
-  - key: user_info.race_ethnicity.description
+  - key: user_info.race_ethnicity.question
     t: >
       Ezek közül melyik illik rád a legjobban? Kérlek válassz egyet.
   - key: user_info.race_ethnicity.note
@@ -1250,7 +1250,7 @@ translations:
   # disability status
   - key: user_info.disability_status
     t: Fogyatékossági helyzet
-  - key: user_info.disability_status.description
+  - key: user_info.disability_status.question
     t: >
       Ezek közül melyikeket szoktad tapasztalni, ha bármelyiket is? Kérlek válaszd ki az összeset, ami rádillik.
       Ebbe az ideiglenes fogyatákosságok vagy sérülések is beletartozhatnak.
@@ -1294,7 +1294,7 @@ translations:
 
   - key: user_info.industry_sector
     t: Iparág
-  - key: user_info.industry_sector.description
+  - key: user_info.industry_sector.question
     t: Mely iparágban/iparágakban dolgozol?
   - key: user_info.industry_sector.others
     t: Más iparágak
@@ -1304,18 +1304,18 @@ translations:
   - key: usage.industry_sector
     aliasFor: user_info.industry_sector
   - key: usage.industry_sector.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
   - key: usage.industry_sector.others
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector_freeform
     aliasFor: user_info.industry_sector.others
   - key: usage.industry_sector.others.description
-    aliasFor: user_info.industry_sector.description
+    aliasFor: user_info.industry_sector.question
 
   # degree
   - key: user_info.higher_education_degree
     t: Magasabb végzettség
-  - key: user_info.higher_education_degree.description
+  - key: user_info.higher_education_degree.question
     t: Van magasabb végzettséged?
 
   # employment status
