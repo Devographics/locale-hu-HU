@@ -682,7 +682,7 @@ translations:
 
   - key: tools_others.utilities
     t: Eszközök
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: Mely eszközöket használod rendszeresen?
   - key: tools_others.utilities.others
     t: Egyéb eszközök
@@ -694,7 +694,7 @@ translations:
   - key: other_tools.utilities
     aliasFor: tools_others.utilities
   - key: other_tools.utilities.description
-    aliasFor: tools_others.utilities.description
+    aliasFor: tools_others.utilities.question
   - key: other_tools.utilities.others
     aliasFor: tools_others.utilities.others
   - key: other_tools.utilities.others.description
@@ -704,7 +704,7 @@ translations:
 
   - key: tools_others.browsers
     t: Böngészők
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: Mely böngésző(ke)t használod a fejlesztés kezdeti szakaszában?
   - key: tools_others.browsers.others
     t: Egyéb böngészők
@@ -714,7 +714,7 @@ translations:
   - key: other_tools.browsers
     aliasFor: tools_others.browsers
   - key: other_tools.browsers.description
-    aliasFor: tools_others.browsers.description
+    aliasFor: tools_others.browsers.question
   - key: other_tools.browsers.others
     aliasFor: tools_others.browsers.others
   - key: other_tools.browsers.others.description

@@ -961,7 +961,7 @@ translations:
 
   - key: tools_others.libraries
     t: Könyvtárak
-  - key: tools_others.libraries.description
+  - key: tools_others.libraries.question
     t: Mely könyvtárakat használod rendszeresen?
   - key: tools_others.libraries.others
     t: Egyéb könyvtárak
@@ -970,7 +970,7 @@ translations:
 
   - key: tools_others.text_editors
     t: Szövegszerkesztők
-  - key: tools_others.text_editors.description
+  - key: tools_others.text_editors.question
     t: Mely szövegszerkesztőket használod rendszeresen?
   - key: tools_others.text_editors.others
     t: Mely szövegszerkesztők
@@ -979,7 +979,7 @@ translations:
 
   - key: tools_others.utilities
     t: Segédprogramok
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: Mely segédprogramokat vagy eszközöket használod rendszeresen?
   - key: tools_others.utilities.others
     t: Egyéb segédprogramok
@@ -988,7 +988,7 @@ translations:
 
   - key: tools_others.browsers
     t: Böngészők
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: Mely böngészőkkel dolgozol az fejlesztés kezdeti szakaszában?
   - key: tools_others.browsers.others
     t: Egyéb böngészők
@@ -997,7 +997,7 @@ translations:
 
   - key: tools_others.build_tools
     t: Fordítási eszközök
-  - key: tools_others.build_tools.description
+  - key: tools_others.build_tools.question
     t: Mely fordítási eszközöket használod?
   - key: tools_others.build_tools.others
     t: Egyéb fordítási eszközök
@@ -1006,7 +1006,7 @@ translations:
 
   - key: tools_others.non_js_languages
     t: Nem JavaScript nyelvek
-  - key: tools_others.non_js_languages.description
+  - key: tools_others.non_js_languages.question
     t: Mely másik programozási nyelveket használod?
   - key: tools_others.non_js_languages.others
     t: Más nyelvek
@@ -1015,7 +1015,7 @@ translations:
 
   - key: tools_others.javascript_flavors
     t: JavaScript ízek
-  - key: tools_others.javascript_flavors.description
+  - key: tools_others.javascript_flavors.question
     t: Nyelvek amik JavaScriptbe fordulnak
   - key: tools_others.javascript_flavors.others
     t: Egyéb JavaScript ízek
