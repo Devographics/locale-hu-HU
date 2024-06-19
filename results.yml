@@ -534,7 +534,7 @@ translations:
   # tool tier list
   - key: blocks.tools_tier_list
     t: Könyvtárak réteges listája
-  - key: blocks.tools_tier_list.description
+  - key: blocks.tools_tier_list.note
     t: |
       Ez a diagram a könyvtárakat a megőrzési arányuk (a felhasználók százaléka, aki újra használná ezt a könyvtárat) 
       alapján rangsorolja. Vedd figyelembe, hogy a válaszadók kevesebb, mint 10%-a által használt könyvtárakat
