@@ -173,7 +173,7 @@ translations:
 
   - key: award.most_commented_feature_award.comment
     t: |
-     **{value}** kommenttel, a Subgrid volt, amelyiket a legtöbb visszajelzést kapta, és egyéb funkciók még közel sem érték el ezt a számot.
+      **{value}** kommenttel, a Subgrid volt, amelyiket a legtöbb visszajelzést kapta, és egyéb funkciók még közel sem érték el ezt a számot.
 
   - key: award.tool_satisfaction_award.comment
     t: |
@@ -190,7 +190,7 @@ translations:
   # Conclusion
   ###########################################################################
 
-  - key: conclusion.css2023
+  - key: conclusion.css2023.chen_hui_jing
     t: |
       <span class="first-line">Ahogy az új CSS funkciók használata felfelé ível, a CSS keretrendszerek használata lefelé ível.</span>
 
@@ -204,7 +204,7 @@ translations:
 
       De ahogy [Lea Verou](https://lea.verou.me/) tavaly említette, különböző kezdeményezéseknek köszönhetően, mint amilyen az [Interop](https://wpt.fyi/interop-2023), amely a böngészőket összehozza, olyan funkciók, amelyek korábban lehetetlennek tűntek, most potenciálisan valósággá válhatnak!
 
-  - key: conclusion.css2023.bio
+  - key: conclusion.css2023.chen_hui_jing.bio
     t: Fejlesztői élmény mérnök @ Interledger Foundation
 
   ###########################################################################
@@ -371,7 +371,7 @@ translations:
   - key: picks.ahmad_awais.name
     t: |
       `text-wrap: balance`
-  - key: picks.ahmad_awais.bio 
+  - key: picks.ahmad_awais.bio
     t: VP DevRel & Google Developers Advisory Board alapító tagja
   - key: picks.ahmad_awais.description
     t: |
@@ -490,7 +490,7 @@ translations:
 
       A State of CSS logóját és pólóját [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) tervezte és animálta.
 
-      
+
       ### A felmérés célja
 
       Ez a felmérés a [State of JavaScript](https://stateofjs.com/) felméréshez hasonlóan arra szolgál, hogy azonosítsa a webfejlesztési ökoszisztéma közelgő trendjeit, hogy segítsen a fejlesztőknek technológiai döntéseket hozni.
