@@ -945,14 +945,14 @@ translations:
   - key: other_tools.backend_frameworks.others
     aliasFor: tools.backend_frameworks.others
 
-  - key: other_tools.ai_tools
+  - key: tools.ai_tools
     t: AI eszközök
-  - key: other_tools.ai_tools.question
+  - key: tools.ai_tools.question
     t: Ezek közül az AI eszközök közül melyiket használod rendszeresen kódszerkesztéshez?
 
-  - key: other_tools.hosting
+  - key: tools.hosting
     t: Hosting szolgáltatások
-  - key: other_tools.hosting.question
+  - key: tools.hosting.question
     t: Ezek közül a hosting szolgáltatások közül melyiket használod rendszeresen?
 
   ###########################################################################
