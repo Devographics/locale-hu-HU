@@ -109,9 +109,9 @@ translations:
   - key: sections.monorepo_tools.description
     t: Eszközök a JavaScript monorepok menedzselésére
 
-  - key: sections.tools_others.title
+  - key: sections.tools.title
     t: Egyéb eszközök
-  - key: sections.tools_others.description
+  - key: sections.tools.description
     t: Egyéb JavaScript eszközök
 
   - key: sections.other_tools.title
@@ -689,261 +689,261 @@ translations:
   # Other Tools
   ###########################################################################
 
-  - key: tools_others.libraries
+  - key: tools.libraries
     t: Könyvtárak
-  - key: tools_others.libraries.question
+  - key: tools.libraries.question
     t: Mely könyvtárakat használod rendszeresen?
-  - key: tools_others.libraries.others
+  - key: tools.libraries.others
     t: Egyéb könyvtárak
-  - key: tools_others.libraries.others.description
+  - key: tools.libraries.others.description
     t: Egyéb válaszok (szabad formátumú válasz).
 
-  - key: tools_others.text_editors
+  - key: tools.text_editors
     t: Szövegszerkesztők
-  - key: tools_others.text_editors.question
+  - key: tools.text_editors.question
     t: Mely szövegszerkesztőket használod rendszeresen?
-  - key: tools_others.text_editors.others
+  - key: tools.text_editors.others
     t: Mely szövegszerkesztők
-  - key: tools_others.text_editors.others.description
+  - key: tools.text_editors.others.description
     t: Egyéb válaszok (szabad formátumú válasz).
 
-  - key: tools_others.utilities
+  - key: tools.utilities
     t: Segédprogramok
-  - key: tools_others.utilities.question
+  - key: tools.utilities.question
     t: Mely segédprogramokat vagy eszközöket használod rendszeresen?
-  - key: tools_others.utilities.others
+  - key: tools.utilities.others
     t: Egyéb segédprogramok
-  - key: tools_others.utilities.others.description
+  - key: tools.utilities.others.description
     t: Egyéb segédprogramok (szabad formátumú válasz).
 
-  - key: tools_others.browsers
+  - key: tools.browsers
     t: Böngészők
-  - key: tools_others.browsers.question
+  - key: tools.browsers.question
     t: Mely böngészőkkel dolgozol az fejlesztés kezdeti szakaszában?
-  - key: tools_others.browsers.others
+  - key: tools.browsers.others
     t: Egyéb böngészők
-  - key: tools_others.browsers.others.description
+  - key: tools.browsers.others.description
     t: Egyéb válaszok (szabad formátumú válasz).
 
-  - key: tools_others.build_tools
+  - key: tools.build_tools
     t: Fordítási eszközök
-  - key: tools_others.build_tools.question
+  - key: tools.build_tools.question
     t: Mely fordítási eszközöket használod?
-  - key: tools_others.build_tools.others
+  - key: tools.build_tools.others
     t: Egyéb fordítási eszközök
-  - key: tools_others.build_tools.others.description
+  - key: tools.build_tools.others.description
     t: Egyéb válaszok (szabad formátumú válasz).
 
-  - key: tools_others.non_js_languages
+  - key: tools.non_js_languages
     t: Nem JavaScript nyelvek
-  - key: tools_others.non_js_languages.question
+  - key: tools.non_js_languages.question
     t: Mely másik programozási nyelveket használod?
-  - key: tools_others.non_js_languages.others
+  - key: tools.non_js_languages.others
     t: Más nyelvek
-  - key: tools_others.non_js_languages.others.description
+  - key: tools.non_js_languages.others.description
     t: Egyéb válaszok (szabad formátumú válasz).
 
-  - key: tools_others.javascript_flavors
+  - key: tools.javascript_flavors
     t: JavaScript ízek
-  - key: tools_others.javascript_flavors.question
+  - key: tools.javascript_flavors.question
     t: Nyelvek amik JavaScriptbe fordulnak
-  - key: tools_others.javascript_flavors.others
+  - key: tools.javascript_flavors.others
     t: Egyéb JavaScript ízek
-  - key: tools_others.javascript_flavors.others.description
+  - key: tools.javascript_flavors.others.description
     t: Egyéb válaszok (szabad formátumú válasz).
 
-  - key: tools_others.runtimes
+  - key: tools.runtimes
     t: JavaScript futtatókörnyezet
-  - key: tools_others.runtimes.question
+  - key: tools.runtimes.question
     t: Mely eszközöket/futtatkörnyezeteket használsz rendszeresen?
-  - key: tools_others.runtimes.others
+  - key: tools.runtimes.others
     t: Egyéb futtatkörnyezetek
-  - key: tools_others.runtimes.others.description
+  - key: tools.runtimes.others.description
     t: Egyéb válaszok (szabad formátumú válasz).
 
-  - key: tools_others.package_registries
+  - key: tools.package_registries
     t: Csomagnyilvántartás
-  - key: tools_others.package_registries.question
+  - key: tools.package_registries.question
     t: Mely csomagnyilvántartókat használod rendszeresen új csomagok letöltésére?
-  - key: tools_others.package_registries.others
+  - key: tools.package_registries.others
     t: Egyéb csomagnyilvántartók
-  - key: tools_others.package_registries.others.description
+  - key: tools.package_registries.others.description
     t: Egyéb válaszok (szabad formátumú válasz).
 
-  - key: tools_others.form_factors
+  - key: tools.form_factors
     aliasFor: environments.form_factors
-  - key: tools_others.form_factors.description
+  - key: tools.form_factors.description
     aliasFor: environments.form_factors.question
 
-  - key: tools_others.backend_as_a_service
+  - key: tools.backend_as_a_service
     t: Backend-as-a-Service szolgálgatók
-  - key: tools_others.backend_as_a_service.question
+  - key: tools.backend_as_a_service.question
     t: Szolgáltatók amik hosztolják az adataidat és egy kliens API-t adnak, amin keresztül elérheted.
-  - key: tools_others.backend_as_a_service.others
+  - key: tools.backend_as_a_service.others
     t: Egyéb BaaS szolgáltatók
 
-  - key: tools_others.date_management
+  - key: tools.date_management
     t: Dátummenedzsment
-  - key: tools_others.date_management.question
+  - key: tools.date_management.question
     t: Könyvtárak amik a dátum és időzóna menedzsmentjében segítenek.
-  - key: tools_others.date_management.others
+  - key: tools.date_management.others
     t: Egyéb dátummenedzsment könyvtárak
 
-  - key: tools_others.data_visualization
+  - key: tools.data_visualization
     t: Adatvizualizáció
-  - key: tools_others.data_visualization.question
+  - key: tools.data_visualization.question
     t: Könyvtárak, amik a grafikonokban és egyéb adatvizualizációkban segítenek.
-  - key: tools_others.data_visualization.others
+  - key: tools.data_visualization.others
     t: Egyéb adatvizualizációs könyvtárak
 
-  - key: tools_others.graphics_animation
+  - key: tools.graphics_animation
     t: Grafika és animáció
-  - key: tools_others.graphics_animation.question
+  - key: tools.graphics_animation.question
     t: Grafikai és animációs könyvtárak
-  - key: tools_others.graphics_animation.others
+  - key: tools.graphics_animation.others
     t: Egyéb grafikai és animációs könyvtárak
 
-  - key: tools_others.data_fetching
+  - key: tools.data_fetching
     t: Adatletöltés
-  - key: tools_others.data_fetching.question
+  - key: tools.data_fetching.question
     t: Könyvtárak amik az adatletöltést és gyorsítótárazást segítik.
-  - key: tools_others.data_fetching.others
+  - key: tools.data_fetching.others
     t: Egyéb adatletöltő könyvtárak
 
   - key: other_tools.libraries
-    aliasFor: tools_others.libraries
+    aliasFor: tools.libraries
   - key: other_tools.libraries.description
-    aliasFor: tools_others.libraries.question
+    aliasFor: tools.libraries.question
   - key: other_tools.libraries.others
-    aliasFor: tools_others.libraries.others
+    aliasFor: tools.libraries.others
   - key: other_tools.libraries.others.description
-    aliasFor: tools_others.libraries.others.description
+    aliasFor: tools.libraries.others.description
 
   - key: other_tools.text_editors
-    aliasFor: tools_others.text_editors
+    aliasFor: tools.text_editors
   - key: other_tools.text_editors.description
-    aliasFor: tools_others.text_editors.question
+    aliasFor: tools.text_editors.question
   - key: other_tools.text_editors.others
-    aliasFor: tools_others.text_editors.others
+    aliasFor: tools.text_editors.others
   - key: other_tools.text_editors.others.description
-    aliasFor: tools_others.text_editors.others.description
+    aliasFor: tools.text_editors.others.description
 
   - key: other_tools.utilities
-    aliasFor: tools_others.utilities
+    aliasFor: tools.utilities
   - key: other_tools.utilities.description
-    aliasFor: tools_others.utilities.question
+    aliasFor: tools.utilities.question
   - key: other_tools.utilities.others
-    aliasFor: tools_others.utilities.others
+    aliasFor: tools.utilities.others
   - key: other_tools.utilities.others.description
-    aliasFor: tools_others.utilities.others.description
+    aliasFor: tools.utilities.others.description
 
   - key: other_tools.browsers
-    aliasFor: tools_others.browsers
+    aliasFor: tools.browsers
   - key: other_tools.browsers.description
-    aliasFor: tools_others.browsers.question
+    aliasFor: tools.browsers.question
   - key: other_tools.browsers.others
-    aliasFor: tools_others.browsers.others
+    aliasFor: tools.browsers.others
   - key: other_tools.browsers.others.description
-    aliasFor: tools_others.browsers.others.description
+    aliasFor: tools.browsers.others.description
 
   - key: other_tools.build_tools
-    aliasFor: tools_others.build_tools
+    aliasFor: tools.build_tools
   - key: other_tools.build_tools.description
-    aliasFor: tools_others.build_tools.question
+    aliasFor: tools.build_tools.question
   - key: other_tools.build_tools.others
-    aliasFor: tools_others.build_tools.others
+    aliasFor: tools.build_tools.others
   - key: other_tools.build_tools.others.description
-    aliasFor: tools_others.build_tools.others.description
+    aliasFor: tools.build_tools.others.description
 
   - key: other_tools.non_js_languages
-    aliasFor: tools_others.non_js_languages
+    aliasFor: tools.non_js_languages
   - key: other_tools.non_js_languages.description
-    aliasFor: tools_others.non_js_languages.question
+    aliasFor: tools.non_js_languages.question
   - key: other_tools.non_js_languages.others
-    aliasFor: tools_others.non_js_languages.others
+    aliasFor: tools.non_js_languages.others
   - key: other_tools.non_js_languages.others.description
-    aliasFor: tools_others.non_js_languages.others.description
+    aliasFor: tools.non_js_languages.others.description
 
   - key: other_tools.javascript_flavors
-    aliasFor: tools_others.javascript_flavors
+    aliasFor: tools.javascript_flavors
   - key: other_tools.javascript_flavors.description
-    aliasFor: tools_others.javascript_flavors.question
+    aliasFor: tools.javascript_flavors.question
   - key: other_tools.javascript_flavors.others
-    aliasFor: tools_others.javascript_flavors.others
+    aliasFor: tools.javascript_flavors.others
   - key: other_tools.javascript_flavors.others.description
-    aliasFor: tools_others.javascript_flavors.others.description
+    aliasFor: tools.javascript_flavors.others.description
 
-  - key: tools_others.backend_frameworks
+  - key: tools.backend_frameworks
     aliasFor: sections.back_end_frameworks.title
-  - key: tools_others.backend_frameworks.description
+  - key: tools.backend_frameworks.description
     t: Keretrendszerek APIk generálására és back-endek menedzselésére
-  - key: tools_others.backend_frameworks.others
+  - key: tools.backend_frameworks.others
     t: Egyéb Back-end keretrendszerek
 
   - key: other_tools.runtimes
-    aliasFor: tools_others.runtimes
+    aliasFor: tools.runtimes
   - key: other_tools.runtimes.description
-    aliasFor: tools_others.runtimes.question
+    aliasFor: tools.runtimes.question
   - key: other_tools.runtimes.others
-    aliasFor: tools_others.runtimes.others
+    aliasFor: tools.runtimes.others
   - key: other_tools.runtimes.others.description
-    aliasFor: tools_others.runtimes.others.description
+    aliasFor: tools.runtimes.others.description
 
   - key: other_tools.package_registries
-    aliasFor: tools_others.package_registries
+    aliasFor: tools.package_registries
   - key: other_tools.package_registries.description
-    aliasFor: tools_others.package_registries.question
+    aliasFor: tools.package_registries.question
   - key: other_tools.package_registries.others
-    aliasFor: tools_others.package_registries.others
+    aliasFor: tools.package_registries.others
   - key: other_tools.package_registries.others.description
-    aliasFor: tools_others.package_registries.others.description
+    aliasFor: tools.package_registries.others.description
 
   - key: other_tools.form_factors
-    aliasFor: tools_others.form_factors
+    aliasFor: tools.form_factors
   - key: other_tools.form_factors.description
-    aliasFor: tools_others.form_factors.description
+    aliasFor: tools.form_factors.description
 
   - key: other_tools.backend_as_a_service
-    aliasFor: tools_others.backend_as_a_service
+    aliasFor: tools.backend_as_a_service
   - key: other_tools.backend_as_a_service.description
-    aliasFor: tools_others.backend_as_a_service.question
+    aliasFor: tools.backend_as_a_service.question
   - key: other_tools.backend_as_a_service.others
-    aliasFor: tools_others.backend_as_a_service.others
+    aliasFor: tools.backend_as_a_service.others
 
   - key: other_tools.date_management
-    aliasFor: tools_others.date_management
+    aliasFor: tools.date_management
   - key: other_tools.date_management.description
-    aliasFor: tools_others.date_management.question
+    aliasFor: tools.date_management.question
   - key: other_tools.date_management.others
-    aliasFor: tools_others.date_management.others
+    aliasFor: tools.date_management.others
 
   - key: other_tools.data_visualization
-    aliasFor: tools_others.data_visualization
+    aliasFor: tools.data_visualization
   - key: other_tools.data_visualization.description
-    aliasFor: tools_others.data_visualization.question
+    aliasFor: tools.data_visualization.question
   - key: other_tools.data_visualization.others
-    aliasFor: tools_others.data_visualization.others
+    aliasFor: tools.data_visualization.others
 
   - key: other_tools.graphics_animation
-    aliasFor: tools_others.graphics_animation
+    aliasFor: tools.graphics_animation
   - key: other_tools.graphics_animation.description
-    aliasFor: tools_others.graphics_animation.question
+    aliasFor: tools.graphics_animation.question
   - key: other_tools.graphics_animation.others
-    aliasFor: tools_others.graphics_animation.others
+    aliasFor: tools.graphics_animation.others
 
   - key: other_tools.data_fetching
-    aliasFor: tools_others.data_fetching
+    aliasFor: tools.data_fetching
   - key: other_tools.data_fetching.description
-    aliasFor: tools_others.data_fetching.question
+    aliasFor: tools.data_fetching.question
   - key: other_tools.data_fetching.others
-    aliasFor: tools_others.data_fetching.others
+    aliasFor: tools.data_fetching.others
 
   - key: other_tools.backend_frameworks
-    aliasFor: tools_others.backend_frameworks
+    aliasFor: tools.backend_frameworks
   - key: other_tools.backend_frameworks.description
-    aliasFor: tools_others.backend_frameworks.description
+    aliasFor: tools.backend_frameworks.description
   - key: other_tools.backend_frameworks.others
-    aliasFor: tools_others.backend_frameworks.others
+    aliasFor: tools.backend_frameworks.others
 
   - key: other_tools.ai_tools
     t: AI eszközök
@@ -978,15 +978,15 @@ translations:
   - key: usage.js_ts_balance.question
     t: Hogyan osztod fel az idődet JavaScript és TypeScript írásakor?
 
-  - key: tools_others.edge_runtimes
+  - key: tools.edge_runtimes
     t: JavaScript Edge/Serverless Runtimeok
-  - key: tools_others.edge_runtimes.question
+  - key: tools.edge_runtimes.question
     t: Milyen edge vagy serverless runtimeokat használsz rendszeresen?
-  - key: tools_others.edge_runtimes.others
+  - key: tools.edge_runtimes.others
     t: Egyéb Edge Runtimeok
-    aliasFor: tools_others.edge_runtimes
+    aliasFor: tools.edge_runtimes
   - key: other_tools.edge_runtimes.description
-    aliasFor: tools_others.edge_runtimes.question
+    aliasFor: tools.edge_runtimes.question
 
   - key: usage.usage_type
     t: JavaScript használat
