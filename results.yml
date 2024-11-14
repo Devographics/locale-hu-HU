@@ -949,7 +949,7 @@ translations:
   - key: share.site.title
     t: Fedezd fel a/az {siteTitle} eredményeit
   - key: share.site.twitter_text
-    t: "Fedezd fel a/az {siteTitle} eredményeit {link} {hashtag}"
+    t: "Fedezd fel a/az {siteTitle} eredményeit {link}"
   - key: share.site.subject
     t: "{siteTitle} felmérés eredményei"
   - key: share.site.body
